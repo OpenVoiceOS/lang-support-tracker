@@ -3,6 +3,7 @@ this repo provides config snippets for OVOS
 
 there are 4 folders, each containing a config file optimized for each language
 
+this includes default plugins and other settings such as units and date format
 ```
 .
 ├── offline_female
@@ -48,3 +49,11 @@ there are 4 folders, each containing a config file optimized for each language
 
 ```
 PRs welcome!
+
+## Info Maps
+
+Date format per country
+![img_1.png](img_1.png)
+
+System units per country
+![img.png](img.png)
