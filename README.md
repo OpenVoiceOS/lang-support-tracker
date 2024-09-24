@@ -27,7 +27,10 @@ this includes default plugins and other settings such as units and date format
 │   ├── pt-br.conf
 │   └── pt-pt.conf
 ├── online_female
+│   ├── ca-ba.conf
 │   ├── ca-es.conf
+│   ├── ca-nw.conf
+│   ├── ca-va.conf
 │   ├── de-de.conf
 │   ├── en-gb.conf
 │   ├── en-us.conf
@@ -36,7 +39,10 @@ this includes default plugins and other settings such as units and date format
 │   ├── it-it.conf
 │   └── nl-nl.conf
 └── online_male
+    ├── ca-ba.conf
     ├── ca-es.conf
+    ├── ca-nw.conf
+    ├── ca-va.conf
     ├── de-de.conf
     ├── en-gb.conf
     ├── en-us.conf
