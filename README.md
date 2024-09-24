@@ -13,6 +13,7 @@ this includes default plugins and other settings such as units and date format
 │   ├── en-us.conf
 │   ├── es-es.conf
 │   ├── fr-fr.conf
+│   ├── gl-es.conf
 │   ├── it-it.conf
 │   └── nl-nl.conf
 ├── offline_male
@@ -22,6 +23,7 @@ this includes default plugins and other settings such as units and date format
 │   ├── en-us.conf
 │   ├── es-es.conf
 │   ├── fr-fr.conf
+│   ├── gl-es.conf
 │   ├── it-it.conf
 │   ├── nl-nl.conf
 │   ├── pt-br.conf
