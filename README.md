@@ -13,9 +13,11 @@
       
 ## Recommended Configuration
 
-this repo provides config snippets for OVOS
+`ovos-config` version **0.3.0** introduced a `autoconfigure` utility
 
-there are 4 folders, each containing a config file optimized for each language
+![img_4.png](img_4.png)
+
+![img_5.png](img_5.png)
 
 > These are meant only as reference and might not necessarily reflect the best config for your setup
 
@@ -200,6 +202,10 @@ from [GitLocalize](https://gitlocalize.com/users/OpenVoiceOS) in json and markdo
 
 ## Info Maps
 
+Clock format per country (12 vs 24h)
+
+![img_2.png](img_2.png)
+
 Date format per country
 
 ![img_1.png](img_1.png)
@@ -207,3 +213,7 @@ Date format per country
 System units per country
 
 ![img.png](img.png)
+
+Temperature units per country
+
+![img_3.png](img_3.png)
