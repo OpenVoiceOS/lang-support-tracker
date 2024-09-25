@@ -5,10 +5,8 @@ def json_to_markdown_table(json_data):
     # Define the table header
     key2header = ['system_unit', 'date_format',
                   'online_stt', 'offline_stt',
-                  'online_tts_male', 'online_tts_male_voice',
-                  'online_tts_female', 'online_tts_female_voice',
-                  'offline_tts_male', 'offline_tts_male_voice',
-                  'offline_tts_female', 'offline_tts_female_voice']
+                  'online_tts', 'online_tts_male', 'online_tts_female',
+                  'offline_tts', 'offline_tts_male', 'offline_tts_female']
 
     table_clean = ["Lang"] + [w.replace("_", " ").title().replace("Stt", "STT").replace("Tts", "TTS")
                               for w in key2header]
@@ -59,8 +57,8 @@ for lang, cfg in read_json_files_from_directory(online_male_directory):
             "date_format": cfg.get("date_format")
         }
     lang_data[lang]["online_stt"] = cfg.get("stt", {}).get("module")
-    lang_data[lang]["online_tts_male"] = tts_plugin
-    lang_data[lang]["online_tts_male_voice"] = cfg.get("tts", {}).get(tts_plugin, {}).get("voice")
+    lang_data[lang]["online_tts"] = tts_plugin
+    lang_data[lang]["online_tts_male"] = cfg.get("tts", {}).get(tts_plugin, {}).get("voice")
 
 for lang, cfg in read_json_files_from_directory(offline_male_directory):
     tts_plugin = cfg.get("tts", {}).get("module")
@@ -70,8 +68,8 @@ for lang, cfg in read_json_files_from_directory(offline_male_directory):
             "date_format": cfg.get("date_format")
         }
     lang_data[lang]["offline_stt"] = cfg.get("stt", {}).get("module")
-    lang_data[lang]["offline_tts_male"] = tts_plugin
-    lang_data[lang]["offline_tts_male_voice"] = cfg.get("tts", {}).get(tts_plugin, {}).get("voice")
+    lang_data[lang]["offline_tts"] = tts_plugin
+    lang_data[lang]["offline_tts_male"] = cfg.get("tts", {}).get(tts_plugin, {}).get("voice")
 
 for lang, cfg in read_json_files_from_directory(online_female_directory):
     tts_plugin = cfg.get("tts", {}).get("module")
@@ -80,8 +78,8 @@ for lang, cfg in read_json_files_from_directory(online_female_directory):
             "system_unit": cfg.get("system_unit"),
             "date_format": cfg.get("date_format")
         }
-    lang_data[lang]["online_tts_female"] = tts_plugin
-    lang_data[lang]["online_tts_female_voice"] = cfg.get("tts", {}).get(tts_plugin, {}).get("voice")
+    lang_data[lang]["online_tts"] = tts_plugin
+    lang_data[lang]["online_tts_female"] = cfg.get("tts", {}).get(tts_plugin, {}).get("voice")
 
 for lang, cfg in read_json_files_from_directory(offline_female_directory):
     tts_plugin = cfg.get("tts", {}).get("module")
@@ -90,8 +88,8 @@ for lang, cfg in read_json_files_from_directory(offline_female_directory):
             "system_unit": cfg.get("system_unit"),
             "date_format": cfg.get("date_format")
         }
-    lang_data[lang]["offline_tts_female"] = tts_plugin
-    lang_data[lang]["offline_tts_female_voice"] = cfg.get("tts", {}).get(tts_plugin, {}).get("voice")
+    lang_data[lang]["offline_tts"] = tts_plugin
+    lang_data[lang]["offline_tts_female"] = cfg.get("tts", {}).get(tts_plugin, {}).get("voice")
 
 markdown = json_to_markdown_table(lang_data)
 print(markdown)
