@@ -25,21 +25,20 @@ These recommendations are meant to cover basic scenarios:
 
 | Lang | System Unit | Date Format | STT Servers | STT Plugin |
 | --- | --- | --- | --- | --- |
-| ca-ba | metric | DMY | https://stt.smartgic.io/citrinet<br>https://citrinetstt.ziggyai.online | N/A |
-| ca-es | metric | DMY | https://stt.smartgic.io/citrinet<br>https://citrinetstt.ziggyai.online | ovos-stt-plugin-citrinet |
-| ca-nw | metric | DMY | https://stt.smartgic.io/citrinet<br>https://citrinetstt.ziggyai.online | N/A |
-| ca-va | metric | DMY | https://stt.smartgic.io/citrinet<br>https://citrinetstt.ziggyai.online | N/A |
-| de-de | metric | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-citrinet |
-| en-gb | english | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-fasterwhisper |
-| en-us | english | MDY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-fasterwhisper |
-| es-es | metric | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-fasterwhisper-zuazo |
-| fr-fr | metric | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-citrinet |
-| gl-es | metric | DMY | N/A | ovos-stt-plugin-fasterwhisper-zuazo |
-| it-it | metric | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-citrinet |
-| nl-nl | metric | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-citrinet |
-| pt-br | metric | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-fasterwhisper |
-| pt-pt | metric | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-fasterwhisper |
-
+| ca-ba | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | N/A |
+| ca-es | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
+| ca-nw | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | N/A |
+| ca-va | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | N/A |
+| de-de | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
+| en-gb | english | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
+| en-us | english | MDY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
+| es-es | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper-zuazo](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper-zuazo) |
+| fr-fr | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
+| gl-es | metric | DMY | N/A | [ovos-stt-plugin-fasterwhisper-zuazo](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper-zuazo) |
+| it-it | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
+| nl-nl | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
+| pt-br | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
+| pt-pt | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
 
 ## Voices Overview
 
@@ -50,21 +49,20 @@ These recommendations are meant to cover basic scenarios:
 
 | Lang | TTS Servers | TTS Plugin | Online Male | Online Female | Offline Male | Offline Female |
 | --- | --- | --- | --- | --- | --- | --- |
-| ca-ba | https://tts.smartgic.io/matxa<br>https://matxa.ziggyai.online | N/A | balear/quim | balear/olga | N/A | N/A |
-| ca-es | https://tts.smartgic.io/matxa<br>https://matxa.ziggyai.online | ovos-tts-plugin-piper | central/grau | central/elia | upc_pau-x_low | upc_ona-x_low |
-| ca-nw | https://tts.smartgic.io/matxa<br>https://matxa.ziggyai.online | N/A | nord-occidental/pere | nord-occidental/emma | N/A | N/A |
-| ca-va | https://tts.smartgic.io/matxa<br>https://matxa.ziggyai.online | N/A | valencia/lluc | valencia/gina | N/A | N/A |
-| de-de | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | thorsten-low | ramona-low | thorsten-low | ramona-low |
-| en-gb | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | alan-low | N/A | alan-low | alba-medium |
-| en-us | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | ryan-low | amy-low | ryan-low | amy-low |
-| es-es | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | carlfm-x_low | mls_9972-low | carlfm-x_low | mls_9972-low |
-| fr-fr | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | gilles-low | siwis-low | gilles-low | siwis-low |
-| gl-es | N/A | ovos-tts-plugin-cotovia | N/A | N/A | iago | sabela |
-| it-it | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | riccardo-x_low | paola-medium | riccardo-x_low | paola-medium |
-| nl-nl | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | mls-medium | mls_5809-low | mls-medium | mls_5809-low |
-| pt-br | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | faber-medium | N/A | faber-medium | N/A |
-| pt-pt | https://pipertts.ziggyai.online<br>https://tts.smartgic.io/piper | ovos-tts-plugin-piper | tugão-medium | N/A | tugão-medium | N/A |
-
+| ca-ba | - https://tts.smartgic.io/matxa<br>- https://matxa.ziggyai.online | N/A | balear/quim | balear/olga | N/A | N/A |
+| ca-es | - https://tts.smartgic.io/matxa<br>- https://matxa.ziggyai.online | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | central/grau | central/elia | upc_pau-x_low | upc_ona-x_low |
+| ca-nw | - https://tts.smartgic.io/matxa<br>- https://matxa.ziggyai.online | N/A | nord-occidental/pere | nord-occidental/emma | N/A | N/A |
+| ca-va | - https://tts.smartgic.io/matxa<br>- https://matxa.ziggyai.online | N/A | valencia/lluc | valencia/gina | N/A | N/A |
+| de-de | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | thorsten-low | ramona-low | thorsten-low | ramona-low |
+| en-gb | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | alan-low | N/A | alan-low | alba-medium |
+| en-us | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | ryan-low | amy-low | ryan-low | amy-low |
+| es-es | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | carlfm-x_low | mls_9972-low | carlfm-x_low | mls_9972-low |
+| fr-fr | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | gilles-low | siwis-low | gilles-low | siwis-low |
+| gl-es | N/A | [ovos-tts-plugin-cotovia](https://github.com/OpenVoiceOS/ovos-tts-plugin-cotovia) | N/A | N/A | iago | sabela |
+| it-it | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | riccardo-x_low | paola-medium | riccardo-x_low | paola-medium |
+| nl-nl | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | mls-medium | mls_5809-low | mls-medium | mls_5809-low |
+| pt-br | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | faber-medium | N/A | faber-medium | N/A |
+| pt-pt | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | tugão-medium | N/A | tugão-medium | N/A |
 
 ## Translation Status
 
