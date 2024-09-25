@@ -11,7 +11,7 @@ there are 4 folders, each containing a config file optimized for each language
 These recommendations are meant to cover basic scenarios:
 - `offline` - run everything locally, with acceptable latency in a modern computer
 - `online` - use remote servers to offload compute, public or self hosted
-- male and female availability for `offline` and `online` categories
+- male and female TTS voices availability for `offline` and `online` categories
 
 | Lang | System Unit | Date Format | STT Servers | STT Plugin |
 | --- | --- | --- | --- | --- |
