@@ -4,9 +4,29 @@ import os
 def json_to_markdown_table(json_data):
     # Define the table header
     key2header = ['system_unit', 'date_format',
-                  'online_stt', 'offline_stt',
-                  'online_tts', 'online_tts_male', 'online_tts_female',
-                  'offline_tts', 'offline_tts_male', 'offline_tts_female']
+                  'online_stt', 'offline_stt']
+
+    table_clean = ["Lang"] + [w.replace("_", " ").title().replace("Stt", "STT").replace("Tts", "TTS")
+                              for w in key2header]
+
+    # Create the table header row in Markdown format
+    md_table = f"| {' | '.join(table_clean)} |\n"
+    md_table += f"| {' | '.join(['---'] * len(table_clean))} |\n"
+
+    for lang in sorted(json_data.keys()):
+        row = [lang]
+        for k in key2header:
+            # Iterate through each item in the JSON and add rows to the Markdown table
+            row.append(json_data[lang].get(k, "N/A"))
+        md_table += f"| {' | '.join(row)} |\n"
+
+    return md_table
+
+def json_to_markdown_table2(json_data):
+    # Define the table header
+    key2header = ['online_tts',  'offline_tts',
+                  'online_tts_male', 'online_tts_female',
+                  'offline_tts_male', 'offline_tts_female']
 
     table_clean = ["Lang"] + [w.replace("_", " ").title().replace("Stt", "STT").replace("Tts", "TTS")
                               for w in key2header]
@@ -94,3 +114,8 @@ for lang, cfg in read_json_files_from_directory(offline_female_directory):
 markdown = json_to_markdown_table(lang_data)
 print(markdown)
 save_markdown_table(markdown, os.path.dirname(__file__) + "/cfg_report.md")
+
+
+markdown = json_to_markdown_table2(lang_data)
+print(markdown)
+save_markdown_table(markdown, os.path.dirname(__file__) + "/voices_report.md")
