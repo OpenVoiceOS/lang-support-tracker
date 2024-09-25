@@ -61,7 +61,8 @@ PRs welcome!
 
 ## Translation Status
 
-in the `tx_info` folder you can find translation stats per language from [GitLocalize](https://gitlocalize.com/users/OpenVoiceOS) in json and markdown format
+in the `tx_info` folder you can find translation stats per language
+from [GitLocalize](https://gitlocalize.com/users/OpenVoiceOS) in json and markdown format
 
 ## STT Comparison
 
@@ -96,14 +97,16 @@ in the `tx_info` folder you can find translation stats per language from [GitLoc
 
 #### Galician
 
-| Plugin                        | Model                       | CV13    |
-|-------------------------------|-----------------------------|---------|
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v2-gl` | 5.9879  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-gl`    | 6.9398  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-medium-gl`   | 7.1227  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-small-gl`    | 10.9875 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-base-gl`     | 18.6879 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-tiny-gl`     | 26.3504 |
+| Plugin                        | Model                                                   | CV7   | CV13    | OpenSLR |
+|-------------------------------|---------------------------------------------------------|-------|---------|---------|
+| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v2-gl`                             |       | 5.9879  |         |
+| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-gl`                                |       | 6.9398  |         |
+| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-medium-gl`                               |       | 7.1227  |         |
+| ovos-stt-plugin-wav2vec       | `proxectonos/Nos_ASR-wav2vec2-large-xlsr-53-gl-with-lm` | 15.2  |         | 6.860   |
+| ovos-stt-plugin-wav2vec       | `diego-fustes/wav2vec2-large-xlsr-gl`                   | 22.12 |         | 9.10    |
+| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-small-gl`                                |       | 10.9875 |         |
+| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-base-gl`                                 |       | 18.6879 |         |
+| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-tiny-gl`                                 |       | 26.3504 |         |       
 
 #### Basque
 
