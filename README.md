@@ -1,5 +1,16 @@
 # OVOS Language Support Tracker
 
+- [OVOS Language Support Tracker](#ovos-language-support-tracker)
+  - [Recommended Configuration](#recommended-configuration)
+  - [Voices Overview](#voices-overview)
+  - [Translation Status](#translation-status)
+  - [STT Comparison](#stt-comparison)
+    - [Spanish](#spanish)
+    - [Catalan](#catalan)
+    - [Galician](#galician)
+    - [Basque](#basque)
+    - [Portuguese](#portuguese)
+      
 ## Recommended Configuration
 
 this repo provides config snippets for OVOS
@@ -11,7 +22,6 @@ there are 4 folders, each containing a config file optimized for each language
 These recommendations are meant to cover basic scenarios:
 - `offline` - run everything locally, with acceptable latency in a modern computer
 - `online` - use remote servers to offload compute, public or self hosted
-- male and female TTS voices availability for `offline` and `online` categories
 
 | Lang | System Unit | Date Format | STT Servers | STT Plugin |
 | --- | --- | --- | --- | --- |
@@ -31,8 +41,12 @@ These recommendations are meant to cover basic scenarios:
 | pt-pt | metric | DMY | https://fasterwhisper.ziggyai.online/stt<br>https://stt.smartgic.io/fasterwhisper/stt<br>https://whisper.neonaiservices.com/stt | ovos-stt-plugin-fasterwhisper |
 
 
-Voices Overview
+## Voices Overview
 
+These recommendations are meant to cover basic scenarios:
+- `offline` - run everything locally, with acceptable latency in a raspberry pi 4
+- `online` - use remote servers to offload compute, public or self hosted
+- male and female TTS voices availability for `offline` and `online` categories
 
 | Lang | TTS Servers | TTS Plugin | Online Male | Online Female | Offline Male | Offline Female |
 | --- | --- | --- | --- | --- | --- | --- |
