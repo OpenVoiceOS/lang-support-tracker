@@ -59,6 +59,10 @@ this includes default plugins and other settings such as units and date format
 
 PRs welcome!
 
+## Translation Status
+
+in the `tx_info` folder you can find translation stats per language from [GitLocalize](https://gitlocalize.com/users/OpenVoiceOS) in json and markdown format
+
 ## STT Comparison
 
 > self reported WER score from model pages, **not independently verified**
