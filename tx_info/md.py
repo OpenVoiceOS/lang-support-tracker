@@ -13,10 +13,12 @@ def json_to_markdown_table(json_data):
     md_table = f"| {' | '.join(table_header)} |\n"
     md_table += f"| {' | '.join(['---'] * len(table_header))} |\n"
 
+    total_percent = 0
+
     # Iterate through each item in the JSON and add rows to the Markdown table
     for repo_id, data in json_data.items():
         percent = int(data.get("translated-chars-data", 1)) / int(data.get("total-chars-data", 1))
-
+        total_percent += percent
         row = [
             data.get("title", ""),
             data.get("url", ""),
@@ -30,7 +32,8 @@ def json_to_markdown_table(json_data):
         ]
         md_table += f"| {' | '.join(row)} |\n"
 
-    return md_table
+    total_percent = total_percent / len(json_data)
+    return total_percent, md_table
 
 
 def read_json_files_from_directory(directory_path):
@@ -49,11 +52,37 @@ def save_markdown_table(md_table, output_file):
         f.write(md_table)
 
 
+def langs_to_markdown_table(json_data):
+    # Define the table header
+    table_header = ["Lang", "Translated %"]
+
+    # Create the table header row in Markdown format
+    md_table = f"| {' | '.join(table_header)} |\n"
+    md_table += f"| {' | '.join(['---'] * len(table_header))} |\n"
+
+
+    # Iterate through each item in the JSON and add rows to the Markdown table
+    for lang, percent in json_data.items():
+        row = [
+            lang,
+            str(round(percent, 2))
+        ]
+        md_table += f"| {' | '.join(row)} |\n"
+
+    return md_table
+
+
 # Define the directory containing the JSON files and the output markdown file
 json_directory = os.path.dirname(__file__)
 
+lang_data = {}
 # Read JSON files, convert them to a markdown table, and save the table to a file
 for lang, json_data in read_json_files_from_directory(json_directory):
-    markdown_table = json_to_markdown_table(json_data)
+    percent, markdown_table = json_to_markdown_table(json_data)
     output_md_file = f"translate_status_{lang}.md"
     save_markdown_table(markdown_table, output_md_file)
+    lang_data[lang] = percent
+
+markdown_table = langs_to_markdown_table(lang_data)
+output_md_file = f"translate_status.md"
+save_markdown_table(markdown_table, output_md_file)
