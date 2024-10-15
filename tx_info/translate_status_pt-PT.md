@@ -1,11 +1,13 @@
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| OpenVoiceOS/ovos-core | https://gitlocalize.com/repo/9600 | 0.95 | 3572 | 473 | 165 | 31 | 3407 | 442 |
+| OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 1.0 | 67 | 15 | 0 | 0 | 67 | 15 |
+| OpenVoiceOS/ovos-core | https://gitlocalize.com/repo/9895 | 1.0 | 935 | 153 | 0 | 0 | 935 | 153 |
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 1.0 | 6650 | 1003 | 0 | 0 | 6650 | 1003 |
+| OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 1.0 | 2589 | 309 | 0 | 0 | 2589 | 309 |
 | OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.97 | 6160 | 1045 | 179 | 40 | 5981 | 1005 |
 | OpenVoiceOS/ovos-skill-application-launcher | https://gitlocalize.com/repo/9621 | 1.0 | 55 | 6 | 0 | 0 | 55 | 6 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 1.0 | 37 | 2 | 0 | 0 | 37 | 2 |
-| OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.25 | 10458 | 1939 | 7870 | 1437 | 2588 | 502 |
+| OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 1.0 | 10458 | 1939 | 0 | 0 | 10458 | 1939 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 0.2 | 10846463 | 1751649 | 8730336 | 1409979 | 2116127 | 341670 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.0 | 6654 | 951 | 6626 | 946 | 28 | 5 |
 | OpenVoiceOS/ovos-skill-ggwave | https://gitlocalize.com/repo/9620 | 0.26 | 468 | 57 | 345 | 36 | 123 | 21 |
@@ -14,7 +16,7 @@
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.16 | 3942 | 541 | 3319 | 459 | 623 | 82 |
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 1.0 | 283 | 43 | 0 | 0 | 283 | 43 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.0 | 353 | 61 | 353 | 61 | 0 | 0 |
-| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.55 | 522 | 97 | 234 | 47 | 288 | 50 |
+| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 1.0 | 288 | 50 | 0 | 0 | 288 | 50 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.63 | 220 | 36 | 82 | 14 | 138 | 22 |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.07 | 2330 | 355 | 2167 | 332 | 163 | 23 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 1.0 | 418 | 34 | 0 | 0 | 418 | 34 |

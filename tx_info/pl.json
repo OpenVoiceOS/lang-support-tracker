@@ -1,13 +1,23 @@
 {
-  "9600": {
-    "url": "https://gitlocalize.com/repo/9600",
+  "9893": {
+    "url": "https://gitlocalize.com/repo/9893",
+    "title": "OpenVoiceOS/ovos-common-query-pipeline-plugin",
+    "total-chars-data": "67",
+    "translated-chars-data": "0",
+    "untranslated-chars-data": "67",
+    "total-words-data": "15",
+    "translated-words-data": "0",
+    "untranslated-words-data": "15"
+  },
+  "9895": {
+    "url": "https://gitlocalize.com/repo/9895",
     "title": "OpenVoiceOS/ovos-core",
-    "total-chars-data": "3572",
-    "translated-chars-data": "2628",
-    "untranslated-chars-data": "944",
-    "total-words-data": "473",
-    "translated-words-data": "300",
-    "untranslated-words-data": "173"
+    "total-chars-data": "935",
+    "translated-chars-data": "935",
+    "untranslated-chars-data": "0",
+    "total-words-data": "153",
+    "translated-words-data": "153",
+    "untranslated-words-data": "0"
   },
   "9872": {
     "url": "https://gitlocalize.com/repo/9872",
@@ -18,6 +28,16 @@
     "total-words-data": "1003",
     "translated-words-data": "1003",
     "untranslated-words-data": "0"
+  },
+  "9892": {
+    "url": "https://gitlocalize.com/repo/9892",
+    "title": "OpenVoiceOS/ovos-ocp-pipeline-plugin",
+    "total-chars-data": "2589",
+    "translated-chars-data": "1693",
+    "untranslated-chars-data": "896",
+    "total-words-data": "309",
+    "translated-words-data": "147",
+    "untranslated-words-data": "162"
   },
   "9621": {
     "url": "https://gitlocalize.com/repo/9621",
@@ -112,12 +132,12 @@
   "9674": {
     "url": "https://gitlocalize.com/repo/9674",
     "title": "OpenVoiceOS/ovos-skill-wikihow",
-    "total-chars-data": "522",
+    "total-chars-data": "288",
     "translated-chars-data": "0",
-    "untranslated-chars-data": "522",
-    "total-words-data": "97",
+    "untranslated-chars-data": "288",
+    "total-words-data": "50",
     "translated-words-data": "0",
-    "untranslated-words-data": "97"
+    "untranslated-words-data": "50"
   },
   "9630": {
     "url": "https://gitlocalize.com/repo/9630",
