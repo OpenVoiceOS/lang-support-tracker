@@ -12,7 +12,7 @@ os.makedirs(EXPORT_PATH, exist_ok=True)
 URL = "https://gitlocalize.com/users/OpenVoiceOS"
 r = requests.get(URL).text
 repos = [l.split('href="/repo/')[-1].split('">')[0] for l in r.split("\n") if 'href="/repo/' in l]
-skips = ["9661", "9660"]  # skip docs repos
+skips = ["9661", "9660", "9916"]  # skip docs repos
 repos =[r for r in repos if r not in skips]
 per_lang = {}
 
@@ -40,6 +40,12 @@ for r in repos:
             lang = "es-ES"
         if lang == "it":
             lang = "it-IT"
+        if lang == "sv":
+            lang = "sv-SE"
+        if lang == "fr":
+            lang = "fr-FR"
+        if lang == "nl":
+            lang = "nl-NL"
 
         if lang not in per_lang:
             per_lang[lang] = {}

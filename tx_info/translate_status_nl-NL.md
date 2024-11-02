@@ -19,7 +19,7 @@
 | OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.0 | 288 | 50 | 288 | 50 | 0 | 0 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 1.0 | 220 | 36 | 0 | 0 | 220 | 36 |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.0 | 2330 | 355 | 2330 | 355 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.31 | 1335 | 168 | 917 | 134 | 418 | 34 |
+| OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 1.0 | 1335 | 168 | 0 | 0 | 1335 | 168 |
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.89 | 10935 | 2073 | 1211 | 249 | 9724 | 1824 |
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1511 | 260 | 1511 | 260 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-fallback-chatgpt | https://gitlocalize.com/repo/9613 | 1.0 | 128 | 25 | 0 | 0 | 128 | 25 |
