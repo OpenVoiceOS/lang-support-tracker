@@ -8,8 +8,8 @@
 | OpenVoiceOS/ovos-skill-application-launcher | https://gitlocalize.com/repo/9621 | 1.0 | 503 | 55 | 0 | 0 | 503 | 55 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 1.0 | 37 | 2 | 0 | 0 | 37 | 2 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 1.0 | 10458 | 1939 | 0 | 0 | 10458 | 1939 |
-| OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 0.0 | 10846463 | 1751649 | 10846155 | 1751602 | 308 | 47 |
-| OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.0 | 6654 | 951 | 6654 | 951 | 0 | 0 |
+| OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 0.2 | 10846463 | 1751649 | 8701194 | 1406104 | 2145269 | 345545 |
+| OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 1.0 | 6654 | 951 | 0 | 0 | 6654 | 951 |
 | OpenVoiceOS/ovos-skill-ggwave | https://gitlocalize.com/repo/9620 | 1.0 | 468 | 57 | 0 | 0 | 468 | 57 |
 | OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 1.0 | 2706 | 439 | 0 | 0 | 2706 | 439 |
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 1.0 | 291 | 41 | 0 | 0 | 291 | 41 |
