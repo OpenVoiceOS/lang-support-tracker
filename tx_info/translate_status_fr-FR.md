@@ -26,7 +26,7 @@
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 1.0 | 829 | 175 | 0 | 0 | 829 | 175 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.75 | 283 | 59 | 72 | 15 | 211 | 44 |
 | OpenVoiceOS/skill-ovos-homescreen | https://gitlocalize.com/repo/9624 | 1.0 | 119 | 16 | 0 | 0 | 119 | 16 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 357 | 74 | 357 | 74 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 1.0 | 357 | 74 | 0 | 0 | 357 | 74 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.0 | 710 | 153 | 710 | 153 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.68 | 685 | 141 | 221 | 49 | 464 | 92 |
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.92 | 359 | 54 | 27 | 4 | 332 | 50 |
