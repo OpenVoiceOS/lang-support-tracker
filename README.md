@@ -31,7 +31,7 @@ These recommendations are meant to cover basic scenarios:
 | ca-es | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
 | ca-nw | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | N/A |
 | ca-va | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | N/A |
-| da-dk | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwisper) |
+| da-dk | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwisper) |
 | de-de | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
 | en-gb | english | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
 | en-us | english | MDY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
@@ -70,7 +70,7 @@ These recommendations are meant to cover basic scenarios:
 | no-no | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | nst_talesyntese-medium | N/A | nst_talesyntese-medium | N/A |
 | pt-br | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | faber-medium | N/A | faber-medium | N/A |
 | pt-pt | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | tugão-medium | N/A | tugão-medium | N/A |
-| sv-se-dk | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | nst_talesyntese-medium | N/A | nst_talesyntese-medium | N/A |
+| sv-se | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | nst_talesyntese-medium | N/A | nst_talesyntese-medium | N/A |
 
 ## Translation Status
 
