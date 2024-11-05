@@ -67,10 +67,10 @@ These recommendations are meant to cover basic scenarios:
 | gl-es | N/A | [ovos-tts-plugin-cotovia](https://github.com/OpenVoiceOS/ovos-tts-plugin-cotovia) | N/A | N/A | iago | sabela |
 | it-it | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | riccardo-x_low | paola-medium | riccardo-x_low | paola-medium |
 | nl-nl | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | mls-medium | mls_5809-low | mls-medium | mls_5809-low |
-| no-no | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | nst_talesyntese-medium | N/A | nst_talesyntese-medium | N/A |
+| no-no | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | talesyntese-medium | N/A | talesyntese-medium | N/A |
 | pt-br | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | faber-medium | N/A | faber-medium | N/A |
 | pt-pt | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | tugão-medium | N/A | tugão-medium | N/A |
-| sv-se | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | nst_talesyntese-medium | N/A | nst_talesyntese-medium | N/A |
+| sv-se | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | nst-medium | N/A | nst-medium | N/A |
 
 ## Translation Status
 
