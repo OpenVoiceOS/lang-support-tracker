@@ -1,4 +1,14 @@
 {
+  "9936": {
+    "url": "https://gitlocalize.com/repo/9936",
+    "title": "OpenVoiceOS/ovos-color-parser",
+    "total-chars-data": "2712",
+    "translated-chars-data": "576",
+    "untranslated-chars-data": "2136",
+    "total-words-data": "460",
+    "translated-words-data": "101",
+    "untranslated-words-data": "359"
+  },
   "9893": {
     "url": "https://gitlocalize.com/repo/9893",
     "title": "OpenVoiceOS/ovos-common-query-pipeline-plugin",
@@ -27,6 +37,16 @@
     "untranslated-chars-data": "0",
     "total-words-data": "1003",
     "translated-words-data": "1003",
+    "untranslated-words-data": "0"
+  },
+  "9935": {
+    "url": "https://gitlocalize.com/repo/9935",
+    "title": "OpenVoiceOS/ovos-lang-parser",
+    "total-chars-data": "1099",
+    "translated-chars-data": "1099",
+    "untranslated-chars-data": "0",
+    "total-words-data": "159",
+    "translated-words-data": "159",
     "untranslated-words-data": "0"
   },
   "9892": {
@@ -178,6 +198,16 @@
     "total-words-data": "36",
     "translated-words-data": "22",
     "untranslated-words-data": "14"
+  },
+  "9937": {
+    "url": "https://gitlocalize.com/repo/9937",
+    "title": "OpenVoiceOS/OVOS-workshop",
+    "total-chars-data": "5",
+    "translated-chars-data": "5",
+    "untranslated-chars-data": "0",
+    "total-words-data": "2",
+    "translated-words-data": "2",
+    "untranslated-words-data": "0"
   },
   "9616": {
     "url": "https://gitlocalize.com/repo/9616",

@@ -1,4 +1,14 @@
 {
+  "9936": {
+    "url": "https://gitlocalize.com/repo/9936",
+    "title": "OpenVoiceOS/ovos-color-parser",
+    "total-chars-data": "2712",
+    "translated-chars-data": "232",
+    "untranslated-chars-data": "2480",
+    "total-words-data": "460",
+    "translated-words-data": "41",
+    "untranslated-words-data": "419"
+  },
   "9893": {
     "url": "https://gitlocalize.com/repo/9893",
     "title": "OpenVoiceOS/ovos-common-query-pipeline-plugin",
@@ -28,6 +38,16 @@
     "total-words-data": "1003",
     "translated-words-data": "1003",
     "untranslated-words-data": "0"
+  },
+  "9935": {
+    "url": "https://gitlocalize.com/repo/9935",
+    "title": "OpenVoiceOS/ovos-lang-parser",
+    "total-chars-data": "1099",
+    "translated-chars-data": "877",
+    "untranslated-chars-data": "222",
+    "total-words-data": "159",
+    "translated-words-data": "129",
+    "untranslated-words-data": "30"
   },
   "9892": {
     "url": "https://gitlocalize.com/repo/9892",
@@ -177,6 +197,16 @@
     "untranslated-chars-data": "0",
     "total-words-data": "36",
     "translated-words-data": "36",
+    "untranslated-words-data": "0"
+  },
+  "9937": {
+    "url": "https://gitlocalize.com/repo/9937",
+    "title": "OpenVoiceOS/OVOS-workshop",
+    "total-chars-data": "5",
+    "translated-chars-data": "5",
+    "untranslated-chars-data": "0",
+    "total-words-data": "2",
+    "translated-words-data": "2",
     "untranslated-words-data": "0"
   },
   "9616": {
@@ -373,11 +403,11 @@
     "url": "https://gitlocalize.com/repo/9662",
     "title": "OpenVoiceOS/skill-ovos-weather",
     "total-chars-data": "12604",
-    "translated-chars-data": "3695",
-    "untranslated-chars-data": "8909",
+    "translated-chars-data": "4717",
+    "untranslated-chars-data": "7887",
     "total-words-data": "2095",
-    "translated-words-data": "684",
-    "untranslated-words-data": "1411"
+    "translated-words-data": "844",
+    "untranslated-words-data": "1251"
   },
   "9602": {
     "url": "https://gitlocalize.com/repo/9602",

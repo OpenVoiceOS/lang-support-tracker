@@ -1,4 +1,14 @@
 {
+  "9936": {
+    "url": "https://gitlocalize.com/repo/9936",
+    "title": "OpenVoiceOS/ovos-color-parser",
+    "total-chars-data": "2712",
+    "translated-chars-data": "361",
+    "untranslated-chars-data": "2351",
+    "total-words-data": "460",
+    "translated-words-data": "66",
+    "untranslated-words-data": "394"
+  },
   "9893": {
     "url": "https://gitlocalize.com/repo/9893",
     "title": "OpenVoiceOS/ovos-common-query-pipeline-plugin",
@@ -28,6 +38,16 @@
     "total-words-data": "1003",
     "translated-words-data": "1003",
     "untranslated-words-data": "0"
+  },
+  "9935": {
+    "url": "https://gitlocalize.com/repo/9935",
+    "title": "OpenVoiceOS/ovos-lang-parser",
+    "total-chars-data": "1099",
+    "translated-chars-data": "1003",
+    "untranslated-chars-data": "96",
+    "total-words-data": "159",
+    "translated-words-data": "146",
+    "untranslated-words-data": "13"
   },
   "9892": {
     "url": "https://gitlocalize.com/repo/9892",
@@ -179,6 +199,16 @@
     "translated-words-data": "36",
     "untranslated-words-data": "0"
   },
+  "9937": {
+    "url": "https://gitlocalize.com/repo/9937",
+    "title": "OpenVoiceOS/OVOS-workshop",
+    "total-chars-data": "5",
+    "translated-chars-data": "0",
+    "untranslated-chars-data": "5",
+    "total-words-data": "2",
+    "translated-words-data": "0",
+    "untranslated-words-data": "2"
+  },
   "9616": {
     "url": "https://gitlocalize.com/repo/9616",
     "title": "OpenVoiceOS/skill-ovos-audio-recording",
@@ -203,11 +233,11 @@
     "url": "https://gitlocalize.com/repo/9614",
     "title": "OpenVoiceOS/skill-ovos-date-time",
     "total-chars-data": "10935",
-    "translated-chars-data": "9724",
-    "untranslated-chars-data": "1211",
+    "translated-chars-data": "10935",
+    "untranslated-chars-data": "0",
     "total-words-data": "2073",
-    "translated-words-data": "1824",
-    "untranslated-words-data": "249"
+    "translated-words-data": "2073",
+    "untranslated-words-data": "0"
   },
   "9618": {
     "url": "https://gitlocalize.com/repo/9618",
