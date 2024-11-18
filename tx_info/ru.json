@@ -9,6 +9,26 @@
     "translated-words-data": "0",
     "untranslated-words-data": "159"
   },
+  "9949": {
+    "url": "https://gitlocalize.com/repo/9949",
+    "title": "OpenVoiceOS/ovos-persona",
+    "total-chars-data": "1853",
+    "translated-chars-data": "0",
+    "untranslated-chars-data": "1853",
+    "total-words-data": "121",
+    "translated-words-data": "0",
+    "untranslated-words-data": "121"
+  },
+  "9938": {
+    "url": "https://gitlocalize.com/repo/9938",
+    "title": "OpenVoiceOS/ovos-solver-YesNo-plugin",
+    "total-chars-data": "224",
+    "translated-chars-data": "30",
+    "untranslated-chars-data": "194",
+    "total-words-data": "34",
+    "translated-words-data": "7",
+    "untranslated-words-data": "27"
+  },
   "9937": {
     "url": "https://gitlocalize.com/repo/9937",
     "title": "OpenVoiceOS/OVOS-workshop",
@@ -22,31 +42,31 @@
   "9599": {
     "url": "https://gitlocalize.com/repo/9599",
     "title": "OpenVoiceOS/skill-ovos-personal",
-    "total-chars-data": "640",
+    "total-chars-data": "1027",
     "translated-chars-data": "614",
-    "untranslated-chars-data": "26",
-    "total-words-data": "96",
+    "untranslated-chars-data": "413",
+    "total-words-data": "148",
     "translated-words-data": "90",
-    "untranslated-words-data": "6"
+    "untranslated-words-data": "58"
   },
   "9602": {
     "url": "https://gitlocalize.com/repo/9602",
     "title": "OpenVoiceOS/skill-ovos-wikipedia",
-    "total-chars-data": "924",
+    "total-chars-data": "1339",
     "translated-chars-data": "559",
-    "untranslated-chars-data": "365",
-    "total-words-data": "138",
+    "untranslated-chars-data": "780",
+    "total-words-data": "195",
     "translated-words-data": "77",
-    "untranslated-words-data": "61"
+    "untranslated-words-data": "118"
   },
   "9625": {
     "url": "https://gitlocalize.com/repo/9625",
     "title": "OpenVoiceOS/skill-ovos-wolfie",
-    "total-chars-data": "352",
+    "total-chars-data": "724",
     "translated-chars-data": "0",
-    "untranslated-chars-data": "352",
-    "total-words-data": "64",
+    "untranslated-chars-data": "724",
+    "total-words-data": "116",
     "translated-words-data": "0",
-    "untranslated-words-data": "64"
+    "untranslated-words-data": "116"
   }
 }

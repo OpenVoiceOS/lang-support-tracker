@@ -8,5 +8,15 @@
     "total-words-data": "159",
     "translated-words-data": "0",
     "untranslated-words-data": "159"
+  },
+  "9938": {
+    "url": "https://gitlocalize.com/repo/9938",
+    "title": "OpenVoiceOS/ovos-solver-YesNo-plugin",
+    "total-chars-data": "224",
+    "translated-chars-data": "36",
+    "untranslated-chars-data": "188",
+    "total-words-data": "34",
+    "translated-words-data": "8",
+    "untranslated-words-data": "26"
   }
 }

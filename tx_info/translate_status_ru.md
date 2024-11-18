@@ -1,7 +1,9 @@
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 0.0 | 1099 | 159 | 1099 | 159 | 0 | 0 |
+| OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.0 | 1853 | 121 | 1853 | 121 | 0 | 0 |
+| OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 0.13 | 224 | 34 | 194 | 27 | 30 | 7 |
 | OpenVoiceOS/OVOS-workshop | https://gitlocalize.com/repo/9937 | 0.0 | 5 | 2 | 5 | 2 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.96 | 640 | 96 | 26 | 6 | 614 | 90 |
-| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.6 | 924 | 138 | 365 | 61 | 559 | 77 |
-| OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.0 | 352 | 64 | 352 | 64 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.6 | 1027 | 148 | 413 | 58 | 614 | 90 |
+| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.42 | 1339 | 195 | 780 | 118 | 559 | 77 |
+| OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.0 | 724 | 116 | 724 | 116 | 0 | 0 |
