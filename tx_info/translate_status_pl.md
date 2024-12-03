@@ -6,6 +6,7 @@
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 1.0 | 6650 | 1003 | 0 | 0 | 6650 | 1003 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.65 | 2589 | 309 | 896 | 162 | 1693 | 147 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.0 | 1853 | 121 | 1853 | 121 | 0 | 0 |
+| OpenVoiceOS/ovos-PHAL-plugin-balena-wifi | https://gitlocalize.com/repo/9961 | 0.0 | 753 | 131 | 753 | 131 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-application-launcher | https://gitlocalize.com/repo/9621 | 0.0 | 533 | 61 | 533 | 61 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.0 | 643 | 107 | 643 | 107 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.0 | 10694 | 1962 | 10694 | 1962 | 0 | 0 |
@@ -17,6 +18,7 @@
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.0 | 4577 | 639 | 4577 | 639 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.0 | 560 | 80 | 560 | 80 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.0 | 471 | 74 | 471 | 74 | 0 | 0 |
+| OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 0.0 | 114 | 29 | 114 | 29 | 0 | 0 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 0.16 | 224 | 34 | 188 | 26 | 36 | 8 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.0 | 220 | 36 | 220 | 36 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.0 | 2458 | 375 | 2458 | 375 | 0 | 0 |
@@ -26,7 +28,7 @@
 | OpenVoiceOS/skill-ovos-fallback-chatgpt | https://gitlocalize.com/repo/9613 | 0.0 | 393 | 55 | 393 | 55 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 1.0 | 829 | 175 | 0 | 0 | 829 | 175 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.45 | 503 | 86 | 278 | 40 | 225 | 46 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 633 | 128 | 633 | 128 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84445 | 15866 | 84445 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.56 | 1009 | 190 | 445 | 73 | 564 | 117 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.0 | 1352 | 254 | 1352 | 254 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.25 | 950 | 159 | 708 | 115 | 242 | 44 |

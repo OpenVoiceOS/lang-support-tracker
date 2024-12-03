@@ -3,11 +3,11 @@
     "url": "https://gitlocalize.com/repo/9936",
     "title": "OpenVoiceOS/ovos-color-parser",
     "total-chars-data": "170418",
-    "translated-chars-data": "94897",
-    "untranslated-chars-data": "75521",
+    "translated-chars-data": "94926",
+    "untranslated-chars-data": "75492",
     "total-words-data": "28597",
-    "translated-words-data": "15702",
-    "untranslated-words-data": "12895"
+    "translated-words-data": "15709",
+    "untranslated-words-data": "12888"
   },
   "9893": {
     "url": "https://gitlocalize.com/repo/9893",
@@ -67,6 +67,16 @@
     "untranslated-chars-data": "0",
     "total-words-data": "121",
     "translated-words-data": "121",
+    "untranslated-words-data": "0"
+  },
+  "9961": {
+    "url": "https://gitlocalize.com/repo/9961",
+    "title": "OpenVoiceOS/ovos-PHAL-plugin-balena-wifi",
+    "total-chars-data": "753",
+    "translated-chars-data": "753",
+    "untranslated-chars-data": "0",
+    "total-words-data": "131",
+    "translated-words-data": "131",
     "untranslated-words-data": "0"
   },
   "9659": {
@@ -219,6 +229,16 @@
     "translated-words-data": "50",
     "untranslated-words-data": "24"
   },
+  "9955": {
+    "url": "https://gitlocalize.com/repo/9955",
+    "title": "OpenVoiceOS/ovos-skill-word-of-the-day",
+    "total-chars-data": "114",
+    "translated-chars-data": "114",
+    "untranslated-chars-data": "0",
+    "total-words-data": "29",
+    "translated-words-data": "29",
+    "untranslated-words-data": "0"
+  },
   "9938": {
     "url": "https://gitlocalize.com/repo/9938",
     "title": "OpenVoiceOS/ovos-solver-YesNo-plugin",
@@ -322,12 +342,12 @@
   "9610": {
     "url": "https://gitlocalize.com/repo/9610",
     "title": "OpenVoiceOS/skill-ovos-icanhazdadjokes",
-    "total-chars-data": "633",
-    "translated-chars-data": "357",
-    "untranslated-chars-data": "276",
-    "total-words-data": "128",
-    "translated-words-data": "74",
-    "untranslated-words-data": "54"
+    "total-chars-data": "84445",
+    "translated-chars-data": "83897",
+    "untranslated-chars-data": "548",
+    "total-words-data": "15866",
+    "translated-words-data": "15759",
+    "untranslated-words-data": "107"
   },
   "9609": {
     "url": "https://gitlocalize.com/repo/9609",

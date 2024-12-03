@@ -8,7 +8,7 @@
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.37 | 101 | 11 | 64 | 9 | 37 | 2 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.0 | 10694 | 1962 | 10694 | 1962 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 0.0 | 10846902 | 1751706 | 10846902 | 1751706 | 0 | 0 |
-| OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.0 | 6855 | 969 | 6855 | 969 | 0 | 0 |
+| OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.12 | 6855 | 969 | 6039 | 859 | 816 | 110 |
 | OpenVoiceOS/ovos-skill-ggwave | https://gitlocalize.com/repo/9620 | 0.0 | 724 | 81 | 724 | 81 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 0.0 | 2993 | 483 | 2993 | 483 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 0.0 | 291 | 41 | 291 | 41 | 0 | 0 |
@@ -25,7 +25,7 @@
 | OpenVoiceOS/skill-ovos-fallback-chatgpt | https://gitlocalize.com/repo/9613 | 0.0 | 393 | 55 | 393 | 55 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 0.0 | 829 | 175 | 829 | 175 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.0 | 503 | 86 | 503 | 86 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 633 | 128 | 633 | 128 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84445 | 15866 | 84445 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.0 | 1009 | 190 | 1009 | 190 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.0 | 1352 | 254 | 1352 | 254 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.51 | 950 | 159 | 467 | 74 | 483 | 85 |
