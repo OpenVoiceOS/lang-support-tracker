@@ -25,23 +25,6 @@ These recommendations are meant to cover basic scenarios:
 - `offline` - run everything locally, with acceptable latency in a modern computer
 - `online` - use remote servers to offload compute, public or self hosted
 
-| Lang | System Unit | Date Format | STT Servers | STT Plugin |
-| --- | --- | --- | --- | --- |
-| ca-ba | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | N/A |
-| ca-es | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
-| ca-nw | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | N/A |
-| ca-va | metric | DMY | - https://stt.smartgic.io/citrinet<br>- https://citrinetstt.ziggyai.online | N/A |
-| de-de | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
-| en-gb | english | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
-| en-us | english | MDY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
-| es-es | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper-zuazo](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper-zuazo) |
-| fr-fr | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
-| gl-es | metric | DMY | N/A | [ovos-stt-plugin-fasterwhisper-zuazo](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper-zuazo) |
-| it-it | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
-| nl-nl | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-citrinet](https://github.com/OpenVoiceOS/ovos-stt-plugin-citrinet) |
-| pt-br | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
-| pt-pt | metric | DMY | - https://fasterwhisper.ziggyai.online/stt<br>- https://stt.smartgic.io/fasterwhisper/stt<br>- https://whisper.neonaiservices.com/stt | [ovos-stt-plugin-fasterwhisper](https://github.com/OpenVoiceOS/ovos-stt-plugin-fasterwhisper) |
-
 ## Voices Overview
 
 These recommendations are meant to cover basic scenarios:
@@ -65,32 +48,6 @@ These recommendations are meant to cover basic scenarios:
 | nl-nl | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | mls-medium | mls_5809-low | mls-medium | mls_5809-low |
 | pt-br | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | faber-medium | N/A | faber-medium | N/A |
 | pt-pt | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | tugão-medium | N/A | tugão-medium | N/A |
-
-## Translation Status
-
-in the `tx_info` folder you can find detailed translation stats per language
-from [GitLocalize](https://gitlocalize.com/users/OpenVoiceOS) in json and markdown format
-
-> These percentages refer to hardcoded utterances/dialogs in skills and other OVOS components
-
-| Lang  | Translated % |
-|-------|--------------|
-| ca    | 0.47         |
-| pl    | 0.14         |
-| gl    | 0.13         |
-| es-ES | 0.4          |
-| sv    | 0.96         |
-| ro-RO | 0.08         |
-| da    | 0.96         |
-| hu    | 0.96         |
-| eu    | 0.0          |
-| nl-NL | 0.42         |
-| ru    | 0.52         |
-| it-IT | 0.69         |
-| de-DE | 0.72         |
-| pt-BR | 0.24         |
-| pt-PT | 0.63         |
-| fr-FR | 0.5          |
 
 ## STT Comparison
 
