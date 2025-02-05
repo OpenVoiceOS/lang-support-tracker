@@ -1,3 +1,5 @@
+# Language support tracking for hu
+
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.6 | 1027 | 148 | 413 | 58 | 614 | 90 |

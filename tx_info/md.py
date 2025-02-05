@@ -2,7 +2,7 @@ import json
 import os
 
 
-def json_to_markdown_table(json_data):
+def json_to_markdown_table(json_data, lang=None):
     # Define the table header
     table_header = ["Title", "URL", "Translated %",
                     "Total Chars", "Total Words",
@@ -10,7 +10,8 @@ def json_to_markdown_table(json_data):
                     "Translated Chars", "Translated Words"]
 
     # Create the table header row in Markdown format
-    md_table = f"| {' | '.join(table_header)} |\n"
+    title = f"# Language support tracking for {lang}"
+    md_table = f"{title}\n\n| {' | '.join(table_header)} |\n"
     md_table += f"| {' | '.join(['---'] * len(table_header))} |\n"
 
     total_percent = 0
@@ -79,7 +80,6 @@ def langs_to_markdown_table(json_data):
         rows.append(row)
 
     for row in sorted(rows, key=lambda k: float(k[1]), reverse=True):
-        print(row)
         md_table += f"| {' | '.join(row)} |\n"
 
     return md_table
@@ -91,7 +91,9 @@ json_directory = os.path.dirname(__file__)
 lang_data = {}
 # Read JSON files, convert them to a markdown table, and save the table to a file
 for lang, json_data in read_json_files_from_directory(json_directory):
-    percent, markdown_table = json_to_markdown_table(json_data)
+    if lang in "fi":
+        continue  # WIP
+    percent, markdown_table = json_to_markdown_table(json_data, lang)
     output_md_file = f"translate_status_{lang}.md"
     save_markdown_table(markdown_table, output_md_file)
     lang_data[lang] = percent

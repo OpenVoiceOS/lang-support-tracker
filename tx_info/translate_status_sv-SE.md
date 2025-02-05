@@ -1,3 +1,5 @@
+# Language support tracking for sv-SE
+
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.69 | 1339 | 195 | 415 | 57 | 924 | 138 |

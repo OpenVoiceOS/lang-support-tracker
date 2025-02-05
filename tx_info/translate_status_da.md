@@ -1,3 +1,5 @@
+# Language support tracking for da
+
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 1.0 | 170418 | 28597 | 0 | 0 | 170418 | 28597 |

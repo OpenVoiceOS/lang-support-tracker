@@ -1,3 +1,5 @@
+# Language support tracking for hi
+
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.92 | 7222 | 1090 | 572 | 87 | 6650 | 1003 |
