@@ -46,6 +46,10 @@ for r in repos:
             lang = "fr-FR"
         if lang == "nl":
             lang = "nl-NL"
+        if lang == "pt":
+            lang = "pt-PT"
+        if lang == "ro":
+            lang = "ro-RO"
 
         if lang not in per_lang:
             per_lang[lang] = {}

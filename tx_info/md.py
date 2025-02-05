@@ -15,9 +15,13 @@ def json_to_markdown_table(json_data):
 
     total_percent = 0
 
+    rows = []
     # Iterate through each item in the JSON and add rows to the Markdown table
     for repo_id, data in json_data.items():
-        percent = int(data.get("translated-chars-data", 1)) / int(data.get("total-chars-data", 1))
+        try:
+            percent = int(data.get("translated-chars-data", 1)) / int(data.get("total-chars-data", 1))
+        except ZeroDivisionError:
+            percent = 0
         total_percent += percent
         row = [
             data.get("title", ""),
@@ -30,6 +34,9 @@ def json_to_markdown_table(json_data):
             data.get("translated-chars-data", ""),
             data.get("translated-words-data", ""),
         ]
+        rows.append(row)
+
+    for row in sorted(rows, key=lambda k: float(k[2]), reverse=True):
         md_table += f"| {' | '.join(row)} |\n"
 
     total_percent = total_percent / len(json_data)
@@ -60,13 +67,19 @@ def langs_to_markdown_table(json_data):
     md_table = f"| {' | '.join(table_header)} |\n"
     md_table += f"| {' | '.join(['---'] * len(table_header))} |\n"
 
-
+    rows = []
     # Iterate through each item in the JSON and add rows to the Markdown table
     for lang, percent in json_data.items():
         row = [
             lang,
             str(round(percent, 2))
         ]
+        #md_table += f"| {' | '.join(row)} |\n"
+
+        rows.append(row)
+
+    for row in sorted(rows, key=lambda k: float(k[1]), reverse=True):
+        print(row)
         md_table += f"| {' | '.join(row)} |\n"
 
     return md_table

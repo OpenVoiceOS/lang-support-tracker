@@ -3,11 +3,11 @@
     "url": "https://gitlocalize.com/repo/9936",
     "title": "OpenVoiceOS/ovos-color-parser",
     "total-chars-data": "170418",
-    "translated-chars-data": "568",
-    "untranslated-chars-data": "169850",
+    "translated-chars-data": "6531",
+    "untranslated-chars-data": "163887",
     "total-words-data": "28597",
-    "translated-words-data": "98",
-    "untranslated-words-data": "28499"
+    "translated-words-data": "1003",
+    "untranslated-words-data": "27594"
   },
   "9893": {
     "url": "https://gitlocalize.com/repo/9893",
@@ -32,12 +32,12 @@
   "9872": {
     "url": "https://gitlocalize.com/repo/9872",
     "title": "OpenVoiceOS/ovos-installer",
-    "total-chars-data": "6650",
+    "total-chars-data": "7222",
     "translated-chars-data": "6650",
-    "untranslated-chars-data": "0",
-    "total-words-data": "1003",
+    "untranslated-chars-data": "572",
+    "total-words-data": "1090",
     "translated-words-data": "1003",
-    "untranslated-words-data": "0"
+    "untranslated-words-data": "87"
   },
   "9935": {
     "url": "https://gitlocalize.com/repo/9935",
@@ -52,22 +52,22 @@
   "9892": {
     "url": "https://gitlocalize.com/repo/9892",
     "title": "OpenVoiceOS/ovos-ocp-pipeline-plugin",
-    "total-chars-data": "2589",
-    "translated-chars-data": "2589",
-    "untranslated-chars-data": "0",
-    "total-words-data": "309",
-    "translated-words-data": "309",
-    "untranslated-words-data": "0"
+    "total-chars-data": "2606",
+    "translated-chars-data": "2426",
+    "untranslated-chars-data": "180",
+    "total-words-data": "304",
+    "translated-words-data": "284",
+    "untranslated-words-data": "20"
   },
   "9949": {
     "url": "https://gitlocalize.com/repo/9949",
     "title": "OpenVoiceOS/ovos-persona",
-    "total-chars-data": "1853",
+    "total-chars-data": "5600",
     "translated-chars-data": "0",
-    "untranslated-chars-data": "1853",
-    "total-words-data": "121",
+    "untranslated-chars-data": "5600",
+    "total-words-data": "690",
     "translated-words-data": "0",
-    "untranslated-words-data": "121"
+    "untranslated-words-data": "690"
   },
   "9961": {
     "url": "https://gitlocalize.com/repo/9961",
@@ -98,6 +98,16 @@
     "total-words-data": "61",
     "translated-words-data": "16",
     "untranslated-words-data": "45"
+  },
+  "9996": {
+    "url": "https://gitlocalize.com/repo/9996",
+    "title": "OpenVoiceOS/ovos-skill-camera",
+    "total-chars-data": "310",
+    "translated-chars-data": "0",
+    "untranslated-chars-data": "310",
+    "total-words-data": "62",
+    "translated-words-data": "0",
+    "untranslated-words-data": "62"
   },
   "9673": {
     "url": "https://gitlocalize.com/repo/9673",
@@ -242,12 +252,12 @@
   "9938": {
     "url": "https://gitlocalize.com/repo/9938",
     "title": "OpenVoiceOS/ovos-solver-YesNo-plugin",
-    "total-chars-data": "224",
-    "translated-chars-data": "212",
-    "untranslated-chars-data": "12",
-    "total-words-data": "34",
-    "translated-words-data": "32",
-    "untranslated-words-data": "2"
+    "total-chars-data": "812",
+    "translated-chars-data": "812",
+    "untranslated-chars-data": "0",
+    "total-words-data": "156",
+    "translated-words-data": "156",
+    "untranslated-words-data": "0"
   },
   "9630": {
     "url": "https://gitlocalize.com/repo/9630",
