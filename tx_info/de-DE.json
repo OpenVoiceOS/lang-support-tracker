@@ -189,6 +189,16 @@
     "translated-words-data": "41",
     "untranslated-words-data": "0"
   },
+  "10024": {
+    "url": "https://gitlocalize.com/repo/10024",
+    "title": "OpenVoiceOS/ovos-skill-mark1-ctrl",
+    "total-chars-data": "2778",
+    "translated-chars-data": "2407",
+    "untranslated-chars-data": "371",
+    "total-words-data": "463",
+    "translated-words-data": "394",
+    "untranslated-words-data": "69"
+  },
   "9617": {
     "url": "https://gitlocalize.com/repo/9617",
     "title": "OpenVoiceOS/ovos-skill-moviemaster",
@@ -317,16 +327,6 @@
     "untranslated-chars-data": "0",
     "total-words-data": "287",
     "translated-words-data": "287",
-    "untranslated-words-data": "0"
-  },
-  "9613": {
-    "url": "https://gitlocalize.com/repo/9613",
-    "title": "OpenVoiceOS/skill-ovos-fallback-chatgpt",
-    "total-chars-data": "393",
-    "translated-chars-data": "393",
-    "untranslated-chars-data": "0",
-    "total-words-data": "55",
-    "translated-words-data": "55",
     "untranslated-words-data": "0"
   },
   "9612": {
