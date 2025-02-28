@@ -4,6 +4,8 @@
 
 translation status from out Gitlocalize platform are available with detailed stats per repository
 
+____
+
 | Lang  | Translated % |
 |-------|--------------|
 | da    | 0.99         |
@@ -16,6 +18,8 @@ translation status from out Gitlocalize platform are available with detailed sta
 | fr-FR | 0.43         |
 | nl-NL | 0.4          |
 | es-ES | 0.36         |
+
+____
 
 json dumps from gitlocalize:
 - [ca-ES.json](tx_info/ca.json)
