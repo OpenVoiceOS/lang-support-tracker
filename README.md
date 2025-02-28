@@ -4,22 +4,31 @@
 
 translation status from out Gitlocalize platform are available with detailed stats per repository
 
-____
-
-| Lang  | Translated % |
-|-------|--------------|
-| da    | 0.99         |
-| de-DE | 0.91         |
-| ca    | 0.9          |
-| gl    | 0.66         |
-| pt-PT | 0.66         |
-| it-IT | 0.58         |
-| eu    | 0.43         |
-| fr-FR | 0.43         |
-| nl-NL | 0.4          |
-| es-ES | 0.36         |
 
 ____
+| Lang | Translated % |
+| --- | --- |
+| da | 0.99 |
+| de-DE | 0.91 |
+| ca | 0.9 |
+| pt-PT | 0.66 |
+| gl | 0.66 |
+| it-IT | 0.58 |
+| eu | 0.43 |
+| fr-FR | 0.43 |
+| nl-NL | 0.4 |
+| es-ES | 0.36 |
+| pt-BR | 0.25 |
+| ru | 0.24 |
+| pl | 0.13 |
+| hi | 0.12 |
+| sv-SE | 0.09 |
+| hu | 0.07 |
+| ro-RO | 0.06 |
+| cs | 0.02 |
+
+____
+
 
 json dumps from gitlocalize:
 - [ca-ES.json](tx_info/ca.json)
