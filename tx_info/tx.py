@@ -5,7 +5,7 @@ import langcodes
 from pprint import pprint
 # i will adopt bs4 or selenium when it breaks, no dependencies is awesome ;)
 
-EXPORT_PATH = f"{os.path.dirname(__file__)}/tx_info"
+EXPORT_PATH = f"{os.path.dirname(__file__)}"
 os.makedirs(EXPORT_PATH, exist_ok=True)
 
 # get repos

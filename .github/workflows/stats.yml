@@ -1,0 +1,44 @@
+name: Update stats
+
+on:
+  push:
+    branches: [dev]
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual triggering
+
+
+jobs:
+  update_stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt install python3-dev python3-pip
+          python -m venv venv
+          source venv/bin/activate
+          pip install requests langcodes
+
+      - name: Update translation stats
+        run: |
+          source venv/bin/activate
+          python tx_info/tx.py
+          python tx_info/md.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout dev || git checkout -b dev
+          git add -A  # Track all changes, including new files
+          git diff --staged --quiet || git commit -m "Update translation stats"
+          git push origin dev

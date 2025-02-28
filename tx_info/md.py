@@ -94,7 +94,7 @@ for lang, json_data in read_json_files_from_directory(json_directory):
     if lang in "fi":
         continue  # WIP
     percent, markdown_table = json_to_markdown_table(json_data, lang)
-    output_md_file = f"translate_status_{lang}.md"
+    output_md_file = f"{os.path.dirname(__file__)}/translate_status_{lang}.md"
     save_markdown_table(markdown_table, output_md_file)
     lang_data[lang] = percent
 
