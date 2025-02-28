@@ -99,5 +99,15 @@ for lang, json_data in read_json_files_from_directory(json_directory):
     lang_data[lang] = percent
 
 markdown_table = langs_to_markdown_table(lang_data)
-output_md_file = f"translate_status.md"
+output_md_file = f"{os.path.dirname(__file__)}/translate_status.md"
 save_markdown_table(markdown_table, output_md_file)
+
+
+README = f"{os.path.dirname(os.path.dirname(__file__))}/README.md"
+with open(README) as f:
+    txt = f.read()
+    start, _, end = txt.split("____", maxsplit=2)
+
+with open(README, "w") as f:
+    f.write(f"{start}\n____\n{markdown_table}\n____\n{end}")
+
