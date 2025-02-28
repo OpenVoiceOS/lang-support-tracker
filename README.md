@@ -1,11 +1,12 @@
 # OVOS Language Support Tracker
 
+**Your help with translations is invaluable!**
+
+> You can find us on [Gitlocalize](https://gitlocalize.com/users/OpenVoiceOS), a text and video translation tutorial is available at [https://www.openvoiceos.org/translation](https://www.openvoiceos.org/translation)
+
 ## Translations Status
 
-translation status from out Gitlocalize platform are available with detailed stats per repository
-
-
-
+translation status from our [Gitlocalize](https://gitlocalize.com/users/OpenVoiceOS) platform are available with detailed stats per repository
 
 ____
 
@@ -25,8 +26,6 @@ ____
 
 
 ____
-
-
 
 
 json dumps from gitlocalize:
