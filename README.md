@@ -5,6 +5,7 @@
 translation status from out Gitlocalize platform are available with detailed stats per repository
 
 
+
 ____
 
 | Lang | Translated % |
@@ -28,7 +29,9 @@ ____
 | ro-RO | 0.06 |
 | cs | 0.02 |
 
+
 ____
+
 
 
 json dumps from gitlocalize:
