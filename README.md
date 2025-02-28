@@ -1,161 +1,68 @@
 # OVOS Language Support Tracker
 
-- [OVOS Language Support Tracker](#ovos-language-support-tracker)
-  - [Recommended Configuration](#recommended-configuration)
-  - [Voices Overview](#voices-overview)
-  - [Translation Status](#translation-status)
-  - [STT Comparison](#stt-comparison)
-    - [Spanish](#spanish)
-    - [Catalan](#catalan)
-    - [Galician](#galician)
-    - [Basque](#basque)
-    - [Portuguese](#portuguese)
-      
-## Recommended Configuration
+## Translations Status
 
-`ovos-config` version **0.3.0** introduced a `autoconfigure` utility
+translation status from out Gitlocalize platform are available with detailed stats per repository
 
-![img_4.png](img_4.png)
+| Lang  | Translated % |
+|-------|--------------|
+| da    | 0.99         |
+| de-DE | 0.91         |
+| ca    | 0.9          |
+| gl    | 0.66         |
+| pt-PT | 0.66         |
+| it-IT | 0.58         |
+| eu    | 0.43         |
+| fr-FR | 0.43         |
+| nl-NL | 0.4          |
+| es-ES | 0.36         |
 
-![img_5.png](img_5.png)
+json dumps from gitlocalize:
+- [ca-ES.json](tx_info/ca.json)
+- [da-DK.json](tx_info/da.json)
+- [de-DE.json](tx_info/de-DE.json)
+- [es-ES.json](tx_info/es-ES.json)
+- [eu.json](tx_info/eu.json)
+- [fr-FR.json](tx_info/fr-FR.json)
+- [gl-ES.json](tx_info/gl.json)
+- [it-IT.json](tx_info/it-IT.json)
+- [nl-NL.json](tx_info/nl-NL.json)
+- [pt-PT.json](tx_info/pt-PT.json)
 
-> These are meant only as reference and might not necessarily reflect the best config for your setup
+per language overview in markdown format:
+- [translate_status_ca.md](tx_info/translate_status_ca.md)
+- [translate_status_da.md](tx_info/translate_status_da.md)
+- [translate_status_de.md](tx_info/translate_status_de-DE.md)
+- [translate_status_es.md](tx_info/translate_status_es-ES.md)
+- [translate_status_eu.md](tx_info/translate_status_eu.md)
+- [translate_status_fr.md](tx_info/translate_status_fr-FR.md)
+- [translate_status_gl.md](tx_info/translate_status_gl.md)
+- [translate_status_it.md](tx_info/translate_status_it-IT.md)
+- [translate_status_nl.md](tx_info/translate_status_nl-NL.md)
+- [translate_status_pt.md](tx_info/translate_status_pt-PT.md)
 
-These recommendations are meant to cover basic scenarios:
-- `offline` - run everything locally, with acceptable latency in a modern computer
-- `online` - use remote servers to offload compute, public or self hosted
 
-## Voices Overview
+---
 
-These recommendations are meant to cover basic scenarios:
-- `offline` - run everything locally, with acceptable latency in a raspberry pi 4
-- `online` - use remote servers to offload compute, public or self hosted
-- male and female TTS voices availability for `offline` and `online` categories
+## RaspOVOS Language Comparison
 
-| Lang | TTS Servers | TTS Plugin | Online Male | Online Female | Offline Male | Offline Female |
-| --- | --- | --- | --- | --- | --- | --- |
-| ca-ba | - https://tts.smartgic.io/matxa<br>- https://matxa.ziggyai.online | N/A | balear/quim | balear/olga | N/A | N/A |
-| ca-es | - https://tts.smartgic.io/matxa<br>- https://matxa.ziggyai.online | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | central/grau | central/elia | upc_pau-x_low | upc_ona-x_low |
-| ca-nw | - https://tts.smartgic.io/matxa<br>- https://matxa.ziggyai.online | N/A | nord-occidental/pere | nord-occidental/emma | N/A | N/A |
-| ca-va | - https://tts.smartgic.io/matxa<br>- https://matxa.ziggyai.online | N/A | valencia/lluc | valencia/gina | N/A | N/A |
-| de-de | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | thorsten-low | ramona-low | thorsten-low | ramona-low |
-| en-gb | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | alan-low | N/A | alan-low | alba-medium |
-| en-us | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | ryan-low | amy-low | ryan-low | amy-low |
-| es-es | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | carlfm-x_low | mls_9972-low | carlfm-x_low | mls_9972-low |
-| fr-fr | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | gilles-low | siwis-low | gilles-low | siwis-low |
-| gl-es | N/A | [ovos-tts-plugin-cotovia](https://github.com/OpenVoiceOS/ovos-tts-plugin-cotovia) | N/A | N/A | iago | sabela |
-| it-it | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | riccardo-x_low | paola-medium | riccardo-x_low | paola-medium |
-| nl-nl | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | mls-medium | mls_5809-low | mls-medium | mls_5809-low |
-| pt-br | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | faber-medium | N/A | faber-medium | N/A |
-| pt-pt | - https://pipertts.ziggyai.online<br>- https://tts.smartgic.io/piper | [ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | tugão-medium | N/A | tugão-medium | N/A |
+- 🌟 **Best**: Fully offline (STT, TTS, wake words).
+- ✅ **Good**: Online STT + Offline TTS.
+- ⚡ **Usable**: Online STT + Online TTS.
+- 🛠️ **Work in Progress**: Missing key functionality or early-stage development.
 
-## STT Comparison
+| **Language**   | **STT**                                                  | **TTS**                                          | **Wake Word**                                  | **"Wake Up" Hotword**                    | **Notes**                                                                                                                                                                                                                                             | **Rating**               |
+|----------------|----------------------------------------------------------|--------------------------------------------------|------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| **English**    | `ovos-stt-plugin-server`<br>Whisper Turbo public servers | `ovos-tts-plugin-piper`<br>voice-en-gb-alan-low  | `ovos-ww-plugin-precise-lite`<br>"hey mycroft" | `ovos-ww-plugin-vosk`<br>"wake up"       | - STT relies on public servers                                                                                                                                                                                                                        | ✅  **Good**              |
+| **Catalan**    | `ovos-stt-plugin-citrinet`<br>AINA Citrinet model        | `ovos-tts-plugin-matxa`<br>MatxaTTS              | `ovos-ww-plugin-precise-lite`<br>"hey mycroft" | `ovos-ww-plugin-vosk`<br>"desperta"      | - Fully offline; supports Catalan-specific models for STT and TTS. <br>- 🚧 Skills translation is a work in progress                                                                                                                                  | 🌟  **Best**             |
+| **Portuguese** | `ovos-stt-plugin-server`<br>MyNorthAI public servers     | `ovos-tts-plugin-edge-tts`<br>pt-PT-DuarteNeural | `ovos-ww-plugin-precise-lite`<br>"hey mycroft" | `ovos-ww-plugin-vosk`<br>"acorda"        | - STT relies on public servers<br>- Edge TTS is temporary (not privacy respecting). <br>- 🚧 Skills translation is a work in progress                                                                                                                 | 🛠️ **Work in Progress** |
+| **Spanish**    | `ovos-stt-plugin-citrinet`<br>NVIDIA Citrinet model      | `ovos-tts-plugin-ahotts`<br>spanish              | `ovos-ww-plugin-precise-lite`<br>"hey mycroft" | `ovos-ww-plugin-vosk`<br>"despierta"     | - 🚧 Skills translation is a work in progress                                                                                                                                                                                                         | ✅  **Good**              |
+| **Galician**   | `ovos-stt-plugin-server`<br>Whisper Turbo public servers | `ovos-tts-plugin-nos`<br>NOS TTS                 | `ovos-ww-plugin-precise-lite`<br>"hey mycroft" | `ovos-ww-plugin-vosk`<br>"acorda"        | - STT relies on public servers <br>- ⚠️ "wake up" does not have dedicated galician vosk model <br> - ⚠️ might be hard to get out of sleep mode! (portuguese model)<br>- 🚧 Skills translation is a work in progress                                   | ⚡ **Usable**             |
+| **Basque**     | `ovos-stt-plugin-server`<br>Whisper Turbo public servers | `ovos-tts-plugin-ahotts`<br>basque               | `ovos-ww-plugin-precise-lite`<br>"hey mycroft" | `ovos-ww-plugin-vosk`<br>"esnatu"        | - STT relies on public servers<br>- HiTz STT remote servers support planned<br>- "wake up" does not have dedicated basque vosk model <br>-⚠️ might be hard to get out of sleep mode! (spanish model)<br>- 🚧 Skills translation is a work in progress | ⚡ **Usable**             |
+| **Dutch**      | `ovos-stt-plugin-citrinet`<br>Nemo Citrinet model        | `ovos-tts-plugin-piper`<br>mls_5809-low          | `ovos-ww-plugin-precise-lite`<br>"hey mycroft" | `ovos-ww-plugin-vosk`<br>"wakker worden" | - 🚧 Skills translation is a work in progress                                                                                                                                                                                                         | ✅  **Good**              |
+| **German**     | `ovos-stt-plugin-citrinet`<br>Nemo Citrinet model        | `ovos-tts-plugin-piper`<br>thorsten-low          | `ovos-ww-plugin-precise-lite`<br>"hey mycroft" | `ovos-ww-plugin-vosk`<br>"aufwachen"     | - Citrinet is not very good<br>- 🚧 Skills translation is a work in progress                                                                                                                                                                          | ⚡ **Usable**             |
 
-> self reported WER score from model pages, **not independently verified**
-
-#### Spanish
-
-| Plugin                        | Model                                         | CV12  | CV13    |
-|-------------------------------|-----------------------------------------------|-------|---------|
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v2-es`                   |       | 4.8949  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-es`                      |       | 5.1265  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-medium-es`                     |       | 5.4088  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-small-es`                      |       | 8.2668  |
-| ovos-stt-plugin-citrinet      | `neongeckocom/stt_es_citrinet_512_gamma_0_25` | 9.549 |         |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-base-es`                       |       | 13.5312 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-tiny-es`                       |       | 19.5904 |
-
-#### Catalan
-
-| Plugin                        | Model                                         | CV11  | CV12  | CV13    | CV17 (test) | CV17 (dev) | 3CatParla (test) | 3CatParla (dev) |
-|-------------------------------|-----------------------------------------------|-------|-------|---------|-------------|------------|------------------|-----------------|
-| ovos-stt-plugin-fasterwhisper | `projecte-aina/whisper-large-v3-ca-3catparla` |       |       |         | 10.320      | 9.260      | 0.960            | 0.920           |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v2-ca`                   |       |       | 4.6716  |             |            |                  |                 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-ca`                      |       |       | 5.0700  |             |            |                  |                 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v3-ca`                   |       |       | 5.9714  |             |            |                  |                 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-medium-ca`                     |       |       | 5.9954  |             |            |                  |                 |
-| ovos-stt-plugin-citrinet      | `projecte-aina/stt-ca-citrinet-512`           | 6.684 |       |         |             |            |                  |                 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-small-ca`                      |       |       | 10.0252 |             |            |                  |                 |
-| ovos-stt-plugin-citrinet      | `neongeckocom/stt_ca_citrinet_512_gamma_0_25` |       | 8.065 |         |             |            |                  |                 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-base-ca`                       |       |       | 13.7897 |             |            |                  |                 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-tiny-ca`                       |       |       | 16.9043 |             |            |                  |                 |
-
-#### Galician
-
-| Plugin                        | Model                                                   | CV7   | CV13    | OpenSLR |
-|-------------------------------|---------------------------------------------------------|-------|---------|---------|
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v2-gl`                             |       | 5.9879  |         |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-gl`                                |       | 6.9398  |         |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-medium-gl`                               |       | 7.1227  |         |
-| ovos-stt-plugin-wav2vec       | `proxectonos/Nos_ASR-wav2vec2-large-xlsr-53-gl-with-lm` | 15.2  |         | 6.860   |
-| ovos-stt-plugin-wav2vec       | `diego-fustes/wav2vec2-large-xlsr-gl`                   | 22.12 |         | 9.10    |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-small-gl`                                |       | 10.9875 |         |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-base-gl`                                 |       | 18.6879 |         |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-tiny-gl`                                 |       | 26.3504 |         |       
-
-#### Basque
-
-| Plugin                        | Model                              | CV13    |
-|-------------------------------|------------------------------------|---------|
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v3-eu-cv16_1` | 6.8880  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v2-eu-cv16_1` | 7.7204  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-eu-cv16_1`    | 8.1444  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-medium-eu-cv16_1`   | 9.2006  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-small-eu-cv16_1`    | 12.7374 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-base-eu-cv16_1`     | 16.1765 |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-tiny-eu-cv16_1`     | 19.0949 |
-
-#### Portuguese
-
-| Plugin                        | Model                                         | CV12  | CV13   | Fleurs |
-|-------------------------------|-----------------------------------------------|-------|--------|--------|
-| ovos-stt-plugin-fasterwhisper | `my-north-ai/whisper-large-v3-pt`             |       |        | 4.65   |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v3-pt`                   |       | 4.6003 |        |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-v2-pt`                   |       | 5.875  |        |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-large-pt`                      |       | 6.399  |        |
-| ovos-stt-plugin-fasterwhisper | `my-north-ai/whisper-medium`                  |       |        | 6.57   |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-medium-pt`                     |       | 6.332  |        |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-small-pt`                      |       | 10.252 |        |
-| ovos-stt-plugin-citrinet      | `neongeckocom/stt_pt_citrinet_512_gamma_0_25` | 6.033 |        |        |
-| ovos-stt-plugin-fasterwhisper | `my-north-ai/whisper-small`                   |       |        | 10.34  |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-base-pt`                       |       | 19.290 |        |
-| ovos-stt-plugin-fasterwhisper | `zuazo/whisper-tiny-pt`                       |       | 28.965 |        |
-
-#### English
-
-| Plugin                   | Model                                         | LibriSpeech (clean) |  
-|--------------------------|-----------------------------------------------|---------------------| 
-| ovos-stt-plugin-citrinet | `neongeckocom/stt_en_citrinet_512_gamma_0_25` | 3.400               | 
-
-#### French
-
-| Plugin                   | Model                                         | CV12   |  
-|--------------------------|-----------------------------------------------|--------| 
-| ovos-stt-plugin-citrinet | `neongeckocom/stt_fr_citrinet_512_gamma_0_25` | 14.900 | 
-
-#### German
-
-| Plugin                   | Model                                         | CV12   |  
-|--------------------------|-----------------------------------------------|--------| 
-| ovos-stt-plugin-citrinet | `neongeckocom/stt_de_citrinet_512_gamma_0_25` | 11.100 | 
-
-#### Italian
-
-| Plugin                   | Model                                         | CV12  |  
-|--------------------------|-----------------------------------------------|-------| 
-| ovos-stt-plugin-citrinet | `neongeckocom/stt_it_citrinet_512_gamma_0_25` | 9.232 | 
-
-#### Ukrainian
-
-| Plugin                   | Model                                         | CV10  |  
-|--------------------------|-----------------------------------------------|-------| 
-| ovos-stt-plugin-citrinet | `neongeckocom/stt_uk_citrinet_512_gamma_0_25` | 8.609 | 
-
-#### Dutch
-
-| Plugin                   | Model                                         | CV12  |  
-|--------------------------|-----------------------------------------------|-------| 
-| ovos-stt-plugin-citrinet | `neongeckocom/stt_nl_citrinet_512_gamma_0_25` | 6.204 | 
+---
 
 ## Info Maps
 
