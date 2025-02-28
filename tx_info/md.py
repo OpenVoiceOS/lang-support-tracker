@@ -109,5 +109,5 @@ with open(README) as f:
     start, _, end = txt.split("____", maxsplit=2)
 
 with open(README, "w") as f:
-    f.write(f"{start}\n____\n{markdown_table}\n____\n{end}")
+    f.write(f"{start}\n____\n\n{markdown_table}\n\n____\n{end}")
 

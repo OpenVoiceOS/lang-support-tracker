@@ -6,6 +6,7 @@ translation status from out Gitlocalize platform are available with detailed sta
 
 
 ____
+
 | Lang | Translated % |
 | --- | --- |
 | da | 0.99 |
