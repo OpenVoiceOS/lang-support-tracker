@@ -71,13 +71,14 @@ def langs_to_markdown_table(json_data):
     rows = []
     # Iterate through each item in the JSON and add rows to the Markdown table
     for lang, percent in json_data.items():
-        row = [
-            lang,
-            str(round(percent, 2))
-        ]
-        #md_table += f"| {' | '.join(row)} |\n"
+        if round(percent, 2) >= 0.25:
+            row = [
+                lang,
+                str(round(percent, 2))
+            ]
+            #md_table += f"| {' | '.join(row)} |\n"
 
-        rows.append(row)
+            rows.append(row)
 
     for row in sorted(rows, key=lambda k: float(k[1]), reverse=True):
         md_table += f"| {' | '.join(row)} |\n"
