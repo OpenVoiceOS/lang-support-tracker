@@ -9,6 +9,7 @@
 translation status from our [Gitlocalize](https://gitlocalize.com/users/OpenVoiceOS) platform are available with detailed stats per repository
 
 
+
 ____
 
 | Lang | Translated % |
@@ -27,6 +28,7 @@ ____
 
 
 ____
+
 
 
 
