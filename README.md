@@ -10,6 +10,7 @@ translation status from our [Gitlocalize](https://gitlocalize.com/users/OpenVoic
 
 
 
+
 ____
 
 | Lang | Translated % |
@@ -28,6 +29,7 @@ ____
 
 
 ____
+
 
 
 
