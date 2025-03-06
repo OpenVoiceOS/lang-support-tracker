@@ -10,6 +10,7 @@
 | OpenVoiceOS/ovos-skill-camera | https://gitlocalize.com/repo/9996 | 1.0 | 310 | 62 | 0 | 0 | 310 | 62 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 1.0 | 101 | 11 | 0 | 0 | 101 | 11 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 1.0 | 10846902 | 1751706 | 0 | 0 | 10846902 | 1751706 |
+| OpenVoiceOS/ovos-skill-diagnostics | https://gitlocalize.com/repo/10069 | 1.0 | 1683 | 305 | 0 | 0 | 1683 | 305 |
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 1.0 | 291 | 41 | 0 | 0 | 291 | 41 |
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 1.0 | 557 | 76 | 0 | 0 | 557 | 76 |
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 1.0 | 114 | 29 | 0 | 0 | 114 | 29 |

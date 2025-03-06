@@ -52,3 +52,4 @@
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.93 | 1731 | 287 | 121 | 21 | 1610 | 266 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.89 | 6271 | 758 | 671 | 68 | 5600 | 690 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 0.75 | 10846902 | 1751706 | 2673117 | 431173 | 8173785 | 1320533 |
+| OpenVoiceOS/ovos-skill-diagnostics | https://gitlocalize.com/repo/10069 | 0.0 | 1683 | 305 | 1683 | 305 | 0 | 0 |

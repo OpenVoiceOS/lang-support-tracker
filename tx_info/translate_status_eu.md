@@ -40,6 +40,7 @@
 | OpenVoiceOS/ovos-skill-camera | https://gitlocalize.com/repo/9996 | 0.0 | 310 | 62 | 310 | 62 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.0 | 643 | 107 | 643 | 107 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 0.0 | 10846902 | 1751706 | 10846902 | 1751706 | 0 | 0 |
+| OpenVoiceOS/ovos-skill-diagnostics | https://gitlocalize.com/repo/10069 | 0.0 | 1683 | 305 | 1683 | 305 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-mark1-ctrl | https://gitlocalize.com/repo/10024 | 0.0 | 2778 | 463 | 2778 | 463 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 0.0 | 114 | 29 | 114 | 29 | 0 | 0 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.0 | 220 | 36 | 220 | 36 | 0 | 0 |

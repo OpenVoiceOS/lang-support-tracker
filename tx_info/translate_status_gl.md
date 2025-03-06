@@ -47,6 +47,7 @@
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.0 | 643 | 107 | 643 | 107 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.0 | 10694 | 1962 | 10694 | 1962 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 0.0 | 10846902 | 1751706 | 10846594 | 1751659 | 308 | 47 |
+| OpenVoiceOS/ovos-skill-diagnostics | https://gitlocalize.com/repo/10069 | 0.0 | 1683 | 305 | 1683 | 305 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 0.0 | 114 | 29 | 114 | 29 | 0 | 0 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 0.0 | 812 | 156 | 812 | 156 | 0 | 0 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.0 | 220 | 36 | 220 | 36 | 0 | 0 |

@@ -52,3 +52,4 @@
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.14 | 170418 | 28597 | 146233 | 24566 | 24185 | 4031 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.01 | 84445 | 15866 | 83548 | 15694 | 897 | 172 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/9665 | 0.0 | 10846902 | 1751706 | 10845570 | 1751494 | 1332 | 212 |
+| OpenVoiceOS/ovos-skill-diagnostics | https://gitlocalize.com/repo/10069 | 0.0 | 1683 | 305 | 1683 | 305 | 0 | 0 |
