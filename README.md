@@ -10,6 +10,7 @@ translation status from our [Gitlocalize](https://gitlocalize.com/users/OpenVoic
 
 The table below lists languages that are at least 25% translated, note that these numbers may decrease whenever new strings become available for translation
 
+
 ____
 
 | Lang | Translated % |
@@ -25,7 +26,9 @@ ____
 | nl-NL | 0.39 |
 | es-ES | 0.35 |
 
+
 ____
+
 
 json dumps from gitlocalize:
 - [ca-ES.json](tx_info/ca.json)
