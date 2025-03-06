@@ -29,8 +29,15 @@ ____
 
 ____
 
+## Open Data
 
-json dumps from gitlocalize:
+benchmark explorers:
+- [meteocat](https://meteocat.bench.tigregotico.pt) - catalan benchmark for weather queries
+- [gitlocalize-bench](https://gitlocalize-bench.tigregotico.pt/) - padatious benchmark to evaluate gitlocalize intents
+- [stt-bench](https://stt-bench.tigregotico.pt) - evaluating STT plugins against various datasets
+- [tts-bench](https://tts-bench.tigregotico.pt) - evaluating TTS plugins
+
+json dumps for gitlocalize translation stats:
 - [ca-ES.json](tx_info/ca.json)
 - [da-DK.json](tx_info/da.json)
 - [de-DE.json](tx_info/de-DE.json)
@@ -42,7 +49,7 @@ json dumps from gitlocalize:
 - [nl-NL.json](tx_info/nl-NL.json)
 - [pt-PT.json](tx_info/pt-PT.json)
 
-per language overview in markdown format:
+per language translation overview in markdown format:
 - [translate_status_ca.md](tx_info/translate_status_ca.md)
 - [translate_status_da.md](tx_info/translate_status_da.md)
 - [translate_status_de.md](tx_info/translate_status_de-DE.md)
@@ -53,7 +60,6 @@ per language overview in markdown format:
 - [translate_status_it.md](tx_info/translate_status_it-IT.md)
 - [translate_status_nl.md](tx_info/translate_status_nl-NL.md)
 - [translate_status_pt.md](tx_info/translate_status_pt-PT.md)
-
 
 ---
 
