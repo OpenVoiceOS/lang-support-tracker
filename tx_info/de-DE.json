@@ -63,21 +63,11 @@
     "url": "https://gitlocalize.com/repo/9949",
     "title": "OpenVoiceOS/ovos-persona",
     "total-chars-data": "6271",
-    "translated-chars-data": "5600",
-    "untranslated-chars-data": "671",
+    "translated-chars-data": "6271",
+    "untranslated-chars-data": "0",
     "total-words-data": "758",
-    "translated-words-data": "690",
-    "untranslated-words-data": "68"
-  },
-  "9961": {
-    "url": "https://gitlocalize.com/repo/9961",
-    "title": "OpenVoiceOS/ovos-PHAL-plugin-balena-wifi",
-    "total-chars-data": "753",
-    "translated-chars-data": "682",
-    "untranslated-chars-data": "71",
-    "total-words-data": "131",
-    "translated-words-data": "119",
-    "untranslated-words-data": "12"
+    "translated-words-data": "758",
+    "untranslated-words-data": "0"
   },
   "9659": {
     "url": "https://gitlocalize.com/repo/9659",
@@ -148,6 +138,16 @@
     "total-words-data": "1751706",
     "translated-words-data": "0",
     "untranslated-words-data": "1751706"
+  },
+  "10069": {
+    "url": "https://gitlocalize.com/repo/10069",
+    "title": "OpenVoiceOS/ovos-skill-diagnostics",
+    "total-chars-data": "1683",
+    "translated-chars-data": "1411",
+    "untranslated-chars-data": "272",
+    "total-words-data": "305",
+    "translated-words-data": "258",
+    "untranslated-words-data": "47"
   },
   "9622": {
     "url": "https://gitlocalize.com/repo/9622",
