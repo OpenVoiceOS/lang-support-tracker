@@ -27,6 +27,7 @@ The table below lists languages that are at least 25% translated, note that thes
 
 
 
+
 ____
 
 | Lang | Translated % |
@@ -44,6 +45,7 @@ ____
 
 
 ____
+
 
 
 
