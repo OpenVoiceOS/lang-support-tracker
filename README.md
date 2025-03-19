@@ -10,8 +10,6 @@ translation status from our [Gitlocalize](https://gitlocalize.com/users/OpenVoic
 
 The table below lists languages that are at least 25% translated, note that these numbers may decrease whenever new strings become available for translation
 
-
-
 ____
 
 | Lang | Translated % |
@@ -30,6 +28,50 @@ ____
 
 ____
 
+
+
+## 📢 **Language Support in OVOS Needs Your Help!**
+
+Hey OVOS community! 🚀
+
+If you’re using **raspOVOS** or any OVOS installation, we need **real-world data** to improve performance! 🫵
+
+- 🟢 **[GitLocalize Benchmarks](https://gitlocalize-bench.tigregotico.pt/)** show between **70%** and **90%+ accuracy** depending on language
+- 🔴 **User Reports** from the latest **raspOVOS images** indicate **high intent failure rates** in real use!
+
+This gap shows why **training data alone isn’t enough**—we need **fresh test data** to:
+
+- 🛠 Identify **intent failures** in daily usage
+- 🗣 Spot **translation mistakes** affecting accuracy
+- 📊 Improve **models & pipelines**
+
+### **🌍 How to Help?**
+
+1️⃣ **Enable Open Data Collection in raspOVOS (or your OVOS instance)**
+
+- Add this to your `mycroft.conf`:
+
+```json
+"open_data": {
+  "intent_urls": [
+    "https://metrics.tigregotico.pt/intents"
+  ]
+}
+```
+
+_(Or self-host to track your own assistant’s failed intents! 🔧 [More info](https://github.com/OpenVoiceOS/ovos-opendata-server))_
+
+2️⃣ **Monitor Progress & Data Collection:**
+
+- 📊 **Live Dashboard:** [opendata.tigregotico.pt](https://opendata.tigregotico.pt/)
+- ✅ **Server Status:** [metrics.tigregotico.pt/status](https://metrics.tigregotico.pt/status)
+
+
+> OVOS is getting **more users**, but **without native speakers contributing real data, accuracy will suffer!**
+
+Thanks for your help! Let’s make OVOS **great for every language** together! 🚀💙
+
+____
 
 
 ## Open Data
