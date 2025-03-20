@@ -19,7 +19,6 @@
 | OpenVoiceOS/ovos-skill-mark1-ctrl | https://gitlocalize.com/repo/10024 | 1.0 | 2778 | 463 | 0 | 0 | 2778 | 463 |
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 1.0 | 557 | 76 | 0 | 0 | 557 | 76 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 1.0 | 276 | 45 | 0 | 0 | 276 | 45 |
-| OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 1.0 | 560 | 80 | 0 | 0 | 560 | 80 |
 | OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 1.0 | 471 | 74 | 0 | 0 | 471 | 74 |
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 1.0 | 114 | 29 | 0 | 0 | 114 | 29 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 1.0 | 812 | 156 | 0 | 0 | 812 | 156 |
@@ -43,6 +42,7 @@
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 1.0 | 13453 | 2231 | 0 | 0 | 13453 | 2231 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 1.0 | 724 | 116 | 0 | 0 | 724 | 116 |
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 1.0 | 923 | 163 | 0 | 0 | 923 | 163 |
+| OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.97 | 560 | 80 | 15 | 2 | 545 | 78 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.92 | 6271 | 758 | 511 | 48 | 5760 | 710 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.91 | 6022 | 867 | 545 | 80 | 5477 | 787 |
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.73 | 1339 | 195 | 365 | 61 | 974 | 134 |
