@@ -182,12 +182,12 @@
   "9619": {
     "url": "https://gitlocalize.com/repo/9619",
     "title": "OpenVoiceOS/ovos-skill-laugh",
-    "total-chars-data": "291",
-    "translated-chars-data": "291",
-    "untranslated-chars-data": "0",
-    "total-words-data": "41",
-    "translated-words-data": "41",
-    "untranslated-words-data": "0"
+    "total-chars-data": "617",
+    "translated-chars-data": "253",
+    "untranslated-chars-data": "364",
+    "total-words-data": "99",
+    "translated-words-data": "33",
+    "untranslated-words-data": "66"
   },
   "10024": {
     "url": "https://gitlocalize.com/repo/10024",
@@ -312,11 +312,11 @@
   "9614": {
     "url": "https://gitlocalize.com/repo/9614",
     "title": "OpenVoiceOS/skill-ovos-date-time",
-    "total-chars-data": "12227",
-    "translated-chars-data": "11254",
+    "total-chars-data": "12209",
+    "translated-chars-data": "11236",
     "untranslated-chars-data": "973",
-    "total-words-data": "2336",
-    "translated-words-data": "2127",
+    "total-words-data": "2333",
+    "translated-words-data": "2124",
     "untranslated-words-data": "209"
   },
   "9618": {

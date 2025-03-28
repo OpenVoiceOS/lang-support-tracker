@@ -2,7 +2,6 @@
 
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 1.0 | 291 | 41 | 0 | 0 | 291 | 41 |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.95 | 2458 | 375 | 128 | 20 | 2330 | 355 |
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.93 | 13453 | 2231 | 909 | 139 | 12544 | 2092 |
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.92 | 7222 | 1090 | 572 | 87 | 6650 | 1003 |
@@ -26,6 +25,7 @@
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.52 | 1787 | 257 | 863 | 119 | 924 | 138 |
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 0.51 | 557 | 76 | 274 | 33 | 283 | 43 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.51 | 1352 | 254 | 667 | 113 | 685 | 141 |
+| OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 0.49 | 617 | 99 | 314 | 58 | 303 | 41 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.49 | 724 | 116 | 372 | 52 | 352 | 64 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.37 | 101 | 11 | 64 | 9 | 37 | 2 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.25 | 1661 | 202 | 1243 | 168 | 418 | 34 |
@@ -44,7 +44,7 @@
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 0.0 | 114 | 29 | 114 | 29 | 0 | 0 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.0 | 220 | 36 | 220 | 36 | 0 | 0 |
 | OpenVoiceOS/OVOS-workshop | https://gitlocalize.com/repo/9937 | 0.0 | 5 | 2 | 5 | 2 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.0 | 12227 | 2336 | 12227 | 2336 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.0 | 12209 | 2333 | 12209 | 2333 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 0.0 | 829 | 175 | 829 | 175 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.0 | 503 | 86 | 503 | 86 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.0 | 1009 | 190 | 1009 | 190 | 0 | 0 |

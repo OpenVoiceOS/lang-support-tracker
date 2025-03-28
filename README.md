@@ -20,23 +20,25 @@ The table below lists languages that are at least 25% translated, note that thes
 
 
 
+
 ____
 
 | Lang | Translated % |
 | --- | --- |
-| da | 0.94 |
-| de-DE | 0.91 |
+| da | 0.93 |
+| de-DE | 0.9 |
 | ca | 0.9 |
-| gl | 0.7 |
-| pt-PT | 0.61 |
-| it-IT | 0.57 |
+| gl | 0.69 |
+| pt-PT | 0.6 |
+| it-IT | 0.55 |
 | fr-FR | 0.41 |
-| eu | 0.4 |
-| nl-NL | 0.37 |
-| es-ES | 0.34 |
+| eu | 0.39 |
+| nl-NL | 0.36 |
+| es-ES | 0.33 |
 
 
 ____
+
 
 
 

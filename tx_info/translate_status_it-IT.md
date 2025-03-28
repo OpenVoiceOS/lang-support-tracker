@@ -7,7 +7,6 @@
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 1.0 | 1099 | 159 | 0 | 0 | 1099 | 159 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 1.0 | 643 | 107 | 0 | 0 | 643 | 107 |
 | OpenVoiceOS/ovos-skill-diagnostics | https://gitlocalize.com/repo/10069 | 1.0 | 1683 | 305 | 0 | 0 | 1683 | 305 |
-| OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 1.0 | 291 | 41 | 0 | 0 | 291 | 41 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 1.0 | 812 | 156 | 0 | 0 | 812 | 156 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 1.0 | 220 | 36 | 0 | 0 | 220 | 36 |
 | OpenVoiceOS/OVOS-workshop | https://gitlocalize.com/repo/9937 | 1.0 | 5 | 2 | 0 | 0 | 5 | 2 |
@@ -19,7 +18,7 @@
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.98 | 2606 | 304 | 59 | 5 | 2547 | 299 |
 | OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.98 | 6736 | 1159 | 122 | 28 | 6614 | 1131 |
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.96 | 13453 | 2231 | 583 | 107 | 12870 | 2124 |
-| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.92 | 12227 | 2336 | 973 | 209 | 11254 | 2127 |
+| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.91 | 12209 | 2333 | 1080 | 222 | 11129 | 2111 |
 | OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 0.9 | 2993 | 483 | 287 | 44 | 2706 | 439 |
 | OpenVoiceOS/ovos-skill-mark1-ctrl | https://gitlocalize.com/repo/10024 | 0.87 | 2778 | 463 | 371 | 69 | 2407 | 394 |
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.81 | 4577 | 639 | 865 | 130 | 3712 | 509 |
@@ -32,6 +31,7 @@
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.56 | 503 | 86 | 220 | 27 | 283 | 59 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.49 | 724 | 116 | 372 | 52 | 352 | 64 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.46 | 560 | 80 | 305 | 33 | 255 | 47 |
+| OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 0.41 | 617 | 99 | 364 | 66 | 253 | 33 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.37 | 101 | 11 | 64 | 9 | 37 | 2 |
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.37 | 1366 | 226 | 858 | 146 | 508 | 80 |
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.31 | 1787 | 257 | 1228 | 180 | 559 | 77 |

@@ -14,7 +14,7 @@
 | OpenVoiceOS/ovos-skill-diagnostics | https://gitlocalize.com/repo/10069 | 1.0 | 1683 | 305 | 0 | 0 | 1683 | 305 |
 | OpenVoiceOS/ovos-skill-ggwave | https://gitlocalize.com/repo/9620 | 1.0 | 724 | 81 | 0 | 0 | 724 | 81 |
 | OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 1.0 | 2993 | 483 | 0 | 0 | 2993 | 483 |
-| OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 1.0 | 291 | 41 | 0 | 0 | 291 | 41 |
+| OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 1.0 | 617 | 99 | 0 | 0 | 617 | 99 |
 | OpenVoiceOS/ovos-skill-mark1-ctrl | https://gitlocalize.com/repo/10024 | 1.0 | 2778 | 463 | 0 | 0 | 2778 | 463 |
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 1.0 | 557 | 76 | 0 | 0 | 557 | 76 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 1.0 | 276 | 45 | 0 | 0 | 276 | 45 |
@@ -40,7 +40,7 @@
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 1.0 | 13453 | 2231 | 0 | 0 | 13453 | 2231 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 1.0 | 724 | 116 | 0 | 0 | 724 | 116 |
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 1.0 | 923 | 163 | 0 | 0 | 923 | 163 |
-| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.98 | 12227 | 2336 | 196 | 44 | 12031 | 2292 |
+| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.98 | 12209 | 2333 | 196 | 44 | 12013 | 2289 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.97 | 191 | 39 | 5 | 2 | 186 | 37 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.97 | 560 | 80 | 15 | 2 | 545 | 78 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.92 | 6271 | 758 | 511 | 48 | 5760 | 710 |
