@@ -12,12 +12,12 @@
   "9893": {
     "url": "https://gitlocalize.com/repo/9893",
     "title": "OpenVoiceOS/ovos-common-query-pipeline-plugin",
-    "total-chars-data": "191",
-    "translated-chars-data": "36",
-    "untranslated-chars-data": "155",
-    "total-words-data": "39",
-    "translated-words-data": "9",
-    "untranslated-words-data": "30"
+    "total-chars-data": "209",
+    "translated-chars-data": "77",
+    "untranslated-chars-data": "132",
+    "total-words-data": "41",
+    "translated-words-data": "15",
+    "untranslated-words-data": "26"
   },
   "9895": {
     "url": "https://gitlocalize.com/repo/9895",
@@ -32,12 +32,12 @@
   "9872": {
     "url": "https://gitlocalize.com/repo/9872",
     "title": "OpenVoiceOS/ovos-installer",
-    "total-chars-data": "7222",
+    "total-chars-data": "8199",
     "translated-chars-data": "6650",
-    "untranslated-chars-data": "572",
-    "total-words-data": "1090",
+    "untranslated-chars-data": "1549",
+    "total-words-data": "1235",
     "translated-words-data": "1003",
-    "untranslated-words-data": "87"
+    "untranslated-words-data": "232"
   },
   "9935": {
     "url": "https://gitlocalize.com/repo/9935",
@@ -392,11 +392,11 @@
   "9631": {
     "url": "https://gitlocalize.com/repo/9631",
     "title": "OpenVoiceOS/skill-ovos-news",
-    "total-chars-data": "630",
-    "translated-chars-data": "603",
+    "total-chars-data": "815",
+    "translated-chars-data": "788",
     "untranslated-chars-data": "27",
-    "total-words-data": "86",
-    "translated-words-data": "85",
+    "total-words-data": "128",
+    "translated-words-data": "127",
     "untranslated-words-data": "1"
   },
   "9607": {

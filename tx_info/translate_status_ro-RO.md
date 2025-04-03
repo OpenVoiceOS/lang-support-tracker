@@ -7,7 +7,7 @@
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.45 | 503 | 86 | 278 | 40 | 225 | 46 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.25 | 950 | 159 | 708 | 115 | 242 | 44 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.14 | 170418 | 28597 | 145865 | 24515 | 24553 | 4082 |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.0 | 7222 | 1090 | 7222 | 1090 | 0 | 0 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.0 | 8199 | 1235 | 8199 | 1235 | 0 | 0 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 0.0 | 1099 | 159 | 1099 | 159 | 0 | 0 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.0 | 6271 | 758 | 6271 | 758 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.0 | 6736 | 1159 | 6736 | 1159 | 0 | 0 |
@@ -36,7 +36,7 @@
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84445 | 15866 | 84445 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.0 | 1009 | 190 | 1009 | 190 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.0 | 1352 | 254 | 1352 | 254 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.0 | 630 | 86 | 630 | 86 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.0 | 815 | 128 | 815 | 128 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.0 | 2052 | 360 | 2052 | 360 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.0 | 1872 | 260 | 1872 | 260 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 0.0 | 1485 | 266 | 1485 | 266 | 0 | 0 |
