@@ -22,7 +22,6 @@
 | OpenVoiceOS/ovos-skill-mark1-ctrl | https://gitlocalize.com/repo/10024 | 0.87 | 2778 | 463 | 371 | 69 | 2407 | 394 |
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.81 | 4577 | 639 | 865 | 130 | 3712 | 509 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.78 | 950 | 159 | 211 | 28 | 739 | 131 |
-| OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.77 | 815 | 128 | 185 | 42 | 630 | 86 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.76 | 2052 | 360 | 495 | 77 | 1557 | 283 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.67 | 1661 | 202 | 551 | 67 | 1110 | 135 |
 | OpenVoiceOS/ovos-skill-ggwave | https://gitlocalize.com/repo/9620 | 0.65 | 724 | 81 | 256 | 24 | 468 | 57 |
@@ -35,9 +34,10 @@
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.37 | 101 | 11 | 64 | 9 | 37 | 2 |
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.37 | 1366 | 226 | 858 | 146 | 508 | 80 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.32 | 209 | 41 | 143 | 27 | 66 | 14 |
-| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.31 | 1787 | 257 | 1228 | 180 | 559 | 77 |
+| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.31 | 1805 | 259 | 1239 | 181 | 566 | 78 |
 | OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.3 | 1872 | 260 | 1305 | 171 | 567 | 89 |
 | OpenVoiceOS/ovos-skill-application-launcher | https://gitlocalize.com/repo/9621 | 0.28 | 533 | 61 | 382 | 45 | 151 | 16 |
+| OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.25 | 2350 | 298 | 1755 | 218 | 595 | 80 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.2 | 1009 | 190 | 803 | 149 | 206 | 41 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.14 | 84445 | 15866 | 72670 | 13814 | 11775 | 2052 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 0.12 | 276 | 45 | 244 | 40 | 32 | 5 |

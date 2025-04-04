@@ -17,13 +17,12 @@
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.82 | 1366 | 226 | 242 | 31 | 1124 | 195 |
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.81 | 4577 | 639 | 865 | 130 | 3712 | 509 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.77 | 220 | 36 | 50 | 8 | 170 | 28 |
-| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.66 | 1787 | 257 | 611 | 84 | 1176 | 173 |
+| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.66 | 1805 | 259 | 622 | 85 | 1183 | 174 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 0.62 | 1485 | 266 | 566 | 98 | 919 | 168 |
 | OpenVoiceOS/skill-ovos-spelling | https://gitlocalize.com/repo/9606 | 0.58 | 238 | 35 | 100 | 16 | 138 | 19 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.46 | 560 | 80 | 305 | 33 | 255 | 47 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.43 | 724 | 116 | 416 | 60 | 308 | 56 |
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 0.41 | 617 | 99 | 364 | 66 | 253 | 33 |
-| OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.41 | 815 | 128 | 483 | 78 | 332 | 50 |
 | OpenVoiceOS/skill-ovos-pyradios | https://gitlocalize.com/repo/9774 | 0.41 | 63 | 7 | 37 | 3 | 26 | 4 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.34 | 1352 | 254 | 888 | 162 | 464 | 92 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.32 | 209 | 41 | 143 | 27 | 66 | 14 |
@@ -32,6 +31,7 @@
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.25 | 1661 | 202 | 1243 | 168 | 418 | 34 |
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.25 | 12209 | 2333 | 9152 | 1724 | 3057 | 609 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.22 | 84445 | 15866 | 66166 | 12545 | 18279 | 3321 |
+| OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.13 | 2350 | 298 | 2053 | 254 | 297 | 44 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 0.12 | 276 | 45 | 244 | 40 | 32 | 5 |
 | OpenVoiceOS/ovos-skill-application-launcher | https://gitlocalize.com/repo/9621 | 0.0 | 533 | 61 | 533 | 61 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.0 | 101 | 11 | 101 | 11 | 0 | 0 |

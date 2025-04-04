@@ -34,12 +34,12 @@
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1366 | 226 | 1366 | 226 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84445 | 15866 | 84445 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.0 | 1352 | 254 | 1352 | 254 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.0 | 815 | 128 | 815 | 128 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.0 | 2350 | 298 | 2350 | 298 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.0 | 2052 | 360 | 2052 | 360 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.0 | 1872 | 260 | 1872 | 260 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 0.0 | 1485 | 266 | 1485 | 266 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-wallpapers | https://gitlocalize.com/repo/9604 | 0.0 | 1304 | 133 | 1304 | 133 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.0 | 13453 | 2231 | 13453 | 2231 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.0 | 1787 | 257 | 1787 | 257 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.0 | 1805 | 259 | 1805 | 259 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.0 | 724 | 116 | 724 | 116 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 0.0 | 923 | 163 | 923 | 163 | 0 | 0 |
