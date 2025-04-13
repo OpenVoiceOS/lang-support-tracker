@@ -50,4 +50,4 @@
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.0 | 1009 | 190 | 1009 | 190 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.0 | 950 | 159 | 950 | 159 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-pyradios | https://gitlocalize.com/repo/9774 | 0.0 | 63 | 7 | 63 | 7 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-spelling | https://gitlocalize.com/repo/9606 | 0.0 | 451 | 68 | 451 | 68 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-spelling | https://gitlocalize.com/repo/9606 | 0.0 | 313 | 49 | 313 | 49 | 0 | 0 |

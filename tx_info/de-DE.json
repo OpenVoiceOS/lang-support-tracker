@@ -343,11 +343,11 @@
     "url": "https://gitlocalize.com/repo/9611",
     "title": "OpenVoiceOS/skill-ovos-hello-world",
     "total-chars-data": "798",
-    "translated-chars-data": "659",
-    "untranslated-chars-data": "139",
+    "translated-chars-data": "798",
+    "untranslated-chars-data": "0",
     "total-words-data": "148",
-    "translated-words-data": "118",
-    "untranslated-words-data": "30"
+    "translated-words-data": "148",
+    "untranslated-words-data": "0"
   },
   "9610": {
     "url": "https://gitlocalize.com/repo/9610",
@@ -432,11 +432,11 @@
   "9606": {
     "url": "https://gitlocalize.com/repo/9606",
     "title": "OpenVoiceOS/skill-ovos-spelling",
-    "total-chars-data": "451",
-    "translated-chars-data": "451",
+    "total-chars-data": "313",
+    "translated-chars-data": "313",
     "untranslated-chars-data": "0",
-    "total-words-data": "68",
-    "translated-words-data": "68",
+    "total-words-data": "49",
+    "translated-words-data": "49",
     "untranslated-words-data": "0"
   },
   "9605": {
