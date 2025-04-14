@@ -254,10 +254,6 @@ per language translation overview in markdown format:
 
 ## Info Maps
 
-Clock format per country (12 vs 24h)
-
-![img_2.png](img_2.png)
-
 Date format per country
 
 ![img_1.png](img_1.png)
@@ -269,3 +265,12 @@ System units per country
 Temperature units per country
 
 ![img_3.png](img_3.png)
+
+Clock format per country (12 vs 24h)
+
+![img_2.png](img_2.png)
+
+Numbering system per country
+
+![image](https://github.com/user-attachments/assets/7cd69252-ff6f-4dc4-8d19-6627d87ecf73)
+
