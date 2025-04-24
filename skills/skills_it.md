@@ -4,16 +4,16 @@
 Una competenza per gestire allarmi, timer, promemoria, eventi e cose da fare e, facoltativamente, per sincronizzarli con un servizio CalDAV.
 
 **Usage examples:**
-- Imposta la sveglia alle 8 del mattino per ogni sabato.
+- Cosa mi sono perso?
+- Annulla tutti i promemoria.
 - Mi sono perso qualcosa?
-- Quando è la mia prossima sveglia?
-- Organizza un evento di tennis della durata di 2 ore per le ore 14 di venerdì.
-- ricordami di portare fuori la spazzatura ogni giovedì e domenica alle 19.
-- Imposta una sveglia giornaliera per le 8.
-- Imposta un timer per la cottura del pane su 30 minuti.
-- Annulla tutti gli allarmi.
-- Quali sono i miei promemoria?
 - Imposta una sveglia per le 8.
+- Annulla tutti gli allarmi.
+- Annulla tutti i timer.
+- Quando è la mia prossima sveglia?
+- ricordami di portare fuori la spazzatura ogni giovedì e domenica alle 19.
+- Organizza un evento di tennis della durata di 2 ore per le ore 14 di venerdì.
+- Quali sono i miei promemoria?
 
 -------
 
@@ -38,10 +38,10 @@ Chiedi l'ora, la data, il giorno della settimana
 - [UNUSED]
 - [UNUSED]
 - [UNUSED]
+- [UNUSED]
+- [UNUSED]
+- [UNUSED]
 - Che ora è?
-- [UNUSED]
-- [UNUSED]
-- [UNUSED]
 
 -------
 
@@ -82,12 +82,12 @@ Naviga i tuoi media con Open Voice OS
 Riproduttore di flussi radio da tutto il mondo
 
 **Usage examples:**
-- metti il giornale radio portoghese
 - metti il radiogiornale spagnolo
-- metti il radiogiornale italiano
-- metti il giornale radio
-- metti npr news
 - metti euronews
+- metti il giornale radio portoghese
+- metti il radiogiornale italiano
+- metti npr news
+- metti il giornale radio
 
 -------
 
@@ -97,16 +97,16 @@ Riproduttore di flussi radio da tutto il mondo
 Controlla il volume con la voce!
 
 **Usage examples:**
-- Alza il volume
-- Alza il volume
-- [UNUSED]
+- Ripristina il volume
 - Grida
 - [UNUSED]
-- Stai zitto
-- Alza il volume
+- Imposta il volume di default
+- [UNUSED]
+- [UNUSED]
 - [UNUSED]
 - Alza il volume al massimo
 - [UNUSED]
+- Alza il volume
 
 -------
 
