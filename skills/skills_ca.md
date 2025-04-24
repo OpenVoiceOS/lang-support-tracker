@@ -4,16 +4,16 @@
 Una habilitat per a gestionar alarmes, temporitzadors, recordatoris, esdeveniments i tasques pendents i, opcionalment, sincronitzar-los amb un servei CalDAV. 
 
 **Usage examples:**
-- Programa un esdeveniment de tennis per a les 14:00 de divendres amb una durada de 2 hores.
-- Quins són els meus recordatoris?
 - Què m'he perdut?
-- M'he perdut alguna cosa?
-- Estableix una alarma per a les 8 del matí tots els dissabtes.
-- Quan és la meva pròxima alarma?
-- Cancel·la tots els recordatoris.
-- Cancel·la totes les alarmes.
 - Inicia un temporitzador de pa durant 30 minuts.
+- Programa un esdeveniment de tennis per a les 14:00 de divendres amb una durada de 2 hores.
+- Estableix una alarma diària per a les 8 del matí.
+- Quins són els meus recordatoris?
+- Cancel·la tots els recordatoris.
+- Quan és la meva pròxima alarma?
 - Posa una alarma a les 8 AM.
+- recorda'm de treure les escombraries cada dijous i diumenge a les 19h.
+- Estableix una alarma per a les 8 del matí tots els dissabtes.
 
 -------
 
@@ -23,8 +23,8 @@ Una habilitat per a gestionar alarmes, temporitzadors, recordatoris, esdevenimen
 No description available
 
 **Usage examples:**
-- executa l'script ___
 - executa l'ordre ___
+- executa l'script ___
 
 -------
 
@@ -34,10 +34,10 @@ No description available
 Cites de Confuci
 
 **Usage examples:**
-- Quan va néixer Confuci
-- Qui és Confuci
 - Cita de Confuci
+- Qui és Confuci
 - Quan va morir Confuci
+- Quan va néixer Confuci
 
 -------
 
@@ -47,11 +47,11 @@ Cites de Confuci
 Proporciona esdeveniments històrics d'avui o de qualsevol altre dia natural mitjançant la informació extreta de la Viquipèdia.
 
 **Usage examples:**
-- Què va passar avui a la història?
-- Qui va morir tal dia com avui a la història?
-- Quins fets històrics van passar el 16 de juny?
 - Qui va néixer avui a la història?
+- Quins fets històrics van passar el 16 de juny?
 - Explica'm els fets històrics del 12 de desembre
+- Qui va morir tal dia com avui a la història?
+- Què va passar avui a la història?
 
 -------
 
@@ -61,8 +61,8 @@ Proporciona esdeveniments històrics d'avui o de qualsevol altre dia natural mit
 Mentre està activada, transcriu de forma contínua la parla de l'usuari en un fitxer de text
 
 **Usage examples:**
-- comença el dictat
 - finalitza el dictat
+- comença el dictat
 
 -------
 
@@ -72,11 +72,11 @@ Mentre està activada, transcriu de forma contínua la parla de l'usuari en un f
 Informació de connexió de la xarxa
 
 **Usage examples:**
-- Digues-me la teva adreça de xarxa
-- Quina és la teva adreça IP?
-- A quina xarxa estàs connectat?
-- Digues-me la teva adreça IP
 - Quina és la teva adreça de xarxa?
+- A quina xarxa estàs connectat?
+- Digues-me la teva adreça de xarxa
+- Digues-me la teva adreça IP
+- Quina és la teva adreça IP?
 
 -------
 
@@ -86,11 +86,11 @@ Informació de connexió de la xarxa
 Seguiment de la ubicació de l'EEI
 
 **Usage examples:**
-- Parla'm de l'EEI
-- Quantes persones hi ha a bord de l'estació espacial?
-- Qui hi ha a bord de l'estació espacial?
 - On és l'EEI
+- Quantes persones hi ha a bord de l'estació espacial?
 - Quan passa l'EEI per sobre?
+- Qui hi ha a bord de l'estació espacial?
+- Parla'm de l'EEI
 
 -------
 
@@ -100,13 +100,13 @@ Seguiment de la ubicació de l'EEI
 Fets sobre els nombres
 
 **Usage examples:**
-- preguntes sobre demà
-- preguntes aletòries de nombres
 - fet sobre ahir
-- un fet matemàtic sobre el nombre 7
-- curiositat sobre l'any 1992
 - fet sobre el nombre 666
+- curiositat sobre l'any 1992
+- un fet matemàtic sobre el nombre 7
 - preguntes sobre la setmana vinent
+- preguntes aletòries de nombres
+- preguntes sobre demà
 
 -------
 
@@ -116,9 +116,9 @@ Fets sobre els nombres
 Coneixeu la història i la personalitat de l'assistent. Pregunteu sobre el "naixement" i la filiació de l'assistent de veu i feu un tast de la comunitat que fomenta aquesta intel·ligència artificial de codi obert.
 
 **Usage examples:**
-- On vas néixer?
-- Quan et van crear?
 - Qui et va fer?
+- Quan et van crear?
+- On vas néixer?
 - Què ets?
 
 -------
@@ -150,8 +150,8 @@ Com fer gairebé qualsevolcosa
 Usa Wordnet per a respondre qüestions relacionades amb diccioanris.
 
 **Usage examples:**
-- quin és l'antònim de...
 - quina és la definició de ...
+- quin és l'antònim de...
 
 -------
 
@@ -161,11 +161,11 @@ Usa Wordnet per a respondre qüestions relacionades amb diccioanris.
 No description available
 
 **Usage examples:**
-- comença l'enregistrament
-- comença un nou enregistrament d'àudio anomenat {name}
-- comença un enregistrament amb nom {name}
-- inicia l'enregistrament
 - enregistrament nou amb nom {name}
+- comença un nou enregistrament d'àudio anomenat {name}
+- comença l'enregistrament
+- inicia l'enregistrament
+- comença un enregistrament amb nom {name}
 
 -------
 
@@ -175,9 +175,9 @@ No description available
 L'habilitat d'engegada acabada proporciona notificacions quan l'OpenVoiceOS s'ha iniciat completament i tots els serveis bàsics estan preparats
 
 **Usage examples:**
+- Activa les notificacions preparades.
 - El sistema està preparat?
 - Desactiva les notificacions preparades.
-- Activa les notificacions preparades.
 
 -------
 
@@ -187,13 +187,13 @@ L'habilitat d'engegada acabada proporciona notificacions quan l'OpenVoiceOS s'ha
 Obteniu l'hora, la data, el dia de la setmana
 
 **Usage examples:**
-- Mostra'm l'hora
-- Quina hora és a París?
-- Quin dia és el dia del Punt Volat de 2026?
-- Quina hora és?
 - Quants dies falten per al 24 de juny?
+- Quina hora és a París?
 - Digues-me el dia de la setmana
+- Quin dia és el dia del Punt Volat de 2026?
+- Mostra'm l'hora
 - Quina data som?
+- Quina hora és?
 
 -------
 
@@ -204,8 +204,8 @@ Usa DuckDuckGo per a respondre preguntes.
 
 **Usage examples:**
 - Pregunta a l'ànec sobre el big bang
-- Qui és Elon Musk
 - Quan va néixer Stephen Hawking?
+- Qui és Elon Musk
 
 -------
 
@@ -215,9 +215,9 @@ Usa DuckDuckGo per a respondre preguntes.
 Habilitat introductòria perquè els autors d'habilitats puguin veure com és una habilitat d'OVOS
 
 **Usage examples:**
+- Com estàs?
 - Gràcies
 - Hola món
-- Com estàs?
 
 -------
 
@@ -227,13 +227,13 @@ Habilitat introductòria perquè els autors d'habilitats puguin veure com és un
 Il·lumina el teu dia amb l'humor del pare. El riure no està assegurat, però és probable que rodolis els ulls.
 
 **Usage examples:**
-- Saps cap acudit?
-- Fes-me riure.
-- Coneixes algun acudit de Chuck Norris?
 - Explica'm un acudit.
+- Fes-me riure.
 - Explica'm un acudit sobre dentistes.
-- Pots explicar acudits?
 - Digues una broma.
+- Pots explicar acudits?
+- Coneixes algun acudit de Chuck Norris?
+- Saps cap acudit?
 
 -------
 
@@ -243,9 +243,9 @@ Il·lumina el teu dia amb l'humor del pare. El riure no està assegurat, però �
 Poseu a dormir l'assistent quan vulgueu que no us molestin.
 
 **Usage examples:**
-- Ves a dormir
-- Hora de la migdiada
 - Desperta
+- Hora de la migdiada
+- Ves a dormir
 
 -------
 
@@ -255,12 +255,12 @@ Poseu a dormir l'assistent quan vulgueu que no us molestin.
 Canals de notícies d'arreu del món.
 
 **Usage examples:**
-- posa npr news
-- posa les notícies
-- posa euronews
-- posa notícies en portuguès
-- posa notícies en català
 - posta notícies en castellà
+- posa notícies en portuguès
+- posa les notícies
+- posa notícies en català
+- posa euronews
+- posa npr news
 
 -------
 
@@ -270,16 +270,16 @@ Canals de notícies d'arreu del món.
 Converteix OpenVoiceOS en un lloro! Feu que OVOS repeteixi tot el que vulgueu.
 
 **Usage examples:**
-- repeteix Hi havia una nit trista, mentre jo reflexionava, dèbil i cansat, sobre molts volums pintorescs i curiosos de tradicions oblidades.
-- Repeteix el que acabo de dir
-- para el lloro
-- digues bona nit, Graciela
+- Digues-me el que acabo de dir.
+- Pots repetir això?
 - Repeteix això
 - Què acabo de dir?
 - comença el lloro
-- Pots repetir això?
-- Digues-me el que acabo de dir.
+- digues bona nit, Graciela
+- Repeteix el que acabo de dir
 - Parla, puc dir el que vulguis!
+- repeteix Hi havia una nit trista, mentre jo reflexionava, dèbil i cansat, sobre molts volums pintorescs i curiosos de tradicions oblidades.
+- para el lloro
 
 -------
 
@@ -289,9 +289,9 @@ Converteix OpenVoiceOS en un lloro! Feu que OVOS repeteixi tot el que vulgueu.
 No description available
 
 **Usage examples:**
+- Com s'escriu burocràcia?
 - Lletreja ornitorrinc
 - Com s'escriu arquitectura?
-- Com s'escriu burocràcia?
 - Lletreja omnipotència
 
 -------
@@ -302,16 +302,16 @@ No description available
 Controleu el volum d'OVOS amb ordres verbals
 
 **Usage examples:**
-- volum alt
-- silencia l'àudio
-- volum màxim
 - restaura el volum
-- commuta el silenci
-- volum alt
-- apuja el volum
-- posa el nivell de volum al màxim
-- no silenciïs el volum
+- abaixa el nivell de volum
+- silencia el volum
+- volum predeterminat
+- posa el nivell de volum per defecte
+- volum baix
 - posa el volum a la meitat
+- nivell de volum alt
+- posa el volum per defecte
+- apuja el volum
 
 -------
 
@@ -321,16 +321,16 @@ Controleu el volum d'OVOS amb ordres verbals
 Obteniu les condicions meteorològiques, les previsions, les precipitacions esperades i molt més! També podeu demanar per altres ciutats del món. Les condicions actuals i les previsions meteorològiques provenen d'OpenMeteo
 
 **Usage examples:**
-- està plovent?
-- Quin temps farà els pròxims tres dies?
 - Quan és la posta de sol?
-- Quina temperatura màxima farà demà?
-- Quina humitat fa?
-- Quina és la previsió a Londres per a demà?
-- Quan tornarà a ploure?
-- Nevarà a Baltimore?
 - Quin temps farà aquest cap de setmana?
+- està plovent?
+- Quina humitat fa?
+- Quina és la previsió de demà?
+- Quin temps farà dimarts?
 - Quin temps fa a Houston?
+- Quina temperatura màxima farà demà?
+- Nevarà?
+- Quina és la previsió a Londres per a demà?
 
 -------
 
@@ -340,16 +340,16 @@ Obteniu les condicions meteorològiques, les previsions, les precipitacions espe
 Consulteu la Viquipèdia per a obtenir respostes a totes les vostres preguntes. Obteniu només un resum o demaneu més informació per a obtenir informació detallada.
 
 **Usage examples:**
-- Parla'm d'Elon Musk
-- Cerca sobre xocolata
-- Parla'm dels fesols
 - Consulta la Viquipèdia sobre fesols
-- Digues-me més
-- Parla'm del Pembroke Welsh Corgi
-- Més informació
 - Busca a la wikipedia qui era Joan Maragall
-- Busca informació sobre el Barri Vell de Banyoles
 - Què saps del Canigó?
+- Parla'm d'Elon Musk
+- Busca informació sobre el Barri Vell de Banyoles
+- Parla'm dels fesols
+- Més informació
+- Digues-me més
+- Cerca sobre xocolata
+- Parla'm del Pembroke Welsh Corgi
 
 -------
 
@@ -359,12 +359,12 @@ Consulteu la Viquipèdia per a obtenir respostes a totes les vostres preguntes. 
 Useu Wolfram Alpha per a preguntes de coneixement general.
 
 **Usage examples:**
-- Quantes polzades té un metre?
-- Quant és 18 per 4?
-- Quan es va estrenar The Rocky Horror Picture Show?
+- pregunta al llop quina és la velocitat de la llum
 - Quin és el nom real de Madonna?
 - Quina alçada té l'Everest?
-- pregunta al llop quina és la velocitat de la llum
+- Quan es va estrenar The Rocky Horror Picture Show?
+- Quant és 18 per 4?
+- Quantes polzades té un metre?
 
 -------
 

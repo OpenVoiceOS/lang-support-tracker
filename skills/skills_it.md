@@ -4,16 +4,16 @@
 Una competenza per gestire allarmi, timer, promemoria, eventi e cose da fare e, facoltativamente, per sincronizzarli con un servizio CalDAV.
 
 **Usage examples:**
-- Imposta una sveglia giornaliera per le 8.
-- svegliami alle 8 del mattino con la musica.
-- Annulla tutti gli allarmi.
-- Quando è la mia prossima sveglia?
-- Imposta un timer per la cottura del pane su 30 minuti.
-- Cosa mi sono perso?
-- Annulla tutti i timer.
 - Imposta la sveglia alle 8 del mattino per ogni sabato.
 - Mi sono perso qualcosa?
+- Quando è la mia prossima sveglia?
 - Organizza un evento di tennis della durata di 2 ore per le ore 14 di venerdì.
+- ricordami di portare fuori la spazzatura ogni giovedì e domenica alle 19.
+- Imposta una sveglia giornaliera per le 8.
+- Imposta un timer per la cottura del pane su 30 minuti.
+- Annulla tutti gli allarmi.
+- Quali sono i miei promemoria?
+- Imposta una sveglia per le 8.
 
 -------
 
@@ -23,9 +23,9 @@ Una competenza per gestire allarmi, timer, promemoria, eventi e cose da fare e, 
 La competenza Fine di avvio fornisce notifiche quando OpenVoiceOS è completamente avviato e tutti i servizi principali sono pronti
 
 **Usage examples:**
-- Abilita le notifiche di "pronto".
-- Disattiva le notifiche di "pronto".
 - Il sistema è pronto?
+- Disattiva le notifiche di "pronto".
+- Abilita le notifiche di "pronto".
 
 -------
 
@@ -38,10 +38,10 @@ Chiedi l'ora, la data, il giorno della settimana
 - [UNUSED]
 - [UNUSED]
 - [UNUSED]
-- [UNUSED]
-- [UNUSED]
-- [UNUSED]
 - Che ora è?
+- [UNUSED]
+- [UNUSED]
+- [UNUSED]
 
 -------
 
@@ -51,9 +51,9 @@ Chiedi l'ora, la data, il giorno della settimana
 Usa DuckDuckGo per rispondere alle tue domande
 
 **Usage examples:**
-- cerca su duck duck quando è nato stephen hawking
-- cerca su duck duck chi è elon musk
 - cerca con duck duck go big bang
+- cerca su duck duck chi è elon musk
+- cerca su duck duck quando è nato stephen hawking
 
 -------
 
@@ -82,11 +82,11 @@ Naviga i tuoi media con Open Voice OS
 Riproduttore di flussi radio da tutto il mondo
 
 **Usage examples:**
-- metti il radiogiornale spagnolo
-- metti npr news
-- metti il giornale radio
 - metti il giornale radio portoghese
+- metti il radiogiornale spagnolo
 - metti il radiogiornale italiano
+- metti il giornale radio
+- metti npr news
 - metti euronews
 
 -------
@@ -97,15 +97,15 @@ Riproduttore di flussi radio da tutto il mondo
 Controlla il volume con la voce!
 
 **Usage examples:**
-- Imposta il volume di default
+- Alza il volume
+- Alza il volume
+- [UNUSED]
+- Grida
 - [UNUSED]
 - Stai zitto
-- Imposta il volume al valore predefinito
+- Alza il volume
 - [UNUSED]
-- [UNUSED]
-- [UNUSED]
-- [UNUSED]
-- Metti il volume basso
+- Alza il volume al massimo
 - [UNUSED]
 
 -------

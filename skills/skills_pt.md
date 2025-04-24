@@ -15,13 +15,13 @@ No description available
 Factos sobre números
 
 **Usage examples:**
-- facto sobre o número 666
 - facto matemático sobre o número 7
-- facto sobre ontem
+- facto sobre o número 666
 - curiosidades sobre os números aleatórios
 - curiosidades sobre a próxima semana
-- curiosidade sobre o ano de 1992
 - curiosidades sobre o amanhã
+- curiosidade sobre o ano de 1992
+- facto sobre ontem
 
 -------
 
@@ -31,13 +31,13 @@ Factos sobre números
 Ilumine o seu dia com humor de pai. O riso não é garantido, mas é provável que revire os olhos.
 
 **Usage examples:**
-- Conhece alguma piada de Chuck Norris?
-- Diga uma piada.
-- Conte-me uma piada sobre dentistas.
-- Conhece alguma piada?
-- Pode contar piadas?
 - Faça-me rir.
+- Conhece alguma piada?
+- Conhece alguma piada de Chuck Norris?
+- Pode contar piadas?
 - Conte-me uma piada.
+- Conte-me uma piada sobre dentistas.
+- Diga uma piada.
 
 -------
 
@@ -49,10 +49,10 @@ Notícias de todo o mundo.
 **Usage examples:**
 - reproduzir notícias da NPR
 - reproduzir notícias portuguesas
+- reproduzir euronews
+- reproduzir notícias catalãs
 - reproduzir notícias em espanhol
 - reproduza as notícias
-- reproduzir notícias catalãs
-- reproduzir euronews
 
 -------
 
@@ -62,16 +62,16 @@ Notícias de todo o mundo.
 Controle o volume do OVOS com comandos verbais
 
 **Usage examples:**
-- definir o volume para o máximo
-- ativar áudio
-- volume médio
-- volume para alto
+- nível de volume para alto
+- volume baixo
 - alternar áudio
+- definir o volume para o máximo
+- definir o nível de volume para o máximo
+- silenciar o volume
+- volume padrão
 - mudo
-- silenciar áudio
-- volume para alto nível
-- alternar mudo
-- nível de volume elevado
+- alto volume
+- definir o volume para o padrão
 
 -------
 

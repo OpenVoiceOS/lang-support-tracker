@@ -15,11 +15,11 @@ No description available
 Rastrexa a localización da EEI
 
 **Usage examples:**
-- Fálame da EEI
 - Quen está a bordo da estación espacial?
+- Cando pasa a EEI?
 - cantas persoas están a bordo da estación espacial
 - Onde está a EEI?
-- Cando pasa a EEI?
+- Fálame da EEI
 
 -------
 
@@ -29,8 +29,8 @@ Rastrexa a localización da EEI
 Como facer case calquera cousa.
 
 **Usage examples:**
-- como ferver un ovo
 - como consigo que o meu can deixe de ladrar
+- como ferver un ovo
 
 -------
 
@@ -40,9 +40,9 @@ Como facer case calquera cousa.
 Usar DuckDuckGo para responder preguntas.
 
 **Usage examples:**
-- pregúntalle a duck sobre o big bang
 - Quen é Elon Musk?
 - Cando naceu Stephen Hawking?
+- pregúntalle a duck sobre o big bang
 
 -------
 
@@ -52,9 +52,9 @@ Usar DuckDuckGo para responder preguntas.
 Habilidade introdutiva para que as persoas programadoras de habilidades poidan ver como se monta unha habilidade OVOS
 
 **Usage examples:**
-- Ola mundo
 - Como estás?
 - Grazas
+- Ola mundo
 
 -------
 
@@ -64,9 +64,9 @@ Habilidade introdutiva para que as persoas programadoras de habilidades poidan v
 Pon o asistente a durmir cando non queiras que te moleste.
 
 **Usage examples:**
-- Vai durmir
 - (Esperta|Desperta|Acorda)
 - Hora da sesta
+- Vai durmir
 
 -------
 
@@ -76,12 +76,12 @@ Pon o asistente a durmir cando non queiras que te moleste.
 Canles de noticias de todo o mundo.
 
 **Usage examples:**
-- pon as noticias catalás
 - pon as noticias portuguesas
-- pon as noticias da npr
 - pon euronews
 - pon noticias en español
 - pon as noticias
+- pon as noticias da npr
+- pon as noticias catalás
 
 -------
 
@@ -91,16 +91,16 @@ Canles de noticias de todo o mundo.
 Converte OpenVoiceOS nun papagaio imitador! Fai que OVOS repita o que queiras.
 
 **Usage examples:**
-- Dime o que acabo de dicir.
-- di podo dicir o que queiras!
-- Repite o que acabas de dicir
-- Repite iso
-- Podes repetir iso?
 - repite Unha vez, nunha lúgubre medianoite, en canto cavilaba, débil e canso, nun moi vello e raro libro de saber esquecido
-- Que acabo de dicir?
+- Repite iso
+- Repite o que acabas de dicir
+- Dime o que acabo de dicir.
+- Podes repetir iso?
 - parar papagaio
 - di Boas noites, Ana
 - comezar papagaio
+- di podo dicir o que queiras!
+- Que acabo de dicir?
 
 -------
 
@@ -111,9 +111,9 @@ No description available
 
 **Usage examples:**
 - Como se escribe aardvark?
+- Soletrea omnipotencia
 - Deletrea succotash
 - Como se soletrea burocracia?
-- Soletrea omnipotencia
 
 -------
 
@@ -123,16 +123,16 @@ No description available
 Controla o volume de OVOS con comandos verbais
 
 **Usage examples:**
-- alternar audio
-- o volume máis alto
-- volume máximo
-- fixar o nivel de volume no máximo
-- alto volume
-- subir nivel de volume
-- alternar silencio
 - silenciar volume
-- baixo volume
+- restablecer o volume
+- volume no nivel alto
+- silenciar o audio
+- alternar audio
 - silenciar
+- alternar silencio
+- volume baixo
+- máximo volume
+- activar o volume
 
 -------
 
@@ -142,16 +142,16 @@ Controla o volume de OVOS con comandos verbais
 Obtén as condicións meteorolóxicas, previsións, precipitacións esperadas e moito máis! Tamén podes consultar o tempo noutras cidades do mundo. As condicións actuais e as previsións meteorolóxicas proveñen de OpenMeteo
 
 **Usage examples:**
-- Vai nevar?
-- Cal será a temperatura en París mañá en graos Celsius?
-- Que tempo vai en Ourense?
-- Irá frío o martes?
-- Cal é a temperatura?
-- Como será o tempo o martes?
 - Que tempo vai?
-- Cando se pon o sol?
-- Como será o tempo nos próximos tres días?
-- Vai nevar en Manzaneda?
+- Cando volverá chover?
+- Cal é a temperatura?
+- Vai moito vento?
+- Cal será a temperatura máxima de mañá?
+- Cal será a temperatura en París mañá en graos Celsius?
+- Vai nevar?
+- Que tempo vai en Ourense?
+- Como será o tempo esta fin de semana?
+- Cal é a previsión para mañá?
 
 -------
 

@@ -4,16 +4,16 @@
 Een skill om wekkers, timers, herinneringen, agenda-afspraken en taken te plannen en te beheren. En deze eventueel te synchroniseren met een CalDAV-service.
 
 **Usage examples:**
-- Zet een timer voor 30 minuten
-- Wanneer is mijn volgende wekker?
 - Zet op zaterdagen een wekker om 8.00 uur
-- herinner mij eraan om elke donderdag en zondag om 19.00 uur het vuilnis buiten te zetten.
-- Wat heb ik gemist?
-- Wat zijn mijn herinneringen?
 - Annuleer alle herinneringen.
-- Zet een wekker om 8 uur 's ochtends.
-- Heb ik iets gemist?
+- Stel een dagelijkse wekker in om 8 uur 's ochtends.
+- Wat heb ik gemist?
+- Zet een timer voor 30 minuten
+- Maak me om 8 uur 's ochtends wakker met muziek.
+- herinner mij eraan om elke donderdag en zondag om 19.00 uur het vuilnis buiten te zetten.
 - Annuleer alle timers.
+- Zet een wekker om 8 uur 's ochtends.
+- Plan een tenniswedstrijd van twee uur voor vrijdag om drie uur 's middags.
 
 -------
 
@@ -23,9 +23,9 @@ Een skill om wekkers, timers, herinneringen, agenda-afspraken en taken te planne
 De "Ik ben er klaar voor" skill geeft meldingen wanneer OpenVoiceOS volledig is gestart en alle onderdelen klaar zijn voor gebruik.
 
 **Usage examples:**
+- Is het systeem opgestart?
 - Schakel opstartmelding uit.
 - Schakel opstartmelding in.
-- Is het systeem opgestart?
 
 -------
 
@@ -36,12 +36,12 @@ Hoor de tijd, datum en dag van de week
 
 **Usage examples:**
 - Welke dag is het?
+- Hoe laat is het?
 - Hoe laat is het in Parijs?
 - Hoeveel dagen tot 4 juli?
-- Welke dag is 4 mei?
-- Wat is de datum?
 - Wat is de huidige tijd?
-- Hoe laat is het?
+- Wat is de datum?
+- Welke dag is 4 mei?
 
 -------
 
@@ -51,8 +51,8 @@ Hoor de tijd, datum en dag van de week
 Voorbeeld skill om ontwikkelaars te laten zien hoe een OVOS-skill ontwikkeld kan worden
 
 **Usage examples:**
-- Hoe is het met je?
 - Bedankt
+- Hoe is het met je?
 - Hallo wereld
 
 -------
@@ -63,16 +63,16 @@ Voorbeeld skill om ontwikkelaars te laten zien hoe een OVOS-skill ontwikkeld kan
 Ontvang de weersvoorspellingen, verwachte neerslag en meer! Je kunt ook vragen naar het weerbeeld in andere steden over de hele wereld. Huidige weergegevens en voorspellingen komen van OpenMeteo
 
 **Usage examples:**
-- Gaat het sneeuwen in Baltimore?
-- Wat is het weer?
-- Wanneer is de zonsondergang?
-- Wat is de weersverwachting voor morgen?
+- Wordt het koud op dinsdag?
+- regent het?
 - Wat is de temperatuur morgen in Parijs in Celsius?
-- Hoe hoog is de luchtvochtigheid?
+- Hoe wordt het weer dinsdag?
+- Wanneer is de zonsondergang?
+- Hoe is het weer dit weekend?
+- Staat er veel wind?
 - Hoe warm wordt het morgen?
 - Gaat het sneeuwen?
-- Hoe wordt het weer dinsdag?
-- Hoe is het weer in Houston?
+- Hoe is het weer de komende drie dagen?
 
 -------
 
