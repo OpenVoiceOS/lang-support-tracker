@@ -74,6 +74,13 @@ ____
 
 ## Open Data
 
+benchmark explorers:
+
+- [meteocat](https://meteocat.bench.tigregotico.pt) - catalan benchmark for weather queries
+- [gitlocalize-bench](https://gitlocalize-bench.tigregotico.pt/) - padatious benchmark to evaluate gitlocalize intents
+- [stt-bench](https://stt-bench.tigregotico.pt) - evaluating STT plugins against various datasets
+- [tts-bench](https://tts-bench.tigregotico.pt) - evaluating TTS plugins
+  
 per language skill usage overview in markdown format:
 
 - [skills_ca.md](skills/skills_ca.md)
@@ -101,13 +108,6 @@ csv exports of skill padatious intents:
 - [intents_it.csv](skills/intents_it.csv)
 - [intents_nl.csv](skills/intents_nl.csv)
 - [intents_pt.csv](skills/intents_pt.csv)
-
-benchmark explorers:
-
-- [meteocat](https://meteocat.bench.tigregotico.pt) - catalan benchmark for weather queries
-- [gitlocalize-bench](https://gitlocalize-bench.tigregotico.pt/) - padatious benchmark to evaluate gitlocalize intents
-- [stt-bench](https://stt-bench.tigregotico.pt) - evaluating STT plugins against various datasets
-- [tts-bench](https://tts-bench.tigregotico.pt) - evaluating TTS plugins
 
 json dumps for gitlocalize translation stats:
 
@@ -200,6 +200,10 @@ per language translation overview in markdown format:
 
 
 ## RaspOVOS Language Comparison
+
+
+> ⚠️ - this section is outdated
+
 
 - 🌟 **Best**: Fully offline (STT, TTS, wake words).
 - ✅ **Good**: Online STT + Offline TTS.
