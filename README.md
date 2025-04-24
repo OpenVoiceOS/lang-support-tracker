@@ -10,49 +10,6 @@ translation status from our [Gitlocalize](https://gitlocalize.com/users/OpenVoic
 
 The table below lists languages that are at least 25% translated, note that these numbers may decrease whenever new strings become available for translation
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ____
 
 | Lang | Translated % |
@@ -70,51 +27,6 @@ ____
 
 
 ____
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 📢 **Language Support in OVOS Needs Your Help!**
 
@@ -162,13 +74,43 @@ ____
 
 ## Open Data
 
+per language skill usage overview in markdown format:
+
+- [skills_ca.md](skills/skills_ca.md)
+- [skills_da.md](skills/skills_da.md)
+- [skills_de.md](skills/skills_de.md)
+- [skills_en.md](skills/skills_en.md)
+- [skills_es.md](skills/skills_es.md)
+- [skills_eu.md](skills/skills_eu.md)
+- [skills_fr.md](skills/skills_fr.md)
+- [skills_gl.md](skills/skills_gl.md)
+- [skills_it.md](skills/skills_it.md)
+- [skills_nl.md](skills/skills_nl.md)
+- [skills_pt.md](skills/skills_pt.md)
+
+csv exports of skill padatious intents:
+
+- [intents_ca.csv](skills/intents_ca.csv)
+- [intents_da.csv](skills/intents_da.csv)
+- [intents_de.csv](skills/intents_de.csv)
+- [intents_en.csv](skills/intents_en.csv)
+- [intents_es.csv](skills/intents_es.csv)
+- [intents_eu.csv](skills/intents_eu.csv)
+- [intents_fr.csv](skills/intents_fr.csv)
+- [intents_gl.csv](skills/intents_gl.csv)
+- [intents_it.csv](skills/intents_it.csv)
+- [intents_nl.csv](skills/intents_nl.csv)
+- [intents_pt.csv](skills/intents_pt.csv)
+
 benchmark explorers:
+
 - [meteocat](https://meteocat.bench.tigregotico.pt) - catalan benchmark for weather queries
 - [gitlocalize-bench](https://gitlocalize-bench.tigregotico.pt/) - padatious benchmark to evaluate gitlocalize intents
 - [stt-bench](https://stt-bench.tigregotico.pt) - evaluating STT plugins against various datasets
 - [tts-bench](https://tts-bench.tigregotico.pt) - evaluating TTS plugins
 
 json dumps for gitlocalize translation stats:
+
 - [ca-ES.json](tx_info/ca.json)
 - [da-DK.json](tx_info/da.json)
 - [de-DE.json](tx_info/de-DE.json)
@@ -181,6 +123,7 @@ json dumps for gitlocalize translation stats:
 - [pt-PT.json](tx_info/pt-PT.json)
 
 per language translation overview in markdown format:
+
 - [translate_status_ca.md](tx_info/translate_status_ca.md)
 - [translate_status_da.md](tx_info/translate_status_da.md)
 - [translate_status_de.md](tx_info/translate_status_de-DE.md)
