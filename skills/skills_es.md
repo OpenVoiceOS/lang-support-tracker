@@ -4,16 +4,16 @@
 Una skill para gestionar alarmas, temporizadores, recordatorios, eventos, tareas pendientes y, opcionalmente, sincronizarlos con un servicio CalDAV.
 
 **Usage examples:**
-- Inicia un temporizador de pandurante 30 minutos.
-- Cancela todos los recordatorios.
-- Establece una alarma para las 8 de la mañana todos los sábados.
-- ¿Cuándo es mi próxima alarma?
 - Cancela todas las alarmas.
-- ¿Cuáles son mis recordatorios?
-- ¿Me he perdido algo?
-- recuerda sacar la basura cada jueves y domingo a las 19h.
-- ¿Qué me he perdido?
+- Cancela todos los recordatorios.
+- Cancela todos los temporizadores.
+- Establece una alarma diaria para las 8 de la mañana.
+- Establece una alarma para las 8 de la mañana todos los sábados.
+- Inicia un temporizador de pandurante 30 minutos.
+- Pon una alarma a las 8 a.m.
 - Programa un evento de tenis para las 14:00 del viernes con una duración de 2 horas.
+- despiértame a las 8 de la mañana con música.
+- recuerda sacar la basura cada jueves y domingo a las 19h.
 
 -------
 
@@ -23,13 +23,13 @@ Una skill para gestionar alarmas, temporizadores, recordatorios, eventos, tareas
 Información sobre la hora, la fecha y el día de la semana
 
 **Usage examples:**
-- Dime la hora
-- ¿Qué hora es en París?
-- ¿Cuándo es el día del libro?
-- ¿Qué hora es?
-- ¿Cuantos días faltan para el 24 de junio?
 - Dime el día de la semana
+- Dime la hora
+- ¿Cuantos días faltan para el 24 de junio?
+- ¿Cuándo es el día del libro?
 - ¿Que día es?
+- ¿Qué hora es en París?
+- ¿Qué hora es?
 
 -------
 
@@ -39,8 +39,8 @@ Información sobre la hora, la fecha y el día de la semana
 Habilidad de muestra para que los autores de habilidades puedan ver cómo se crea una habilidad OVOS
 
 **Usage examples:**
-- Hola Mundo
 - Gracias
+- Hola Mundo
 - ¿Cómo estás?
 
 -------
@@ -51,12 +51,12 @@ Habilidad de muestra para que los autores de habilidades puedan ver cómo se cre
 Canales de noticias del mundo entero.
 
 **Usage examples:**
+- pon euronews
+- pon las noticias
+- pon noticias en catalán
+- pon noticias en español
 - pon noticias en inglés
 - pon npr news
-- pon noticias en catalán
-- pon las noticias
-- pon noticias en español
-- pon euronews
 
 -------
 
@@ -66,16 +66,16 @@ Canales de noticias del mundo entero.
 ¡Convierte OpenVoiceOS en un loro! Haz que OVOS repita lo que quieras.
 
 **Usage examples:**
+- (Inicia|Empieza) el loro
+- Di buenas noches, Ana
+- Dime lo que acabo de decir.
+- Habla, ¡Puedo decir lo que quieras!
+- Para el loro
 - Repite lo que acabas de decir
+- Repítelo
 - repite: Una vez, en una lúgubre medianoche, mientras reflexionaba, débil y cansado, sobre muchos volúmenes antiguos y curiosos de saberes olvidados
 - ¿Puedes repetirlo?
 - ¿Qué acabo de decir?
-- (Inicia|Empieza) el loro
-- Habla, ¡Puedo decir lo que quieras!
-- Para el loro
-- Repítelo
-- Di buenas noches, Ana
-- Dime lo que acabo de decir.
 
 -------
 
@@ -85,16 +85,16 @@ Canales de noticias del mundo entero.
 Información sobre las condiciones meteorológicas, las previsiones, las precipitaciones y mucho más. También puedes preguntar sobre otras ciudades del mundo. Las condiciones actuales y las previsiones provienen de OpenMeteo
 
 **Usage examples:**
-- ¿Nevará en Baltimore?
-- ¿Cuándo volverá a llover?
-- ¿Qué tiempo hace en Houston?
-- ¿Hará frío el martes?
+- ¿A qué hora es el crepúsculo?
 - ¿Cuál es la previsión de Londres para mañana?
-- ¿Qué humedad hace?
-- ¿Qué temperatura máxima hará mañana?
-- ¿Hace viento?
 - ¿Cuál es la previsión para mañana?
+- ¿Cuándo volverá a llover?
+- ¿Cómo será el tiempo los próximos tres días?
 - ¿Está lloviendo?
+- ¿Hace viento?
+- ¿Hará frío el martes?
+- ¿Nevará en Baltimore?
+- ¿Nevará?
 
 -------
 
@@ -104,15 +104,15 @@ Información sobre las condiciones meteorológicas, las previsiones, las precipi
 Consulta la Wikipedia para obtener respuestas a tus preguntas. Pide un resumen o más información para tener más detalles.
 
 **Usage examples:**
-- Busca sobre el chocolate
-- Háblame de Elon Musk
-- Busca información sobre Salamanca
-- Más información
-- Háblamde de las habichuelas
 - Busca a la Wikipedia quién era Gustavo Adolfo Bécquer
+- Busca información sobre Salamanca
+- Busca sobre el chocolate
+- Consulta la Wikipedia sobre las habichuelas
 - Cuéntame más
 - Explícame sobre el Pembroke Welsh Corgi
-- Consulta la Wikipedia sobre las habichuelas
+- Háblamde de las habichuelas
+- Háblame de Elon Musk
+- Más información
 - ¿Qué sabes del Mulhacén?
 
 -------

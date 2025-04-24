@@ -4,16 +4,16 @@
 Una competenza per gestire allarmi, timer, promemoria, eventi e cose da fare e, facoltativamente, per sincronizzarli con un servizio CalDAV.
 
 **Usage examples:**
-- Cosa mi sono perso?
-- Annulla tutti i promemoria.
-- Mi sono perso qualcosa?
-- Imposta una sveglia per le 8.
 - Annulla tutti gli allarmi.
+- Annulla tutti i promemoria.
 - Annulla tutti i timer.
-- Quando è la mia prossima sveglia?
-- ricordami di portare fuori la spazzatura ogni giovedì e domenica alle 19.
+- Cosa mi sono perso?
+- Imposta la sveglia alle 8 del mattino per ogni sabato.
+- Imposta un timer per la cottura del pane su 30 minuti.
+- Imposta una sveglia giornaliera per le 8.
+- Imposta una sveglia per le 8.
+- Mi sono perso qualcosa?
 - Organizza un evento di tennis della durata di 2 ore per le ore 14 di venerdì.
-- Quali sono i miei promemoria?
 
 -------
 
@@ -23,9 +23,9 @@ Una competenza per gestire allarmi, timer, promemoria, eventi e cose da fare e, 
 La competenza Fine di avvio fornisce notifiche quando OpenVoiceOS è completamente avviato e tutti i servizi principali sono pronti
 
 **Usage examples:**
-- Il sistema è pronto?
-- Disattiva le notifiche di "pronto".
 - Abilita le notifiche di "pronto".
+- Disattiva le notifiche di "pronto".
+- Il sistema è pronto?
 
 -------
 
@@ -35,13 +35,13 @@ La competenza Fine di avvio fornisce notifiche quando OpenVoiceOS è completamen
 Chiedi l'ora, la data, il giorno della settimana
 
 **Usage examples:**
-- [UNUSED]
-- [UNUSED]
-- [UNUSED]
-- [UNUSED]
-- [UNUSED]
-- [UNUSED]
 - Che ora è?
+- [UNUSED]
+- [UNUSED]
+- [UNUSED]
+- [UNUSED]
+- [UNUSED]
+- [UNUSED]
 
 -------
 
@@ -82,12 +82,12 @@ Naviga i tuoi media con Open Voice OS
 Riproduttore di flussi radio da tutto il mondo
 
 **Usage examples:**
-- metti il radiogiornale spagnolo
 - metti euronews
+- metti il giornale radio
 - metti il giornale radio portoghese
 - metti il radiogiornale italiano
+- metti il radiogiornale spagnolo
 - metti npr news
-- metti il giornale radio
 
 -------
 
@@ -97,35 +97,16 @@ Riproduttore di flussi radio da tutto il mondo
 Controlla il volume con la voce!
 
 **Usage examples:**
-- Ripristina il volume
-- Grida
-- [UNUSED]
-- Imposta il volume di default
-- [UNUSED]
-- [UNUSED]
-- [UNUSED]
-- Alza il volume al massimo
-- [UNUSED]
+- Abbassa il volume
 - Alza il volume
-
--------
-
-
-### skill-ovos-weather.openvoiceos
-
-Condizioni metereologiche da tutto il mondo e previsioni
-
-**Usage examples:**
-- None
-- None
-- None
-- None
-- None
-- None
-- None
-- None
-- None
-- None
+- Alza il volume
+- Alza il volume
+- Alza il volume al massimo
+- Alza il volume al massimo
+- Grida
+- Imposta il volume al valore predefinito
+- Imposta il volume di default
+- Metti il volume basso
 
 -------
 
