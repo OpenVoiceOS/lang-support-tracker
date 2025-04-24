@@ -13,6 +13,7 @@ for lang in ["ca", "de", "en", "pt", "fr", "it", "da", "gl", "eu", "es", "nl"]:
     plugins = find_skill_plugins()
     skills = list(plugins.keys())
     CSV = "domain,intent,utterance"
+    CSV2 = "domain,utterance"
     if not skills:
         continue
 
@@ -44,16 +45,21 @@ for lang in ["ca", "de", "en", "pt", "fr", "it", "da", "gl", "eu", "es", "nl"]:
                 if "skill.json" in files:
                     with open(os.path.join(root, "skill.json")) as fi:
                         data = json.load(fi)
-                        if not data.get("examples"):
+                        data["examples"] = [e for e in data.get("examples", []) if e]
+                        if not data["examples"]:
                             continue
-                        random.shuffle(data["examples"])
+                        data["examples"] = sorted(data["examples"])
                         f.write(f"\n### {skill_id.lower()}\n")
                         f.write(
                             f"\n{data.get('description', 'No description available')}")
                         f.write(f"\n\n**Usage examples:**")
                         for example in data["examples"][:10]:
                             f.write(f"\n- {example}")
+                            CSV2 += f"\n{skill_id},\"{example}\""
                         f.write("\n\n-------\n\n")
 
     with open(f"{os.path.dirname(__file__)}/intents_{lang}.csv", "w") as f:
         f.write(CSV)
+
+    with open(f"{os.path.dirname(__file__)}/utterances_{lang}.csv", "w") as f:
+        f.write(CSV2)
