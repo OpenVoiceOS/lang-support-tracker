@@ -1,4 +1,23 @@
 
+### ovos-skill-alerts.openvoiceos
+
+Unha habilidade para xestionar alarmas, temporizadores, recordatorios, eventos e tarefas pendentes, e opcionalmente sincronizalos cun servizo CalDAV.
+
+**Usage examples:**
+- Cales son os meus recordatorios?
+- Cancela todas as alarmas.
+- Cancela todos os recordatorios.
+- Cancela todos os temporizadores.
+- Cando soa a miña próxima alarma?
+- Configura unha alarma diaria para as 8 da mañá.
+- Configura unha alarma para as 8 da mañá dos sábados.
+- Configura unha alarma para as 8 da mañá.
+- Inicia un temporizador para o pan de 30 minutos.
+- Lémbrame sacar o lixo todos os xoves e domingos ás 19:00.
+
+-------
+
+
 ### ovos-skill-cmd.forslund
 
 No description available
