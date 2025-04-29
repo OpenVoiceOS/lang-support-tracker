@@ -50,5 +50,5 @@
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.94 | 1452 | 245 | 86 | 19 | 1366 | 226 |
 | OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.86 | 547 | 90 | 76 | 16 | 471 | 74 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.12 | 84445 | 15866 | 74219 | 14064 | 10226 | 1802 |
-| OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.11 | 170418 | 28597 | 152208 | 25629 | 18210 | 2968 |
+| OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.11 | 170418 | 28597 | 151991 | 25595 | 18427 | 3002 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/10101 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
