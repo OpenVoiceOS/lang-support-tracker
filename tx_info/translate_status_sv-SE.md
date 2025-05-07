@@ -4,8 +4,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/ovos-skill-mark1-ctrl | https://gitlocalize.com/repo/10024 | 0.87 | 2778 | 463 | 371 | 69 | 2407 | 394 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.51 | 950 | 159 | 467 | 74 | 483 | 85 |
-| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.5 | 1863 | 273 | 939 | 135 | 924 | 138 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.37 | 101 | 11 | 64 | 9 | 37 | 2 |
+| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.37 | 1498 | 212 | 939 | 135 | 559 | 77 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.33 | 1661 | 202 | 1111 | 103 | 550 | 99 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 0.27 | 1485 | 266 | 1078 | 190 | 407 | 76 |
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.14 | 2350 | 298 | 2026 | 250 | 324 | 48 |
@@ -36,10 +36,10 @@
 | OpenVoiceOS/OVOS-workshop | https://gitlocalize.com/repo/9937 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.0 | 2458 | 375 | 2458 | 375 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.0 | 12209 | 2333 | 12209 | 2333 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1452 | 245 | 1452 | 245 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1396 | 245 | 1396 | 245 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 0.0 | 829 | 175 | 829 | 175 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.0 | 798 | 148 | 798 | 148 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84445 | 15866 | 84445 | 15866 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84435 | 15866 | 84435 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.0 | 1009 | 190 | 1009 | 190 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.0 | 1352 | 254 | 1352 | 254 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.0 | 2052 | 360 | 2052 | 360 | 0 | 0 |

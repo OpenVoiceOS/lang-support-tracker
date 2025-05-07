@@ -15,7 +15,7 @@
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 1.0 | 2350 | 298 | 0 | 0 | 2350 | 298 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 1.0 | 1485 | 266 | 0 | 0 | 1485 | 266 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.99 | 2912 | 355 | 32 | 6 | 2880 | 349 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.99 | 84445 | 15866 | 548 | 107 | 83897 | 15759 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.99 | 84435 | 15866 | 542 | 107 | 83893 | 15759 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.98 | 10694 | 1962 | 236 | 23 | 10458 | 1939 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.98 | 560 | 80 | 9 | 1 | 551 | 79 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.96 | 643 | 107 | 23 | 5 | 620 | 102 |
@@ -31,8 +31,8 @@
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.63 | 220 | 36 | 82 | 14 | 138 | 22 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.59 | 798 | 148 | 330 | 51 | 468 | 97 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.56 | 170418 | 28597 | 75492 | 12888 | 94926 | 15709 |
-| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.45 | 1863 | 273 | 1026 | 158 | 837 | 115 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.44 | 1452 | 245 | 808 | 129 | 644 | 116 |
+| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.56 | 1498 | 212 | 661 | 97 | 837 | 115 |
+| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.44 | 1396 | 245 | 780 | 129 | 616 | 116 |
 | OpenVoiceOS/skill-ovos-pyradios | https://gitlocalize.com/repo/9774 | 0.41 | 63 | 7 | 37 | 3 | 26 | 4 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.4 | 363 | 73 | 219 | 45 | 144 | 28 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.39 | 2052 | 360 | 1242 | 205 | 810 | 155 |

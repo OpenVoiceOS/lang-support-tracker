@@ -20,7 +20,7 @@
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.61 | 798 | 148 | 313 | 67 | 485 | 81 |
 | OpenVoiceOS/skill-ovos-pyradios | https://gitlocalize.com/repo/9774 | 0.41 | 63 | 7 | 37 | 3 | 26 | 4 |
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 0.38 | 617 | 99 | 383 | 71 | 234 | 28 |
-| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.3 | 1863 | 273 | 1297 | 195 | 566 | 78 |
+| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.38 | 1498 | 212 | 932 | 134 | 566 | 78 |
 | OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.29 | 1872 | 260 | 1331 | 177 | 541 | 83 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.25 | 950 | 159 | 708 | 115 | 242 | 44 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.18 | 363 | 73 | 297 | 59 | 66 | 14 |
@@ -42,8 +42,8 @@
 | OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.0 | 313 | 43 | 313 | 43 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 0.0 | 114 | 29 | 114 | 29 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.0 | 2458 | 375 | 2458 | 375 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1452 | 245 | 1452 | 245 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84445 | 15866 | 84445 | 15866 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1396 | 245 | 1396 | 245 | 0 | 0 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84435 | 15866 | 84435 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.0 | 1352 | 254 | 1352 | 254 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.0 | 2350 | 298 | 2350 | 298 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.0 | 2052 | 360 | 2052 | 360 | 0 | 0 |
