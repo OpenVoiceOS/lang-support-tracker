@@ -43,6 +43,19 @@ Rastrexa a localización da EEI
 -------
 
 
+### ovos-skill-personal.openvoiceos
+
+Coñece a historia e a personalidade do asistente. Pregunta sobre o seu "nacemento" e orixe, e descubre a comunidade que está a impulsar esta intelixencia artificial de código aberto.
+
+**Usage examples:**
+- Cando te crearon?
+- Onde naciches?
+- Que es ti?
+- Quen te (fixo|creou)?
+
+-------
+
+
 ### ovos-skill-wikihow.openvoiceos
 
 Como facer case calquera cousa.
