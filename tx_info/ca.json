@@ -13,11 +13,11 @@
     "url": "https://gitlocalize.com/repo/9893",
     "title": "OpenVoiceOS/ovos-common-query-pipeline-plugin",
     "total-chars-data": "363",
-    "translated-chars-data": "318",
-    "untranslated-chars-data": "45",
+    "translated-chars-data": "363",
+    "untranslated-chars-data": "0",
     "total-words-data": "73",
-    "translated-words-data": "63",
-    "untranslated-words-data": "10"
+    "translated-words-data": "73",
+    "untranslated-words-data": "0"
   },
   "9895": {
     "url": "https://gitlocalize.com/repo/9895",
@@ -33,11 +33,11 @@
     "url": "https://gitlocalize.com/repo/9872",
     "title": "OpenVoiceOS/ovos-installer",
     "total-chars-data": "8199",
-    "translated-chars-data": "7222",
-    "untranslated-chars-data": "977",
+    "translated-chars-data": "8199",
+    "untranslated-chars-data": "0",
     "total-words-data": "1235",
-    "translated-words-data": "1090",
-    "untranslated-words-data": "145"
+    "translated-words-data": "1235",
+    "untranslated-words-data": "0"
   },
   "9935": {
     "url": "https://gitlocalize.com/repo/9935",
@@ -53,21 +53,21 @@
     "url": "https://gitlocalize.com/repo/9892",
     "title": "OpenVoiceOS/ovos-ocp-pipeline-plugin",
     "total-chars-data": "2912",
-    "translated-chars-data": "2865",
-    "untranslated-chars-data": "47",
+    "translated-chars-data": "2912",
+    "untranslated-chars-data": "0",
     "total-words-data": "355",
-    "translated-words-data": "347",
-    "untranslated-words-data": "8"
+    "translated-words-data": "355",
+    "untranslated-words-data": "0"
   },
   "9949": {
     "url": "https://gitlocalize.com/repo/9949",
     "title": "OpenVoiceOS/ovos-persona",
     "total-chars-data": "6271",
-    "translated-chars-data": "5760",
-    "untranslated-chars-data": "511",
+    "translated-chars-data": "5820",
+    "untranslated-chars-data": "451",
     "total-words-data": "758",
-    "translated-words-data": "710",
-    "untranslated-words-data": "48"
+    "translated-words-data": "720",
+    "untranslated-words-data": "38"
   },
   "9659": {
     "url": "https://gitlocalize.com/repo/9659",
@@ -233,21 +233,21 @@
     "url": "https://gitlocalize.com/repo/9657",
     "title": "OpenVoiceOS/ovos-skill-speedtest",
     "total-chars-data": "560",
-    "translated-chars-data": "545",
-    "untranslated-chars-data": "15",
+    "translated-chars-data": "560",
+    "untranslated-chars-data": "0",
     "total-words-data": "80",
-    "translated-words-data": "78",
-    "untranslated-words-data": "2"
+    "translated-words-data": "80",
+    "untranslated-words-data": "0"
   },
   "9674": {
     "url": "https://gitlocalize.com/repo/9674",
     "title": "OpenVoiceOS/ovos-skill-wikihow",
     "total-chars-data": "313",
-    "translated-chars-data": "471",
-    "untranslated-chars-data": "-158",
+    "translated-chars-data": "547",
+    "untranslated-chars-data": "-234",
     "total-words-data": "43",
-    "translated-words-data": "74",
-    "untranslated-words-data": "-31"
+    "translated-words-data": "90",
+    "untranslated-words-data": "-47"
   },
   "9955": {
     "url": "https://gitlocalize.com/repo/9955",
@@ -313,21 +313,21 @@
     "url": "https://gitlocalize.com/repo/9614",
     "title": "OpenVoiceOS/skill-ovos-date-time",
     "total-chars-data": "12209",
-    "translated-chars-data": "12013",
-    "untranslated-chars-data": "196",
+    "translated-chars-data": "12209",
+    "untranslated-chars-data": "0",
     "total-words-data": "2333",
-    "translated-words-data": "2289",
-    "untranslated-words-data": "44"
+    "translated-words-data": "2333",
+    "untranslated-words-data": "0"
   },
   "9618": {
     "url": "https://gitlocalize.com/repo/9618",
     "title": "OpenVoiceOS/skill-ovos-ddg",
     "total-chars-data": "1396",
-    "translated-chars-data": "1358",
-    "untranslated-chars-data": "38",
+    "translated-chars-data": "1396",
+    "untranslated-chars-data": "0",
     "total-words-data": "245",
-    "translated-words-data": "238",
-    "untranslated-words-data": "7"
+    "translated-words-data": "245",
+    "untranslated-words-data": "0"
   },
   "9612": {
     "url": "https://gitlocalize.com/repo/9612",
@@ -343,11 +343,11 @@
     "url": "https://gitlocalize.com/repo/9611",
     "title": "OpenVoiceOS/skill-ovos-hello-world",
     "total-chars-data": "798",
-    "translated-chars-data": "786",
-    "untranslated-chars-data": "12",
+    "translated-chars-data": "798",
+    "untranslated-chars-data": "0",
     "total-words-data": "148",
-    "translated-words-data": "145",
-    "untranslated-words-data": "3"
+    "translated-words-data": "148",
+    "untranslated-words-data": "0"
   },
   "9610": {
     "url": "https://gitlocalize.com/repo/9610",
@@ -373,11 +373,11 @@
     "url": "https://gitlocalize.com/repo/9656",
     "title": "OpenVoiceOS/skill-ovos-local-media",
     "total-chars-data": "1352",
-    "translated-chars-data": "234",
-    "untranslated-chars-data": "1118",
+    "translated-chars-data": "147",
+    "untranslated-chars-data": "1205",
     "total-words-data": "254",
-    "translated-words-data": "28",
-    "untranslated-words-data": "226"
+    "translated-words-data": "26",
+    "untranslated-words-data": "228"
   },
   "9608": {
     "url": "https://gitlocalize.com/repo/9608",
@@ -463,31 +463,31 @@
     "url": "https://gitlocalize.com/repo/9662",
     "title": "OpenVoiceOS/skill-ovos-weather",
     "total-chars-data": "24391",
-    "translated-chars-data": "12349",
-    "untranslated-chars-data": "12042",
+    "translated-chars-data": "12601",
+    "untranslated-chars-data": "11790",
     "total-words-data": "3507",
-    "translated-words-data": "1994",
-    "untranslated-words-data": "1513"
+    "translated-words-data": "2039",
+    "untranslated-words-data": "1468"
   },
   "9602": {
     "url": "https://gitlocalize.com/repo/9602",
     "title": "OpenVoiceOS/skill-ovos-wikipedia",
     "total-chars-data": "1498",
-    "translated-chars-data": "1438",
-    "untranslated-chars-data": "60",
+    "translated-chars-data": "1498",
+    "untranslated-chars-data": "0",
     "total-words-data": "212",
-    "translated-words-data": "202",
-    "untranslated-words-data": "10"
+    "translated-words-data": "212",
+    "untranslated-words-data": "0"
   },
   "9625": {
     "url": "https://gitlocalize.com/repo/9625",
     "title": "OpenVoiceOS/skill-ovos-wolfie",
     "total-chars-data": "749",
-    "translated-chars-data": "737",
-    "untranslated-chars-data": "12",
+    "translated-chars-data": "749",
+    "untranslated-chars-data": "0",
     "total-words-data": "122",
-    "translated-words-data": "118",
-    "untranslated-words-data": "4"
+    "translated-words-data": "122",
+    "untranslated-words-data": "0"
   },
   "9603": {
     "url": "https://gitlocalize.com/repo/9603",

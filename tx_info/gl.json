@@ -313,11 +313,11 @@
     "url": "https://gitlocalize.com/repo/9614",
     "title": "OpenVoiceOS/skill-ovos-date-time",
     "total-chars-data": "12209",
-    "translated-chars-data": "12209",
-    "untranslated-chars-data": "0",
+    "translated-chars-data": "12126",
+    "untranslated-chars-data": "83",
     "total-words-data": "2333",
-    "translated-words-data": "2333",
-    "untranslated-words-data": "0"
+    "translated-words-data": "2331",
+    "untranslated-words-data": "2"
   },
   "9618": {
     "url": "https://gitlocalize.com/repo/9618",
@@ -363,21 +363,21 @@
     "url": "https://gitlocalize.com/repo/9609",
     "title": "OpenVoiceOS/skill-ovos-ip",
     "total-chars-data": "1009",
-    "translated-chars-data": "1009",
-    "untranslated-chars-data": "0",
+    "translated-chars-data": "940",
+    "untranslated-chars-data": "69",
     "total-words-data": "190",
-    "translated-words-data": "190",
-    "untranslated-words-data": "0"
+    "translated-words-data": "188",
+    "untranslated-words-data": "2"
   },
   "9656": {
     "url": "https://gitlocalize.com/repo/9656",
     "title": "OpenVoiceOS/skill-ovos-local-media",
     "total-chars-data": "1352",
-    "translated-chars-data": "1352",
-    "untranslated-chars-data": "0",
+    "translated-chars-data": "1265",
+    "untranslated-chars-data": "87",
     "total-words-data": "254",
-    "translated-words-data": "254",
-    "untranslated-words-data": "0"
+    "translated-words-data": "252",
+    "untranslated-words-data": "2"
   },
   "9608": {
     "url": "https://gitlocalize.com/repo/9608",
@@ -473,11 +473,11 @@
     "url": "https://gitlocalize.com/repo/9602",
     "title": "OpenVoiceOS/skill-ovos-wikipedia",
     "total-chars-data": "1498",
-    "translated-chars-data": "981",
-    "untranslated-chars-data": "517",
+    "translated-chars-data": "898",
+    "untranslated-chars-data": "600",
     "total-words-data": "212",
-    "translated-words-data": "135",
-    "untranslated-words-data": "77"
+    "translated-words-data": "133",
+    "untranslated-words-data": "79"
   },
   "9625": {
     "url": "https://gitlocalize.com/repo/9625",
