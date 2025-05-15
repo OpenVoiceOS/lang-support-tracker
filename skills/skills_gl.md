@@ -67,6 +67,22 @@ Como facer case calquera cousa.
 -------
 
 
+### skill-ovos-date-time.openvoiceos
+
+Obtén a hora, a data, o día da semana
+
+**Usage examples:**
+- (Dime|Amósame|Móstrame|Indícame) que hora é
+- (Que día é|A que día cae) o martes de entroido de 2025?
+- Cantos días faltan para o 4 de xullo
+- Dime o día da semana
+- Que día é hoxe?
+- Que hora é en París?
+- Que hora é?
+
+-------
+
+
 ### skill-ovos-ddg.openvoiceos
 
 Usar DuckDuckGo para responder preguntas.
