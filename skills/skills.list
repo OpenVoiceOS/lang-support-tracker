@@ -35,3 +35,4 @@ ovos-skill-local-media>=0.2.4,<1.0.0
 ovos-skill-spotify
 ovos-skill-youtube-music
 ovos-skill-diagnostics
+ovos-skill-fuster-quotes
