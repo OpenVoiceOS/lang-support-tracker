@@ -313,11 +313,11 @@
     "url": "https://gitlocalize.com/repo/9614",
     "title": "OpenVoiceOS/skill-ovos-date-time",
     "total-chars-data": "12209",
-    "translated-chars-data": "12102",
-    "untranslated-chars-data": "107",
+    "translated-chars-data": "12209",
+    "untranslated-chars-data": "0",
     "total-words-data": "2333",
-    "translated-words-data": "2320",
-    "untranslated-words-data": "13"
+    "translated-words-data": "2333",
+    "untranslated-words-data": "0"
   },
   "9618": {
     "url": "https://gitlocalize.com/repo/9618",
@@ -462,12 +462,12 @@
   "9662": {
     "url": "https://gitlocalize.com/repo/9662",
     "title": "OpenVoiceOS/skill-ovos-weather",
-    "total-chars-data": "13453",
-    "translated-chars-data": "13575",
-    "untranslated-chars-data": "-122",
-    "total-words-data": "2231",
-    "translated-words-data": "2253",
-    "untranslated-words-data": "-22"
+    "total-chars-data": "24391",
+    "translated-chars-data": "12471",
+    "untranslated-chars-data": "11920",
+    "total-words-data": "3507",
+    "translated-words-data": "2016",
+    "untranslated-words-data": "1491"
   },
   "9602": {
     "url": "https://gitlocalize.com/repo/9602",

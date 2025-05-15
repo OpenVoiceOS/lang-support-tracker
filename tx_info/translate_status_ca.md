@@ -33,7 +33,6 @@
 | OpenVoiceOS/skill-ovos-spelling | https://gitlocalize.com/repo/9606 | 1.0 | 313 | 49 | 0 | 0 | 313 | 49 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 1.0 | 1485 | 266 | 0 | 0 | 1485 | 266 |
 | OpenVoiceOS/skill-ovos-wallpapers | https://gitlocalize.com/repo/9604 | 1.0 | 1304 | 133 | 0 | 0 | 1304 | 133 |
-| OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 1.0 | 13453 | 2231 | 0 | 0 | 13453 | 2231 |
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 1.0 | 923 | 163 | 0 | 0 | 923 | 163 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.98 | 2912 | 355 | 47 | 8 | 2865 | 347 |
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.98 | 12209 | 2333 | 196 | 44 | 12013 | 2289 |
@@ -48,6 +47,7 @@
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.88 | 8199 | 1235 | 977 | 145 | 7222 | 1090 |
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.71 | 4577 | 639 | 1326 | 144 | 3251 | 495 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.54 | 10694 | 1962 | 4916 | 917 | 5778 | 1045 |
+| OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.51 | 24391 | 3507 | 12042 | 1513 | 12349 | 1994 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.17 | 1352 | 254 | 1118 | 226 | 234 | 28 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.14 | 170418 | 28597 | 146233 | 24566 | 24185 | 4031 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.01 | 84435 | 15866 | 83763 | 15730 | 672 | 136 |

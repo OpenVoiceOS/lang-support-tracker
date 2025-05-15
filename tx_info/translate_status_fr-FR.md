@@ -8,7 +8,6 @@
 | OpenVoiceOS/ovos-skill-camera | https://gitlocalize.com/repo/9996 | 1.0 | 310 | 62 | 0 | 0 | 310 | 62 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 1.0 | 812 | 156 | 0 | 0 | 812 | 156 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 1.0 | 829 | 175 | 0 | 0 | 829 | 175 |
-| OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.94 | 13453 | 2231 | 849 | 136 | 12604 | 2095 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.89 | 2912 | 355 | 306 | 51 | 2606 | 304 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.89 | 6271 | 758 | 671 | 68 | 5600 | 690 |
 | OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.88 | 6736 | 1159 | 779 | 153 | 5957 | 1006 |
@@ -20,6 +19,7 @@
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.61 | 798 | 148 | 313 | 67 | 485 | 81 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.58 | 363 | 73 | 154 | 32 | 209 | 41 |
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.55 | 1498 | 212 | 680 | 99 | 818 | 113 |
+| OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.47 | 24391 | 3507 | 12891 | 1649 | 11500 | 1858 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.46 | 560 | 80 | 305 | 33 | 255 | 47 |
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 0.41 | 617 | 99 | 364 | 66 | 253 | 33 |
 | OpenVoiceOS/skill-ovos-pyradios | https://gitlocalize.com/repo/9774 | 0.41 | 63 | 7 | 37 | 3 | 26 | 4 |
