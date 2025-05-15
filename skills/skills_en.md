@@ -67,6 +67,19 @@ continuously transcribes user speech to text file while enabled
 -------
 
 
+### ovos-skill-fuster-quotes.openvoiceos
+
+The Fuster quote of the day
+
+**Usage examples:**
+- Digue’m un aforisme del Fuster
+- Fuster's quote of the day.
+- Tell me a quote from Joan Fuster.
+- The Fuster quote of the day.
+
+-------
+
+
 ### ovos-skill-ip.openvoiceos
 
 Network connection information

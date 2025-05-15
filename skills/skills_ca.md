@@ -67,6 +67,24 @@ Mentre està activada, transcriu de forma contínua la parla de l'usuari en un f
 -------
 
 
+### ovos-skill-fuster-quotes.openvoiceos
+
+La cita del dia de Fuster
+
+**Usage examples:**
+- Algun pensament fusterià?
+- Digues-me alguna cosa fusteriana
+- Digue’m un aforisme del Fuster
+- La frase del Fuster del dia
+- Necessito alguna idea fusteriana
+- Què diria Joan Fuster, aquí?
+- Què diu en Fuster?
+- Què pensen els fusterians?
+- Vull sentir un aforisme fusterià
+
+-------
+
+
 ### ovos-skill-ip.openvoiceos
 
 Informació de connexió de la xarxa
