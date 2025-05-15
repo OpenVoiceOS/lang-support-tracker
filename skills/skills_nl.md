@@ -18,7 +18,7 @@ Een skill om wekkers, timers, herinneringen, agenda-afspraken en taken te planne
 -------
 
 
-### skill-ovos-boot-finished.openvoiceos
+### ovos-skill-boot-finished.openvoiceos
 
 De "Ik ben er klaar voor" skill geeft meldingen wanneer OpenVoiceOS volledig is gestart en alle onderdelen klaar zijn voor gebruik.
 
@@ -30,7 +30,7 @@ De "Ik ben er klaar voor" skill geeft meldingen wanneer OpenVoiceOS volledig is 
 -------
 
 
-### skill-ovos-date-time.openvoiceos
+### ovos-skill-date-time.openvoiceos
 
 Hoor de tijd, datum en dag van de week
 
@@ -46,7 +46,7 @@ Hoor de tijd, datum en dag van de week
 -------
 
 
-### skill-ovos-hello-world.openvoiceos
+### ovos-skill-hello-world.openvoiceos
 
 Voorbeeld skill om ontwikkelaars te laten zien hoe een OVOS-skill ontwikkeld kan worden
 
@@ -58,7 +58,7 @@ Voorbeeld skill om ontwikkelaars te laten zien hoe een OVOS-skill ontwikkeld kan
 -------
 
 
-### skill-ovos-weather.openvoiceos
+### ovos-skill-weather.openvoiceos
 
 Ontvang de weersvoorspellingen, verwachte neerslag en meer! Je kunt ook vragen naar het weerbeeld in andere steden over de hele wereld. Huidige weergegevens en voorspellingen komen van OpenMeteo
 

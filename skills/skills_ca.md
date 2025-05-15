@@ -18,6 +18,18 @@ Una habilitat per a gestionar alarmes, temporitzadors, recordatoris, esdevenimen
 -------
 
 
+### ovos-skill-boot-finished.openvoiceos
+
+L'habilitat d'engegada acabada proporciona notificacions quan l'OpenVoiceOS s'ha iniciat completament i tots els serveis bàsics estan preparats
+
+**Usage examples:**
+- Activa les notificacions preparades.
+- Desactiva les notificacions preparades.
+- El sistema està preparat?
+
+-------
+
+
 ### ovos-skill-cmd.forslund
 
 No description available
@@ -42,6 +54,22 @@ Cites de Confuci
 -------
 
 
+### ovos-skill-date-time.openvoiceos
+
+Obteniu l'hora, la data, el dia de la setmana
+
+**Usage examples:**
+- Digues-me el dia de la setmana
+- Mostra'm l'hora
+- Quants dies falten per al 24 de juny?
+- Quin dia és el dia del Punt Volat de 2026?
+- Quina data som?
+- Quina hora és a París?
+- Quina hora és?
+
+-------
+
+
 ### ovos-skill-days-in-history.openvoiceos
 
 Proporciona esdeveniments històrics d'avui o de qualsevol altre dia natural mitjançant la informació extreta de la Viquipèdia.
@@ -52,6 +80,18 @@ Proporciona esdeveniments històrics d'avui o de qualsevol altre dia natural mit
 - Qui va néixer avui a la història?
 - Quins fets històrics van passar el 16 de juny?
 - Què va passar avui a la història?
+
+-------
+
+
+### ovos-skill-ddg.openvoiceos
+
+Usa DuckDuckGo per a respondre preguntes.
+
+**Usage examples:**
+- Pregunta a l'ànec sobre el big bang
+- Quan va néixer Stephen Hawking?
+- Qui és Elon Musk
 
 -------
 
@@ -85,6 +125,34 @@ La cita del dia de Fuster
 -------
 
 
+### ovos-skill-hello-world.openvoiceos
+
+Habilitat introductòria perquè els autors d'habilitats puguin veure com és una habilitat d'OVOS
+
+**Usage examples:**
+- Com estàs?
+- Gràcies
+- Hola món
+
+-------
+
+
+### ovos-skill-icanhazdadjokes.openvoiceos
+
+Il·lumina el teu dia amb l'humor del pare. El riure no està assegurat, però és probable que rodolis els ulls.
+
+**Usage examples:**
+- Coneixes algun acudit de Chuck Norris?
+- Digues una broma.
+- Explica'm un acudit sobre dentistes.
+- Explica'm un acudit.
+- Fes-me riure.
+- Pots explicar acudits?
+- Saps cap acudit?
+
+-------
+
+
 ### ovos-skill-ip.openvoiceos
 
 Informació de connexió de la xarxa
@@ -113,6 +181,52 @@ Seguiment de la ubicació de l'EEI
 -------
 
 
+### ovos-skill-moviemaster.openvoiceos
+
+Cerca informació sobre pel·lícules, actors i detalls de producció. Trobeu fàcilment informació sobre una pel·lícula amb la veu.
+
+**Usage examples:**
+- A quins gèneres pertany la pel·lícula _______?
+- Busca informació sobre la pel·lícula _______.
+- De què tracta la pel·lícula _______?
+- Explica'm coses de la pel·lícula _______
+- Quan es va fer la pel·lícula _______?
+- Quant dura la pel·lícula _______?
+- Qui surt a la pel·lícula _______?
+- Quines pel·lícules com _______  recomanes?
+- Quines pel·lícules populars hi ha ara en cartellera?
+- Quines són les pel·lícules amb millor puntuació?
+
+-------
+
+
+### ovos-skill-naptime.openvoiceos
+
+Poseu a dormir l'assistent quan vulgueu que no us molestin.
+
+**Usage examples:**
+- Desperta
+- Hora de la migdiada
+- Ves a dormir
+
+-------
+
+
+### ovos-skill-news.openvoiceos
+
+Canals de notícies d'arreu del món.
+
+**Usage examples:**
+- posa euronews
+- posa les notícies
+- posa notícies en català
+- posa notícies en portuguès
+- posa npr news
+- posta notícies en castellà
+
+-------
+
+
 ### ovos-skill-number-facts.openvoiceos
 
 Fets sobre els nombres
@@ -125,6 +239,25 @@ Fets sobre els nombres
 - preguntes sobre demà
 - preguntes sobre la setmana vinent
 - un fet matemàtic sobre el nombre 7
+
+-------
+
+
+### ovos-skill-parrot.openvoiceos
+
+Converteix OpenVoiceOS en un lloro! Feu que OVOS repeteixi tot el que vulgueu.
+
+**Usage examples:**
+- Digues-me el que acabo de dir.
+- Parla, puc dir el que vulguis!
+- Pots repetir això?
+- Què acabo de dir?
+- Repeteix això
+- Repeteix el que acabo de dir
+- comença el lloro
+- digues bona nit, Graciela
+- para el lloro
+- repeteix Hi havia una nit trista, mentre jo reflexionava, dèbil i cansat, sobre molts volums pintorescs i curiosos de tradicions oblidades.
 
 -------
 
@@ -152,6 +285,44 @@ Executa una prova d'amplada de banda d'internet usant speedtest.net
 -------
 
 
+### ovos-skill-volume.openvoiceos
+
+Controleu el volum d'OVOS amb ordres verbals
+
+**Usage examples:**
+- abaixa el nivell de volum
+- apuja el volum
+- commuta el silenci
+- commuta l'àudio
+- deixa de silenciar
+- màxim volum
+- nivell de volum alt
+- nivell de volum baix
+- no silenciïs el volum
+- no silencïis l'àudio
+
+-------
+
+
+### ovos-skill-weather.openvoiceos
+
+Obteniu les condicions meteorològiques, les previsions, les precipitacions esperades i molt més! També podeu demanar per altres ciutats del món. Les condicions actuals i les previsions meteorològiques provenen d'OpenMeteo
+
+**Usage examples:**
+- Farà fred dimarts?
+- Nevarà a Baltimore?
+- Nevarà?
+- Quan tornarà a ploure?
+- Quan és la posta de sol?
+- Quin temps fa a Houston?
+- Quin temps fa?
+- Quin temps farà aquest cap de setmana?
+- Quin temps farà dimarts?
+- Quin temps farà els pròxims tres dies?
+
+-------
+
+
 ### ovos-skill-wikihow.openvoiceos
 
 Com fer gairebé qualsevolcosa
@@ -159,6 +330,40 @@ Com fer gairebé qualsevolcosa
 **Usage examples:**
 - Com puc aconseguir que el meu gos deixi de bordar?
 - com bullir un ou
+
+-------
+
+
+### ovos-skill-wikipedia.openvoiceos
+
+Consulteu la Viquipèdia per a obtenir respostes a totes les vostres preguntes. Obteniu només un resum o demaneu més informació per a obtenir informació detallada.
+
+**Usage examples:**
+- Busca a la wikipedia qui era Joan Maragall
+- Busca informació sobre el Barri Vell de Banyoles
+- Cerca sobre xocolata
+- Consulta la Viquipèdia sobre fesols
+- Digues-me més
+- Més informació
+- Parla'm d'Elon Musk
+- Parla'm del Pembroke Welsh Corgi
+- Parla'm dels fesols
+- Què saps del Canigó?
+
+-------
+
+
+### ovos-skill-wolfie.openvoiceos
+
+Useu Wolfram Alpha per a preguntes de coneixement general.
+
+**Usage examples:**
+- Quan es va estrenar The Rocky Horror Picture Show?
+- Quant és 18 per 4?
+- Quantes polzades té un metre?
+- Quin és el nom real de Madonna?
+- Quina alçada té l'Everest?
+- pregunta al llop quina és la velocitat de la llum
 
 -------
 
@@ -188,120 +393,6 @@ No description available
 -------
 
 
-### skill-ovos-boot-finished.openvoiceos
-
-L'habilitat d'engegada acabada proporciona notificacions quan l'OpenVoiceOS s'ha iniciat completament i tots els serveis bàsics estan preparats
-
-**Usage examples:**
-- Activa les notificacions preparades.
-- Desactiva les notificacions preparades.
-- El sistema està preparat?
-
--------
-
-
-### skill-ovos-date-time.openvoiceos
-
-Obteniu l'hora, la data, el dia de la setmana
-
-**Usage examples:**
-- Digues-me el dia de la setmana
-- Mostra'm l'hora
-- Quants dies falten per al 24 de juny?
-- Quin dia és el dia del Punt Volat de 2026?
-- Quina data som?
-- Quina hora és a París?
-- Quina hora és?
-
--------
-
-
-### skill-ovos-ddg.openvoiceos
-
-Usa DuckDuckGo per a respondre preguntes.
-
-**Usage examples:**
-- Pregunta a l'ànec sobre el big bang
-- Quan va néixer Stephen Hawking?
-- Qui és Elon Musk
-
--------
-
-
-### skill-ovos-hello-world.openvoiceos
-
-Habilitat introductòria perquè els autors d'habilitats puguin veure com és una habilitat d'OVOS
-
-**Usage examples:**
-- Com estàs?
-- Gràcies
-- Hola món
-
--------
-
-
-### skill-ovos-icanhazdadjokes.openvoiceos
-
-Il·lumina el teu dia amb l'humor del pare. El riure no està assegurat, però és probable que rodolis els ulls.
-
-**Usage examples:**
-- Coneixes algun acudit de Chuck Norris?
-- Digues una broma.
-- Explica'm un acudit sobre dentistes.
-- Explica'm un acudit.
-- Fes-me riure.
-- Pots explicar acudits?
-- Saps cap acudit?
-
--------
-
-
-### skill-ovos-naptime.openvoiceos
-
-Poseu a dormir l'assistent quan vulgueu que no us molestin.
-
-**Usage examples:**
-- Desperta
-- Hora de la migdiada
-- Ves a dormir
-
--------
-
-
-### skill-ovos-news.openvoiceos
-
-Canals de notícies d'arreu del món.
-
-**Usage examples:**
-- posa euronews
-- posa les notícies
-- posa notícies en català
-- posa notícies en portuguès
-- posa npr news
-- posta notícies en castellà
-
--------
-
-
-### skill-ovos-parrot.openvoiceos
-
-Converteix OpenVoiceOS en un lloro! Feu que OVOS repeteixi tot el que vulgueu.
-
-**Usage examples:**
-- Digues-me el que acabo de dir.
-- Parla, puc dir el que vulguis!
-- Pots repetir això?
-- Què acabo de dir?
-- Repeteix això
-- Repeteix el que acabo de dir
-- comença el lloro
-- digues bona nit, Graciela
-- para el lloro
-- repeteix Hi havia una nit trista, mentre jo reflexionava, dèbil i cansat, sobre molts volums pintorescs i curiosos de tradicions oblidades.
-
--------
-
-
 ### skill-ovos-spelling.openvoiceos
 
 No description available
@@ -311,78 +402,6 @@ No description available
 - Com s'escriu burocràcia?
 - Lletreja omnipotència
 - Lletreja ornitorrinc
-
--------
-
-
-### skill-ovos-volume.openvoiceos
-
-Controleu el volum d'OVOS amb ordres verbals
-
-**Usage examples:**
-- abaixa el nivell de volum
-- apuja el volum
-- commuta el silenci
-- commuta l'àudio
-- deixa de silenciar
-- màxim volum
-- nivell de volum alt
-- nivell de volum baix
-- no silenciïs el volum
-- no silencïis l'àudio
-
--------
-
-
-### skill-ovos-weather.openvoiceos
-
-Obteniu les condicions meteorològiques, les previsions, les precipitacions esperades i molt més! També podeu demanar per altres ciutats del món. Les condicions actuals i les previsions meteorològiques provenen d'OpenMeteo
-
-**Usage examples:**
-- Farà fred dimarts?
-- Nevarà a Baltimore?
-- Nevarà?
-- Quan tornarà a ploure?
-- Quan és la posta de sol?
-- Quin temps fa a Houston?
-- Quin temps fa?
-- Quin temps farà aquest cap de setmana?
-- Quin temps farà dimarts?
-- Quin temps farà els pròxims tres dies?
-
--------
-
-
-### skill-ovos-wikipedia.openvoiceos
-
-Consulteu la Viquipèdia per a obtenir respostes a totes les vostres preguntes. Obteniu només un resum o demaneu més informació per a obtenir informació detallada.
-
-**Usage examples:**
-- Busca a la wikipedia qui era Joan Maragall
-- Busca informació sobre el Barri Vell de Banyoles
-- Cerca sobre xocolata
-- Consulta la Viquipèdia sobre fesols
-- Digues-me més
-- Més informació
-- Parla'm d'Elon Musk
-- Parla'm del Pembroke Welsh Corgi
-- Parla'm dels fesols
-- Què saps del Canigó?
-
--------
-
-
-### skill-ovos-wolfie.openvoiceos
-
-Useu Wolfram Alpha per a preguntes de coneixement general.
-
-**Usage examples:**
-- Quan es va estrenar The Rocky Horror Picture Show?
-- Quant és 18 per 4?
-- Quantes polzades té un metre?
-- Quin és el nom real de Madonna?
-- Quina alçada té l'Everest?
-- pregunta al llop quina és la velocitat de la llum
 
 -------
 

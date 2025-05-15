@@ -18,6 +18,18 @@ En færdighed til at administrere alarmer, timere, påmindelser, begivenheder og
 -------
 
 
+### ovos-skill-boot-finished.openvoiceos
+
+Færdigheden til færdig opstart giver besked, når OpenVoiceOS er fuldt startet, og alle kernetjenester er klar
+
+**Usage examples:**
+- Aktiver klarmeddelelser.
+- Deaktiver klarmeddelelser.
+- Er systemet klar?
+
+-------
+
+
 ### ovos-skill-cmd.forslund
 
 No description available
@@ -42,6 +54,22 @@ Citater fra Confucius
 -------
 
 
+### ovos-skill-date-time.openvoiceos
+
+Få tid, dato, ugedag
+
+**Usage examples:**
+- Fortæl mig ugedagen
+- Hvad er datoen?
+- Hvad er klokken i Paris?
+- Hvad er klokken?
+- Hvilken dag er Memorial Day 2020?
+- Hvor mange dage indtil 4. juli
+- Vis mig tiden
+
+-------
+
+
 ### ovos-skill-days-in-history.openvoiceos
 
 Giver historiske begivenheder for i dag eller enhver anden kalenderdag ved hjælp af oplysninger hentet fra Wikipedia.
@@ -56,6 +84,18 @@ Giver historiske begivenheder for i dag eller enhver anden kalenderdag ved hjæl
 -------
 
 
+### ovos-skill-ddg.openvoiceos
+
+Brug DuckDuckGo til at besvare spørgsmål.
+
+**Usage examples:**
+- hvem er elon musk
+- hvornår blev stephen hawking født
+- spørg anden om big bang
+
+-------
+
+
 ### ovos-skill-dictation.openvoiceos
 
 transskriberer løbende brugertale til tekstfil, mens den er aktiveret
@@ -63,6 +103,34 @@ transskriberer løbende brugertale til tekstfil, mens den er aktiveret
 **Usage examples:**
 - afslut diktat
 - start diktat
+
+-------
+
+
+### ovos-skill-hello-world.openvoiceos
+
+Introduktionsfærdighed, så færdighedsforfattere kan se, hvordan en OVOS-færdighed er sat sammen
+
+**Usage examples:**
+- Hej verden
+- Hvordan har du det?
+- Tak
+
+-------
+
+
+### ovos-skill-icanhazdadjokes.openvoiceos
+
+Gør din dag glad med farhumor. Latter er ikke garanteret, men øjenruller er sandsynlige.
+
+**Usage examples:**
+- Fortæl mig en vittighed om tandlæger.
+- Fortæl mig en vittighed.
+- Få mig til at grine.
+- Kan du fortælle vittigheder?
+- Kender du nogen Chuck Norris-jokes?
+- Kender du nogle vittigheder?
+- Sig en joke.
 
 -------
 
@@ -95,6 +163,71 @@ Spor placeringen af ​​ISS
 -------
 
 
+### ovos-skill-local-media.openvoiceos
+
+Lokal mediefilbrowser til Open Voice OS
+
+**Usage examples:**
+- start filbrowser-appen
+- start filbrowseren
+- start usb browser
+- start usb browser app
+- vis filbrowser
+- vis filbrowser-app
+- vis filbrowserdrev
+- vis min filbrowser
+- vis min usb
+- vis mit filbrowserdrev
+
+-------
+
+
+### ovos-skill-moviemaster.openvoiceos
+
+Find oplysninger om film, skuespillere og produktionsdetaljer. Find nemt information om en film med din stemme.
+
+**Usage examples:**
+- Fortæl mig om filmen _______
+- Har du info om filmen _______?
+- Hvad er de højest vurderede film ude?
+- Hvad handler filmen _______ om?
+- Hvem spiller i filmen _______?
+- Hvilke film anbefaler du som _______?
+- Hvilke genrer hører filmen _______ til?
+- Hvilke populære film afspilles nu?
+- Hvor lang er filmen _______?
+- Hvornår blev filmen _______ lavet?
+
+-------
+
+
+### ovos-skill-naptime.openvoiceos
+
+Læg assistenten til at sove, når du ikke vil forstyrres.
+
+**Usage examples:**
+- Gå i seng
+- Nap tid
+- Vågn op
+
+-------
+
+
+### ovos-skill-news.openvoiceos
+
+Nyheder fra hele kloden.
+
+**Usage examples:**
+- afspil catalanske nyheder
+- afspil nyheder på spansk
+- afspil nyhederne
+- afspil portugisiske nyheder
+- spil euronews
+- spil npr nyheder
+
+-------
+
+
 ### ovos-skill-number-facts.openvoiceos
 
 Fakta om tal
@@ -107,6 +240,25 @@ Fakta om tal
 - trivia om i morgen
 - trivia om næste uge
 - trivia tilfældigt tal
+
+-------
+
+
+### ovos-skill-parrot.openvoiceos
+
+Gør OpenVoiceOS til en ekko papegøje! Få OVOS til at gentage, hvad du vil.
+
+**Usage examples:**
+- Fortæl mig, hvad jeg lige sagde.
+- Gentag det
+- Gentag, hvad du lige sagde
+- Hvad sagde jeg lige?
+- Kan du gentage det?
+- Sig godnat, Gracie
+- gentag Engang en midnat trist, mens jeg grublede, svag og træt, over mange en særegne og mærkværdige mængde glemt historie
+- start papegøje
+- stop papegøje
+- tal jeg kan sige hvad du vil!
 
 -------
 
@@ -134,6 +286,44 @@ kører en internetbåndbreddetest ved hjælp af speedtest.net
 -------
 
 
+### ovos-skill-volume.openvoiceos
+
+Styr lydstyrken på OVOS med verbale kommandoer
+
+**Usage examples:**
+- dæmp lydstyrken
+- genopret lydstyrken
+- høj lydstyrke
+- høj lydstyrke
+- indstill lydstyrken til standard
+- indstill lydstyrken til standard
+- indstill volumen til medium
+- indstille lydstyrken til maksimum
+- indstille lydstyrken til maksimum
+- lav lydstyrke
+
+-------
+
+
+### ovos-skill-weather.openvoiceos
+
+Få vejrforhold, prognoser, forventet nedbør og meget mere! Du kan også spørge efter andre byer rundt om i verden. Aktuelle forhold og vejrudsigter kommer fra OpenMeteo
+
+**Usage examples:**
+- Bliver det koldt på tirsdag
+- Hvad er den høje temperatur i morgen
+- Hvad er luftfugtigheden?
+- Hvad er temperaturen i Paris i morgen i Celsius?
+- Hvad er temperaturen?
+- Hvad er vejret denne weekend?
+- Hvad er vejret i Houston?
+- Hvad er vejrudsigten i London i morgen?
+- Hvad er vejrudsigten i morgen?
+- Hvor blæser det?
+
+-------
+
+
 ### ovos-skill-wikihow.openvoiceos
 
 Sådan gør du næsten alt.
@@ -141,6 +331,37 @@ Sådan gør du næsten alt.
 **Usage examples:**
 - hvordan får jeg min hund til at stoppe med at gø
 - hvordan koger man et æg
+
+-------
+
+
+### ovos-skill-wikipedia.openvoiceos
+
+Spørg Wikipedia for at få svar på alle dine spørgsmål. Få blot et resumé, eller bed om mere for at få dybdegående information.
+
+**Usage examples:**
+- Fortæl mig mere
+- Fortæl mig om Elon Musk
+- Fortæl mig om Pembroke Welsh Corgi
+- Fortæl mig om bønner
+- Mere information
+- Søg efter chokolade
+- Tjek Wikipedia for bønner
+
+-------
+
+
+### ovos-skill-wolfie.openvoiceos
+
+Brug Wolfram Alpha til generelle vidensspørgsmål.
+
+**Usage examples:**
+- Hvad er 18 gange 4?
+- Hvad er Madonnas rigtige navn?
+- Hvor højt er Mount Everest?
+- Hvor mange tommer i en meter?
+- Hvornår blev The Rocky Horror Picture Show udgivet?
+- spørg ulven, hvad lysets hastighed er
 
 -------
 
@@ -170,139 +391,6 @@ No description available
 -------
 
 
-### skill-ovos-boot-finished.openvoiceos
-
-Færdigheden til færdig opstart giver besked, når OpenVoiceOS er fuldt startet, og alle kernetjenester er klar
-
-**Usage examples:**
-- Aktiver klarmeddelelser.
-- Deaktiver klarmeddelelser.
-- Er systemet klar?
-
--------
-
-
-### skill-ovos-date-time.openvoiceos
-
-Få tid, dato, ugedag
-
-**Usage examples:**
-- Fortæl mig ugedagen
-- Hvad er datoen?
-- Hvad er klokken i Paris?
-- Hvad er klokken?
-- Hvilken dag er Memorial Day 2020?
-- Hvor mange dage indtil 4. juli
-- Vis mig tiden
-
--------
-
-
-### skill-ovos-ddg.openvoiceos
-
-Brug DuckDuckGo til at besvare spørgsmål.
-
-**Usage examples:**
-- hvem er elon musk
-- hvornår blev stephen hawking født
-- spørg anden om big bang
-
--------
-
-
-### skill-ovos-hello-world.openvoiceos
-
-Introduktionsfærdighed, så færdighedsforfattere kan se, hvordan en OVOS-færdighed er sat sammen
-
-**Usage examples:**
-- Hej verden
-- Hvordan har du det?
-- Tak
-
--------
-
-
-### skill-ovos-icanhazdadjokes.openvoiceos
-
-Gør din dag glad med farhumor. Latter er ikke garanteret, men øjenruller er sandsynlige.
-
-**Usage examples:**
-- Fortæl mig en vittighed om tandlæger.
-- Fortæl mig en vittighed.
-- Få mig til at grine.
-- Kan du fortælle vittigheder?
-- Kender du nogen Chuck Norris-jokes?
-- Kender du nogle vittigheder?
-- Sig en joke.
-
--------
-
-
-### skill-ovos-local-media.openvoiceos
-
-Lokal mediefilbrowser til Open Voice OS
-
-**Usage examples:**
-- start filbrowser-appen
-- start filbrowseren
-- start usb browser
-- start usb browser app
-- vis filbrowser
-- vis filbrowser-app
-- vis filbrowserdrev
-- vis min filbrowser
-- vis min usb
-- vis mit filbrowserdrev
-
--------
-
-
-### skill-ovos-naptime.openvoiceos
-
-Læg assistenten til at sove, når du ikke vil forstyrres.
-
-**Usage examples:**
-- Gå i seng
-- Nap tid
-- Vågn op
-
--------
-
-
-### skill-ovos-news.openvoiceos
-
-Nyheder fra hele kloden.
-
-**Usage examples:**
-- afspil catalanske nyheder
-- afspil nyheder på spansk
-- afspil nyhederne
-- afspil portugisiske nyheder
-- spil euronews
-- spil npr nyheder
-
--------
-
-
-### skill-ovos-parrot.openvoiceos
-
-Gør OpenVoiceOS til en ekko papegøje! Få OVOS til at gentage, hvad du vil.
-
-**Usage examples:**
-- Fortæl mig, hvad jeg lige sagde.
-- Gentag det
-- Gentag, hvad du lige sagde
-- Hvad sagde jeg lige?
-- Kan du gentage det?
-- Sig godnat, Gracie
-- gentag Engang en midnat trist, mens jeg grublede, svag og træt, over mange en særegne og mærkværdige mængde glemt historie
-- start papegøje
-- stop papegøje
-- tal jeg kan sige hvad du vil!
-
--------
-
-
 ### skill-ovos-spelling.openvoiceos
 
 No description available
@@ -312,75 +400,6 @@ No description available
 - Hvordan staves jordvark?
 - Stav almagt
 - Stav succotash
-
--------
-
-
-### skill-ovos-volume.openvoiceos
-
-Styr lydstyrken på OVOS med verbale kommandoer
-
-**Usage examples:**
-- dæmp lydstyrken
-- genopret lydstyrken
-- høj lydstyrke
-- høj lydstyrke
-- indstill lydstyrken til standard
-- indstill lydstyrken til standard
-- indstill volumen til medium
-- indstille lydstyrken til maksimum
-- indstille lydstyrken til maksimum
-- lav lydstyrke
-
--------
-
-
-### skill-ovos-weather.openvoiceos
-
-Få vejrforhold, prognoser, forventet nedbør og meget mere! Du kan også spørge efter andre byer rundt om i verden. Aktuelle forhold og vejrudsigter kommer fra OpenMeteo
-
-**Usage examples:**
-- Bliver det koldt på tirsdag
-- Hvad er den høje temperatur i morgen
-- Hvad er luftfugtigheden?
-- Hvad er temperaturen i Paris i morgen i Celsius?
-- Hvad er temperaturen?
-- Hvad er vejret denne weekend?
-- Hvad er vejret i Houston?
-- Hvad er vejrudsigten i London i morgen?
-- Hvad er vejrudsigten i morgen?
-- Hvor blæser det?
-
--------
-
-
-### skill-ovos-wikipedia.openvoiceos
-
-Spørg Wikipedia for at få svar på alle dine spørgsmål. Få blot et resumé, eller bed om mere for at få dybdegående information.
-
-**Usage examples:**
-- Fortæl mig mere
-- Fortæl mig om Elon Musk
-- Fortæl mig om Pembroke Welsh Corgi
-- Fortæl mig om bønner
-- Mere information
-- Søg efter chokolade
-- Tjek Wikipedia for bønner
-
--------
-
-
-### skill-ovos-wolfie.openvoiceos
-
-Brug Wolfram Alpha til generelle vidensspørgsmål.
-
-**Usage examples:**
-- Hvad er 18 gange 4?
-- Hvad er Madonnas rigtige navn?
-- Hvor højt er Mount Everest?
-- Hvor mange tommer i en meter?
-- Hvornår blev The Rocky Horror Picture Show udgivet?
-- spørg ulven, hvad lysets hastighed er
 
 -------
 

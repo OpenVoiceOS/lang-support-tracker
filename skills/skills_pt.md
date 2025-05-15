@@ -10,6 +10,37 @@ No description available
 -------
 
 
+### ovos-skill-icanhazdadjokes.openvoiceos
+
+Ilumine o seu dia com humor de pai. O riso não é garantido, mas é provável que revire os olhos.
+
+**Usage examples:**
+- Conhece alguma piada de Chuck Norris?
+- Conhece alguma piada?
+- Conte-me uma piada sobre dentistas.
+- Conte-me uma piada.
+- Diga uma piada.
+- Faça-me rir.
+- Pode contar piadas?
+
+-------
+
+
+### ovos-skill-news.openvoiceos
+
+Notícias de todo o mundo.
+
+**Usage examples:**
+- reproduza as notícias
+- reproduzir euronews
+- reproduzir notícias catalãs
+- reproduzir notícias da NPR
+- reproduzir notícias em espanhol
+- reproduzir notícias portuguesas
+
+-------
+
+
 ### ovos-skill-number-facts.openvoiceos
 
 Factos sobre números
@@ -26,38 +57,7 @@ Factos sobre números
 -------
 
 
-### skill-ovos-icanhazdadjokes.openvoiceos
-
-Ilumine o seu dia com humor de pai. O riso não é garantido, mas é provável que revire os olhos.
-
-**Usage examples:**
-- Conhece alguma piada de Chuck Norris?
-- Conhece alguma piada?
-- Conte-me uma piada sobre dentistas.
-- Conte-me uma piada.
-- Diga uma piada.
-- Faça-me rir.
-- Pode contar piadas?
-
--------
-
-
-### skill-ovos-news.openvoiceos
-
-Notícias de todo o mundo.
-
-**Usage examples:**
-- reproduza as notícias
-- reproduzir euronews
-- reproduzir notícias catalãs
-- reproduzir notícias da NPR
-- reproduzir notícias em espanhol
-- reproduzir notícias portuguesas
-
--------
-
-
-### skill-ovos-volume.openvoiceos
+### ovos-skill-volume.openvoiceos
 
 Controle o volume do OVOS com comandos verbais
 

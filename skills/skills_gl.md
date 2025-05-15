@@ -29,45 +29,7 @@ No description available
 -------
 
 
-### ovos-skill-iss-location.openvoiceos
-
-Rastrexa a localización da EEI
-
-**Usage examples:**
-- Cando pasa a EEI?
-- Fálame da EEI
-- Onde está a EEI?
-- Quen está a bordo da estación espacial?
-- cantas persoas están a bordo da estación espacial
-
--------
-
-
-### ovos-skill-personal.openvoiceos
-
-Coñece a historia e a personalidade do asistente. Pregunta sobre o seu "nacemento" e orixe, e descubre a comunidade que está a impulsar esta intelixencia artificial de código aberto.
-
-**Usage examples:**
-- Cando te crearon?
-- Onde naciches?
-- Que es ti?
-- Quen te (fixo|creou)?
-
--------
-
-
-### ovos-skill-wikihow.openvoiceos
-
-Como facer case calquera cousa.
-
-**Usage examples:**
-- como consigo que o meu can deixe de ladrar
-- como ferver un ovo
-
--------
-
-
-### skill-ovos-date-time.openvoiceos
+### ovos-skill-date-time.openvoiceos
 
 Obtén a hora, a data, o día da semana
 
@@ -83,7 +45,7 @@ Obtén a hora, a data, o día da semana
 -------
 
 
-### skill-ovos-ddg.openvoiceos
+### ovos-skill-ddg.openvoiceos
 
 Usar DuckDuckGo para responder preguntas.
 
@@ -95,7 +57,7 @@ Usar DuckDuckGo para responder preguntas.
 -------
 
 
-### skill-ovos-hello-world.openvoiceos
+### ovos-skill-hello-world.openvoiceos
 
 Habilidade introdutiva para que as persoas programadoras de habilidades poidan ver como se monta unha habilidade OVOS
 
@@ -107,7 +69,40 @@ Habilidade introdutiva para que as persoas programadoras de habilidades poidan v
 -------
 
 
-### skill-ovos-naptime.openvoiceos
+### ovos-skill-iss-location.openvoiceos
+
+Rastrexa a localización da EEI
+
+**Usage examples:**
+- Cando pasa a EEI?
+- Fálame da EEI
+- Onde está a EEI?
+- Quen está a bordo da estación espacial?
+- cantas persoas están a bordo da estación espacial
+
+-------
+
+
+### ovos-skill-moviemaster.openvoiceos
+
+Busca información sobre filmes, actores, actrices e detalles de produción. Consigue información sobre unha película coa túa voz facilmente.
+
+**Usage examples:**
+- (Busca|Buscar|Procura|Procurar|Atopa|Atopar|Consigue|Conseguir) (info|información) (sobre a|sobre o|da|do) (película|peli|filme) _______.
+- (Cando se fixo|De cando é) (a película|a peli|o filme) _______?
+- (Sobre|De) que (trata|vai) (a película|a peli|o filme) _______?
+- A que xénero pertence (a película|a peli|o filme) _______?
+- Cales son (as películas|as pelis|os filmes) (con mellor valoración|con maior valoración|con máis puntuación|con máis valoración|con mellor puntuación|con maior puntuación|mellor valoradas|mellor valorados|mellor puntuadas|mellor puntuados|máis puntuadas|máis puntuados)?
+- Canto dura (a película|a peli|o filme) _______?
+- Fálame (da película|da peli|do filme) _______
+- Que (películas|pelis|filmes) (populares|coñecidas) (se botan|se están botando|se están a botar|se poñen|se están poñendo|se están a poñer|se pon|se están pondo|se están a pór|se ven|se poden ver|se miran|se poden mirar|se reproducen|se están reproducindo|se están a reproducir) agora mesmo?
+- Que (películas|pelis|filmes) recomendas (coma|como|do estilo de|do tipo de|en plan) _______?
+- Quen (actúa|aparece) (na película|na peli|no filme) _______?
+
+-------
+
+
+### ovos-skill-naptime.openvoiceos
 
 Pon o asistente a durmir cando non queiras que te moleste.
 
@@ -119,7 +114,7 @@ Pon o asistente a durmir cando non queiras que te moleste.
 -------
 
 
-### skill-ovos-news.openvoiceos
+### ovos-skill-news.openvoiceos
 
 Canles de noticias de todo o mundo.
 
@@ -134,7 +129,7 @@ Canles de noticias de todo o mundo.
 -------
 
 
-### skill-ovos-parrot.openvoiceos
+### ovos-skill-parrot.openvoiceos
 
 Converte OpenVoiceOS nun papagaio imitador! Fai que OVOS repita o que queiras.
 
@@ -153,20 +148,20 @@ Converte OpenVoiceOS nun papagaio imitador! Fai que OVOS repita o que queiras.
 -------
 
 
-### skill-ovos-spelling.openvoiceos
+### ovos-skill-personal.openvoiceos
 
-No description available
+Coñece a historia e a personalidade do asistente. Pregunta sobre o seu "nacemento" e orixe, e descubre a comunidade que está a impulsar esta intelixencia artificial de código aberto.
 
 **Usage examples:**
-- Como se escribe aardvark?
-- Como se soletrea burocracia?
-- Deletrea succotash
-- Soletrea omnipotencia
+- Cando te crearon?
+- Onde naciches?
+- Que es ti?
+- Quen te (fixo|creou)?
 
 -------
 
 
-### skill-ovos-volume.openvoiceos
+### ovos-skill-volume.openvoiceos
 
 Controla o volume de OVOS con comandos verbais
 
@@ -185,7 +180,7 @@ Controla o volume de OVOS con comandos verbais
 -------
 
 
-### skill-ovos-weather.openvoiceos
+### ovos-skill-weather.openvoiceos
 
 Obtén as condicións meteorolóxicas, previsións, precipitacións esperadas e moito máis! Tamén podes consultar o tempo noutras cidades do mundo. As condicións actuais e as previsións meteorolóxicas proveñen de OpenMeteo
 
@@ -200,6 +195,30 @@ Obtén as condicións meteorolóxicas, previsións, precipitacións esperadas e 
 - Cando volverá chover?
 - Como será o tempo esta fin de semana?
 - Como será o tempo nos próximos tres días?
+
+-------
+
+
+### ovos-skill-wikihow.openvoiceos
+
+Como facer case calquera cousa.
+
+**Usage examples:**
+- como consigo que o meu can deixe de ladrar
+- como ferver un ovo
+
+-------
+
+
+### skill-ovos-spelling.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Como se escribe aardvark?
+- Como se soletrea burocracia?
+- Deletrea succotash
+- Soletrea omnipotencia
 
 -------
 

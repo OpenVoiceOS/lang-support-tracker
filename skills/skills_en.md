@@ -18,6 +18,18 @@ A skill to manage alarms, timers, reminders, events and todos and optionally syn
 -------
 
 
+### ovos-skill-boot-finished.openvoiceos
+
+The Finished Booting skill provides notifications when OpenVoiceOS has fully started and all core services are ready
+
+**Usage examples:**
+- Disable ready notifications.
+- Enable ready notifications.
+- Is the system ready?
+
+-------
+
+
 ### ovos-skill-cmd.forslund
 
 No description available
@@ -42,6 +54,22 @@ Quotes from Confucius
 -------
 
 
+### ovos-skill-date-time.openvoiceos
+
+Get the time, date, day of the week
+
+**Usage examples:**
+- How many days until July 4th
+- Show me the time
+- Tell me the day of the week
+- What day is Memorial Day 2020?
+- What time is it in Paris?
+- What time is it?
+- What's the date?
+
+-------
+
+
 ### ovos-skill-days-in-history.openvoiceos
 
 Provides historical events for today or any other calendar day using information pulled from Wikipedia.
@@ -52,6 +80,18 @@ Provides historical events for today or any other calendar day using information
 - What historical events happened on June 16th?
 - who died today in history?
 - who was born today in history?
+
+-------
+
+
+### ovos-skill-ddg.openvoiceos
+
+Use DuckDuckGo to answer questions.
+
+**Usage examples:**
+- ask the duck about the big bang
+- when was stephen hawking born
+- who is elon musk
 
 -------
 
@@ -76,6 +116,34 @@ The Fuster quote of the day
 - Fuster's quote of the day.
 - Tell me a quote from Joan Fuster.
 - The Fuster quote of the day.
+
+-------
+
+
+### ovos-skill-hello-world.openvoiceos
+
+Introductory Skill so that Skill Authors can see how an OVOS Skill is put together
+
+**Usage examples:**
+- Hello world
+- How are you?
+- Thank you
+
+-------
+
+
+### ovos-skill-icanhazdadjokes.openvoiceos
+
+Brighten your day with dad humor. Laughter is not guaranteed, but eye rolls are likely.
+
+**Usage examples:**
+- Can you tell jokes?
+- Do you know any Chuck Norris jokes?
+- Do you know any jokes?
+- Make me laugh.
+- Say a joke.
+- Tell me a joke about dentists.
+- Tell me a joke.
 
 -------
 
@@ -108,6 +176,71 @@ Track the location of the ISS
 -------
 
 
+### ovos-skill-local-media.openvoiceos
+
+Local Media File Browser For Open Voice OS
+
+**Usage examples:**
+- open file browser
+- open file browser app
+- open file browser drive
+- open my file browser
+- open my file browser drive
+- open my usb
+- open my usb drive
+- open usb
+- open usb browser
+- open usb browser app
+
+-------
+
+
+### ovos-skill-moviemaster.openvoiceos
+
+Find information about movies, actors, and production details. Easily find information about a movie with your voice.
+
+**Usage examples:**
+- Do you have info on the film _______?
+- How long is the movie _______?
+- Look for information on the movie _______.
+- Tell me about the movie _______
+- What are popular movies playing now?
+- What are the highest rated movies out?
+- What films do you recommend like _______?
+- What genres does the flick _______ belong to?
+- What is the movie _______ about?
+- When was the movie _______ made?
+
+-------
+
+
+### ovos-skill-naptime.openvoiceos
+
+Put the assistant to sleep when you don't want to be disturbed.
+
+**Usage examples:**
+- Go to sleep
+- Nap time
+- Wake up
+
+-------
+
+
+### ovos-skill-news.openvoiceos
+
+News streams from around the globe.
+
+**Usage examples:**
+- play catalan news
+- play euronews
+- play news in spanish
+- play npr news
+- play portuguese news
+- play the news
+
+-------
+
+
 ### ovos-skill-number-facts.openvoiceos
 
 Facts about numbers
@@ -120,6 +253,25 @@ Facts about numbers
 - random number trivia
 - trivia about next week
 - trivia about tomorrow
+
+-------
+
+
+### ovos-skill-parrot.openvoiceos
+
+Turn OpenVoiceOS into a echoing parrot! Make OVOS repeat whatever you want.
+
+**Usage examples:**
+- Can you repeat that?
+- Repeat that
+- Repeat what you just said
+- Tell me what I just said.
+- What did I just say?
+- repeat Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten lore
+- say Goodnight, Gracie
+- speak I can say anything you'd like!
+- start parrot
+- stop parrot
 
 -------
 
@@ -169,6 +321,44 @@ No description available
 -------
 
 
+### ovos-skill-volume.openvoiceos
+
+Control the volume of OVOS with verbal commands
+
+**Usage examples:**
+- default volume
+- high volume
+- low volume
+- max volume
+- maximum volume
+- medium volume
+- mute
+- mute audio
+- mute volume
+- reset volume
+
+-------
+
+
+### ovos-skill-weather.openvoiceos
+
+Get weather conditions, forecasts, expected precipitation and more! You can also ask for other cities around the world. Current conditions and weather forecasts come from OpenMeteo
+
+**Usage examples:**
+- How windy is it?
+- Is it going to snow in Baltimore?
+- Is it going to snow?
+- What is the forecast in London tomorrow?
+- What is the forecast tomorrow?
+- What is the weather for the next three days?
+- What is the weather going to be like Tuesday?
+- What is the weather in Houston?
+- What is the weather this weekend?
+- What's the high temperature tomorrow
+
+-------
+
+
 ### ovos-skill-wikihow.openvoiceos
 
 How to do nearly everything.
@@ -176,6 +366,37 @@ How to do nearly everything.
 **Usage examples:**
 - how do i get my dog to stop barking
 - how to boil an egg
+
+-------
+
+
+### ovos-skill-wikipedia.openvoiceos
+
+Query Wikipedia for answers to all your questions. Get just a summary, or ask for more to get in-depth information.
+
+**Usage examples:**
+- Check Wikipedia for beans
+- More information
+- Search for chocolate
+- Tell me More
+- Tell me about Elon Musk
+- Tell me about beans
+- Tell me about the Pembroke Welsh Corgi
+
+-------
+
+
+### ovos-skill-wolfie.openvoiceos
+
+Use Wolfram Alpha for general knowledge questions.
+
+**Usage examples:**
+- How many inches in a meter?
+- How tall is Mount Everest?
+- What is Madonna's real name?
+- What's 18 times 4?
+- When was The Rocky Horror Picture Show released?
+- ask the wolf what is the speed of light
 
 -------
 
@@ -205,139 +426,6 @@ No description available
 -------
 
 
-### skill-ovos-boot-finished.openvoiceos
-
-The Finished Booting skill provides notifications when OpenVoiceOS has fully started and all core services are ready
-
-**Usage examples:**
-- Disable ready notifications.
-- Enable ready notifications.
-- Is the system ready?
-
--------
-
-
-### skill-ovos-date-time.openvoiceos
-
-Get the time, date, day of the week
-
-**Usage examples:**
-- How many days until July 4th
-- Show me the time
-- Tell me the day of the week
-- What day is Memorial Day 2020?
-- What time is it in Paris?
-- What time is it?
-- What's the date?
-
--------
-
-
-### skill-ovos-ddg.openvoiceos
-
-Use DuckDuckGo to answer questions.
-
-**Usage examples:**
-- ask the duck about the big bang
-- when was stephen hawking born
-- who is elon musk
-
--------
-
-
-### skill-ovos-hello-world.openvoiceos
-
-Introductory Skill so that Skill Authors can see how an OVOS Skill is put together
-
-**Usage examples:**
-- Hello world
-- How are you?
-- Thank you
-
--------
-
-
-### skill-ovos-icanhazdadjokes.openvoiceos
-
-Brighten your day with dad humor. Laughter is not guaranteed, but eye rolls are likely.
-
-**Usage examples:**
-- Can you tell jokes?
-- Do you know any Chuck Norris jokes?
-- Do you know any jokes?
-- Make me laugh.
-- Say a joke.
-- Tell me a joke about dentists.
-- Tell me a joke.
-
--------
-
-
-### skill-ovos-local-media.openvoiceos
-
-Local Media File Browser For Open Voice OS
-
-**Usage examples:**
-- open file browser
-- open file browser app
-- open file browser drive
-- open my file browser
-- open my file browser drive
-- open my usb
-- open my usb drive
-- open usb
-- open usb browser
-- open usb browser app
-
--------
-
-
-### skill-ovos-naptime.openvoiceos
-
-Put the assistant to sleep when you don't want to be disturbed.
-
-**Usage examples:**
-- Go to sleep
-- Nap time
-- Wake up
-
--------
-
-
-### skill-ovos-news.openvoiceos
-
-News streams from around the globe.
-
-**Usage examples:**
-- play catalan news
-- play euronews
-- play news in spanish
-- play npr news
-- play portuguese news
-- play the news
-
--------
-
-
-### skill-ovos-parrot.openvoiceos
-
-Turn OpenVoiceOS into a echoing parrot! Make OVOS repeat whatever you want.
-
-**Usage examples:**
-- Can you repeat that?
-- Repeat that
-- Repeat what you just said
-- Tell me what I just said.
-- What did I just say?
-- repeat Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten lore
-- say Goodnight, Gracie
-- speak I can say anything you'd like!
-- start parrot
-- stop parrot
-
--------
-
-
 ### skill-ovos-somafm.openvoiceos
 
 No description available
@@ -359,75 +447,6 @@ No description available
 - How do you spell bureacracy?
 - Spell omnipotence
 - Spell succotash
-
--------
-
-
-### skill-ovos-volume.openvoiceos
-
-Control the volume of OVOS with verbal commands
-
-**Usage examples:**
-- default volume
-- high volume
-- low volume
-- max volume
-- maximum volume
-- medium volume
-- mute
-- mute audio
-- mute volume
-- reset volume
-
--------
-
-
-### skill-ovos-weather.openvoiceos
-
-Get weather conditions, forecasts, expected precipitation and more! You can also ask for other cities around the world. Current conditions and weather forecasts come from OpenMeteo
-
-**Usage examples:**
-- How windy is it?
-- Is it going to snow in Baltimore?
-- Is it going to snow?
-- What is the forecast in London tomorrow?
-- What is the forecast tomorrow?
-- What is the weather for the next three days?
-- What is the weather going to be like Tuesday?
-- What is the weather in Houston?
-- What is the weather this weekend?
-- What's the high temperature tomorrow
-
--------
-
-
-### skill-ovos-wikipedia.openvoiceos
-
-Query Wikipedia for answers to all your questions. Get just a summary, or ask for more to get in-depth information.
-
-**Usage examples:**
-- Check Wikipedia for beans
-- More information
-- Search for chocolate
-- Tell me More
-- Tell me about Elon Musk
-- Tell me about beans
-- Tell me about the Pembroke Welsh Corgi
-
--------
-
-
-### skill-ovos-wolfie.openvoiceos
-
-Use Wolfram Alpha for general knowledge questions.
-
-**Usage examples:**
-- How many inches in a meter?
-- How tall is Mount Everest?
-- What is Madonna's real name?
-- What's 18 times 4?
-- When was The Rocky Horror Picture Show released?
-- ask the wolf what is the speed of light
 
 -------
 

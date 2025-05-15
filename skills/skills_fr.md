@@ -1,5 +1,5 @@
 
-### skill-ovos-hello-world.openvoiceos
+### ovos-skill-hello-world.openvoiceos
 
 Compétence d'introduction pour que les auteurs de compétences puissent voir comment une compétence OVOS est assemblée
 

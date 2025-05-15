@@ -18,7 +18,7 @@ Una skill para gestionar alarmas, temporizadores, recordatorios, eventos, tareas
 -------
 
 
-### skill-ovos-date-time.openvoiceos
+### ovos-skill-date-time.openvoiceos
 
 Información sobre la hora, la fecha y el día de la semana
 
@@ -34,7 +34,7 @@ Información sobre la hora, la fecha y el día de la semana
 -------
 
 
-### skill-ovos-hello-world.openvoiceos
+### ovos-skill-hello-world.openvoiceos
 
 Habilidad de muestra para que los autores de habilidades puedan ver cómo se crea una habilidad OVOS
 
@@ -46,7 +46,7 @@ Habilidad de muestra para que los autores de habilidades puedan ver cómo se cre
 -------
 
 
-### skill-ovos-news.openvoiceos
+### ovos-skill-news.openvoiceos
 
 Canales de noticias del mundo entero.
 
@@ -61,7 +61,7 @@ Canales de noticias del mundo entero.
 -------
 
 
-### skill-ovos-parrot.openvoiceos
+### ovos-skill-parrot.openvoiceos
 
 ¡Convierte OpenVoiceOS en un loro! Haz que OVOS repita lo que quieras.
 
@@ -80,7 +80,7 @@ Canales de noticias del mundo entero.
 -------
 
 
-### skill-ovos-weather.openvoiceos
+### ovos-skill-weather.openvoiceos
 
 Información sobre las condiciones meteorológicas, las previsiones, las precipitaciones y mucho más. También puedes preguntar sobre otras ciudades del mundo. Las condiciones actuales y las previsiones provienen de OpenMeteo
 
@@ -99,7 +99,7 @@ Información sobre las condiciones meteorológicas, las previsiones, las precipi
 -------
 
 
-### skill-ovos-wikipedia.openvoiceos
+### ovos-skill-wikipedia.openvoiceos
 
 Consulta la Wikipedia para obtener respuestas a tus preguntas. Pide un resumen o más información para tener más detalles.
 

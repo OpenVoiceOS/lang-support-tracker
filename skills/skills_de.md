@@ -19,6 +19,18 @@ Breche alle Alarme ab
 -------
 
 
+### ovos-skill-boot-finished.openvoiceos
+
+Die Fertig-Boot-Funktion gibt Benachrichtigungen aus, wenn OpenVoiceOS vollständig gestartet ist und alle Kerndienste bereit sind
+
+**Usage examples:**
+- Aktiviere die Bereitschaftsbenachrichtigungen.
+- Deaktiviere Bereitschaftsbenachrichtigungen.
+- Ist das System bereit?
+
+-------
+
+
 ### ovos-skill-cmd.forslund
 
 No description available
@@ -43,6 +55,22 @@ Zitate von Konfuzius
 -------
 
 
+### ovos-skill-date-time.openvoiceos
+
+Erfrage die Uhrzeit, das Datum, den Wochentag
+
+**Usage examples:**
+- Sag mir den Wochentag
+- Welcher Tag ist der Memorial Day 2020?
+- Welches Datum haben wir?
+- Wie spät ist es in Paris?
+- Wie spät ist es?
+- Wie viele Tage bis zum 4. Juli
+- Zeig mir die Zeit
+
+-------
+
+
 ### ovos-skill-days-in-history.openvoiceos
 
 Bietet historische Ereignisse für heute oder jeden anderen Kalendertag unter Verwendung von Informationen aus Wikipedia.
@@ -57,6 +85,18 @@ Bietet historische Ereignisse für heute oder jeden anderen Kalendertag unter Ve
 -------
 
 
+### ovos-skill-ddg.openvoiceos
+
+Verwende DuckDuckGo, um Fragen zu beantworten.
+
+**Usage examples:**
+- Frag die Ente nach dem Urknall
+- Wer ist Elon Musk?
+- wann wurde Stephen Hawking geboren
+
+-------
+
+
 ### ovos-skill-dictation.openvoiceos
 
 transkribiert Sprache kontinuierlich in eine Textdatei, solange diese aktiviert ist
@@ -64,6 +104,34 @@ transkribiert Sprache kontinuierlich in eine Textdatei, solange diese aktiviert 
 **Usage examples:**
 - Diktat beenden
 - Diktat starten
+
+-------
+
+
+### ovos-skill-hello-world.openvoiceos
+
+Einführungs-Skill, damit Skill-Autoren sehen können, wie ein OVOS-Skill zusammengestellt wird
+
+**Usage examples:**
+- Danke
+- Hello world
+- Wie geht es dir?
+
+-------
+
+
+### ovos-skill-icanhazdadjokes.openvoiceos
+
+Verschönere Deinen Tag mit Humor. Lachen ist nicht garantiert, aber Augenrollen ist wahrscheinlich.
+
+**Usage examples:**
+- Bring mich zum Lachen.
+- Erzähl einen Witz.
+- Erzähl mir einen Witz über Zahnärzte.
+- Erzähl mir einen Witz.
+- Kannst du Witze erzählen?
+- Kennst Du Witze über Chuck Norris?
+- Kennst du irgendwelche Witze?
 
 -------
 
@@ -96,6 +164,75 @@ Verfolge den Standort der ISS
 -------
 
 
+### ovos-skill-local-media.openvoiceos
+
+Lokaler Mediendateibrowser für Open Voice OS
+
+**Usage examples:**
+- Dateibrowser anzeigen
+- Dateibrowser starten
+- Dateibrowser öffnen
+- Dateibrowser-App anzeigen
+- Dateibrowser-App starten
+- Dateibrowser-App öffnen
+- Dateibrowser-Laufwerk anzeigen
+- Dateibrowser-Laufwerk öffnen
+- USB anzeigen
+- USB öffnen
+
+-------
+
+
+### ovos-skill-moviemaster.openvoiceos
+
+Finde Informationen zu Filmen, Schauspielern und Produktionsdetails. Finde ganz einfach mit Deiner Stimme Informationen zu einem Film.
+
+**Usage examples:**
+- Erzähl mir von dem Film _______
+- Hast Du Informationen zum Film _______?
+- Suche nach Informationen zum Film _______.
+- Wann wurde der Film _______ gedreht?
+- Welche Filme haben die höchsten Bewertungen?
+- Welche Filme wie _______ empfiehlst Du?
+- Welche beliebten Filme laufen derzeit?
+- Wer spielt in dem Film _______ mit?
+- Wie lang ist der Film _______?
+- Worum geht es in dem Film _______?
+
+-------
+
+
+### ovos-skill-naptime.openvoiceos
+
+Versetze den Assistenten in den Ruhezustand, wenn Du nicht gestört werden möchtest
+
+**Usage examples:**
+- Aufwachen
+Wache auf
+- Geh schlafen
+- Mittagsschlaf
+
+-------
+
+
+### ovos-skill-news.openvoiceos
+
+Nachrichten-Streams aus der ganzen Welt.
+
+**Usage examples:**
+- NPR Nachrichten abspielen
+spiele NPR Nachrichten
+- Nachrichten abspielen
+spiele die Nachrichten 
+- Nachrichten auf Spanisch abspielen
+- euronews abspielen
+spiele euronews 
+- portugiesische Nachrichten abspielen
+- spiele katalanische Nachrichten
+
+-------
+
+
 ### ovos-skill-number-facts.openvoiceos
 
 Fakten über Zahlen
@@ -108,6 +245,27 @@ Fakten über Zahlen
 - Wissenswertes über morgen
 - Wissenswertes über nächste Woche
 - mathematischer Fakt über die Zahl 7
+
+-------
+
+
+### ovos-skill-parrot.openvoiceos
+
+Mache OpenVoiceOS zu einem Echo-Papagei! Lasse OVOS alles wiederholen, was Du willst
+
+**Usage examples:**
+- Kannst Du das wiederholen?
+- Papagei starten
+starte Papagei
+- Papagei stoppen
+stoppe Papagei
+- Sag mir, was ich gerade gesagt habe.
+- Was habe ich gerade gesagt?
+- Wiederhole das
+- Wiederhole einmal eine trostlose Mitternacht, während ich, schwach und müde, über viele kuriose und merkwürdige Bände vergessener Überlieferungen nachdachte
+- Wiederhole, was Du gerade gesagt hast
+- sage gute Nacht, Gracie
+- spreche Ich kann alles sagen, was Du möchtest!
 
 -------
 
@@ -135,6 +293,45 @@ führt einen Internet-Bandbreitentest mit speedtest.net durch
 -------
 
 
+### ovos-skill-volume.openvoiceos
+
+Steuere die Lautstärke von OVOS mit verbalen Befehlen
+
+**Usage examples:**
+- Audio umschalten
+- Lautstärke auf Maximum einstellen
+- Lautstärke auf Maximum stellen
+Stelle Lautstärke auf Maximum
+- Lautstärke auf Standard einstellen
+- Lautstärke auf Standardwert einstellen
+- Lautstärke auf hohen Pegel einstellen
+- Lautstärke auf mittel stellen
+- Lautstärke hoch
+- Lautstärke hoch
+- Lautstärke niedrig
+
+-------
+
+
+### ovos-skill-weather.openvoiceos
+
+Erhalte Wetterbedingungen, Prognosen, erwartete Niederschläge und mehr! Du kannst auch nach anderen Städten auf der ganzen Welt fragen. Aktuelle Bedingungen und Wettervorhersagen stammen von OpenMeteo
+
+**Usage examples:**
+- Wann ist Sonnenuntergang?
+- Wann wird es das nächste Mal regnen?
+- Wie hoch ist die Höchsttemperatur morgen
+- Wie hoch ist die Luftfeuchtigkeit?
+- Wie hoch ist die Temperatur in Celsius morgen in Paris?
+- Wie ist das Wetter dieses Wochenende?
+- Wie ist das Wetter in Houston?
+- Wie ist die Prognose für morgen in London?
+- Wie ist die Temperatur?
+- Wie ist die Vorhersage für morgen?
+
+-------
+
+
 ### ovos-skill-wikihow.openvoiceos
 
 Wie man fast alles macht.
@@ -142,6 +339,37 @@ Wie man fast alles macht.
 **Usage examples:**
 - Wie man ein Ei kocht
 - wie bringe ich meinen Hund dazu, mit dem Bellen aufzuhören
+
+-------
+
+
+### ovos-skill-wikipedia.openvoiceos
+
+Suche in Wikipedia nach Antworten auf all Deine Fragen. Erhalte nur eine Zusammenfassung oder frage nach weiteren Informationen, um tiefer gehende Informationen zu erhalten.
+
+**Usage examples:**
+- Checke Wikipedia zu Bohnen
+- Erzähl mir mehr
+- Erzähl mir von Bohnen
+- Erzähl mir von Elon Musk
+- Erzähle mir etwas über den Pembroke Welsh Corgi
+- Suche nach Schokolade
+- Weitere Informationen
+
+-------
+
+
+### ovos-skill-wolfie.openvoiceos
+
+Verwende Wolfram Alpha für Fragen zum Allgemeinwissen.
+
+**Usage examples:**
+- Wann kam die Rocky Horror Picture Show in die Kinos?
+- Was ist 18 mal 4?
+- Wie hoch ist der Mount Everest?
+- Wie ist Madonnas richtiger Name?
+- Wie viele Zoll sind ein Meter?
+- frage den Wolf wie hoch die Lichtgeschwindigkeit ist
 
 -------
 
@@ -171,145 +399,6 @@ No description available
 -------
 
 
-### skill-ovos-boot-finished.openvoiceos
-
-Die Fertig-Boot-Funktion gibt Benachrichtigungen aus, wenn OpenVoiceOS vollständig gestartet ist und alle Kerndienste bereit sind
-
-**Usage examples:**
-- Aktiviere die Bereitschaftsbenachrichtigungen.
-- Deaktiviere Bereitschaftsbenachrichtigungen.
-- Ist das System bereit?
-
--------
-
-
-### skill-ovos-date-time.openvoiceos
-
-Erfrage die Uhrzeit, das Datum, den Wochentag
-
-**Usage examples:**
-- Sag mir den Wochentag
-- Welcher Tag ist der Memorial Day 2020?
-- Welches Datum haben wir?
-- Wie spät ist es in Paris?
-- Wie spät ist es?
-- Wie viele Tage bis zum 4. Juli
-- Zeig mir die Zeit
-
--------
-
-
-### skill-ovos-ddg.openvoiceos
-
-Verwende DuckDuckGo, um Fragen zu beantworten.
-
-**Usage examples:**
-- Frag die Ente nach dem Urknall
-- Wer ist Elon Musk?
-- wann wurde Stephen Hawking geboren
-
--------
-
-
-### skill-ovos-hello-world.openvoiceos
-
-Einführungs-Skill, damit Skill-Autoren sehen können, wie ein OVOS-Skill zusammengestellt wird
-
-**Usage examples:**
-- Danke
-- Hello world
-- Wie geht es dir?
-
--------
-
-
-### skill-ovos-icanhazdadjokes.openvoiceos
-
-Verschönere Deinen Tag mit Humor. Lachen ist nicht garantiert, aber Augenrollen ist wahrscheinlich.
-
-**Usage examples:**
-- Bring mich zum Lachen.
-- Erzähl einen Witz.
-- Erzähl mir einen Witz über Zahnärzte.
-- Erzähl mir einen Witz.
-- Kannst du Witze erzählen?
-- Kennst Du Witze über Chuck Norris?
-- Kennst du irgendwelche Witze?
-
--------
-
-
-### skill-ovos-local-media.openvoiceos
-
-Lokaler Mediendateibrowser für Open Voice OS
-
-**Usage examples:**
-- Dateibrowser anzeigen
-- Dateibrowser starten
-- Dateibrowser öffnen
-- Dateibrowser-App anzeigen
-- Dateibrowser-App starten
-- Dateibrowser-App öffnen
-- Dateibrowser-Laufwerk anzeigen
-- Dateibrowser-Laufwerk öffnen
-- USB anzeigen
-- USB öffnen
-
--------
-
-
-### skill-ovos-naptime.openvoiceos
-
-Versetze den Assistenten in den Ruhezustand, wenn Du nicht gestört werden möchtest
-
-**Usage examples:**
-- Aufwachen
-Wache auf
-- Geh schlafen
-- Mittagsschlaf
-
--------
-
-
-### skill-ovos-news.openvoiceos
-
-Nachrichten-Streams aus der ganzen Welt.
-
-**Usage examples:**
-- NPR Nachrichten abspielen
-spiele NPR Nachrichten
-- Nachrichten abspielen
-spiele die Nachrichten 
-- Nachrichten auf Spanisch abspielen
-- euronews abspielen
-spiele euronews 
-- portugiesische Nachrichten abspielen
-- spiele katalanische Nachrichten
-
--------
-
-
-### skill-ovos-parrot.openvoiceos
-
-Mache OpenVoiceOS zu einem Echo-Papagei! Lasse OVOS alles wiederholen, was Du willst
-
-**Usage examples:**
-- Kannst Du das wiederholen?
-- Papagei starten
-starte Papagei
-- Papagei stoppen
-stoppe Papagei
-- Sag mir, was ich gerade gesagt habe.
-- Was habe ich gerade gesagt?
-- Wiederhole das
-- Wiederhole einmal eine trostlose Mitternacht, während ich, schwach und müde, über viele kuriose und merkwürdige Bände vergessener Überlieferungen nachdachte
-- Wiederhole, was Du gerade gesagt hast
-- sage gute Nacht, Gracie
-- spreche Ich kann alles sagen, was Du möchtest!
-
--------
-
-
 ### skill-ovos-spelling.openvoiceos
 
 No description available
@@ -319,76 +408,6 @@ No description available
 - Buchstabiere Succotash 
 - Wie buchstabiert man Bürokratie?
 - Wie buchstabiert man Erdferkel?
-
--------
-
-
-### skill-ovos-volume.openvoiceos
-
-Steuere die Lautstärke von OVOS mit verbalen Befehlen
-
-**Usage examples:**
-- Audio umschalten
-- Lautstärke auf Maximum einstellen
-- Lautstärke auf Maximum stellen
-Stelle Lautstärke auf Maximum
-- Lautstärke auf Standard einstellen
-- Lautstärke auf Standardwert einstellen
-- Lautstärke auf hohen Pegel einstellen
-- Lautstärke auf mittel stellen
-- Lautstärke hoch
-- Lautstärke hoch
-- Lautstärke niedrig
-
--------
-
-
-### skill-ovos-weather.openvoiceos
-
-Erhalte Wetterbedingungen, Prognosen, erwartete Niederschläge und mehr! Du kannst auch nach anderen Städten auf der ganzen Welt fragen. Aktuelle Bedingungen und Wettervorhersagen stammen von OpenMeteo
-
-**Usage examples:**
-- Wann ist Sonnenuntergang?
-- Wann wird es das nächste Mal regnen?
-- Wie hoch ist die Höchsttemperatur morgen
-- Wie hoch ist die Luftfeuchtigkeit?
-- Wie hoch ist die Temperatur in Celsius morgen in Paris?
-- Wie ist das Wetter dieses Wochenende?
-- Wie ist das Wetter in Houston?
-- Wie ist die Prognose für morgen in London?
-- Wie ist die Temperatur?
-- Wie ist die Vorhersage für morgen?
-
--------
-
-
-### skill-ovos-wikipedia.openvoiceos
-
-Suche in Wikipedia nach Antworten auf all Deine Fragen. Erhalte nur eine Zusammenfassung oder frage nach weiteren Informationen, um tiefer gehende Informationen zu erhalten.
-
-**Usage examples:**
-- Checke Wikipedia zu Bohnen
-- Erzähl mir mehr
-- Erzähl mir von Bohnen
-- Erzähl mir von Elon Musk
-- Erzähle mir etwas über den Pembroke Welsh Corgi
-- Suche nach Schokolade
-- Weitere Informationen
-
--------
-
-
-### skill-ovos-wolfie.openvoiceos
-
-Verwende Wolfram Alpha für Fragen zum Allgemeinwissen.
-
-**Usage examples:**
-- Wann kam die Rocky Horror Picture Show in die Kinos?
-- Was ist 18 mal 4?
-- Wie hoch ist der Mount Everest?
-- Wie ist Madonnas richtiger Name?
-- Wie viele Zoll sind ein Meter?
-- frage den Wolf wie hoch die Lichtgeschwindigkeit ist
 
 -------
 

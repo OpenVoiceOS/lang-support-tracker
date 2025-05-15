@@ -18,7 +18,7 @@ Una competenza per gestire allarmi, timer, promemoria, eventi e cose da fare e, 
 -------
 
 
-### skill-ovos-boot-finished.openvoiceos
+### ovos-skill-boot-finished.openvoiceos
 
 La competenza Fine di avvio fornisce notifiche quando OpenVoiceOS è completamente avviato e tutti i servizi principali sono pronti
 
@@ -30,7 +30,7 @@ La competenza Fine di avvio fornisce notifiche quando OpenVoiceOS è completamen
 -------
 
 
-### skill-ovos-date-time.openvoiceos
+### ovos-skill-date-time.openvoiceos
 
 Chiedi l'ora, la data, il giorno della settimana
 
@@ -46,7 +46,7 @@ Chiedi l'ora, la data, il giorno della settimana
 -------
 
 
-### skill-ovos-ddg.openvoiceos
+### ovos-skill-ddg.openvoiceos
 
 Usa DuckDuckGo per rispondere alle tue domande
 
@@ -58,7 +58,7 @@ Usa DuckDuckGo per rispondere alle tue domande
 -------
 
 
-### skill-ovos-local-media.openvoiceos
+### ovos-skill-local-media.openvoiceos
 
 Naviga i tuoi media con Open Voice OS
 
@@ -77,7 +77,7 @@ Naviga i tuoi media con Open Voice OS
 -------
 
 
-### skill-ovos-news.openvoiceos
+### ovos-skill-news.openvoiceos
 
 Riproduttore di flussi radio da tutto il mondo
 
@@ -92,7 +92,7 @@ Riproduttore di flussi radio da tutto il mondo
 -------
 
 
-### skill-ovos-volume.openvoiceos
+### ovos-skill-volume.openvoiceos
 
 Controlla il volume con la voce!
 

@@ -1,4 +1,4 @@
 domain,utterance
-skill-ovos-hello-world.openvoiceos,"Comment vas-tu"
-skill-ovos-hello-world.openvoiceos,"Hello world"
-skill-ovos-hello-world.openvoiceos,"Merci"
+ovos-skill-hello-world.openvoiceos,"Comment vas-tu"
+ovos-skill-hello-world.openvoiceos,"Hello world"
+ovos-skill-hello-world.openvoiceos,"Merci"
