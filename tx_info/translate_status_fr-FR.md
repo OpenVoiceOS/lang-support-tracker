@@ -29,9 +29,9 @@
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.27 | 170418 | 28597 | 124139 | 21038 | 46279 | 7559 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.25 | 1661 | 202 | 1243 | 168 | 418 | 34 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.22 | 84435 | 15866 | 66162 | 12545 | 18273 | 3321 |
-| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.13 | 5732 | 727 | 5004 | 599 | 728 | 128 |
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.13 | 2350 | 298 | 2053 | 254 | 297 | 44 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 0.12 | 276 | 45 | 244 | 40 | 32 | 5 |
+| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.09 | 8061 | 1081 | 7333 | 953 | 728 | 128 |
 | OpenVoiceOS/ovos-skill-application-launcher | https://gitlocalize.com/repo/9621 | 0.0 | 533 | 61 | 533 | 61 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.0 | 101 | 11 | 101 | 11 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.0 | 643 | 107 | 643 | 107 | 0 | 0 |

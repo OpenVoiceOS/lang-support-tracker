@@ -27,9 +27,9 @@
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.37 | 363 | 73 | 230 | 46 | 133 | 27 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.34 | 1352 | 254 | 888 | 162 | 464 | 92 |
 | OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.29 | 1872 | 260 | 1331 | 177 | 541 | 83 |
-| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.26 | 5732 | 727 | 4235 | 467 | 1497 | 260 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.25 | 950 | 159 | 708 | 115 | 242 | 44 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.2 | 1009 | 190 | 803 | 149 | 206 | 41 |
+| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.19 | 8061 | 1081 | 6564 | 821 | 1497 | 260 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 0.12 | 276 | 45 | 244 | 40 | 32 | 5 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.09 | 2912 | 355 | 2638 | 310 | 274 | 45 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 0.04 | 812 | 156 | 779 | 148 | 33 | 8 |

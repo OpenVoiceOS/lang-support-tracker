@@ -37,8 +37,8 @@
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.25 | 2350 | 298 | 1755 | 218 | 595 | 80 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.2 | 1009 | 190 | 803 | 149 | 206 | 41 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.18 | 363 | 73 | 297 | 59 | 66 | 14 |
-| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.18 | 5732 | 727 | 4685 | 545 | 1047 | 182 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.14 | 84435 | 15866 | 72660 | 13814 | 11775 | 2052 |
+| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.13 | 8061 | 1081 | 7014 | 899 | 1047 | 182 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 0.12 | 276 | 45 | 244 | 40 | 32 | 5 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.04 | 170418 | 28597 | 163887 | 27594 | 6531 | 1003 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.03 | 6022 | 867 | 5827 | 834 | 195 | 33 |

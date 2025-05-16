@@ -3,6 +3,7 @@
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 1.5 | 313 | 43 | -158 | -31 | 471 | 74 |
+| OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 1.01 | 24391 | 3507 | -122 | -22 | 24513 | 3529 |
 | OpenVoiceOS/ovos-core | https://gitlocalize.com/repo/9895 | 1.0 | 935 | 153 | 0 | 0 | 935 | 153 |
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 1.0 | 8199 | 1235 | 0 | 0 | 8199 | 1235 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 1.0 | 1099 | 159 | 0 | 0 | 1099 | 159 |
@@ -27,6 +28,7 @@
 | OpenVoiceOS/skill-ovos-spelling | https://gitlocalize.com/repo/9606 | 1.0 | 313 | 49 | 0 | 0 | 313 | 49 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 1.0 | 1485 | 266 | 0 | 0 | 1485 | 266 |
 | OpenVoiceOS/skill-ovos-wallpapers | https://gitlocalize.com/repo/9604 | 1.0 | 1304 | 133 | 0 | 0 | 1304 | 133 |
+| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 1.0 | 1498 | 212 | 0 | 0 | 1498 | 212 |
 | OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.97 | 1872 | 260 | 50 | 1 | 1822 | 259 |
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.94 | 1396 | 245 | 86 | 19 | 1310 | 226 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.94 | 1352 | 254 | 87 | 2 | 1265 | 252 |
@@ -35,12 +37,10 @@
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.9 | 6022 | 867 | 585 | 84 | 5437 | 783 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.89 | 6271 | 758 | 671 | 68 | 5600 | 690 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.79 | 2912 | 355 | 611 | 101 | 2301 | 254 |
-| OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.6 | 1498 | 212 | 600 | 79 | 898 | 133 |
-| OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.51 | 24391 | 3507 | 11920 | 1491 | 12471 | 2016 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.47 | 749 | 122 | 397 | 58 | 352 | 64 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.37 | 363 | 73 | 230 | 46 | 133 | 27 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.25 | 1661 | 202 | 1243 | 168 | 418 | 34 |
-| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.25 | 5732 | 727 | 4318 | 469 | 1414 | 258 |
+| OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.18 | 8061 | 1081 | 6647 | 823 | 1414 | 258 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 0.12 | 276 | 45 | 244 | 40 | 32 | 5 |
 | OpenVoiceOS/skill-ovos-pyradios | https://gitlocalize.com/repo/9774 | 0.08 | 63 | 7 | 58 | 6 | 5 | 1 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.05 | 220 | 36 | 209 | 34 | 11 | 2 |
