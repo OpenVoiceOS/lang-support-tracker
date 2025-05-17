@@ -18,6 +18,20 @@ Una habilitat per a gestionar alarmes, temporitzadors, recordatoris, esdevenimen
 -------
 
 
+### ovos-skill-audio-recording.openvoiceos
+
+No description available
+
+**Usage examples:**
+- comença l'enregistrament
+- comença un enregistrament amb nom {name}
+- comença un nou enregistrament d'àudio anomenat {name}
+- enregistrament nou amb nom {name}
+- inicia l'enregistrament
+
+-------
+
+
 ### ovos-skill-boot-finished.openvoiceos
 
 L'habilitat d'engegada acabada proporciona notificacions quan l'OpenVoiceOS s'ha iniciat completament i tots els serveis bàsics estan preparats
@@ -375,20 +389,6 @@ Usa Wordnet per a respondre qüestions relacionades amb diccioanris.
 **Usage examples:**
 - quin és l'antònim de...
 - quina és la definició de ...
-
--------
-
-
-### skill-ovos-audio-recording.openvoiceos
-
-No description available
-
-**Usage examples:**
-- comença l'enregistrament
-- comença un enregistrament amb nom {name}
-- comença un nou enregistrament d'àudio anomenat {name}
-- enregistrament nou amb nom {name}
-- inicia l'enregistrament
 
 -------
 

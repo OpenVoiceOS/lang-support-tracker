@@ -19,6 +19,20 @@ Breche alle Alarme ab
 -------
 
 
+### ovos-skill-audio-recording.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Aufnahme starten
+- Aufnahme starten
+- Starte eine neue Audioaufnahme mit dem Namen {name}
+- neue Aufnahme mit dem Namen {name}
+- starte eine Aufnahme mit dem Namen {name}
+
+-------
+
+
 ### ovos-skill-boot-finished.openvoiceos
 
 Die Fertig-Boot-Funktion gibt Benachrichtigungen aus, wenn OpenVoiceOS vollständig gestartet ist und alle Kerndienste bereit sind
@@ -381,20 +395,6 @@ Verwende Wordnet, um wörterbuchähnliche Fragen zu beantworten.
 **Usage examples:**
 - was ist das Antonym von ...
 - was ist die Definition von ...
-
--------
-
-
-### skill-ovos-audio-recording.openvoiceos
-
-No description available
-
-**Usage examples:**
-- Aufnahme starten
-- Aufnahme starten
-- Starte eine neue Audioaufnahme mit dem Namen {name}
-- neue Aufnahme mit dem Namen {name}
-- starte eine Aufnahme mit dem Namen {name}
 
 -------
 

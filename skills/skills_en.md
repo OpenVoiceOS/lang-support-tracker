@@ -18,6 +18,20 @@ A skill to manage alarms, timers, reminders, events and todos and optionally syn
 -------
 
 
+### ovos-skill-audio-recording.openvoiceos
+
+No description available
+
+**Usage examples:**
+- begin recording
+- new recording named {name}
+- start a new audio recording called {name}
+- start a recording called {name}
+- start recording
+
+-------
+
+
 ### ovos-skill-boot-finished.openvoiceos
 
 The Finished Booting skill provides notifications when OpenVoiceOS has fully started and all core services are ready
@@ -408,20 +422,6 @@ Use Wordnet to answer dictionary-like questions.
 **Usage examples:**
 - what is the antonym of ...
 - what is the definition of ...
-
--------
-
-
-### skill-ovos-audio-recording.openvoiceos
-
-No description available
-
-**Usage examples:**
-- begin recording
-- new recording named {name}
-- start a new audio recording called {name}
-- start a recording called {name}
-- start recording
 
 -------
 

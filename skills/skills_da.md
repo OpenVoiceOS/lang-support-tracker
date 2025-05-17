@@ -18,6 +18,20 @@ En færdighed til at administrere alarmer, timere, påmindelser, begivenheder og
 -------
 
 
+### ovos-skill-audio-recording.openvoiceos
+
+No description available
+
+**Usage examples:**
+- begynd at optage
+- begynd at optage
+- ny optagelse med navnet {name}
+- start en ny lydoptagelse kaldet {name}
+- start en optagelse kaldet {name}
+
+-------
+
+
 ### ovos-skill-boot-finished.openvoiceos
 
 Færdigheden til færdig opstart giver besked, når OpenVoiceOS er fuldt startet, og alle kernetjenester er klar
@@ -373,20 +387,6 @@ Brug Wordnet til at besvare ordbogslignende spørgsmål.
 **Usage examples:**
 - hvad er antonymet til...
 - hvad er definitionen på...
-
--------
-
-
-### skill-ovos-audio-recording.openvoiceos
-
-No description available
-
-**Usage examples:**
-- begynd at optage
-- begynd at optage
-- ny optagelse med navnet {name}
-- start en ny lydoptagelse kaldet {name}
-- start en optagelse kaldet {name}
 
 -------
 
