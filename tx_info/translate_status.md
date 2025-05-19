@@ -1,7 +1,7 @@
 | Lang | Translated % |
 | --- | --- |
 | da | 0.96 |
-| de-DE | 0.91 |
+| de-DE | 0.94 |
 | ca | 0.89 |
 | gl | 0.72 |
 | pt-PT | 0.62 |
