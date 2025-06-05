@@ -57,6 +57,17 @@ Usar DuckDuckGo para responder preguntas.
 -------
 
 
+### ovos-skill-dictation.openvoiceos
+
+transcribe de xeito continuo a fala da persoa usuaria a un ficheiro de texto en canto está habilitada
+
+**Usage examples:**
+- (comeza|comezar|empeza|empezar|inicia|iniciar|encomeza|encomezar|enceta|encetar|principia|principiar) o ditado
+- (rematar|remata|acabar|acaba|finalizar|finaliza|terminar|termina|concluír|conclúe) o ditado
+
+-------
+
+
 ### ovos-skill-hello-world.openvoiceos
 
 Habilidade introdutiva para que as persoas programadoras de habilidades poidan ver como se monta unha habilidade OVOS
