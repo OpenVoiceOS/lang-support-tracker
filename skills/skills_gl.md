@@ -226,6 +226,32 @@ Consulta na Wikipedia para obter respostas a todas as túas preguntas. Obtén s�
 -------
 
 
+### ovos-skill-wolfie.openvoiceos
+
+Usa Wolfram Alpha para preguntas de coñecemento xeral.
+
+**Usage examples:**
+- Cal é o nome real de Madonna?
+- Cando se estreou The Rocky Horror Picture Show?
+- Cantas polgadas hai nun metro?
+- Canto mide o Monte Everest?
+- Canto é 18 por 4?
+- pregúntalle (a wolf|ao lobo) cal é a velocidade da luz
+
+-------
+
+
+### ovos-skill-wordnet.openvoiceos
+
+Usa Wordnet para responder preguntas de tipo dicionario.
+
+**Usage examples:**
+- cal é a definición de...
+- cal é o antónimo de...
+
+-------
+
+
 ### skill-ovos-spelling.openvoiceos
 
 No description available
