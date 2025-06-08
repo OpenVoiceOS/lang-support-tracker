@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.95 | 2458 | 375 | 128 | 20 | 2330 | 355 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.92 | 10694 | 1962 | 845 | 133 | 9849 | 1829 |
-| OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.91 | 6736 | 1159 | 586 | 117 | 6150 | 1042 |
+| OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.91 | 6780 | 1166 | 630 | 124 | 6150 | 1042 |
 | OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 0.89 | 2541 | 421 | 287 | 44 | 2254 | 377 |
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.88 | 2350 | 298 | 271 | 32 | 2079 | 266 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 0.86 | 1099 | 159 | 155 | 24 | 944 | 135 |
