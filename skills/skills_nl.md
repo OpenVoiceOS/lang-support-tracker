@@ -58,6 +58,19 @@ Voorbeeld skill om ontwikkelaars te laten zien hoe een OVOS-skill ontwikkeld kan
 -------
 
 
+### ovos-skill-personal.openvoiceos
+
+Leer meer over de geschiedenis en persoonlijkheid van de assistent. Vraag naar het ‘ontstaan’ en de afkomst van de spraakassistent en maak kennis met de gemeenschap die deze open source kunstmatige intelligentie ondersteunt.
+
+**Usage examples:**
+- Waar ben je geboren?
+- Wanneer ben je gemaakt?
+- Wat ben jij?
+- Wie heeft je gemaakt?
+
+-------
+
+
 ### ovos-skill-weather.openvoiceos
 
 Ontvang de weersvoorspellingen, verwachte neerslag en meer! Je kunt ook vragen naar het weerbeeld in andere steden over de hele wereld. Huidige weergegevens en voorspellingen komen van OpenMeteo
