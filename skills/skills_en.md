@@ -324,17 +324,6 @@ runs an internet bandwidth test using speedtest.net
 -------
 
 
-### ovos-skill-spotify.openvoiceos
-
-No description available
-
-**Usage examples:**
-- play heavy metal
-- play motorhead in spotify
-
--------
-
-
 ### ovos-skill-volume.openvoiceos
 
 Control the volume of OVOS with verbal commands
