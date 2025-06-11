@@ -31,7 +31,7 @@
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.38 | 1498 | 212 | 932 | 134 | 566 | 78 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.37 | 101 | 11 | 64 | 9 | 37 | 2 |
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.36 | 1391 | 245 | 894 | 165 | 497 | 80 |
-| OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.33 | 798 | 148 | 533 | 94 | 265 | 54 |
+| OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.35 | 798 | 148 | 519 | 91 | 279 | 57 |
 | OpenVoiceOS/skill-ovos-personal | https://gitlocalize.com/repo/9599 | 0.3 | 1872 | 260 | 1305 | 171 | 567 | 89 |
 | OpenVoiceOS/ovos-skill-application-launcher | https://gitlocalize.com/repo/9621 | 0.28 | 533 | 61 | 382 | 45 | 151 | 16 |
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.25 | 2350 | 298 | 1755 | 218 | 595 | 80 |
