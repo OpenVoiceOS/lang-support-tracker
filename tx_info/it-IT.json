@@ -3,11 +3,11 @@
     "url": "https://gitlocalize.com/repo/9936",
     "title": "OpenVoiceOS/ovos-color-parser",
     "total-chars-data": "170418",
-    "translated-chars-data": "6531",
-    "untranslated-chars-data": "163887",
+    "translated-chars-data": "77642",
+    "untranslated-chars-data": "92776",
     "total-words-data": "28597",
-    "translated-words-data": "1003",
-    "untranslated-words-data": "27594"
+    "translated-words-data": "12917",
+    "untranslated-words-data": "15680"
   },
   "9893": {
     "url": "https://gitlocalize.com/repo/9893",
@@ -28,6 +28,16 @@
     "total-words-data": "153",
     "translated-words-data": "153",
     "untranslated-words-data": "0"
+  },
+  "10232": {
+    "url": "https://gitlocalize.com/repo/10232",
+    "title": "OpenVoiceOS/ovos-hivemind-pipeline-plugin",
+    "total-chars-data": "128",
+    "translated-chars-data": "0",
+    "untranslated-chars-data": "128",
+    "total-words-data": "25",
+    "translated-words-data": "0",
+    "untranslated-words-data": "25"
   },
   "9872": {
     "url": "https://gitlocalize.com/repo/9872",
@@ -53,11 +63,11 @@
     "url": "https://gitlocalize.com/repo/9892",
     "title": "OpenVoiceOS/ovos-ocp-pipeline-plugin",
     "total-chars-data": "2912",
-    "translated-chars-data": "2547",
-    "untranslated-chars-data": "365",
+    "translated-chars-data": "2606",
+    "untranslated-chars-data": "306",
     "total-words-data": "355",
-    "translated-words-data": "299",
-    "untranslated-words-data": "56"
+    "translated-words-data": "304",
+    "untranslated-words-data": "51"
   },
   "9949": {
     "url": "https://gitlocalize.com/repo/9949",
@@ -128,6 +138,16 @@
     "total-words-data": "1962",
     "translated-words-data": "0",
     "untranslated-words-data": "1962"
+  },
+  "10231": {
+    "url": "https://gitlocalize.com/repo/10231",
+    "title": "OpenVoiceOS/ovos-skill-count",
+    "total-chars-data": "801",
+    "translated-chars-data": "0",
+    "untranslated-chars-data": "801",
+    "total-words-data": "52",
+    "translated-words-data": "0",
+    "untranslated-words-data": "52"
   },
   "10101": {
     "url": "https://gitlocalize.com/repo/10101",
