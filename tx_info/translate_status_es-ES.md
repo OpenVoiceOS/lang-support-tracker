@@ -20,7 +20,7 @@
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.83 | 6271 | 758 | 1063 | 102 | 5208 | 656 |
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.65 | 1391 | 245 | 485 | 80 | 906 | 165 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 0.6 | 1485 | 266 | 595 | 104 | 890 | 162 |
-| OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.53 | 24391 | 3507 | 11471 | 1436 | 12920 | 2071 |
+| OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.59 | 24391 | 3507 | 9893 | 1230 | 14498 | 2277 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.5 | 170418 | 28597 | 85738 | 14478 | 84680 | 14119 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.47 | 749 | 122 | 397 | 58 | 352 | 64 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.46 | 560 | 80 | 305 | 33 | 255 | 47 |
