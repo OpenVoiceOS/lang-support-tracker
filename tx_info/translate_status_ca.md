@@ -2,7 +2,6 @@
 
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 1.75 | 313 | 43 | -234 | -47 | 547 | 90 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 1.0 | 363 | 73 | 0 | 0 | 363 | 73 |
 | OpenVoiceOS/ovos-core | https://gitlocalize.com/repo/9895 | 1.0 | 935 | 153 | 0 | 0 | 935 | 153 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 1.0 | 1099 | 159 | 0 | 0 | 1099 | 159 |
@@ -20,6 +19,7 @@
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 1.0 | 557 | 76 | 0 | 0 | 557 | 76 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 1.0 | 276 | 45 | 0 | 0 | 276 | 45 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 1.0 | 560 | 80 | 0 | 0 | 560 | 80 |
+| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 1.0 | 547 | 90 | 0 | 0 | 547 | 90 |
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 1.0 | 114 | 29 | 0 | 0 | 114 | 29 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 1.0 | 812 | 156 | 0 | 0 | 812 | 156 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 1.0 | 220 | 36 | 0 | 0 | 220 | 36 |

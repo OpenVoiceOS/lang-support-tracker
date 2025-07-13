@@ -12,7 +12,6 @@
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.86 | 4577 | 639 | 635 | 98 | 3942 | 541 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.76 | 2052 | 360 | 495 | 77 | 1557 | 283 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.75 | 2912 | 355 | 732 | 110 | 2180 | 245 |
-| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.74 | 389 | 59 | 101 | 9 | 288 | 50 |
 | OpenVoiceOS/skill-ovos-wallpapers | https://gitlocalize.com/repo/9604 | 0.74 | 1304 | 133 | 334 | 36 | 970 | 97 |
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.73 | 8515 | 1292 | 2282 | 353 | 6233 | 939 |
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.7 | 1391 | 245 | 417 | 67 | 974 | 178 |
@@ -27,6 +26,7 @@
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 0.49 | 617 | 99 | 314 | 58 | 303 | 41 |
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.47 | 24391 | 3507 | 12951 | 1652 | 11440 | 1855 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 0.47 | 749 | 122 | 397 | 58 | 352 | 64 |
+| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.46 | 623 | 106 | 335 | 56 | 288 | 50 |
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.38 | 1498 | 212 | 932 | 134 | 566 | 78 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.37 | 363 | 73 | 230 | 46 | 133 | 27 |
 | OpenVoiceOS/ovos-skill-cmd | https://gitlocalize.com/repo/9673 | 0.37 | 101 | 11 | 64 | 9 | 37 | 2 |

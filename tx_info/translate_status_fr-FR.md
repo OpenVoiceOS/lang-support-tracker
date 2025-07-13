@@ -44,7 +44,7 @@
 | OpenVoiceOS/ovos-skill-ggwave | https://gitlocalize.com/repo/9620 | 0.0 | 724 | 81 | 724 | 81 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 0.0 | 2541 | 421 | 2541 | 421 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 0.0 | 557 | 76 | 557 | 76 | 0 | 0 |
-| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.0 | 313 | 43 | 313 | 43 | 0 | 0 |
+| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.0 | 547 | 90 | 547 | 90 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 0.0 | 114 | 29 | 114 | 29 | 0 | 0 |
 | OpenVoiceOS/OVOS-workshop | https://gitlocalize.com/repo/9937 | 0.0 | 5 | 2 | 5 | 2 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.0 | 2458 | 375 | 2458 | 375 | 0 | 0 |

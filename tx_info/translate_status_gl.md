@@ -2,7 +2,6 @@
 
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 1.5 | 313 | 43 | -158 | -31 | 471 | 74 |
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 1.01 | 24391 | 3507 | -122 | -22 | 24513 | 3529 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 1.0 | 363 | 73 | 0 | 0 | 363 | 73 |
 | OpenVoiceOS/ovos-core | https://gitlocalize.com/repo/9895 | 1.0 | 935 | 153 | 0 | 0 | 935 | 153 |
@@ -47,6 +46,7 @@
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.92 | 798 | 148 | 60 | 14 | 738 | 134 |
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.91 | 8515 | 1292 | 733 | 121 | 7782 | 1171 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.9 | 6022 | 867 | 585 | 84 | 5437 | 783 |
+| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.86 | 547 | 90 | 76 | 16 | 471 | 74 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.0 | 170418 | 28597 | 170418 | 28597 | 0 | 0 |
 | OpenVoiceOS/ovos-hivemind-pipeline-plugin | https://gitlocalize.com/repo/10232 | 0.0 | 128 | 25 | 128 | 25 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.0 | 643 | 107 | 643 | 107 | 0 | 0 |

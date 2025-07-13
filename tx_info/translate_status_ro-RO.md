@@ -24,7 +24,7 @@
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.0 | 4577 | 639 | 4577 | 639 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 0.0 | 557 | 76 | 557 | 76 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.0 | 560 | 80 | 560 | 80 | 0 | 0 |
-| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.0 | 313 | 43 | 313 | 43 | 0 | 0 |
+| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.0 | 547 | 90 | 547 | 90 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-word-of-the-day | https://gitlocalize.com/repo/9955 | 0.0 | 114 | 29 | 114 | 29 | 0 | 0 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 0.0 | 812 | 156 | 812 | 156 | 0 | 0 |
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.0 | 220 | 36 | 220 | 36 | 0 | 0 |

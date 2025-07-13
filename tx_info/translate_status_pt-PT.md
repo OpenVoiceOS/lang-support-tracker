@@ -22,7 +22,6 @@
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.98 | 10694 | 1962 | 236 | 23 | 10458 | 1939 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.98 | 560 | 80 | 9 | 1 | 551 | 79 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.96 | 643 | 107 | 23 | 5 | 620 | 102 |
-| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.92 | 313 | 43 | 25 | -7 | 288 | 50 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.89 | 6271 | 758 | 671 | 68 | 5600 | 690 |
 | OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.88 | 6780 | 1166 | 799 | 161 | 5981 | 1005 |
 | OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 0.86 | 2541 | 421 | 361 | 59 | 2180 | 362 |
@@ -36,6 +35,7 @@
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.59 | 798 | 148 | 330 | 51 | 468 | 97 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.56 | 170418 | 28597 | 75492 | 12888 | 94926 | 15709 |
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.56 | 1498 | 212 | 661 | 97 | 837 | 115 |
+| OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.53 | 547 | 90 | 259 | 40 | 288 | 50 |
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.47 | 24391 | 3507 | 13015 | 1675 | 11376 | 1832 |
 | OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.44 | 1391 | 245 | 779 | 129 | 612 | 116 |
 | OpenVoiceOS/skill-ovos-pyradios | https://gitlocalize.com/repo/9774 | 0.41 | 63 | 7 | 37 | 3 | 26 | 4 |
