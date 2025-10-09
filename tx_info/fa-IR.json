@@ -133,11 +133,11 @@
     "url": "https://gitlocalize.com/repo/10231",
     "title": "OpenVoiceOS/ovos-skill-count",
     "total-chars-data": "801",
-    "translated-chars-data": "62",
-    "untranslated-chars-data": "739",
+    "translated-chars-data": "801",
+    "untranslated-chars-data": "0",
     "total-words-data": "52",
-    "translated-words-data": "12",
-    "untranslated-words-data": "40"
+    "translated-words-data": "52",
+    "untranslated-words-data": "0"
   },
   "10069": {
     "url": "https://gitlocalize.com/repo/10069",
@@ -213,11 +213,11 @@
     "url": "https://gitlocalize.com/repo/9657",
     "title": "OpenVoiceOS/ovos-skill-speedtest",
     "total-chars-data": "560",
-    "translated-chars-data": "353",
-    "untranslated-chars-data": "207",
+    "translated-chars-data": "477",
+    "untranslated-chars-data": "83",
     "total-words-data": "80",
-    "translated-words-data": "61",
-    "untranslated-words-data": "19"
+    "translated-words-data": "78",
+    "untranslated-words-data": "2"
   },
   "9674": {
     "url": "https://gitlocalize.com/repo/9674",
@@ -273,11 +273,11 @@
     "url": "https://gitlocalize.com/repo/9616",
     "title": "OpenVoiceOS/skill-ovos-audio-recording",
     "total-chars-data": "2458",
-    "translated-chars-data": "128",
-    "untranslated-chars-data": "2330",
+    "translated-chars-data": "1345",
+    "untranslated-chars-data": "1113",
     "total-words-data": "375",
-    "translated-words-data": "20",
-    "untranslated-words-data": "355"
+    "translated-words-data": "198",
+    "untranslated-words-data": "177"
   },
   "9615": {
     "url": "https://gitlocalize.com/repo/9615",
@@ -383,11 +383,11 @@
     "url": "https://gitlocalize.com/repo/9607",
     "title": "OpenVoiceOS/skill-ovos-parrot",
     "total-chars-data": "2052",
-    "translated-chars-data": "549",
-    "untranslated-chars-data": "1503",
+    "translated-chars-data": "869",
+    "untranslated-chars-data": "1183",
     "total-words-data": "360",
-    "translated-words-data": "112",
-    "untranslated-words-data": "248"
+    "translated-words-data": "169",
+    "untranslated-words-data": "191"
   },
   "9599": {
     "url": "https://gitlocalize.com/repo/9599",
