@@ -50,7 +50,7 @@
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 1.0 | 923 | 163 | 0 | 0 | 923 | 163 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.93 | 6271 | 758 | 451 | 38 | 5820 | 720 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.91 | 6022 | 867 | 545 | 80 | 5477 | 787 |
-| OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.14 | 170418 | 28597 | 146233 | 24566 | 24185 | 4031 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.01 | 84435 | 15866 | 83763 | 15730 | 672 | 136 |
+| OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.15 | 170418 | 28597 | 144348 | 24253 | 26070 | 4344 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.03 | 84435 | 15866 | 81660 | 15348 | 2775 | 518 |
 | OpenVoiceOS/ovos-hivemind-pipeline-plugin | https://gitlocalize.com/repo/10232 | 0.0 | 128 | 25 | 128 | 25 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-count | https://gitlocalize.com/repo/10231 | 0.0 | 801 | 52 | 801 | 52 | 0 | 0 |
