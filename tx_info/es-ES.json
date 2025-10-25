@@ -13,11 +13,11 @@
     "url": "https://gitlocalize.com/repo/9893",
     "title": "OpenVoiceOS/ovos-common-query-pipeline-plugin",
     "total-chars-data": "363",
-    "translated-chars-data": "133",
-    "untranslated-chars-data": "230",
+    "translated-chars-data": "363",
+    "untranslated-chars-data": "0",
     "total-words-data": "73",
-    "translated-words-data": "27",
-    "untranslated-words-data": "46"
+    "translated-words-data": "73",
+    "untranslated-words-data": "0"
   },
   "9895": {
     "url": "https://gitlocalize.com/repo/9895",
@@ -33,41 +33,41 @@
     "url": "https://gitlocalize.com/repo/10232",
     "title": "OpenVoiceOS/ovos-hivemind-pipeline-plugin",
     "total-chars-data": "128",
-    "translated-chars-data": "0",
-    "untranslated-chars-data": "128",
+    "translated-chars-data": "128",
+    "untranslated-chars-data": "0",
     "total-words-data": "25",
-    "translated-words-data": "0",
-    "untranslated-words-data": "25"
+    "translated-words-data": "25",
+    "untranslated-words-data": "0"
   },
   "9872": {
     "url": "https://gitlocalize.com/repo/9872",
     "title": "OpenVoiceOS/ovos-installer",
     "total-chars-data": "8515",
-    "translated-chars-data": "7782",
-    "untranslated-chars-data": "733",
+    "translated-chars-data": "8515",
+    "untranslated-chars-data": "0",
     "total-words-data": "1292",
-    "translated-words-data": "1171",
-    "untranslated-words-data": "121"
+    "translated-words-data": "1292",
+    "untranslated-words-data": "0"
   },
   "9935": {
     "url": "https://gitlocalize.com/repo/9935",
     "title": "OpenVoiceOS/ovos-lang-parser",
     "total-chars-data": "1099",
-    "translated-chars-data": "1045",
-    "untranslated-chars-data": "54",
+    "translated-chars-data": "987",
+    "untranslated-chars-data": "112",
     "total-words-data": "159",
-    "translated-words-data": "152",
-    "untranslated-words-data": "7"
+    "translated-words-data": "144",
+    "untranslated-words-data": "15"
   },
   "9892": {
     "url": "https://gitlocalize.com/repo/9892",
     "title": "OpenVoiceOS/ovos-ocp-pipeline-plugin",
     "total-chars-data": "2912",
-    "translated-chars-data": "274",
-    "untranslated-chars-data": "2638",
+    "translated-chars-data": "2906",
+    "untranslated-chars-data": "6",
     "total-words-data": "355",
-    "translated-words-data": "45",
-    "untranslated-words-data": "310"
+    "translated-words-data": "354",
+    "untranslated-words-data": "1"
   },
   "9949": {
     "url": "https://gitlocalize.com/repo/9949",
