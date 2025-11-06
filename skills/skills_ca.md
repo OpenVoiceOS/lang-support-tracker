@@ -54,25 +54,6 @@ Com fer gairebé qualsevolcosa
 -------
 
 
-### ovos-skill-wikipedia.openvoiceos
-
-Consulteu la Viquipèdia per a obtenir respostes a totes les vostres preguntes. Obteniu només un resum o demaneu més informació per a obtenir informació detallada.
-
-**Usage examples:**
-- Busca a la wikipedia qui era Joan Maragall
-- Busca informació sobre el Barri Vell de Banyoles
-- Cerca sobre xocolata
-- Consulta la Viquipèdia sobre fesols
-- Digues-me més
-- Més informació
-- Parla'm d'Elon Musk
-- Parla'm del Pembroke Welsh Corgi
-- Parla'm dels fesols
-- Què saps del Canigó?
-
--------
-
-
 ### ovos-skill-wolfie.openvoiceos
 
 Useu Wolfram Alpha per a preguntes de coneixement general.

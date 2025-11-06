@@ -22,22 +22,6 @@ Como facer case calquera cousa.
 -------
 
 
-### ovos-skill-wikipedia.openvoiceos
-
-Consulta na Wikipedia para obter respostas a todas as túas preguntas. Obtén só un resumo ou solicita información máis detallada.
-
-**Usage examples:**
-- Busca "chocolate"
-- Consulta a entrada na Wikipedia sobre os feixóns
-- Cóntame máis
-- Fálame de Elon Musk
-- Fálame do Pembroke Welsh Corgi
-- Fálame dos feixóns
-- Máis información
-
--------
-
-
 ### ovos-skill-wolfie.openvoiceos
 
 Usa Wolfram Alpha para preguntas de coñecemento xeral.

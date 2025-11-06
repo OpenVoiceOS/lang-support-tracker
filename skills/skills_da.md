@@ -36,22 +36,6 @@ Sådan gør du næsten alt.
 -------
 
 
-### ovos-skill-wikipedia.openvoiceos
-
-Spørg Wikipedia for at få svar på alle dine spørgsmål. Få blot et resumé, eller bed om mere for at få dybdegående information.
-
-**Usage examples:**
-- Fortæl mig mere
-- Fortæl mig om Elon Musk
-- Fortæl mig om Pembroke Welsh Corgi
-- Fortæl mig om bønner
-- Mere information
-- Søg efter chokolade
-- Tjek Wikipedia for bønner
-
--------
-
-
 ### ovos-skill-wolfie.openvoiceos
 
 Brug Wolfram Alpha til generelle vidensspørgsmål.

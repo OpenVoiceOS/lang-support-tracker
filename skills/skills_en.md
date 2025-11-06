@@ -49,22 +49,6 @@ How to do nearly everything.
 -------
 
 
-### ovos-skill-wikipedia.openvoiceos
-
-Query Wikipedia for answers to all your questions. Get just a summary, or ask for more to get in-depth information.
-
-**Usage examples:**
-- Check Wikipedia for beans
-- More information
-- Search for chocolate
-- Tell me More
-- Tell me about Elon Musk
-- Tell me about beans
-- Tell me about the Pembroke Welsh Corgi
-
--------
-
-
 ### ovos-skill-wolfie.openvoiceos
 
 Use Wolfram Alpha for general knowledge questions.

@@ -36,22 +36,6 @@ Wie man fast alles macht.
 -------
 
 
-### ovos-skill-wikipedia.openvoiceos
-
-Suche in Wikipedia nach Antworten auf all Deine Fragen. Erhalte nur eine Zusammenfassung oder frage nach weiteren Informationen, um tiefer gehende Informationen zu erhalten.
-
-**Usage examples:**
-- Checke Wikipedia zu Bohnen
-- Erzähl mir mehr
-- Erzähl mir von Bohnen
-- Erzähl mir von Elon Musk
-- Erzähle mir etwas über den Pembroke Welsh Corgi
-- Suche nach Schokolade
-- Weitere Informationen
-
--------
-
-
 ### ovos-skill-wolfie.openvoiceos
 
 Verwende Wolfram Alpha für Fragen zum Allgemeinwissen.
