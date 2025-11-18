@@ -58,6 +58,18 @@ Habilidad de muestra para que los autores de habilidades puedan ver cómo se cre
 -------
 
 
+### ovos-skill-naptime.openvoiceos
+
+Pon el asistente a dormir cuando no quieras que te molesten.
+
+**Usage examples:**
+- A dormir
+- Despierta
+- Hora de la siesta
+
+-------
+
+
 ### ovos-skill-news.openvoiceos
 
 Canales de noticias del mundo entero.
@@ -88,6 +100,29 @@ Canales de noticias del mundo entero.
 - repite: Una vez, en una lúgubre medianoche, mientras reflexionaba, débil y cansado, sobre muchos volúmenes antiguos y curiosos de saberes olvidados
 - ¿Puedes repetirlo?
 - ¿Qué acabo de decir?
+
+-------
+
+
+### ovos-skill-personal.openvoiceos
+
+Conoce la historia y la personalidad del asistente. Infórmate acerca de su “nacimiento” y procedencia, y descubre la comunidad que impulsa esta inteligencia artificial de código abierto.
+
+**Usage examples:**
+- ¿Cuándo fuiste creado?
+- ¿Dónde naciste?
+- ¿Quién te creó?
+- ¿Qué eres?
+
+-------
+
+
+### ovos-skill-speedtest.openvoiceos
+
+Realiza una prueba de velocidad de Internet utilizando speedtest.net
+
+**Usage examples:**
+- Realiza una prueba de velocidad
 
 -------
 
