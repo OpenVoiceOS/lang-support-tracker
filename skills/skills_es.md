@@ -145,3 +145,14 @@ Información sobre las condiciones meteorológicas, las previsiones, las precipi
 
 -------
 
+
+### ovos-skill-wordnet.openvoiceos
+
+Utiliza Wordnet para responder preguntas tipo diccionario.
+
+**Usage examples:**
+- ¿Cuál es el antónimo de...?
+- ¿Cuál es la definición de...?
+
+-------
+
