@@ -18,6 +18,22 @@ Una skill para gestionar alarmas, temporizadores, recordatorios, eventos, tareas
 -------
 
 
+### ovos-skill-audio-recording.openvoiceos
+
+No description available
+
+**Usage examples:**
+- (Inicia|Empieza) una grabación (llamada|con el nombre) {name}
+- (Inicia|Empieza) una nueva grabación de audio (llamada|con el nombre) {name}
+- comenzar (la grabación|a grabar)
+empezar (la grabación|a grabar)
+- comienza (la grabación|a grabar)
+empieza (la grabación|a grabar)
+- nueva grabación (llamada|con el nombre) {name}
+
+-------
+
+
 ### ovos-skill-boot-finished.openvoiceos
 
 La habilidad de arranque finalizado proporciona notificaciones cuando OpenVoiceOS se ha iniciado por completo y todos los servicios principales están listos

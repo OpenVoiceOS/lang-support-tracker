@@ -9,6 +9,13 @@ ovos-skill-alerts.openvoiceos,"Pon una alarma a las 8 a.m."
 ovos-skill-alerts.openvoiceos,"Programa un evento de tenis para las 14:00 del viernes con una duración de 2 horas."
 ovos-skill-alerts.openvoiceos,"despiértame a las 8 de la mañana con música."
 ovos-skill-alerts.openvoiceos,"recuerda sacar la basura cada jueves y domingo a las 19h."
+ovos-skill-audio-recording.openvoiceos,"(Inicia|Empieza) una grabación (llamada|con el nombre) {name}"
+ovos-skill-audio-recording.openvoiceos,"(Inicia|Empieza) una nueva grabación de audio (llamada|con el nombre) {name}"
+ovos-skill-audio-recording.openvoiceos,"comenzar (la grabación|a grabar)
+empezar (la grabación|a grabar)"
+ovos-skill-audio-recording.openvoiceos,"comienza (la grabación|a grabar)
+empieza (la grabación|a grabar)"
+ovos-skill-audio-recording.openvoiceos,"nueva grabación (llamada|con el nombre) {name}"
 ovos-skill-boot-finished.openvoiceos,"Desactivar notificaciones de preparación."
 ovos-skill-boot-finished.openvoiceos,"Habilitar notificaciones de preparación."
 ovos-skill-boot-finished.openvoiceos,"¿Está listo el sistema?"
