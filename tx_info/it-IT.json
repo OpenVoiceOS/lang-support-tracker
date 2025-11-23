@@ -29,6 +29,16 @@
     "translated-words-data": "153",
     "untranslated-words-data": "0"
   },
+  "10578": {
+    "url": "https://gitlocalize.com/repo/10578",
+    "title": "OpenVoiceOS/ovos-ddg-solver-plugin",
+    "total-chars-data": "1171",
+    "translated-chars-data": "277",
+    "untranslated-chars-data": "894",
+    "total-words-data": "218",
+    "translated-words-data": "53",
+    "untranslated-words-data": "165"
+  },
   "10232": {
     "url": "https://gitlocalize.com/repo/10232",
     "title": "OpenVoiceOS/ovos-hivemind-pipeline-plugin",
@@ -338,16 +348,6 @@
     "total-words-data": "1425",
     "translated-words-data": "145",
     "untranslated-words-data": "1280"
-  },
-  "9618": {
-    "url": "https://gitlocalize.com/repo/9618",
-    "title": "OpenVoiceOS/skill-ovos-ddg",
-    "total-chars-data": "1391",
-    "translated-chars-data": "497",
-    "untranslated-chars-data": "894",
-    "total-words-data": "245",
-    "translated-words-data": "80",
-    "untranslated-words-data": "165"
   },
   "9612": {
     "url": "https://gitlocalize.com/repo/9612",

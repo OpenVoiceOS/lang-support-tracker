@@ -10,11 +10,11 @@
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.88 | 2350 | 298 | 271 | 32 | 2079 | 266 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 0.86 | 1099 | 159 | 155 | 24 | 944 | 135 |
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.86 | 4577 | 639 | 635 | 98 | 3942 | 541 |
+| OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.83 | 1171 | 218 | 197 | 40 | 974 | 178 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.76 | 2052 | 360 | 495 | 77 | 1557 | 283 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.75 | 2912 | 355 | 732 | 110 | 2180 | 245 |
 | OpenVoiceOS/skill-ovos-wallpapers | https://gitlocalize.com/repo/9604 | 0.74 | 1304 | 133 | 334 | 36 | 970 | 97 |
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.73 | 8515 | 1292 | 2282 | 353 | 6233 | 939 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.7 | 1391 | 245 | 417 | 67 | 974 | 178 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.69 | 6022 | 867 | 1851 | 268 | 4171 | 599 |
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 0.69 | 923 | 163 | 289 | 38 | 634 | 125 |
 | OpenVoiceOS/ovos-skill-ggwave | https://gitlocalize.com/repo/9620 | 0.65 | 724 | 81 | 256 | 24 | 468 | 57 |

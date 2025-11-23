@@ -17,6 +17,7 @@
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.09 | 8515 | 1292 | 7732 | 1161 | 783 | 131 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.0 | 170418 | 28597 | 170418 | 28597 | 0 | 0 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.0 | 363 | 73 | 363 | 73 | 0 | 0 |
+| OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.0 | 1171 | 218 | 1171 | 218 | 0 | 0 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 0.0 | 1099 | 159 | 1099 | 159 | 0 | 0 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.0 | 2912 | 355 | 2912 | 355 | 0 | 0 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.0 | 6271 | 758 | 6271 | 758 | 0 | 0 |
@@ -36,7 +37,6 @@
 | OpenVoiceOS/OVOS-workshop | https://gitlocalize.com/repo/9937 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.0 | 1661 | 202 | 1661 | 202 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.0 | 10065 | 1425 | 10065 | 1425 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1391 | 245 | 1391 | 245 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 0.0 | 829 | 175 | 829 | 175 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84435 | 15866 | 84435 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.0 | 1009 | 190 | 1009 | 190 | 0 | 0 |

@@ -31,7 +31,6 @@
 | OpenVoiceOS/ovos-utterance-plugin-cancel | https://gitlocalize.com/repo/9630 | 0.0 | 220 | 36 | 220 | 36 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.0 | 2458 | 375 | 2458 | 375 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.0 | 1661 | 202 | 1661 | 202 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1391 | 245 | 1391 | 245 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84435 | 15866 | 84435 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.0 | 1352 | 254 | 1352 | 254 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.0 | 2350 | 298 | 2350 | 298 | 0 | 0 |

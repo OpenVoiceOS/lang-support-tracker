@@ -31,7 +31,6 @@
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 0.0 | 2458 | 375 | 2458 | 375 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 0.0 | 1661 | 202 | 1661 | 202 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.0 | 10065 | 1425 | 10065 | 1425 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.0 | 1391 | 245 | 1391 | 245 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84435 | 15866 | 84435 | 15866 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.0 | 1009 | 190 | 1009 | 190 | 0 | 0 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 0.0 | 1352 | 254 | 1352 | 254 | 0 | 0 |

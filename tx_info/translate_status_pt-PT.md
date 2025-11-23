@@ -36,8 +36,8 @@
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.56 | 170418 | 28597 | 75492 | 12888 | 94926 | 15709 |
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 0.56 | 1498 | 212 | 661 | 97 | 837 | 115 |
 | OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.53 | 547 | 90 | 259 | 40 | 288 | 50 |
+| OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.52 | 1171 | 218 | 559 | 102 | 612 | 116 |
 | OpenVoiceOS/skill-ovos-weather | https://gitlocalize.com/repo/9662 | 0.47 | 24391 | 3507 | 13015 | 1675 | 11376 | 1832 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 0.44 | 1391 | 245 | 779 | 129 | 612 | 116 |
 | OpenVoiceOS/skill-ovos-pyradios | https://gitlocalize.com/repo/9774 | 0.41 | 63 | 7 | 37 | 3 | 26 | 4 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.4 | 363 | 73 | 219 | 45 | 144 | 28 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.39 | 2052 | 360 | 1242 | 205 | 810 | 155 |

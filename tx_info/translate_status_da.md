@@ -36,7 +36,6 @@
 | OpenVoiceOS/skill-ovos-audio-recording | https://gitlocalize.com/repo/9616 | 1.0 | 2458 | 375 | 0 | 0 | 2458 | 375 |
 | OpenVoiceOS/skill-ovos-boot-finished | https://gitlocalize.com/repo/9615 | 1.0 | 1661 | 202 | 0 | 0 | 1661 | 202 |
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 1.0 | 10065 | 1425 | 0 | 0 | 10065 | 1425 |
-| OpenVoiceOS/skill-ovos-ddg | https://gitlocalize.com/repo/9618 | 1.0 | 1391 | 245 | 0 | 0 | 1391 | 245 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 1.0 | 829 | 175 | 0 | 0 | 829 | 175 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 1.0 | 798 | 148 | 0 | 0 | 798 | 148 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 1.0 | 84435 | 15866 | 0 | 0 | 84435 | 15866 |
@@ -54,3 +53,4 @@
 | OpenVoiceOS/skill-ovos-wikipedia | https://gitlocalize.com/repo/9602 | 1.0 | 1498 | 212 | 0 | 0 | 1498 | 212 |
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 1.0 | 749 | 122 | 0 | 0 | 749 | 122 |
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 1.0 | 923 | 163 | 0 | 0 | 923 | 163 |
+| OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.85 | 1171 | 218 | 180 | 37 | 991 | 181 |
