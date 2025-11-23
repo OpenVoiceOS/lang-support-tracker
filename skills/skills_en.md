@@ -98,18 +98,6 @@ Provides historical events for today or any other calendar day using information
 -------
 
 
-### ovos-skill-ddg.openvoiceos
-
-Use DuckDuckGo to answer questions.
-
-**Usage examples:**
-- ask the duck about the big bang
-- when was stephen hawking born
-- who is elon musk
-
--------
-
-
 ### ovos-skill-dictation.openvoiceos
 
 continuously transcribes user speech to text file while enabled
@@ -373,6 +361,22 @@ How to do nearly everything.
 -------
 
 
+### ovos-skill-wikipedia.openvoiceos
+
+Query Wikipedia for answers to all your questions. Get just a summary, or ask for more to get in-depth information.
+
+**Usage examples:**
+- Check Wikipedia for beans
+- More information
+- Search for chocolate
+- Tell me More
+- Tell me about Elon Musk
+- Tell me about beans
+- Tell me about the Pembroke Welsh Corgi
+
+-------
+
+
 ### ovos-skill-wolfie.openvoiceos
 
 Use Wolfram Alpha for general knowledge questions.
@@ -384,17 +388,6 @@ Use Wolfram Alpha for general knowledge questions.
 - What's 18 times 4?
 - When was The Rocky Horror Picture Show released?
 - ask the wolf what is the speed of light
-
--------
-
-
-### ovos-skill-wordnet.openvoiceos
-
-Use Wordnet to answer dictionary-like questions.
-
-**Usage examples:**
-- what is the antonym of ...
-- what is the definition of ...
 
 -------
 

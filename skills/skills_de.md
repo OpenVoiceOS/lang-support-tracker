@@ -99,18 +99,6 @@ Bietet historische Ereignisse für heute oder jeden anderen Kalendertag unter Ve
 -------
 
 
-### ovos-skill-ddg.openvoiceos
-
-Verwende DuckDuckGo, um Fragen zu beantworten.
-
-**Usage examples:**
-- Frag die Ente nach dem Urknall
-- Wer ist Elon Musk?
-- wann wurde Stephen Hawking geboren
-
--------
-
-
 ### ovos-skill-dictation.openvoiceos
 
 transkribiert Sprache kontinuierlich in eine Textdatei, solange diese aktiviert ist
@@ -357,6 +345,22 @@ Wie man fast alles macht.
 -------
 
 
+### ovos-skill-wikipedia.openvoiceos
+
+Suche in Wikipedia nach Antworten auf all Deine Fragen. Erhalte nur eine Zusammenfassung oder frage nach weiteren Informationen, um tiefer gehende Informationen zu erhalten.
+
+**Usage examples:**
+- Checke Wikipedia zu Bohnen
+- Erzähl mir mehr
+- Erzähl mir von Bohnen
+- Erzähl mir von Elon Musk
+- Erzähle mir etwas über den Pembroke Welsh Corgi
+- Suche nach Schokolade
+- Weitere Informationen
+
+-------
+
+
 ### ovos-skill-wolfie.openvoiceos
 
 Verwende Wolfram Alpha für Fragen zum Allgemeinwissen.
@@ -368,17 +372,6 @@ Verwende Wolfram Alpha für Fragen zum Allgemeinwissen.
 - Wie ist Madonnas richtiger Name?
 - Wie viele Zoll sind ein Meter?
 - frage den Wolf wie hoch die Lichtgeschwindigkeit ist
-
--------
-
-
-### ovos-skill-wordnet.openvoiceos
-
-Verwende Wordnet, um wörterbuchähnliche Fragen zu beantworten.
-
-**Usage examples:**
-- was ist das Antonym von ...
-- was ist die Definition von ...
 
 -------
 

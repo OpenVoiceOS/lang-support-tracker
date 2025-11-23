@@ -57,18 +57,6 @@ Obtén a hora, a data, o día da semana
 -------
 
 
-### ovos-skill-ddg.openvoiceos
-
-Usar DuckDuckGo para responder preguntas.
-
-**Usage examples:**
-- Cando naceu Stephen Hawking?
-- Quen é Elon Musk?
-- pregúntalle a duck sobre o big bang
-
--------
-
-
 ### ovos-skill-dictation.openvoiceos
 
 transcribe de xeito continuo a fala da persoa usuaria a un ficheiro de texto en canto está habilitada
@@ -233,6 +221,22 @@ Como facer case calquera cousa.
 -------
 
 
+### ovos-skill-wikipedia.openvoiceos
+
+Consulta na Wikipedia para obter respostas a todas as túas preguntas. Obtén só un resumo ou solicita información máis detallada.
+
+**Usage examples:**
+- Busca "chocolate"
+- Consulta a entrada na Wikipedia sobre os feixóns
+- Cóntame máis
+- Fálame de Elon Musk
+- Fálame do Pembroke Welsh Corgi
+- Fálame dos feixóns
+- Máis información
+
+-------
+
+
 ### ovos-skill-wolfie.openvoiceos
 
 Usa Wolfram Alpha para preguntas de coñecemento xeral.
@@ -244,17 +248,6 @@ Usa Wolfram Alpha para preguntas de coñecemento xeral.
 - Canto mide o Monte Everest?
 - Canto é 18 por 4?
 - pregúntalle (a wolf|ao lobo) cal é a velocidade da luz
-
--------
-
-
-### ovos-skill-wordnet.openvoiceos
-
-Usa Wordnet para responder preguntas de tipo dicionario.
-
-**Usage examples:**
-- cal é a definición de...
-- cal é o antónimo de...
 
 -------
 

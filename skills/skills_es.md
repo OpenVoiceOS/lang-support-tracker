@@ -162,13 +162,21 @@ Información sobre las condiciones meteorológicas, las previsiones, las precipi
 -------
 
 
-### ovos-skill-wordnet.openvoiceos
+### ovos-skill-wikipedia.openvoiceos
 
-Utiliza Wordnet para responder preguntas tipo diccionario.
+Consulta la Wikipedia para obtener respuestas a tus preguntas. Pide un resumen o más información para tener más detalles.
 
 **Usage examples:**
-- ¿Cuál es el antónimo de...?
-- ¿Cuál es la definición de...?
+- Busca a la Wikipedia quién era Gustavo Adolfo Bécquer
+- Busca información sobre Salamanca
+- Busca sobre el chocolate
+- Consulta la Wikipedia sobre las habichuelas
+- Cuéntame más
+- Explícame sobre el Pembroke Welsh Corgi
+- Háblamde de las habichuelas
+- Háblame de Elon Musk
+- Más información
+- ¿Qué sabes del Mulhacén?
 
 -------
 

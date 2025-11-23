@@ -98,18 +98,6 @@ Proporciona esdeveniments històrics d'avui o de qualsevol altre dia natural mit
 -------
 
 
-### ovos-skill-ddg.openvoiceos
-
-Usa DuckDuckGo per a respondre preguntes.
-
-**Usage examples:**
-- Pregunta a l'ànec sobre el big bang
-- Quan va néixer Stephen Hawking?
-- Qui és Elon Musk
-
--------
-
-
 ### ovos-skill-dictation.openvoiceos
 
 Mentre està activada, transcriu de forma contínua la parla de l'usuari en un fitxer de text
@@ -348,6 +336,25 @@ Com fer gairebé qualsevolcosa
 -------
 
 
+### ovos-skill-wikipedia.openvoiceos
+
+Consulteu la Viquipèdia per a obtenir respostes a totes les vostres preguntes. Obteniu només un resum o demaneu més informació per a obtenir informació detallada.
+
+**Usage examples:**
+- Busca a la wikipedia qui era Joan Maragall
+- Busca informació sobre el Barri Vell de Banyoles
+- Cerca sobre xocolata
+- Consulta la Viquipèdia sobre fesols
+- Digues-me més
+- Més informació
+- Parla'm d'Elon Musk
+- Parla'm del Pembroke Welsh Corgi
+- Parla'm dels fesols
+- Què saps del Canigó?
+
+-------
+
+
 ### ovos-skill-wolfie.openvoiceos
 
 Useu Wolfram Alpha per a preguntes de coneixement general.
@@ -359,17 +366,6 @@ Useu Wolfram Alpha per a preguntes de coneixement general.
 - Quin és el nom real de Madonna?
 - Quina alçada té l'Everest?
 - pregunta al llop quina és la velocitat de la llum
-
--------
-
-
-### ovos-skill-wordnet.openvoiceos
-
-Usa Wordnet per a respondre qüestions relacionades amb diccioanris.
-
-**Usage examples:**
-- quin és l'antònim de...
-- quina és la definició de ...
 
 -------
 
