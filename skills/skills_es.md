@@ -74,6 +74,20 @@ Habilidad de muestra para que los autores de habilidades puedan ver cómo se cre
 -------
 
 
+### ovos-skill-iss-location.openvoiceos
+
+Sigue la ubicación de la (ISS|EEI)
+
+**Usage examples:**
+- Háblame de la (ISS|EEI)
+- ¿Cuándo pasará la (EEI|ISS) por encima?
+- ¿Cuántas personas hay a bordo de la estación espacial?
+- ¿Dónde está la (ISS|EEI)?
+- ¿Quién está a bordo de la estación espacial?
+
+-------
+
+
 ### ovos-skill-naptime.openvoiceos
 
 Pon el asistente a dormir cuando no quieras que te molesten.
