@@ -18,6 +18,7 @@
 | OpenVoiceOS/ovos-skill-diagnostics | https://gitlocalize.com/repo/10069 | 1.0 | 1683 | 305 | 0 | 0 | 1683 | 305 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 1.0 | 6022 | 867 | 0 | 0 | 6022 | 867 |
 | OpenVoiceOS/ovos-skill-ggwave | https://gitlocalize.com/repo/9620 | 1.0 | 724 | 81 | 0 | 0 | 724 | 81 |
+| OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 1.0 | 2541 | 421 | 0 | 0 | 2541 | 421 |
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 1.0 | 617 | 99 | 0 | 0 | 617 | 99 |
 | OpenVoiceOS/ovos-skill-mark1-ctrl | https://gitlocalize.com/repo/10024 | 1.0 | 2778 | 463 | 0 | 0 | 2778 | 463 |
 | OpenVoiceOS/ovos-skill-number-facts | https://gitlocalize.com/repo/9675 | 1.0 | 557 | 76 | 0 | 0 | 557 | 76 |
@@ -48,7 +49,6 @@
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 1.0 | 749 | 122 | 0 | 0 | 749 | 122 |
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 1.0 | 923 | 163 | 0 | 0 | 923 | 163 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.98 | 10694 | 1962 | 236 | 23 | 10458 | 1939 |
-| OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 0.98 | 2541 | 421 | 56 | 9 | 2485 | 412 |
 | OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.86 | 1171 | 218 | 159 | 33 | 1012 | 185 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.5 | 170418 | 28597 | 85738 | 14478 | 84680 | 14119 |
 | OpenVoiceOS/ovos-skill-days-in-history | https://gitlocalize.com/repo/10101 | 0.37 | 836 | 132 | 528 | 85 | 308 | 47 |
