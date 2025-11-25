@@ -157,6 +157,25 @@ Realiza una prueba de velocidad de Internet utilizando speedtest.net
 -------
 
 
+### ovos-skill-volume.openvoiceos
+
+Controla el volumen de OVOS con comandos verbales
+
+**Usage examples:**
+- (activar|desmutear) el audio
+- (activar|desmutear) el volumen
+- (ajusta|sube) el nivel de volumen al máximo
+- (ajusta|sube) el volumen al máximo
+- (alternar|conmutar) audio
+- (alternar|conmutar) el silencio
+- (el|) nivel de volumen (es|está|) demasiado alto
+- (el|) nivel de volumen (es|está|) demasiado bajo
+- (el|) volumen (es|está|) demasiado bajo
+- (silenciar|desmutear)
+
+-------
+
+
 ### ovos-skill-weather.openvoiceos
 
 Información sobre las condiciones meteorológicas, las previsiones, las precipitaciones y mucho más. También puedes preguntar sobre otras ciudades del mundo. Las condiciones actuales y las previsiones provienen de OpenMeteo
@@ -191,6 +210,21 @@ Consulta la Wikipedia para obtener respuestas a tus preguntas. Pide un resumen o
 - Háblame de Elon Musk
 - Más información
 - ¿Qué sabes del Mulhacén?
+
+-------
+
+
+### ovos-skill-wolfie.openvoiceos
+
+Utilice Wolfram Alpha para preguntas de cultura general.
+
+**Usage examples:**
+- Pregúntale al lobo cuál es la velocidad de la luz
+- ¿Cuál es el verdadero nombre de Madonna?
+- ¿Cuándo se estrenó The Rocky Horror Picture Show?
+- ¿Cuántas pulgadas hay en un metro?
+- ¿Cuánto es 18 por 4?
+- ¿Qué altura tiene el Monte Everest?
 
 -------
 
