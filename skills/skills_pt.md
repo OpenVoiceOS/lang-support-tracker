@@ -183,3 +183,19 @@ Veja as condições climáticas, previsões, precipitação esperada e muito mai
 
 -------
 
+
+### ovos-skill-wikipedia.openvoiceos
+
+Consulte a Wikipédia para obter respostas para todas as suas perguntas. Obtenha apenas um resumo ou peça mais informações para obter informações mais detalhadas.
+
+**Usage examples:**
+- Busque por feijões na Wikipédia
+- Conte-me mais
+- Conte-me sobre o Pembroke Welsh Corgi
+- Conte-me sobre o feijão
+- Fale-me sobre Elon Musk
+- Mais informações
+- Procure por chocolate
+
+-------
+
