@@ -44,9 +44,9 @@
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 1.0 | 923 | 163 | 0 | 0 | 923 | 163 |
 | OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.99 | 6780 | 1166 | 44 | 7 | 6736 | 1159 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.92 | 798 | 148 | 60 | 14 | 738 | 134 |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.91 | 8515 | 1292 | 733 | 121 | 7782 | 1171 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.9 | 6022 | 867 | 585 | 84 | 5437 | 783 |
 | OpenVoiceOS/ovos-skill-wikihow | https://gitlocalize.com/repo/9674 | 0.86 | 547 | 90 | 76 | 16 | 471 | 74 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.84 | 8514 | 1292 | 1351 | 217 | 7163 | 1075 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.0 | 170418 | 28597 | 170418 | 28597 | 0 | 0 |
 | OpenVoiceOS/ovos-hivemind-pipeline-plugin | https://gitlocalize.com/repo/10232 | 0.0 | 128 | 25 | 128 | 25 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.0 | 643 | 107 | 643 | 107 | 0 | 0 |
