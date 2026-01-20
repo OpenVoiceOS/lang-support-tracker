@@ -94,6 +94,25 @@ Rastrexa a localización da EEI
 -------
 
 
+### ovos-skill-local-media.openvoiceos
+
+Explorador de ficheiros locais para Open Voice OS
+
+**Usage examples:**
+- abrir USB
+- abrir a aplicación de explorador USB
+- abrir a aplicación de explorador de ficheiros
+- abrir a miña unidade USB
+- abrir a miña unidade do explorador de ficheiros
+- abrir a unidade USB
+- abrir a unidade do explorador de ficheiros
+- abrir o explorador USB
+- abrir o explorador de ficheiros
+- abrir o meu USB
+
+-------
+
+
 ### ovos-skill-moviemaster.openvoiceos
 
 Busca información sobre filmes, actores, actrices e detalles de produción. Consigue información sobre unha película coa túa voz facilmente.
@@ -168,6 +187,16 @@ Coñece a historia e a personalidade do asistente. Pregunta sobre o seu "nacemen
 - Onde naciches?
 - Que es ti?
 - Quen te (fixo|creou)?
+
+-------
+
+
+### ovos-skill-speedtest.openvoiceos
+
+realiza unha proba de ancho de banda de Internet usando speedtest.net
+
+**Usage examples:**
+- realizar unha proba de velocidade
 
 -------
 

@@ -19,6 +19,8 @@ ovos-skill-audio-recording.openvoiceos,"nueva grabación (llamada|con el nombre)
 ovos-skill-boot-finished.openvoiceos,"Desactivar notificaciones de preparación."
 ovos-skill-boot-finished.openvoiceos,"Habilitar notificaciones de preparación."
 ovos-skill-boot-finished.openvoiceos,"¿Está listo el sistema?"
+ovos-skill-cmd.forslund,"comando de lanzamiento ___"
+ovos-skill-cmd.forslund,"ejecutar script ___"
 ovos-skill-date-time.openvoiceos,"Dime el día de la semana"
 ovos-skill-date-time.openvoiceos,"Dime la hora"
 ovos-skill-date-time.openvoiceos,"¿Cuantos días faltan para el 24 de junio?"

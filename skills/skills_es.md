@@ -46,6 +46,17 @@ La habilidad de arranque finalizado proporciona notificaciones cuando OpenVoiceO
 -------
 
 
+### ovos-skill-cmd.forslund
+
+No description available
+
+**Usage examples:**
+- comando de lanzamiento ___
+- ejecutar script ___
+
+-------
+
+
 ### ovos-skill-date-time.openvoiceos
 
 Información sobre la hora, la fecha y el día de la semana

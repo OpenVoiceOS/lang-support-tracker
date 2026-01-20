@@ -183,6 +183,25 @@ Seguiment de la ubicació de l'EEI
 -------
 
 
+### ovos-skill-local-media.openvoiceos
+
+Navegador de fitxers multimèdia locals per a Open Voice OS
+
+**Usage examples:**
+- inicia aplicació de navegador de fitxers
+- inicia el navegador de fitxers
+- inicia el navegador usb
+- inicia l'aplicació del navegador usb
+- mostra el navegador de fitxers
+- mostra el navegador de fitxers
+- mostra el navegador usb
+- mostra l'aplicació del navegador de fitxers
+- mostra l'aplicació del navegador usb
+- mostra l'usb
+
+-------
+
+
 ### ovos-skill-moviemaster.openvoiceos
 
 Cerca informació sobre pel·lícules, actors i detalls de producció. Trobeu fàcilment informació sobre una pel·lícula amb la veu.

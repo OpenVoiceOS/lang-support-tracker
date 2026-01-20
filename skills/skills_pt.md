@@ -146,6 +146,19 @@ Transforme o OpenVoiceOS em um papagaio! Faça o OVOS repetir o que você quiser
 -------
 
 
+### ovos-skill-personal.openvoiceos
+
+Aprenda a história e a personalidade do assistente. Pergunte sobre o "nascimento" e a ascendência do assistente de voz e conheça um pouco da comunidade que está fomentando essa inteligência artificial de código aberto.
+
+**Usage examples:**
+- Onde você nasceu?
+- Quando você foi criado?
+- Quem fez você?
+- Quem é você?
+
+-------
+
+
 ### ovos-skill-volume.openvoiceos
 
 Controle o volume do OVOS com comandos verbais
