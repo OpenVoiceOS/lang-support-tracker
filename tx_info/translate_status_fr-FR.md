@@ -4,11 +4,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenVoiceOS/ovos-core | https://gitlocalize.com/repo/9895 | 1.0 | 935 | 153 | 0 | 0 | 935 | 153 |
 | OpenVoiceOS/ovos-hivemind-pipeline-plugin | https://gitlocalize.com/repo/10232 | 1.0 | 128 | 25 | 0 | 0 | 128 | 25 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 1.0 | 8231 | 1247 | 0 | 0 | 8231 | 1247 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 1.0 | 1099 | 159 | 0 | 0 | 1099 | 159 |
 | OpenVoiceOS/ovos-skill-camera | https://gitlocalize.com/repo/9996 | 1.0 | 310 | 62 | 0 | 0 | 310 | 62 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 1.0 | 812 | 156 | 0 | 0 | 812 | 156 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 1.0 | 829 | 175 | 0 | 0 | 829 | 175 |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.93 | 8514 | 1292 | 618 | 96 | 7896 | 1196 |
 | OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.91 | 1171 | 218 | 107 | 23 | 1064 | 195 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.89 | 2912 | 355 | 306 | 51 | 2606 | 304 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.89 | 6271 | 758 | 671 | 68 | 5600 | 690 |

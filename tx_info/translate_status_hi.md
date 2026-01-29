@@ -2,7 +2,7 @@
 
 | Title | URL | Translated % | Total Chars | Total Words | Untranslated Chars | Untranslated Words | Translated Chars | Translated Words |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.84 | 8514 | 1292 | 1351 | 217 | 7163 | 1075 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 1.0 | 8231 | 1247 | 0 | 0 | 8231 | 1247 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.0 | 170418 | 28597 | 170418 | 28597 | 0 | 0 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.0 | 363 | 73 | 363 | 73 | 0 | 0 |
 | OpenVoiceOS/ovos-core | https://gitlocalize.com/repo/9895 | 0.0 | 935 | 153 | 935 | 153 | 0 | 0 |
