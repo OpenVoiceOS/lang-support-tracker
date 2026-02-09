@@ -6,7 +6,7 @@
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 0.33 | 798 | 148 | 533 | 94 | 265 | 54 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.25 | 950 | 159 | 708 | 115 | 242 | 44 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.14 | 170418 | 28597 | 145865 | 24515 | 24553 | 4082 |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.0 | 8719 | 1319 | 8719 | 1319 | 0 | 0 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.0 | 8636 | 1298 | 8636 | 1298 | 0 | 0 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 0.0 | 1099 | 159 | 1099 | 159 | 0 | 0 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.0 | 6271 | 758 | 6271 | 758 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.0 | 6780 | 1166 | 6780 | 1166 | 0 | 0 |

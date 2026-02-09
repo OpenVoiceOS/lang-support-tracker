@@ -11,7 +11,7 @@
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 0.86 | 1099 | 159 | 155 | 24 | 944 | 135 |
 | OpenVoiceOS/ovos-skill-moviemaster | https://gitlocalize.com/repo/9617 | 0.86 | 4577 | 639 | 635 | 98 | 3942 | 541 |
 | OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.83 | 1171 | 218 | 197 | 40 | 974 | 178 |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.82 | 8719 | 1319 | 1549 | 232 | 7170 | 1087 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.82 | 8636 | 1298 | 1549 | 232 | 7087 | 1066 |
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.76 | 2052 | 360 | 495 | 77 | 1557 | 283 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.75 | 2912 | 355 | 732 | 110 | 2180 | 245 |
 | OpenVoiceOS/skill-ovos-wallpapers | https://gitlocalize.com/repo/9604 | 0.74 | 1304 | 133 | 334 | 36 | 970 | 97 |

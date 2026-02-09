@@ -6,7 +6,7 @@
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.0 | 363 | 73 | 363 | 73 | 0 | 0 |
 | OpenVoiceOS/ovos-core | https://gitlocalize.com/repo/9895 | 0.0 | 935 | 153 | 935 | 153 | 0 | 0 |
 | OpenVoiceOS/ovos-hivemind-pipeline-plugin | https://gitlocalize.com/repo/10232 | 0.0 | 128 | 25 | 128 | 25 | 0 | 0 |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.0 | 8719 | 1319 | 8719 | 1319 | 0 | 0 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.0 | 8636 | 1298 | 8636 | 1298 | 0 | 0 |
 | OpenVoiceOS/ovos-lang-parser | https://gitlocalize.com/repo/9935 | 0.0 | 1099 | 159 | 1099 | 159 | 0 | 0 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.0 | 2912 | 355 | 2912 | 355 | 0 | 0 |
 | OpenVoiceOS/ovos-persona | https://gitlocalize.com/repo/9949 | 0.0 | 6271 | 758 | 6271 | 758 | 0 | 0 |

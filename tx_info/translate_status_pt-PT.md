@@ -25,7 +25,7 @@
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.96 | 643 | 107 | 23 | 5 | 620 | 102 |
 | OpenVoiceOS/ovos-skill-alerts | https://gitlocalize.com/repo/9659 | 0.88 | 6780 | 1166 | 799 | 161 | 5981 | 1005 |
 | OpenVoiceOS/ovos-skill-iss-location | https://gitlocalize.com/repo/9666 | 0.86 | 2541 | 421 | 361 | 59 | 2180 | 362 |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.82 | 8719 | 1319 | 1549 | 232 | 7170 | 1087 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.82 | 8636 | 1298 | 1549 | 232 | 7087 | 1066 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 0.81 | 276 | 45 | 52 | 9 | 224 | 36 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 0.78 | 950 | 159 | 211 | 28 | 739 | 131 |
 | OpenVoiceOS/ovos-skill-laugh | https://gitlocalize.com/repo/9619 | 0.73 | 617 | 99 | 168 | 31 | 449 | 68 |
