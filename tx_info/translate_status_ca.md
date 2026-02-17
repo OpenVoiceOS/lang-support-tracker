@@ -52,5 +52,5 @@
 | OpenVoiceOS/skill-ovos-wolfie | https://gitlocalize.com/repo/9625 | 1.0 | 749 | 122 | 0 | 0 | 749 | 122 |
 | OpenVoiceOS/skill-ovos-wordnet | https://gitlocalize.com/repo/9603 | 1.0 | 923 | 163 | 0 | 0 | 923 | 163 |
 | OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.72 | 8636 | 1298 | 2457 | 374 | 6179 | 924 |
-| OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.65 | 170418 | 28597 | 60110 | 9972 | 110308 | 18625 |
+| OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.65 | 170418 | 28597 | 60032 | 9958 | 110386 | 18639 |
 | OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.19 | 84435 | 15866 | 68289 | 12959 | 16146 | 2907 |
