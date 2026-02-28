@@ -18,6 +18,20 @@ Unha habilidade para xestionar alarmas, temporizadores, recordatorios, eventos e
 -------
 
 
+### ovos-skill-audio-recording.openvoiceos
+
+No description available
+
+**Usage examples:**
+- comezar a gravar
+- comezar a gravar
+- comezar unha gravación chamada {name}
+- comezar unha nova gravación de audio chamada {name}
+- nova gravación co nome {name}
+
+-------
+
+
 ### ovos-skill-boot-finished.openvoiceos
 
 A habilidade "Rematado o arranque" proporciona notificacións cando OpenVoiceOS acaba de iniciarse por completo e todos os servizos principais están listos
