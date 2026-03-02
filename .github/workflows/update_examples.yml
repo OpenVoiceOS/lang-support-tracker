@@ -20,12 +20,12 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.14"
+          python-version: "3.11"
 
       - name: Install skills
         run: |
           pip install --pre ovos-plugin-manager
-          pip install --pre -r ./skills/skills.list
+          pip install --pre -r https://raw.githubusercontent.com/OpenVoiceOS/OpenVoiceOS/refs/heads/main/lists/skills.list
 
       - name: Generate skill examples per language
         run: |
