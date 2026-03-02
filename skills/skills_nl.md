@@ -18,6 +18,18 @@ Een skill om wekkers, timers, herinneringen, agenda-afspraken en taken te planne
 -------
 
 
+### ovos-skill-application-launcher.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Open ____
+- Sluit ____
+- Start ____
+
+-------
+
+
 ### ovos-skill-boot-finished.openvoiceos
 
 De "Ik ben er klaar voor" skill geeft meldingen wanneer OpenVoiceOS volledig is gestart en alle onderdelen klaar zijn voor gebruik.

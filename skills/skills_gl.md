@@ -55,6 +55,16 @@ No description available
 -------
 
 
+### ovos-skill-color-picker.krisgesling
+
+No description available
+
+**Usage examples:**
+- Muéstrame el color verde
+
+-------
+
+
 ### ovos-skill-date-time.openvoiceos
 
 Obtén a hora, a data, o día da semana
@@ -67,6 +77,18 @@ Obtén a hora, a data, o día da semana
 - Que día é hoxe?
 - Que hora é en París?
 - Que hora é?
+
+-------
+
+
+### ovos-skill-ddg.openvoiceos
+
+Usar DuckDuckGo para responder preguntas.
+
+**Usage examples:**
+- Cando naceu Stephen Hawking?
+- Quen é Elon Musk?
+- pregúntalle a duck sobre o big bang
 
 -------
 
@@ -205,6 +227,21 @@ Coñece a historia e a personalidade do asistente. Pregunta sobre o seu "nacemen
 -------
 
 
+### ovos-skill-screenshot.openvoiceos
+
+No description available
+
+**Usage examples:**
+- capturar a pantalla
+- capturar a pantalla
+- capturar a pantalla
+- facer (unha|) captura de pantalla
+- facer unha captura de pantalla
+- gardar unha captura de pantalla
+
+-------
+
+
 ### ovos-skill-speedtest.openvoiceos
 
 realiza unha proba de ancho de banda de Internet usando speedtest.net
@@ -295,6 +332,17 @@ Usa Wolfram Alpha para preguntas de coñecemento xeral.
 -------
 
 
+### ovos-skill-wordnet.openvoiceos
+
+Usa Wordnet para responder preguntas de tipo dicionario.
+
+**Usage examples:**
+- cal é a definición de...
+- cal é o antónimo de...
+
+-------
+
+
 ### skill-ovos-spelling.openvoiceos
 
 No description available
@@ -304,6 +352,20 @@ No description available
 - Como se soletrea burocracia?
 - Deletrea succotash
 - Soletrea omnipotencia
+
+-------
+
+
+### skill-ovos-wallpapers.openvoiceos
+
+Imaxes de subreddits seleccionados.
+
+**Usage examples:**
+- cambiar o fondo de pantalla á natureza
+- converte esa imaxe no meu fondo de pantalla
+- móstrame unha foto de cans
+- móstrame unha imaxe
+- novo fondo de pantalla
 
 -------
 

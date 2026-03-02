@@ -159,6 +159,19 @@ Aprenda a história e a personalidade do assistente. Pergunte sobre o "nasciment
 -------
 
 
+### ovos-skill-screenshot.openvoiceos
+
+No description available
+
+**Usage examples:**
+- capturar a tela
+- guardar uma captura de ecrã
+- tirar captura de ecrã
+- tirar uma captura de ecrã
+
+-------
+
+
 ### ovos-skill-volume.openvoiceos
 
 Controle o volume do OVOS com comandos verbais

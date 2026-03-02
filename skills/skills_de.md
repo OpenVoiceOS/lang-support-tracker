@@ -19,6 +19,18 @@ Breche alle Alarme ab
 -------
 
 
+### ovos-skill-application-launcher.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Schließe ____
+- Starte ____
+- Öffne ____
+
+-------
+
+
 ### ovos-skill-audio-recording.openvoiceos
 
 No description available
@@ -52,6 +64,16 @@ No description available
 **Usage examples:**
 - Skript ausführen ___
 - Starte Befehl ___
+
+-------
+
+
+### ovos-skill-color-picker.krisgesling
+
+No description available
+
+**Usage examples:**
+- zeig mir die Farbe Grün
 
 -------
 
@@ -95,6 +117,18 @@ Bietet historische Ereignisse für heute oder jeden anderen Kalendertag unter Ve
 - Welche historischen Ereignisse ereigneten sich am 16. Juni?
 - wer ist heute in der Geschichte gestorben?
 - wer wurde heute in der Geschichte geboren?
+
+-------
+
+
+### ovos-skill-ddg.openvoiceos
+
+Verwende DuckDuckGo, um Fragen zu beantworten.
+
+**Usage examples:**
+- Frag die Ente nach dem Urknall
+- Wer ist Elon Musk?
+- wann wurde Stephen Hawking geboren
 
 -------
 
@@ -285,6 +319,21 @@ Erfahre mehr über die Geschichte und Persönlichkeit des Assistenten. Frage nac
 -------
 
 
+### ovos-skill-screenshot.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Bildschirm aufnehmen
+- Bildschirm speichern
+- Mach einen Screenshot
+- Screenshot des Displays
+- Screenshot machen
+- einen Screenshot speichern
+
+-------
+
+
 ### ovos-skill-speedtest.openvoiceos
 
 führt einen Internet-Bandbreitentest mit speedtest.net durch
@@ -376,6 +425,17 @@ Verwende Wolfram Alpha für Fragen zum Allgemeinwissen.
 -------
 
 
+### ovos-skill-wordnet.openvoiceos
+
+Verwende Wordnet, um wörterbuchähnliche Fragen zu beantworten.
+
+**Usage examples:**
+- was ist das Antonym von ...
+- was ist die Definition von ...
+
+-------
+
+
 ### skill-ovos-spelling.openvoiceos
 
 No description available
@@ -385,6 +445,21 @@ No description available
 - Buchstabiere Succotash 
 - Wie buchstabiert man Bürokratie?
 - Wie buchstabiert man Erdferkel?
+
+-------
+
+
+### skill-ovos-wallpapers.openvoiceos
+
+Bilder aus ausgewählten Subreddits.
+
+**Usage examples:**
+- mache das zu meinem Hintergrundbild
+- neues Hintergrundbild
+- zeig mir ein Bild
+zeige mir ein Bild
+- zeig mir ein Bild mit Hunden
+- Ändere das Hintergrundbild in Natur
 
 -------
 

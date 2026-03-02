@@ -1,161 +1,181 @@
 domain,utterance
-ovos-skill-alerts.openvoiceos,"Cancel·la totes les alarmes."
-ovos-skill-alerts.openvoiceos,"Cancel·la tots els recordatoris."
-ovos-skill-alerts.openvoiceos,"Cancel·la tots els temporitzadors."
-ovos-skill-alerts.openvoiceos,"Estableix una alarma diària per a les 8 del matí."
-ovos-skill-alerts.openvoiceos,"Estableix una alarma per a les 8 del matí tots els dissabtes."
-ovos-skill-alerts.openvoiceos,"Inicia un temporitzador de pa durant 30 minuts."
-ovos-skill-alerts.openvoiceos,"M'he perdut alguna cosa?"
-ovos-skill-alerts.openvoiceos,"Posa una alarma a les 8 AM."
-ovos-skill-alerts.openvoiceos,"Programa un esdeveniment de tennis per a les 14:00 de divendres amb una durada de 2 hores."
-ovos-skill-alerts.openvoiceos,"Quan és la meva pròxima alarma?"
-ovos-skill-audio-recording.openvoiceos,"comença l'enregistrament"
-ovos-skill-audio-recording.openvoiceos,"comença un enregistrament amb nom {name}"
-ovos-skill-audio-recording.openvoiceos,"comença un nou enregistrament d'àudio anomenat {name}"
-ovos-skill-audio-recording.openvoiceos,"enregistrament nou amb nom {name}"
-ovos-skill-audio-recording.openvoiceos,"inicia l'enregistrament"
-ovos-skill-boot-finished.openvoiceos,"Activa les notificacions preparades."
-ovos-skill-boot-finished.openvoiceos,"Desactiva les notificacions preparades."
-ovos-skill-boot-finished.openvoiceos,"El sistema està preparat?"
-ovos-skill-cmd.forslund,"executa l'ordre ___"
-ovos-skill-cmd.forslund,"executa l'script ___"
-ovos-skill-confucius-quotes.openvoiceos,"Cita de Confuci"
-ovos-skill-confucius-quotes.openvoiceos,"Quan va morir Confuci"
-ovos-skill-confucius-quotes.openvoiceos,"Quan va néixer Confuci"
-ovos-skill-confucius-quotes.openvoiceos,"Qui és Confuci"
-ovos-skill-date-time.openvoiceos,"Digues-me el dia de la setmana"
-ovos-skill-date-time.openvoiceos,"Mostra'm l'hora"
-ovos-skill-date-time.openvoiceos,"Quants dies falten per al 24 de juny?"
-ovos-skill-date-time.openvoiceos,"Quin dia és el dia del Punt Volat de 2026?"
-ovos-skill-date-time.openvoiceos,"Quina data som?"
-ovos-skill-date-time.openvoiceos,"Quina hora és a París?"
-ovos-skill-date-time.openvoiceos,"Quina hora és?"
-ovos-skill-days-in-history.openvoiceos,"Explica'm els fets històrics del 12 de desembre"
-ovos-skill-days-in-history.openvoiceos,"Qui va morir tal dia com avui a la història?"
-ovos-skill-days-in-history.openvoiceos,"Qui va néixer avui a la història?"
-ovos-skill-days-in-history.openvoiceos,"Quins fets històrics van passar el 16 de juny?"
-ovos-skill-days-in-history.openvoiceos,"Què va passar avui a la història?"
-ovos-skill-dictation.openvoiceos,"comença el dictat"
-ovos-skill-dictation.openvoiceos,"finalitza el dictat"
-ovos-skill-fuster-quotes.openvoiceos,"Algun pensament fusterià?"
-ovos-skill-fuster-quotes.openvoiceos,"Digues-me alguna cosa fusteriana"
-ovos-skill-fuster-quotes.openvoiceos,"Digue’m un aforisme del Fuster"
-ovos-skill-fuster-quotes.openvoiceos,"La frase del Fuster del dia"
-ovos-skill-fuster-quotes.openvoiceos,"Necessito alguna idea fusteriana"
+ovos-skill-alerts.openvoiceos,Cancel·la totes les alarmes.
+ovos-skill-alerts.openvoiceos,Cancel·la tots els recordatoris.
+ovos-skill-alerts.openvoiceos,Cancel·la tots els temporitzadors.
+ovos-skill-alerts.openvoiceos,Estableix una alarma diària per a les 8 del matí.
+ovos-skill-alerts.openvoiceos,Estableix una alarma per a les 8 del matí tots els dissabtes.
+ovos-skill-alerts.openvoiceos,Inicia un temporitzador de pa durant 30 minuts.
+ovos-skill-alerts.openvoiceos,M'he perdut alguna cosa?
+ovos-skill-alerts.openvoiceos,Posa una alarma a les 8 AM.
+ovos-skill-alerts.openvoiceos,Programa un esdeveniment de tennis per a les 14:00 de divendres amb una durada de 2 hores.
+ovos-skill-alerts.openvoiceos,Quan és la meva pròxima alarma?
+ovos-skill-application-launcher.openvoiceos,Inicia ____
+ovos-skill-application-launcher.openvoiceos,Obre ____
+ovos-skill-application-launcher.openvoiceos,Tanca ____
+ovos-skill-audio-recording.openvoiceos,comença l'enregistrament
+ovos-skill-audio-recording.openvoiceos,comença un enregistrament amb nom {name}
+ovos-skill-audio-recording.openvoiceos,comença un nou enregistrament d'àudio anomenat {name}
+ovos-skill-audio-recording.openvoiceos,enregistrament nou amb nom {name}
+ovos-skill-audio-recording.openvoiceos,inicia l'enregistrament
+ovos-skill-boot-finished.openvoiceos,Activa les notificacions preparades.
+ovos-skill-boot-finished.openvoiceos,Desactiva les notificacions preparades.
+ovos-skill-boot-finished.openvoiceos,El sistema està preparat?
+ovos-skill-cmd.forslund,executa l'ordre ___
+ovos-skill-cmd.forslund,executa l'script ___
+ovos-skill-color-picker.krisgesling,mostra'm el color verd
+ovos-skill-confucius-quotes.openvoiceos,Cita de Confuci
+ovos-skill-confucius-quotes.openvoiceos,Quan va morir Confuci
+ovos-skill-confucius-quotes.openvoiceos,Quan va néixer Confuci
+ovos-skill-confucius-quotes.openvoiceos,Qui és Confuci
+ovos-skill-date-time.openvoiceos,Digues-me el dia de la setmana
+ovos-skill-date-time.openvoiceos,Mostra'm l'hora
+ovos-skill-date-time.openvoiceos,Quants dies falten per al 24 de juny?
+ovos-skill-date-time.openvoiceos,Quin dia és el dia del Punt Volat de 2026?
+ovos-skill-date-time.openvoiceos,Quina data som?
+ovos-skill-date-time.openvoiceos,Quina hora és a París?
+ovos-skill-date-time.openvoiceos,Quina hora és?
+ovos-skill-days-in-history.openvoiceos,Explica'm els fets històrics del 12 de desembre
+ovos-skill-days-in-history.openvoiceos,Qui va morir tal dia com avui a la història?
+ovos-skill-days-in-history.openvoiceos,Qui va néixer avui a la història?
+ovos-skill-days-in-history.openvoiceos,Quins fets històrics van passar el 16 de juny?
+ovos-skill-days-in-history.openvoiceos,Què va passar avui a la història?
+ovos-skill-ddg.openvoiceos,Pregunta a l'ànec sobre el big bang
+ovos-skill-ddg.openvoiceos,Quan va néixer Stephen Hawking?
+ovos-skill-ddg.openvoiceos,Qui és Elon Musk
+ovos-skill-dictation.openvoiceos,comença el dictat
+ovos-skill-dictation.openvoiceos,finalitza el dictat
+ovos-skill-fuster-quotes.openvoiceos,Algun pensament fusterià?
+ovos-skill-fuster-quotes.openvoiceos,Digues-me alguna cosa fusteriana
+ovos-skill-fuster-quotes.openvoiceos,Digue’m un aforisme del Fuster
+ovos-skill-fuster-quotes.openvoiceos,La frase del Fuster del dia
+ovos-skill-fuster-quotes.openvoiceos,Necessito alguna idea fusteriana
 ovos-skill-fuster-quotes.openvoiceos,"Què diria Joan Fuster, aquí?"
-ovos-skill-fuster-quotes.openvoiceos,"Què diu en Fuster?"
-ovos-skill-fuster-quotes.openvoiceos,"Què pensen els fusterians?"
-ovos-skill-fuster-quotes.openvoiceos,"Vull sentir un aforisme fusterià"
-ovos-skill-hello-world.openvoiceos,"Com estàs?"
-ovos-skill-hello-world.openvoiceos,"Gràcies"
-ovos-skill-hello-world.openvoiceos,"Hola món"
-ovos-skill-icanhazdadjokes.openvoiceos,"Coneixes algun acudit de Chuck Norris?"
-ovos-skill-icanhazdadjokes.openvoiceos,"Digues una broma."
-ovos-skill-icanhazdadjokes.openvoiceos,"Explica'm un acudit sobre dentistes."
-ovos-skill-icanhazdadjokes.openvoiceos,"Explica'm un acudit."
-ovos-skill-icanhazdadjokes.openvoiceos,"Fes-me riure."
-ovos-skill-icanhazdadjokes.openvoiceos,"Pots explicar acudits?"
-ovos-skill-icanhazdadjokes.openvoiceos,"Saps cap acudit?"
-ovos-skill-ip.openvoiceos,"A quina xarxa estàs connectat?"
-ovos-skill-ip.openvoiceos,"Digues-me la teva adreça IP"
-ovos-skill-ip.openvoiceos,"Digues-me la teva adreça de xarxa"
-ovos-skill-ip.openvoiceos,"Quina és la teva adreça IP?"
-ovos-skill-ip.openvoiceos,"Quina és la teva adreça de xarxa?"
-ovos-skill-iss-location.openvoiceos,"On és l'EEI"
-ovos-skill-iss-location.openvoiceos,"Parla'm de l'EEI"
-ovos-skill-iss-location.openvoiceos,"Quan passa l'EEI per sobre?"
-ovos-skill-iss-location.openvoiceos,"Quantes persones hi ha a bord de l'estació espacial?"
-ovos-skill-iss-location.openvoiceos,"Qui hi ha a bord de l'estació espacial?"
-ovos-skill-local-media.openvoiceos,"inicia aplicació de navegador de fitxers"
-ovos-skill-local-media.openvoiceos,"inicia el navegador de fitxers"
-ovos-skill-local-media.openvoiceos,"inicia el navegador usb"
-ovos-skill-local-media.openvoiceos,"inicia l'aplicació del navegador usb"
-ovos-skill-local-media.openvoiceos,"mostra el navegador de fitxers"
-ovos-skill-local-media.openvoiceos,"mostra el navegador de fitxers"
-ovos-skill-local-media.openvoiceos,"mostra el navegador usb"
-ovos-skill-local-media.openvoiceos,"mostra l'aplicació del navegador de fitxers"
-ovos-skill-local-media.openvoiceos,"mostra l'aplicació del navegador usb"
-ovos-skill-local-media.openvoiceos,"mostra l'usb"
-ovos-skill-moviemaster.openvoiceos,"A quins gèneres pertany la pel·lícula _______?"
-ovos-skill-moviemaster.openvoiceos,"Busca informació sobre la pel·lícula _______."
-ovos-skill-moviemaster.openvoiceos,"De què tracta la pel·lícula _______?"
-ovos-skill-moviemaster.openvoiceos,"Explica'm coses de la pel·lícula _______"
-ovos-skill-moviemaster.openvoiceos,"Quan es va fer la pel·lícula _______?"
-ovos-skill-moviemaster.openvoiceos,"Quant dura la pel·lícula _______?"
-ovos-skill-moviemaster.openvoiceos,"Qui surt a la pel·lícula _______?"
-ovos-skill-moviemaster.openvoiceos,"Quines pel·lícules com _______  recomanes?"
-ovos-skill-moviemaster.openvoiceos,"Quines pel·lícules populars hi ha ara en cartellera?"
-ovos-skill-moviemaster.openvoiceos,"Quines són les pel·lícules amb millor puntuació?"
-ovos-skill-naptime.openvoiceos,"Desperta"
-ovos-skill-naptime.openvoiceos,"Hora de la migdiada"
-ovos-skill-naptime.openvoiceos,"Ves a dormir"
-ovos-skill-news.openvoiceos,"posa euronews"
-ovos-skill-news.openvoiceos,"posa les notícies"
-ovos-skill-news.openvoiceos,"posa notícies en català"
-ovos-skill-news.openvoiceos,"posa notícies en portuguès"
-ovos-skill-news.openvoiceos,"posa npr news"
-ovos-skill-news.openvoiceos,"posta notícies en castellà"
-ovos-skill-number-facts.openvoiceos,"curiositat sobre l'any 1992"
-ovos-skill-number-facts.openvoiceos,"fet sobre ahir"
-ovos-skill-number-facts.openvoiceos,"fet sobre el nombre 666"
-ovos-skill-number-facts.openvoiceos,"preguntes aletòries de nombres"
-ovos-skill-number-facts.openvoiceos,"preguntes sobre demà"
-ovos-skill-number-facts.openvoiceos,"preguntes sobre la setmana vinent"
-ovos-skill-number-facts.openvoiceos,"un fet matemàtic sobre el nombre 7"
-ovos-skill-parrot.openvoiceos,"Digues-me el que acabo de dir."
+ovos-skill-fuster-quotes.openvoiceos,Què diu en Fuster?
+ovos-skill-fuster-quotes.openvoiceos,Què pensen els fusterians?
+ovos-skill-fuster-quotes.openvoiceos,Vull sentir un aforisme fusterià
+ovos-skill-hello-world.openvoiceos,Com estàs?
+ovos-skill-hello-world.openvoiceos,Gràcies
+ovos-skill-hello-world.openvoiceos,Hola món
+ovos-skill-icanhazdadjokes.openvoiceos,Coneixes algun acudit de Chuck Norris?
+ovos-skill-icanhazdadjokes.openvoiceos,Digues una broma.
+ovos-skill-icanhazdadjokes.openvoiceos,Explica'm un acudit sobre dentistes.
+ovos-skill-icanhazdadjokes.openvoiceos,Explica'm un acudit.
+ovos-skill-icanhazdadjokes.openvoiceos,Fes-me riure.
+ovos-skill-icanhazdadjokes.openvoiceos,Pots explicar acudits?
+ovos-skill-icanhazdadjokes.openvoiceos,Saps cap acudit?
+ovos-skill-ip.openvoiceos,A quina xarxa estàs connectat?
+ovos-skill-ip.openvoiceos,Digues-me la teva adreça IP
+ovos-skill-ip.openvoiceos,Digues-me la teva adreça de xarxa
+ovos-skill-ip.openvoiceos,Quina és la teva adreça IP?
+ovos-skill-ip.openvoiceos,Quina és la teva adreça de xarxa?
+ovos-skill-iss-location.openvoiceos,On és l'EEI
+ovos-skill-iss-location.openvoiceos,Parla'm de l'EEI
+ovos-skill-iss-location.openvoiceos,Quan passa l'EEI per sobre?
+ovos-skill-iss-location.openvoiceos,Quantes persones hi ha a bord de l'estació espacial?
+ovos-skill-iss-location.openvoiceos,Qui hi ha a bord de l'estació espacial?
+ovos-skill-local-media.openvoiceos,inicia aplicació de navegador de fitxers
+ovos-skill-local-media.openvoiceos,inicia el navegador de fitxers
+ovos-skill-local-media.openvoiceos,inicia el navegador usb
+ovos-skill-local-media.openvoiceos,inicia l'aplicació del navegador usb
+ovos-skill-local-media.openvoiceos,mostra el navegador de fitxers
+ovos-skill-local-media.openvoiceos,mostra el navegador de fitxers
+ovos-skill-local-media.openvoiceos,mostra el navegador usb
+ovos-skill-local-media.openvoiceos,mostra l'aplicació del navegador de fitxers
+ovos-skill-local-media.openvoiceos,mostra l'aplicació del navegador usb
+ovos-skill-local-media.openvoiceos,mostra l'usb
+ovos-skill-moviemaster.openvoiceos,A quins gèneres pertany la pel·lícula _______?
+ovos-skill-moviemaster.openvoiceos,Busca informació sobre la pel·lícula _______.
+ovos-skill-moviemaster.openvoiceos,De què tracta la pel·lícula _______?
+ovos-skill-moviemaster.openvoiceos,Explica'm coses de la pel·lícula _______
+ovos-skill-moviemaster.openvoiceos,Quan es va fer la pel·lícula _______?
+ovos-skill-moviemaster.openvoiceos,Quant dura la pel·lícula _______?
+ovos-skill-moviemaster.openvoiceos,Qui surt a la pel·lícula _______?
+ovos-skill-moviemaster.openvoiceos,Quines pel·lícules com _______  recomanes?
+ovos-skill-moviemaster.openvoiceos,Quines pel·lícules populars hi ha ara en cartellera?
+ovos-skill-moviemaster.openvoiceos,Quines són les pel·lícules amb millor puntuació?
+ovos-skill-naptime.openvoiceos,Desperta
+ovos-skill-naptime.openvoiceos,Hora de la migdiada
+ovos-skill-naptime.openvoiceos,Ves a dormir
+ovos-skill-news.openvoiceos,posa euronews
+ovos-skill-news.openvoiceos,posa les notícies
+ovos-skill-news.openvoiceos,posa notícies en català
+ovos-skill-news.openvoiceos,posa notícies en portuguès
+ovos-skill-news.openvoiceos,posa npr news
+ovos-skill-news.openvoiceos,posta notícies en castellà
+ovos-skill-number-facts.openvoiceos,curiositat sobre l'any 1992
+ovos-skill-number-facts.openvoiceos,fet sobre ahir
+ovos-skill-number-facts.openvoiceos,fet sobre el nombre 666
+ovos-skill-number-facts.openvoiceos,preguntes aletòries de nombres
+ovos-skill-number-facts.openvoiceos,preguntes sobre demà
+ovos-skill-number-facts.openvoiceos,preguntes sobre la setmana vinent
+ovos-skill-number-facts.openvoiceos,un fet matemàtic sobre el nombre 7
+ovos-skill-parrot.openvoiceos,Digues-me el que acabo de dir.
 ovos-skill-parrot.openvoiceos,"Parla, puc dir el que vulguis!"
-ovos-skill-parrot.openvoiceos,"Pots repetir això?"
-ovos-skill-parrot.openvoiceos,"Què acabo de dir?"
-ovos-skill-parrot.openvoiceos,"Repeteix això"
-ovos-skill-parrot.openvoiceos,"Repeteix el que acabo de dir"
-ovos-skill-parrot.openvoiceos,"comença el lloro"
+ovos-skill-parrot.openvoiceos,Pots repetir això?
+ovos-skill-parrot.openvoiceos,Què acabo de dir?
+ovos-skill-parrot.openvoiceos,Repeteix això
+ovos-skill-parrot.openvoiceos,Repeteix el que acabo de dir
+ovos-skill-parrot.openvoiceos,comença el lloro
 ovos-skill-parrot.openvoiceos,"digues bona nit, Graciela"
-ovos-skill-parrot.openvoiceos,"para el lloro"
+ovos-skill-parrot.openvoiceos,para el lloro
 ovos-skill-parrot.openvoiceos,"repeteix Hi havia una nit trista, mentre jo reflexionava, dèbil i cansat, sobre molts volums pintorescs i curiosos de tradicions oblidades."
-ovos-skill-personal.openvoiceos,"On vas néixer?"
-ovos-skill-personal.openvoiceos,"Quan et van crear?"
-ovos-skill-personal.openvoiceos,"Qui et va fer?"
-ovos-skill-personal.openvoiceos,"Què ets?"
-ovos-skill-speedtest.openvoiceos,"executa una prova de velocitat"
-ovos-skill-volume.openvoiceos,"abaixa el nivell de volum"
-ovos-skill-volume.openvoiceos,"apuja el volum"
-ovos-skill-volume.openvoiceos,"commuta el silenci"
-ovos-skill-volume.openvoiceos,"commuta l'àudio"
-ovos-skill-volume.openvoiceos,"deixa de silenciar"
-ovos-skill-volume.openvoiceos,"màxim volum"
-ovos-skill-volume.openvoiceos,"nivell de volum alt"
-ovos-skill-volume.openvoiceos,"nivell de volum baix"
-ovos-skill-volume.openvoiceos,"no silenciïs el volum"
-ovos-skill-volume.openvoiceos,"no silencïis l'àudio"
-ovos-skill-weather.openvoiceos,"Farà fred dimarts?"
-ovos-skill-weather.openvoiceos,"Nevarà a Baltimore?"
-ovos-skill-weather.openvoiceos,"Nevarà?"
-ovos-skill-weather.openvoiceos,"Quan tornarà a ploure?"
-ovos-skill-weather.openvoiceos,"Quan és la posta de sol?"
-ovos-skill-weather.openvoiceos,"Quin temps fa a Houston?"
-ovos-skill-weather.openvoiceos,"Quin temps fa?"
-ovos-skill-weather.openvoiceos,"Quin temps farà aquest cap de setmana?"
-ovos-skill-weather.openvoiceos,"Quin temps farà dimarts?"
-ovos-skill-weather.openvoiceos,"Quin temps farà els pròxims tres dies?"
-ovos-skill-wikihow.openvoiceos,"Com puc aconseguir que el meu gos deixi de bordar?"
-ovos-skill-wikihow.openvoiceos,"com bullir un ou"
-ovos-skill-wikipedia.openvoiceos,"Busca a la wikipedia qui era Joan Maragall"
-ovos-skill-wikipedia.openvoiceos,"Busca informació sobre el Barri Vell de Banyoles"
-ovos-skill-wikipedia.openvoiceos,"Cerca sobre xocolata"
-ovos-skill-wikipedia.openvoiceos,"Consulta la Viquipèdia sobre fesols"
-ovos-skill-wikipedia.openvoiceos,"Digues-me més"
-ovos-skill-wikipedia.openvoiceos,"Més informació"
-ovos-skill-wikipedia.openvoiceos,"Parla'm d'Elon Musk"
-ovos-skill-wikipedia.openvoiceos,"Parla'm del Pembroke Welsh Corgi"
-ovos-skill-wikipedia.openvoiceos,"Parla'm dels fesols"
-ovos-skill-wikipedia.openvoiceos,"Què saps del Canigó?"
-ovos-skill-wolfie.openvoiceos,"Quan es va estrenar The Rocky Horror Picture Show?"
-ovos-skill-wolfie.openvoiceos,"Quant és 18 per 4?"
-ovos-skill-wolfie.openvoiceos,"Quantes polzades té un metre?"
-ovos-skill-wolfie.openvoiceos,"Quin és el nom real de Madonna?"
-ovos-skill-wolfie.openvoiceos,"Quina alçada té l'Everest?"
-ovos-skill-wolfie.openvoiceos,"pregunta al llop quina és la velocitat de la llum"
-skill-ovos-spelling.openvoiceos,"Com s'escriu arquitectura?"
-skill-ovos-spelling.openvoiceos,"Com s'escriu burocràcia?"
-skill-ovos-spelling.openvoiceos,"Lletreja omnipotència"
-skill-ovos-spelling.openvoiceos,"Lletreja ornitorrinc"
+ovos-skill-personal.openvoiceos,On vas néixer?
+ovos-skill-personal.openvoiceos,Quan et van crear?
+ovos-skill-personal.openvoiceos,Qui et va fer?
+ovos-skill-personal.openvoiceos,Què ets?
+ovos-skill-screenshot.openvoiceos,captura la pantalla
+ovos-skill-screenshot.openvoiceos,captura la pantalla
+ovos-skill-screenshot.openvoiceos,desa una captura
+ovos-skill-screenshot.openvoiceos,fes una captura
+ovos-skill-screenshot.openvoiceos,fes una captura de pantalla
+ovos-skill-screenshot.openvoiceos,grava la pantalla
+ovos-skill-speedtest.openvoiceos,executa una prova de velocitat
+ovos-skill-volume.openvoiceos,abaixa el nivell de volum
+ovos-skill-volume.openvoiceos,apuja el volum
+ovos-skill-volume.openvoiceos,commuta el silenci
+ovos-skill-volume.openvoiceos,commuta l'àudio
+ovos-skill-volume.openvoiceos,deixa de silenciar
+ovos-skill-volume.openvoiceos,màxim volum
+ovos-skill-volume.openvoiceos,nivell de volum alt
+ovos-skill-volume.openvoiceos,nivell de volum baix
+ovos-skill-volume.openvoiceos,no silenciïs el volum
+ovos-skill-volume.openvoiceos,no silencïis l'àudio
+ovos-skill-weather.openvoiceos,Farà fred dimarts?
+ovos-skill-weather.openvoiceos,Nevarà a Baltimore?
+ovos-skill-weather.openvoiceos,Nevarà?
+ovos-skill-weather.openvoiceos,Quan tornarà a ploure?
+ovos-skill-weather.openvoiceos,Quan és la posta de sol?
+ovos-skill-weather.openvoiceos,Quin temps fa a Houston?
+ovos-skill-weather.openvoiceos,Quin temps fa?
+ovos-skill-weather.openvoiceos,Quin temps farà aquest cap de setmana?
+ovos-skill-weather.openvoiceos,Quin temps farà dimarts?
+ovos-skill-weather.openvoiceos,Quin temps farà els pròxims tres dies?
+ovos-skill-wikihow.openvoiceos,Com puc aconseguir que el meu gos deixi de bordar?
+ovos-skill-wikihow.openvoiceos,com bullir un ou
+ovos-skill-wikipedia.openvoiceos,Busca a la wikipedia qui era Joan Maragall
+ovos-skill-wikipedia.openvoiceos,Busca informació sobre el Barri Vell de Banyoles
+ovos-skill-wikipedia.openvoiceos,Cerca sobre xocolata
+ovos-skill-wikipedia.openvoiceos,Consulta la Viquipèdia sobre fesols
+ovos-skill-wikipedia.openvoiceos,Digues-me més
+ovos-skill-wikipedia.openvoiceos,Més informació
+ovos-skill-wikipedia.openvoiceos,Parla'm d'Elon Musk
+ovos-skill-wikipedia.openvoiceos,Parla'm del Pembroke Welsh Corgi
+ovos-skill-wikipedia.openvoiceos,Parla'm dels fesols
+ovos-skill-wikipedia.openvoiceos,Què saps del Canigó?
+ovos-skill-wolfie.openvoiceos,Quan es va estrenar The Rocky Horror Picture Show?
+ovos-skill-wolfie.openvoiceos,Quant és 18 per 4?
+ovos-skill-wolfie.openvoiceos,Quantes polzades té un metre?
+ovos-skill-wolfie.openvoiceos,Quin és el nom real de Madonna?
+ovos-skill-wolfie.openvoiceos,Quina alçada té l'Everest?
+ovos-skill-wolfie.openvoiceos,pregunta al llop quina és la velocitat de la llum
+ovos-skill-wordnet.openvoiceos,quin és l'antònim de...
+ovos-skill-wordnet.openvoiceos,quina és la definició de ...
+skill-ovos-spelling.openvoiceos,Com s'escriu arquitectura?
+skill-ovos-spelling.openvoiceos,Com s'escriu burocràcia?
+skill-ovos-spelling.openvoiceos,Lletreja omnipotència
+skill-ovos-spelling.openvoiceos,Lletreja ornitorrinc
+skill-ovos-wallpapers.openvoiceos,canvia el fons de pantalla a natura
+skill-ovos-wallpapers.openvoiceos,fes que sigui el fons de pantalla
+skill-ovos-wallpapers.openvoiceos,fons de pantalla nou
+skill-ovos-wallpapers.openvoiceos,mostra'm un dibuix
+skill-ovos-wallpapers.openvoiceos,mostra'm una imatge amb gossos

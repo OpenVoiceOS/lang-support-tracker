@@ -18,6 +18,18 @@ Una habilitat per a gestionar alarmes, temporitzadors, recordatoris, esdevenimen
 -------
 
 
+### ovos-skill-application-launcher.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Inicia ____
+- Obre ____
+- Tanca ____
+
+-------
+
+
 ### ovos-skill-audio-recording.openvoiceos
 
 No description available
@@ -51,6 +63,16 @@ No description available
 **Usage examples:**
 - executa l'ordre ___
 - executa l'script ___
+
+-------
+
+
+### ovos-skill-color-picker.krisgesling
+
+No description available
+
+**Usage examples:**
+- mostra'm el color verd
 
 -------
 
@@ -94,6 +116,18 @@ Proporciona esdeveniments històrics d'avui o de qualsevol altre dia natural mit
 - Qui va néixer avui a la història?
 - Quins fets històrics van passar el 16 de juny?
 - Què va passar avui a la història?
+
+-------
+
+
+### ovos-skill-ddg.openvoiceos
+
+Usa DuckDuckGo per a respondre preguntes.
+
+**Usage examples:**
+- Pregunta a l'ànec sobre el big bang
+- Quan va néixer Stephen Hawking?
+- Qui és Elon Musk
 
 -------
 
@@ -296,6 +330,21 @@ Coneixeu la història i la personalitat de l'assistent. Pregunteu sobre el "naix
 -------
 
 
+### ovos-skill-screenshot.openvoiceos
+
+No description available
+
+**Usage examples:**
+- captura la pantalla
+- captura la pantalla
+- desa una captura
+- fes una captura
+- fes una captura de pantalla
+- grava la pantalla
+
+-------
+
+
 ### ovos-skill-speedtest.openvoiceos
 
 Executa una prova d'amplada de banda d'internet usant speedtest.net
@@ -389,6 +438,17 @@ Useu Wolfram Alpha per a preguntes de coneixement general.
 -------
 
 
+### ovos-skill-wordnet.openvoiceos
+
+Usa Wordnet per a respondre qüestions relacionades amb diccioanris.
+
+**Usage examples:**
+- quin és l'antònim de...
+- quina és la definició de ...
+
+-------
+
+
 ### skill-ovos-spelling.openvoiceos
 
 No description available
@@ -398,6 +458,20 @@ No description available
 - Com s'escriu burocràcia?
 - Lletreja omnipotència
 - Lletreja ornitorrinc
+
+-------
+
+
+### skill-ovos-wallpapers.openvoiceos
+
+Imatges de subreddits seleccionats
+
+**Usage examples:**
+- canvia el fons de pantalla a natura
+- fes que sigui el fons de pantalla
+- fons de pantalla nou
+- mostra'm un dibuix
+- mostra'm una imatge amb gossos
 
 -------
 

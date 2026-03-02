@@ -18,6 +18,18 @@ Una skill para gestionar alarmas, temporizadores, recordatorios, eventos, tareas
 -------
 
 
+### ovos-skill-application-launcher.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Abrir ____
+- Cerrar ____
+- Iniciar ____
+
+-------
+
+
 ### ovos-skill-audio-recording.openvoiceos
 
 No description available
@@ -53,6 +65,16 @@ No description available
 **Usage examples:**
 - comando de lanzamiento ___
 - ejecutar script ___
+
+-------
+
+
+### ovos-skill-color-picker.krisgesling
+
+No description available
+
+**Usage examples:**
+- Muéstrame el color verde
 
 -------
 
@@ -158,6 +180,21 @@ Conoce la historia y la personalidad del asistente. Infórmate acerca de su “n
 -------
 
 
+### ovos-skill-screenshot.openvoiceos
+
+No description available
+
+**Usage examples:**
+- captura la pantalla
+- captura la pantalla
+- captura la pantalla
+- guarda una captura de pantalla
+- haz captura de pantalla
+- haz una captura de pantalla
+
+-------
+
+
 ### ovos-skill-speedtest.openvoiceos
 
 Realiza una prueba de velocidad de Internet utilizando speedtest.net
@@ -233,6 +270,17 @@ Utilice Wolfram Alpha para preguntas de cultura general.
 - ¿Cuántas pulgadas hay en un metro?
 - ¿Cuánto es 18 por 4?
 - ¿Qué altura tiene el Monte Everest?
+
+-------
+
+
+### ovos-skill-wordnet.openvoiceos
+
+Utiliza Wordnet para responder preguntas tipo diccionario.
+
+**Usage examples:**
+- ¿Cuál es el antónimo de...?
+- ¿Cuál es la definición de...?
 
 -------
 

@@ -30,6 +30,16 @@ La competenza Fine di avvio fornisce notifiche quando OpenVoiceOS è completamen
 -------
 
 
+### ovos-skill-color-picker.krisgesling
+
+No description available
+
+**Usage examples:**
+- Mostra il colore verde
+
+-------
+
+
 ### ovos-skill-date-time.openvoiceos
 
 Chiedi l'ora, la data, il giorno della settimana
@@ -42,6 +52,18 @@ Chiedi l'ora, la data, il giorno della settimana
 - [UNUSED]
 - [UNUSED]
 - [UNUSED]
+
+-------
+
+
+### ovos-skill-ddg.openvoiceos
+
+Usa DuckDuckGo per rispondere alle tue domande
+
+**Usage examples:**
+- cerca con duck duck go big bang
+- cerca su duck duck chi è elon musk
+- cerca su duck duck quando è nato stephen hawking
 
 -------
 

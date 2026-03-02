@@ -18,6 +18,18 @@ En færdighed til at administrere alarmer, timere, påmindelser, begivenheder og
 -------
 
 
+### ovos-skill-application-launcher.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Luk ____
+- Start ____
+- Åben ____
+
+-------
+
+
 ### ovos-skill-audio-recording.openvoiceos
 
 No description available
@@ -51,6 +63,16 @@ No description available
 **Usage examples:**
 - køre script ___
 - start kommando ___
+
+-------
+
+
+### ovos-skill-color-picker.krisgesling
+
+No description available
+
+**Usage examples:**
+- vis mig farven grøn
 
 -------
 
@@ -94,6 +116,18 @@ Giver historiske begivenheder for i dag eller enhver anden kalenderdag ved hjæl
 - Hvilke historiske begivenheder skete den 16. juni?
 - hvem blev født i dag i historien?
 - hvem døde i dag i historien?
+
+-------
+
+
+### ovos-skill-ddg.openvoiceos
+
+Brug DuckDuckGo til at besvare spørgsmål.
+
+**Usage examples:**
+- hvem er elon musk
+- hvornår blev stephen hawking født
+- spørg anden om big bang
 
 -------
 
@@ -278,6 +312,21 @@ Lær assistentens historie og personlighed. Spørg om stemmeassistentens 'fødse
 -------
 
 
+### ovos-skill-screenshot.openvoiceos
+
+No description available
+
+**Usage examples:**
+- fang skærmen
+- gem et skærmbillede
+- skærmbillede af skærmen
+- tag et skærmbillede
+- tag fat i skærmen
+- tage et skærmbillede
+
+-------
+
+
 ### ovos-skill-speedtest.openvoiceos
 
 kører en internetbåndbreddetest ved hjælp af speedtest.net
@@ -368,6 +417,17 @@ Brug Wolfram Alpha til generelle vidensspørgsmål.
 -------
 
 
+### ovos-skill-wordnet.openvoiceos
+
+Brug Wordnet til at besvare ordbogslignende spørgsmål.
+
+**Usage examples:**
+- hvad er antonymet til...
+- hvad er definitionen på...
+
+-------
+
+
 ### skill-ovos-spelling.openvoiceos
 
 No description available
@@ -377,6 +437,20 @@ No description available
 - Hvordan staves jordvark?
 - Stav almagt
 - Stav succotash
+
+-------
+
+
+### skill-ovos-wallpapers.openvoiceos
+
+Billeder fra udvalgte subreddits.
+
+**Usage examples:**
+- gør det til mit tapet
+- nyt tapet
+- skifte tapet til natur
+- vis mig et billede
+- vis mig et billede med hunde
 
 -------
 

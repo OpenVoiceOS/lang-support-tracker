@@ -18,6 +18,18 @@ A skill to manage alarms, timers, reminders, events and todos and optionally syn
 -------
 
 
+### ovos-skill-application-launcher.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Close ____
+- Launch ____
+- Open ____
+
+-------
+
+
 ### ovos-skill-audio-recording.openvoiceos
 
 No description available
@@ -51,6 +63,16 @@ No description available
 **Usage examples:**
 - launch command ___
 - run script ___
+
+-------
+
+
+### ovos-skill-color-picker.krisgesling
+
+No description available
+
+**Usage examples:**
+- show me the color green
 
 -------
 
@@ -94,6 +116,18 @@ Provides historical events for today or any other calendar day using information
 - What historical events happened on June 16th?
 - who died today in history?
 - who was born today in history?
+
+-------
+
+
+### ovos-skill-ddg.openvoiceos
+
+Use DuckDuckGo to answer questions.
+
+**Usage examples:**
+- ask the duck about the big bang
+- when was stephen hawking born
+- who is elon musk
 
 -------
 
@@ -302,6 +336,21 @@ a client for the client for the Radio Browser API
 -------
 
 
+### ovos-skill-screenshot.openvoiceos
+
+No description available
+
+**Usage examples:**
+- capture the screen
+- grab the screen
+- save a screenshot
+- screenshot the display
+- take a screenshot
+- take screenshot
+
+-------
+
+
 ### ovos-skill-speedtest.openvoiceos
 
 runs an internet bandwidth test using speedtest.net
@@ -392,6 +441,17 @@ Use Wolfram Alpha for general knowledge questions.
 -------
 
 
+### ovos-skill-wordnet.openvoiceos
+
+Use Wordnet to answer dictionary-like questions.
+
+**Usage examples:**
+- what is the antonym of ...
+- what is the definition of ...
+
+-------
+
+
 ### skill-ovos-somafm.openvoiceos
 
 No description available
@@ -413,6 +473,20 @@ No description available
 - How do you spell bureacracy?
 - Spell omnipotence
 - Spell succotash
+
+-------
+
+
+### skill-ovos-wallpapers.openvoiceos
+
+Pictures from selected subreddits.
+
+**Usage examples:**
+- change wallpaper to nature
+- make that my wallpaper
+- new wallpaper
+- show me a picture
+- show me a picture with dogs
 
 -------
 
