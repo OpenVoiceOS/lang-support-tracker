@@ -31,6 +31,10 @@ jobs:
         run: |
           python skills/gen.py
 
+      - name: Generate unified .tsv dataset
+        run: |
+          python skills/create_intent_dataset.py
+
       - name: Commit to dev
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
