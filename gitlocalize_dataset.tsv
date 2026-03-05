@@ -78043,18 +78043,35 @@ da	ovos-skill-iss-location.openvoiceos	where_iss.intent	placeringen af ​​I S
 da	ovos-skill-iss-location.openvoiceos	where_iss.intent	placeringen af ​​ISS
 da	ovos-skill-iss-location.openvoiceos	where_iss.intent	placeringen af ​​den internationale rumstation
 da	ovos-skill-iss-location.openvoiceos	where_iss.intent	placeringen af ​​den internationale rumstationen
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	"vis mig, hvordan du griner"
 da	ovos-skill-laugh.openvoiceos	Laugh.intent	Grin ligesom Alexa
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	Jeg vil gerne have dig til at grine
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	Jeg vil have dig til at grine
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	grin lidt
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	grin ondsindet
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	grin uhyggeligt
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	griner du ikke
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	hvad der forhindrer dig i at grine
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	hvorfor griner du ikke
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	hvorfor ler du ikke
 da	ovos-skill-laugh.openvoiceos	Laugh.intent	kan du grine
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	kan du lide at grine
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	le som en djævel
+da	ovos-skill-laugh.openvoiceos	Laugh.intent	le som en dæmon
 da	ovos-skill-laugh.openvoiceos	Laugh.intent	ond grin
 da	ovos-skill-laugh.openvoiceos	Laugh.intent	ond grine
 da	ovos-skill-laugh.openvoiceos	Laugh.intent	ond latter
 da	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	grin tilfældigt
+da	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	grin uforudsigeligt
+da	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	sæt grin til tilfældig tilstand
 da	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	tilfældig grin
 da	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	tilfældig latter
 da	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	trigger tilfældig grin
 da	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	trigger tilfældig latter
-da	ovos-skill-laugh.openvoiceos	haunted.intent	Er du hjemsøgt
-da	ovos-skill-laugh.openvoiceos	haunted.intent	Har du brug for en eksorcisme
+da	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	udløs et tilfældigt grin
+da	ovos-skill-laugh.openvoiceos	haunted.intent	er du besat
+da	ovos-skill-laugh.openvoiceos	haunted.intent	er du hjemsøgt
+da	ovos-skill-laugh.openvoiceos	haunted.intent	har du brug for en eksorcisme
 da	ovos-skill-local-media.openvoiceos	open.file.browser.intent	start filbrowser
 da	ovos-skill-local-media.openvoiceos	open.file.browser.intent	start filbrowser-appen
 da	ovos-skill-local-media.openvoiceos	open.file.browser.intent	start filbrowserapp
@@ -84806,17 +84823,32 @@ de	ovos-skill-iss-location.openvoiceos	where_iss.intent	wo ist die  Raumstation
 de	ovos-skill-iss-location.openvoiceos	where_iss.intent	wo ist die I S S
 de	ovos-skill-iss-location.openvoiceos	where_iss.intent	wo ist die ISS
 de	ovos-skill-iss-location.openvoiceos	where_iss.intent	wo ist die internationale Raumstation
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	"Ich möchte, dass du lachst"
 de	ovos-skill-laugh.openvoiceos	Laugh.intent	Lache wie Alexa
 de	ovos-skill-laugh.openvoiceos	Laugh.intent	böses Gelächter
 de	ovos-skill-laugh.openvoiceos	Laugh.intent	böses Lachen
 de	ovos-skill-laugh.openvoiceos	Laugh.intent	kannst du lachen
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	lache bösartig
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	lache ein bisschen
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	lache unheilvoll
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	lache wie ein Dämon
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	lache wie ein Teufel
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	lachst du gerne
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	lachst du nicht
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	warum lachst du nicht
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	was hält dich vom Lachen ab
+de	ovos-skill-laugh.openvoiceos	Laugh.intent	zeig mir wie du lachst
+de	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	Lachen auf Zufallsmodus einstellen
+de	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	lache unvorhersehbar
 de	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	lache zufällig
+de	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	löse ein zufälliges Lachen aus
 de	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	löse zufälliges Gelächter aus
 de	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	löse zufälliges Lachen aus
 de	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	zufälliges Gelächter
 de	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	zufälliges Lachen
-de	ovos-skill-laugh.openvoiceos	haunted.intent	Bist du verwunschen
-de	ovos-skill-laugh.openvoiceos	haunted.intent	Brauchst Du einen Exorzismus
+de	ovos-skill-laugh.openvoiceos	haunted.intent	bist du  heimgesucht
+de	ovos-skill-laugh.openvoiceos	haunted.intent	bist du besessen
+de	ovos-skill-laugh.openvoiceos	haunted.intent	brauchst du einen Exorzismus
 de	ovos-skill-local-media.openvoiceos	open.file.browser.intent	Datei Browser App anzeigen
 de	ovos-skill-local-media.openvoiceos	open.file.browser.intent	Datei Browser App starten
 de	ovos-skill-local-media.openvoiceos	open.file.browser.intent	Datei Browser App öffnen
@@ -104989,20 +105021,55 @@ es	ovos-skill-iss-location.openvoiceos	where_iss.intent	dime la ubicación de la
 es	ovos-skill-iss-location.openvoiceos	where_iss.intent	dime la ubicación de la estación espacial internacional
 es	ovos-skill-iss-location.openvoiceos	where_iss.intent	¿Dónde está la EEI?
 es	ovos-skill-iss-location.openvoiceos	where_iss.intent	¿Dónde está la ISS?
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Me gustaría que te rieras
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Muéstrame cómo te ríes
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	No te rías
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Quiero que te rías
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Reír como un demonio
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Reír como un diablo
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Reír malévolamente
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Reír siniestramente
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríe como un demonio
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríe como un diablo
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríe malévolamente
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríe siniestramente
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríe un poco
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríete como un demonio
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríete como un diablo
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríete malévolamente
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríete siniestramente
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	Ríete un poco
 es	ovos-skill-laugh.openvoiceos	Laugh.intent	carcajada malvada
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	reír como Alexa
 es	ovos-skill-laugh.openvoiceos	Laugh.intent	risa malvada
 es	ovos-skill-laugh.openvoiceos	Laugh.intent	risotada malvada
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	ríe como Alexa
 es	ovos-skill-laugh.openvoiceos	Laugh.intent	ríete como Alexa
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	¿Por qué no te ríes?
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	¿Qué te impide reír?
+es	ovos-skill-laugh.openvoiceos	Laugh.intent	¿Te gusta reír?
 es	ovos-skill-laugh.openvoiceos	Laugh.intent	¿puedes reírte?
+es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	Reír de forma impredecible
+es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	Ríe de forma impredecible
+es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	Ríete de forma impredecible
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activa una carcajada aleatoria
+es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activa una risa al azar
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activa una risa aleatoria
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activa una risotada aleatoria
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	carcajada aleatoria
+es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	establece risa en modo aleatorio
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	reir al azar
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	risa aleatoria
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	risotada aleatoria
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	ríe al azar
 es	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	ríete al azar
+es	ovos-skill-laugh.openvoiceos	haunted.intent	¿Estás embrujada
+es	ovos-skill-laugh.openvoiceos	haunted.intent	¿Estás embrujado
+es	ovos-skill-laugh.openvoiceos	haunted.intent	¿Estás hechizada?
+es	ovos-skill-laugh.openvoiceos	haunted.intent	¿Estás hechizado
+es	ovos-skill-laugh.openvoiceos	haunted.intent	¿Estás poseída
+es	ovos-skill-laugh.openvoiceos	haunted.intent	¿Estás poseído
+es	ovos-skill-laugh.openvoiceos	haunted.intent	¿Necesitas un exorcismo?
 es	ovos-skill-local-media.openvoiceos	open.file.browser.intent	Mostrar archivo aplicación del navegador
 es	ovos-skill-local-media.openvoiceos	open.file.browser.intent	Mostrar archivo del navegador
 es	ovos-skill-local-media.openvoiceos	open.file.browser.intent	Mostrar archivo del navegador unidad
@@ -129246,8 +129313,21 @@ gl	ovos-skill-iss-location.openvoiceos	where_iss.intent	posición da E E I
 gl	ovos-skill-iss-location.openvoiceos	where_iss.intent	posición da EEI
 gl	ovos-skill-iss-location.openvoiceos	where_iss.intent	posición da estación espacial
 gl	ovos-skill-iss-location.openvoiceos	where_iss.intent	posición da estación espacial internacional
-gl	ovos-skill-laugh.openvoiceos	Laugh.intent	podes rir
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	Gústache rir?
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	Non ris?
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	Podes rir?
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	Por que non ris?
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	Que che impide rir?
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	gustaríame que rises
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	móstrame como ris
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	por que non estás rindo?
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	quero que rías
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	ri un chisco
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	rir coma un demo
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	rir coma un diaño
 gl	ovos-skill-laugh.openvoiceos	Laugh.intent	rir como alexa
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	rir malevolamente
+gl	ovos-skill-laugh.openvoiceos	Laugh.intent	rir sinistramente
 gl	ovos-skill-laugh.openvoiceos	Laugh.intent	risa malvada
 gl	ovos-skill-laugh.openvoiceos	Laugh.intent	risa malvado
 gl	ovos-skill-laugh.openvoiceos	Laugh.intent	risa malvados
@@ -129264,7 +129344,10 @@ gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activar risa ao chou
 gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activar risada ao chou
 gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activar riso ao chou
 gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activar risos ao chou
+gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	activar unha risa aleatoria
+gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	configurar o riso en modo aleatorio
 gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	rir ao chou
+gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	rir de xeito imprevisible
 gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	risa ao chou
 gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	risada ao chou
 gl	ovos-skill-laugh.openvoiceos	RandomLaugh.intent	riso ao chou

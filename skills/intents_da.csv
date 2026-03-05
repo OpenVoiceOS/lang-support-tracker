@@ -2308,17 +2308,34 @@ ovos-skill-iss-location.openvoiceos,where_iss.intent,placeringen af ​​ISS
 ovos-skill-iss-location.openvoiceos,where_iss.intent,placeringen af ​​den internationale rumstation
 ovos-skill-iss-location.openvoiceos,where_iss.intent,placeringen af ​​den internationale rumstationen
 ovos-skill-laugh.openvoiceos,Laugh.intent,Grin ligesom Alexa
+ovos-skill-laugh.openvoiceos,Laugh.intent,Jeg vil gerne have dig til at grine
+ovos-skill-laugh.openvoiceos,Laugh.intent,Jeg vil have dig til at grine
+ovos-skill-laugh.openvoiceos,Laugh.intent,grin lidt
+ovos-skill-laugh.openvoiceos,Laugh.intent,grin ondsindet
+ovos-skill-laugh.openvoiceos,Laugh.intent,grin uhyggeligt
+ovos-skill-laugh.openvoiceos,Laugh.intent,griner du ikke
+ovos-skill-laugh.openvoiceos,Laugh.intent,hvad der forhindrer dig i at grine
+ovos-skill-laugh.openvoiceos,Laugh.intent,hvorfor griner du ikke
+ovos-skill-laugh.openvoiceos,Laugh.intent,hvorfor ler du ikke
 ovos-skill-laugh.openvoiceos,Laugh.intent,kan du grine
+ovos-skill-laugh.openvoiceos,Laugh.intent,kan du lide at grine
+ovos-skill-laugh.openvoiceos,Laugh.intent,le som en djævel
+ovos-skill-laugh.openvoiceos,Laugh.intent,le som en dæmon
 ovos-skill-laugh.openvoiceos,Laugh.intent,ond grin
 ovos-skill-laugh.openvoiceos,Laugh.intent,ond grine
 ovos-skill-laugh.openvoiceos,Laugh.intent,ond latter
+ovos-skill-laugh.openvoiceos,Laugh.intent,"vis mig, hvordan du griner"
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,grin tilfældigt
+ovos-skill-laugh.openvoiceos,RandomLaugh.intent,grin uforudsigeligt
+ovos-skill-laugh.openvoiceos,RandomLaugh.intent,sæt grin til tilfældig tilstand
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,tilfældig grin
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,tilfældig latter
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,trigger tilfældig grin
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,trigger tilfældig latter
-ovos-skill-laugh.openvoiceos,haunted.intent,Er du hjemsøgt
-ovos-skill-laugh.openvoiceos,haunted.intent,Har du brug for en eksorcisme
+ovos-skill-laugh.openvoiceos,RandomLaugh.intent,udløs et tilfældigt grin
+ovos-skill-laugh.openvoiceos,haunted.intent,er du besat
+ovos-skill-laugh.openvoiceos,haunted.intent,er du hjemsøgt
+ovos-skill-laugh.openvoiceos,haunted.intent,har du brug for en eksorcisme
 ovos-skill-local-media.openvoiceos,open.file.browser.intent,start filbrowser
 ovos-skill-local-media.openvoiceos,open.file.browser.intent,start filbrowser-appen
 ovos-skill-local-media.openvoiceos,open.file.browser.intent,start filbrowserapp

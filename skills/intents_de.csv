@@ -3125,17 +3125,32 @@ ovos-skill-iss-location.openvoiceos,where_iss.intent,wo ist die  Raumstation
 ovos-skill-iss-location.openvoiceos,where_iss.intent,wo ist die I S S
 ovos-skill-iss-location.openvoiceos,where_iss.intent,wo ist die ISS
 ovos-skill-iss-location.openvoiceos,where_iss.intent,wo ist die internationale Raumstation
+ovos-skill-laugh.openvoiceos,Laugh.intent,"Ich möchte, dass du lachst"
 ovos-skill-laugh.openvoiceos,Laugh.intent,Lache wie Alexa
 ovos-skill-laugh.openvoiceos,Laugh.intent,böses Gelächter
 ovos-skill-laugh.openvoiceos,Laugh.intent,böses Lachen
 ovos-skill-laugh.openvoiceos,Laugh.intent,kannst du lachen
+ovos-skill-laugh.openvoiceos,Laugh.intent,lache bösartig
+ovos-skill-laugh.openvoiceos,Laugh.intent,lache ein bisschen
+ovos-skill-laugh.openvoiceos,Laugh.intent,lache unheilvoll
+ovos-skill-laugh.openvoiceos,Laugh.intent,lache wie ein Dämon
+ovos-skill-laugh.openvoiceos,Laugh.intent,lache wie ein Teufel
+ovos-skill-laugh.openvoiceos,Laugh.intent,lachst du gerne
+ovos-skill-laugh.openvoiceos,Laugh.intent,lachst du nicht
+ovos-skill-laugh.openvoiceos,Laugh.intent,warum lachst du nicht
+ovos-skill-laugh.openvoiceos,Laugh.intent,was hält dich vom Lachen ab
+ovos-skill-laugh.openvoiceos,Laugh.intent,zeig mir wie du lachst
+ovos-skill-laugh.openvoiceos,RandomLaugh.intent,Lachen auf Zufallsmodus einstellen
+ovos-skill-laugh.openvoiceos,RandomLaugh.intent,lache unvorhersehbar
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,lache zufällig
+ovos-skill-laugh.openvoiceos,RandomLaugh.intent,löse ein zufälliges Lachen aus
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,löse zufälliges Gelächter aus
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,löse zufälliges Lachen aus
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,zufälliges Gelächter
 ovos-skill-laugh.openvoiceos,RandomLaugh.intent,zufälliges Lachen
-ovos-skill-laugh.openvoiceos,haunted.intent,Bist du verwunschen
-ovos-skill-laugh.openvoiceos,haunted.intent,Brauchst Du einen Exorzismus
+ovos-skill-laugh.openvoiceos,haunted.intent,bist du  heimgesucht
+ovos-skill-laugh.openvoiceos,haunted.intent,bist du besessen
+ovos-skill-laugh.openvoiceos,haunted.intent,brauchst du einen Exorzismus
 ovos-skill-local-media.openvoiceos,open.file.browser.intent,Datei Browser App anzeigen
 ovos-skill-local-media.openvoiceos,open.file.browser.intent,Datei Browser App starten
 ovos-skill-local-media.openvoiceos,open.file.browser.intent,Datei Browser App öffnen

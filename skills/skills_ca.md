@@ -217,6 +217,17 @@ Seguiment de la ubicació de l'EEI
 -------
 
 
+### ovos-skill-laugh.openvoiceos
+
+Riu aleatòriament o quan se li demana
+
+**Usage examples:**
+- pots riure?
+- riu com l'Alexa
+
+-------
+
+
 ### ovos-skill-local-media.openvoiceos
 
 Navegador de fitxers multimèdia locals per a Open Voice OS
