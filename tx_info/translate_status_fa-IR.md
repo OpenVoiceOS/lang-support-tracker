@@ -14,7 +14,7 @@
 | OpenVoiceOS/skill-ovos-parrot | https://gitlocalize.com/repo/9607 | 0.42 | 2052 | 360 | 1183 | 191 | 869 | 169 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 0.38 | 1485 | 266 | 919 | 168 | 566 | 98 |
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 0.17 | 2350 | 298 | 1950 | 224 | 400 | 74 |
-| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.01 | 8636 | 1298 | 8586 | 1288 | 50 | 10 |
+| OpenVoiceOS/ovos-installer | https://gitlocalize.com/repo/9872 | 0.01 | 8490 | 1273 | 8440 | 1263 | 50 | 10 |
 | OpenVoiceOS/ovos-color-parser | https://gitlocalize.com/repo/9936 | 0.0 | 170418 | 28597 | 170418 | 28597 | 0 | 0 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.0 | 363 | 73 | 363 | 73 | 0 | 0 |
 | OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.0 | 1171 | 218 | 1171 | 218 | 0 | 0 |
