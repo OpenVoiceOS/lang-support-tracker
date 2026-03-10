@@ -1,89 +1,49 @@
 domain,intent,utterance
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué des alarmes ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué des alertes ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué des événements ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué l'alerte ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué la minuterie ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué un chronomètre ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué un événement ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué une alarme ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué une alerte ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je manqué une minuterie ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je oublié des chronométreurs ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je oublié des rappels ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je oublié les chronomètres ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je oublié un chronomètre ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Ai-je oublié une minuterie ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Alerte à l'oubli
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quel rappel ai-je manqué ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quel événement ai-je manqué ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quelle alarme ai-je manqué ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quelle alarme ai-je manquée ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quelle alerte ai-je manquée ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quelle minuterie ai-je manquée ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quelles alarmes ai-je manquées ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quelles alertes ai-je manquées ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quelles sont les alarmes que j'ai manquées ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quels sont les chronomètres que j'ai manqués ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quels sont les rappels que j'ai manqués ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,Quels sont les événements que j'ai manqués ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,a manqué un chronomètre
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,a manqué un minuteur
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,a manqué un rappel
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,a manqué un événement
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,a manqué une alarme
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,a manqué une alerte
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué des alarmes ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué des alertes ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué des minuteries ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué des minuteurs ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué des rappels ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué des événements ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué un minuteur ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué un rappel ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué un événement ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué une alarme ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué une alerte ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je manqué une minuterie ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je oublié des rappels ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je oublié un rappel ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je oublié une alarme ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je oublié une alerte ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté des alarmes ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté des alertes ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté des chronomètres ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté des minuteurs ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté des rappels ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté des événements ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté l'alarme ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté le chronomètre ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté un minuteur ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté un rappel ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté un événement ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté une alarme ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté une alerte ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,ai-je raté une minuterie ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,alarme manquée
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,alarmes manquées
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,alerte manquée
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,alertes manquées
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manque de chronomètres
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manque de rappel
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manque un chronomètre
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquer des alarmes
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquer des rappels
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquer un chronomètre
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquer un rappel
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquer un événement
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquer une alarme
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquer une alerte
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquer une minuterie
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manquez un chronomètre
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,manqué un chronomètre
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,minuterie manquante
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,minuterie manquée
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,minuteries manquantes
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,minuteries manquées
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,n'a manqué aucun chronomètre
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,n'a manqué aucune alarme
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,n'a manqué aucune minuterie
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,n'a pas reçu d'alerte
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,n'a pas reçu de rappel
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,n'a pas reçu de rappels
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,oublier les rappels
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,oublier un rappel
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,quelle alarme ai-je ratée ?
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,rappel de l'absence d'une personne
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,minuteur manqué
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,minuteurs manqués
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quel minuteur ai-je manqué ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quel rappel ai-je manqué ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quel événement ai-je manqué ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quelle alarme ai-je manquée ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quelle alerte ai-je manquée ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quelle minuterie ai-je manquée ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quelles alarmes ai-je manquées ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quelles alertes ai-je manquées ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quelles minuteries ai-je manquées ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quels minuteurs ai-je manqués ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quels rappels ai-je manqués ?
+ovos-skill-alerts.openvoiceos,missed_alerts.intent,quels événements ai-je manqués ?
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,rappel manqué
-ovos-skill-alerts.openvoiceos,missed_alerts.intent,rappels d'oublis
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,rappels manqués
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,événement manqué
 ovos-skill-alerts.openvoiceos,missed_alerts.intent,événements manqués
@@ -408,73 +368,366 @@ ovos-skill-camera.openvoiceos,have_camera.intent,puis-je utiliser la caméra
 ovos-skill-camera.openvoiceos,have_camera.intent,y a t-il une caméra
 ovos-skill-camera.openvoiceos,take_picture.intent,prendre une photo
 ovos-skill-camera.openvoiceos,take_picture.intent,prendre une photo
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel es la date  ce weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel es la date  le prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel es la date pour ce weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel es la date pour le prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel jour est ce weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel jour est le prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel sont les dates  ce weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel sont les dates  le prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel sont les dates pour ce weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quel sont les dates pour le prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelle est la date de ce weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelle est la date du prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelle est la date du weekend prochain
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelles sont les dates de ce weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelles sont les dates du prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelles sont les dates du weekend prochain
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quels  jours du prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quels  jours pour ce weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quels sont les jours du prochain weekend
-ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quels sont les jours pour ce weekend
-ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quel était le jour du dernier weekend
-ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quel était le jour du weekend dernier
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date au {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date aux {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date complète
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date d'aujourd'hui
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date dans {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date du jour
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date en {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,dis-moi la date à {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,"dis-moi le jour, le mois et l'année"
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date au {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date aux {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date complète
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date d'aujourd'hui
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date dans {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date du jour
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date en {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,donne-moi la date à {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,nous sommes quelle date
+ovos-skill-date-time.openvoiceos,current_date.intent,on est quelle date
+ovos-skill-date-time.openvoiceos,current_date.intent,peux-tu me dire la date
+ovos-skill-date-time.openvoiceos,current_date.intent,peux-tu me dire la date du jour
+ovos-skill-date-time.openvoiceos,current_date.intent,peux-tu me donner la date d'aujourd'hui
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle date sommes-nous
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date au {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date aujourd'hui
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date aux {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date complète
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date complète au {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date complète aujourd'hui
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date complète aux {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date complète dans {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date complète en {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date complète à {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date d'aujourd'hui au {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date d'aujourd'hui aux {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date d'aujourd'hui dans {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date d'aujourd'hui en {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date d'aujourd'hui à {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date dans {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date du calendrier
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date du calendrier au {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date du calendrier aux {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date du calendrier dans {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date du calendrier en {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date du calendrier à {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date du jour
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date en {location}
+ovos-skill-date-time.openvoiceos,current_date.intent,quelle est la date à {location}
+ovos-skill-date-time.openvoiceos,date.future.weekend.intent,dis-moi les dates du week-end prochain
+ovos-skill-date-time.openvoiceos,date.future.weekend.intent,peux-tu me dire quand est le prochain week-end
+ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quand est le prochain week-end
+ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quand est le week-end prochain
+ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelles sont les dates de ce week-end
+ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelles sont les dates du prochain week-end
+ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelles sont les dates du week-end prochain
+ovos-skill-date-time.openvoiceos,date.future.weekend.intent,quelles sont les dates du week-end à venir
+ovos-skill-date-time.openvoiceos,date.last.weekend.intent,c'était quand le week-end dernier
+ovos-skill-date-time.openvoiceos,date.last.weekend.intent,dis-moi les dates du week-end dernier
+ovos-skill-date-time.openvoiceos,date.last.weekend.intent,peux-tu me dire quand était le week-end dernier
+ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quand était le week-end dernier
 ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quelle était la date du week-end dernier
-ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quelles étaient les dates du dernier weekend
 ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quelles étaient les dates du week-end dernier
-ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quelles étaient les dates du weekend dernier
-ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quels étaient les jours du dernier weekend
-ovos-skill-date-time.openvoiceos,date.last.weekend.intent,quels étaient les jours du weekend dernier
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,avez-vous l'heure
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,avez-vous l'heure actuelle
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,heure actuelle
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure  s'il te plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure  s'il vous plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuellement
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuellement s'il te plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuellement s'il vous plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure maintenant
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure maintenant s'il te plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure maintenant s'il vous plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure tout de suite
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure tout de suite s'il te plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure tout de suite s'il vous plaît
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,c'est quand la prochaine année bissextile
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,en quelle année aura lieu le prochain 29 février
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,en quelle année tombe la prochaine année bissextile
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quand aura lieu le prochain 29 février
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quand aura-t-on une année bissextile de nouveau
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quand aurons-nous de nouveau un 29 février
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quand aurons-nous de nouveau une année bissextile
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quand est la prochaine année bissextile
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quel est le prochain 29 février
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quelle est la prochaine année avec 366 jours
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quelle est la prochaine année avec un 29 février
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quelle est la prochaine année avec un jour de plus en février
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quelle est la prochaine année bissextile
+ovos-skill-date-time.openvoiceos,next.leap.year.intent,quelle sera la prochaine année bissextile
+ovos-skill-date-time.openvoiceos,time.until.intent,c'était il y a combien de temps {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien d'heures avant {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien d'heures reste-t-il avant {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien de jours avant {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien de jours jusqu'à {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien de jours reste-t-il avant {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien de semaines avant {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien de semaines reste-t-il avant {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien de temps avant {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien de temps reste-t-il avant {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,combien de temps reste-t-il jusqu'à {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,dans combien de temps est {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,dans combien de temps sera {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,il y a combien de jours c'était {date}
+ovos-skill-date-time.openvoiceos,time.until.intent,il y a combien de temps c'était {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,dis-moi quel jour de la semaine était {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,dis-moi quel jour tombe {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,le {date} tombe quel jour
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,peux-tu me dire quel jour de la semaine est {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,peux-tu me dire quel jour tombe {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,quel est le jour de la semaine du {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,quel jour de la semaine est {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,quel jour de la semaine tombe {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,quel jour de la semaine était {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,quel jour est {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,quel jour tombe {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,quel jour était {date}
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,{date} c'était quel jour
+ovos-skill-date-time.openvoiceos,weekday.for.date.intent,{date} tombe quel jour
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,dis-moi le jour du mois
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,dis-moi le quantième
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,donne-moi le jour du mois
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,nous sommes le combien
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,on est le combien
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,on est le combien au {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,on est le combien aujourd'hui
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,on est le combien aux {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,on est le combien dans {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,on est le combien en {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,on est le combien à {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quantième du mois
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel est le jour du mois
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel est le jour du mois au {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel est le jour du mois aujourd'hui
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel est le jour du mois aux {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel est le jour du mois dans {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel est le jour du mois en {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel est le jour du mois à {location}
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel est le quantième du mois
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel jour du mois est-ce
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel jour du mois sommes-nous
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel numéro du jour du mois sommes-nous
+ovos-skill-date-time.openvoiceos,what.day.is.it.intent,quel quantième sommes-nous
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,dis-moi quel mois on est
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,donne-moi le mois actuel
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en août
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en avril
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en décembre
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en février
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en janvier
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en juillet
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en juin
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en mai
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en mars
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en novembre
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en octobre
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,est-on en septembre
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,nous sommes en quel mois
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,on est en quel mois
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,quel est le mois actuel
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,quel est le mois en cours
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,quel mois est-ce
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,quel mois sommes-nous
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en août
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en avril
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en décembre
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en février
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en janvier
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en juillet
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en juin
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en mai
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en mars
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en novembre
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en octobre
+ovos-skill-date-time.openvoiceos,what.month.is.it.intent,sommes-nous en septembre
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,dis-moi l'heure
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,dis-moi l'heure au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,dis-moi l'heure aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,dis-moi l'heure dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,dis-moi l'heure en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,dis-moi l'heure à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,donne-moi l'heure
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,donne-moi l'heure au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,donne-moi l'heure aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,donne-moi l'heure dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,donne-moi l'heure en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,donne-moi l'heure à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,il est quelle heure
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,il est quelle heure au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,il est quelle heure aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,il est quelle heure dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,il est quelle heure en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,il est quelle heure à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,j'ai besoin de l'heure
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,j'ai besoin de l'heure au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,j'ai besoin de l'heure aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,j'ai besoin de l'heure dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,j'ai besoin de l'heure en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,j'ai besoin de l'heure à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuelle
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuelle au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuelle aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuelle dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuelle en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure actuelle à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure du moment
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure du moment au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure du moment aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure du moment dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure du moment en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,l'heure du moment à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me dire l'heure
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me dire l'heure au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me dire l'heure aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me dire l'heure dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me dire l'heure en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me dire l'heure à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me donner l'heure
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me donner l'heure au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me donner l'heure aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me donner l'heure dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me donner l'heure en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,peux-tu me donner l'heure à {location}
 ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il  s'il te plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il  s'il vous plaît
 ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il actuellement
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il actuellement s'il te plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il actuellement s'il vous plaît
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il actuellement au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il actuellement aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il actuellement dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il actuellement en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il actuellement à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il en ce moment
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il en ce moment au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il en ce moment aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il en ce moment dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il en ce moment en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il en ce moment à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il en {location}
 ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il maintenant
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il maintenant s'il te plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il maintenant s'il vous plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il tout de suite
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il tout de suite s'il te plaît
-ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il tout de suite s'il vous plaît
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} heures
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} heures  à {location}
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} heures à partir de maintenant
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} heures à partir de maintenant à {location}
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} minutes
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} minutes  à {location}
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} minutes à partir de maintenant
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} minutes à partir de maintenant à {location}
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} secondes
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} secondes  à {location}
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} secondes à partir de maintenant
-ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,quand sera-t-il {offset} secondes à partir de maintenant à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il maintenant au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il maintenant aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il maintenant dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il maintenant en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il maintenant à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,quelle heure est-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,tu as l'heure
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,tu as l'heure au {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,tu as l'heure aux {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,tu as l'heure dans {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,tu as l'heure en {location}
+ovos-skill-date-time.openvoiceos,what.time.is.it.intent,tu as l'heure à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heure quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heure quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heure quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heure quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heure quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heure quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heures quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heures quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heures quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heures quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heures quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} heures quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minute quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minute quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minute quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minute quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minute quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minute quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minutes quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minutes quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minutes quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minutes quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minutes quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} minutes quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} seconde quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} seconde quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} seconde quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} seconde quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} seconde quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} seconde quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} secondes quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} secondes quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} secondes quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} secondes quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} secondes quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,après {offset} secondes quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heure quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heure quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heure quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heure quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heure quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heure quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heures quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heures quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heures quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heures quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heures quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} heures quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minute quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minute quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minute quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minute quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minute quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minute quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minutes quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minutes quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minutes quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minutes quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minutes quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} minutes quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} seconde quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} seconde quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} seconde quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} seconde quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} seconde quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} seconde quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} secondes quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} secondes quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} secondes quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} secondes quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} secondes quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,dans {offset} secondes quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} heures quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} heures quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} heures quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} heures quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} heures quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} heures quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} minutes quelle heure sera-t-il
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} minutes quelle heure sera-t-il au {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} minutes quelle heure sera-t-il aux {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} minutes quelle heure sera-t-il dans {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} minutes quelle heure sera-t-il en {location}
+ovos-skill-date-time.openvoiceos,what.time.will.it.be.intent,si j'attends {offset} minutes quelle heure sera-t-il à {location}
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,c'est quel jour aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,dis-moi le jour de la semaine
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,donne-moi le jour de la semaine
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,est-ce dimanche aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,est-ce jeudi aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,est-ce lundi aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,est-ce mardi aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,est-ce mercredi aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,est-ce samedi aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,est-ce vendredi aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,nous sommes quel jour
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,on est quel jour
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,quel jour de la semaine est-on
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,quel jour de la semaine sommes-nous
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,quel jour on est
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,quel jour sommes-nous aujourd'hui
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,sommes-nous dimanche
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,sommes-nous jeudi
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,sommes-nous lundi
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,sommes-nous mardi
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,sommes-nous mercredi
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,sommes-nous samedi
+ovos-skill-date-time.openvoiceos,what.weekday.is.it.intent,sommes-nous vendredi
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,année actuelle
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,année en cours
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,c'est quelle année
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,dis-moi l'année actuelle
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,donne-moi l'année actuelle
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,en quelle année est-on
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,nous sommes en quelle année
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,on est en quelle année
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,quelle année sommes-nous
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,quelle est l'année actuelle
+ovos-skill-date-time.openvoiceos,what.year.is.it.intent,quelle est l'année en cours
 ovos-skill-ddg.openvoiceos,age_at_death.intent,le jour où elle est morte
 ovos-skill-ddg.openvoiceos,age_at_death.intent,le jour où il est mort
 ovos-skill-ddg.openvoiceos,age_at_death.intent,quand elle est morte
@@ -754,38 +1007,64 @@ ovos-skill-moviemaster.openvoiceos,movie.year.intent,en quelle année le film {m
 ovos-skill-moviemaster.openvoiceos,movie.year.intent,quand est-ce que le film {movie} a été diffusé
 ovos-skill-moviemaster.openvoiceos,movie.year.intent,quand est-ce que le film {movie} a été fait
 ovos-skill-moviemaster.openvoiceos,movie.year.intent,quand est-ce que le film {movie} a été réalisé
+ovos-skill-naptime.openvoiceos,naptime.intent,c'est l'heure de la sieste
+ovos-skill-naptime.openvoiceos,naptime.intent,fais une sieste
+ovos-skill-naptime.openvoiceos,naptime.intent,il est temps de dormir
+ovos-skill-naptime.openvoiceos,naptime.intent,mets-toi en veille
+ovos-skill-naptime.openvoiceos,naptime.intent,mode veille
+ovos-skill-naptime.openvoiceos,naptime.intent,va dormir
+ovos-skill-naptime.openvoiceos,naptime.intent,va te coucher
+ovos-skill-news.openvoiceos,global_news.intent,donne-moi les actualités internationales
+ovos-skill-news.openvoiceos,global_news.intent,donne-moi les actualités mondiales
+ovos-skill-news.openvoiceos,global_news.intent,je veux les actualités internationales
+ovos-skill-news.openvoiceos,global_news.intent,je veux les actualités mondiales
+ovos-skill-news.openvoiceos,global_news.intent,joue les actualités internationales
+ovos-skill-news.openvoiceos,global_news.intent,joue les actualités mondiales
+ovos-skill-news.openvoiceos,global_news.intent,quelles sont les actualités mondiales
+ovos-skill-news.openvoiceos,global_news.intent,quelles sont les nouvelles du monde
+ovos-skill-news.openvoiceos,global_news.intent,y a-t-il de grandes nouvelles dans le monde
+ovos-skill-news.openvoiceos,news.intent,donne-moi les actualités
+ovos-skill-news.openvoiceos,news.intent,donne-moi les actualités locales
+ovos-skill-news.openvoiceos,news.intent,donne-moi les actualités régionales
+ovos-skill-news.openvoiceos,news.intent,donne-moi les dernières actualités
+ovos-skill-news.openvoiceos,news.intent,je veux écouter les actualités
+ovos-skill-news.openvoiceos,news.intent,je veux écouter les actualités locales
+ovos-skill-news.openvoiceos,news.intent,je veux écouter les actualités régionales
+ovos-skill-news.openvoiceos,news.intent,je veux écouter les dernières actualités
+ovos-skill-news.openvoiceos,news.intent,joue les actualités
+ovos-skill-news.openvoiceos,news.intent,joue les actualités locales
+ovos-skill-news.openvoiceos,news.intent,joue les actualités régionales
+ovos-skill-news.openvoiceos,news.intent,joue les dernières actualités
+ovos-skill-news.openvoiceos,news.intent,quelles sont les actualités
+ovos-skill-news.openvoiceos,news.intent,quelles sont les actualités locales
+ovos-skill-news.openvoiceos,news.intent,quelles sont les actualités régionales
+ovos-skill-news.openvoiceos,news.intent,quelles sont les dernières actualités
+ovos-skill-personal.openvoiceos,WhatAreYou.intent,comment te définirais-tu
+ovos-skill-personal.openvoiceos,WhatAreYou.intent,peux-tu te décrire
 ovos-skill-personal.openvoiceos,WhatAreYou.intent,qu'est-ce que tu es
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand as-tu été assemblé
+ovos-skill-personal.openvoiceos,WhatAreYou.intent,quel type d'assistant es-tu
+ovos-skill-personal.openvoiceos,WhatAreYou.intent,quelle est ta nature
 ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand as-tu été conçu
 ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand as-tu été créé
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand as-tu été fabriqué
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand as-tu été fait
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand as-tu été pensé
+ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand as-tu été inventé
+ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand es-tu apparu
 ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand es-tu né
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand est-ce que tu as été assemblé
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand est-ce que tu as été conçu
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand est-ce que tu as été créé
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand est-ce que tu as été fabriqué
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand est-ce que tu as été fait
-ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quand est-ce que tu as été pensé
+ovos-skill-personal.openvoiceos,WhenWereYouBorn.intent,quelle est ta date de naissance
+ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,d'où viens-tu
 ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,où as-tu été conçu
 ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,où as-tu été créé
-ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,où as-tu été fait
-ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,où as-tu été frabriqué
-ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,où as-tu été pensé
+ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,où as-tu été développé
 ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,où es-tu né
-ovos-skill-personal.openvoiceos,WhereWereYouBorn.intent,où est-ce que tu es né
+ovos-skill-personal.openvoiceos,WhoAreYou.intent,comment te décris-tu
+ovos-skill-personal.openvoiceos,WhoAreYou.intent,parle-moi de toi
+ovos-skill-personal.openvoiceos,WhoAreYou.intent,présente-toi
+ovos-skill-personal.openvoiceos,WhoAreYou.intent,quel est ton nom
 ovos-skill-personal.openvoiceos,WhoAreYou.intent,qui es-tu
-ovos-skill-personal.openvoiceos,WhoMadeYou.intent,par qui as-tu été conçu
 ovos-skill-personal.openvoiceos,WhoMadeYou.intent,par qui as-tu été créé
-ovos-skill-personal.openvoiceos,WhoMadeYou.intent,par qui as-tu été fabriqué
-ovos-skill-personal.openvoiceos,WhoMadeYou.intent,par qui as-tu été fait
-ovos-skill-personal.openvoiceos,WhoMadeYou.intent,par qui as-tu été pensé
+ovos-skill-personal.openvoiceos,WhoMadeYou.intent,qui est ton créateur
 ovos-skill-personal.openvoiceos,WhoMadeYou.intent,qui t'a conçu
 ovos-skill-personal.openvoiceos,WhoMadeYou.intent,qui t'a créé
 ovos-skill-personal.openvoiceos,WhoMadeYou.intent,qui t'a fabriqué
-ovos-skill-personal.openvoiceos,WhoMadeYou.intent,qui t'a fait
-ovos-skill-personal.openvoiceos,WhoMadeYou.intent,qui t'a pensé
 ovos-skill-screenshot.openvoiceos,take.screenshot.intent,capture d'écran
 ovos-skill-screenshot.openvoiceos,take.screenshot.intent,prendre une capture d'écran
 ovos-skill-volume.openvoiceos,volume.default.intent,définir le niveau de volume par défaut
@@ -816,6 +1095,68 @@ ovos-skill-volume.openvoiceos,volume.mute.toggle.intent,toggle mute
 ovos-skill-volume.openvoiceos,volume.unmute.intent,audio unmute
 ovos-skill-volume.openvoiceos,volume.unmute.intent,unmute
 ovos-skill-volume.openvoiceos,volume.unmute.intent,unmute volume
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,montre-moi la prévision sur 7 jours
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il cette semaine au {location}
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il cette semaine aux {location}
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il cette semaine dans {location}
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il cette semaine en {location}
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il cette semaine à {location}
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il pendant les 2 prochains jours
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il pendant les 3 prochains jours
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il pendant les 4 prochains jours
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il pendant les 5 prochains jours
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il pendant les 6 prochains jours
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quel temps fera-t-il pendant les 7 prochains jours
+ovos-skill-weather.openvoiceos,N_days_forecast.intent,quelle est la météo cette semaine
+ovos-skill-weather.openvoiceos,current_temperature.intent,ai-je besoin d'un manteau
+ovos-skill-weather.openvoiceos,current_temperature.intent,ai-je besoin d'une veste au {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,ai-je besoin d'une veste aux {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,ai-je besoin d'une veste dans {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,ai-je besoin d'une veste en {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,ai-je besoin d'une veste à {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,combien fait-il
+ovos-skill-weather.openvoiceos,current_temperature.intent,combien fait-il au {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,combien fait-il aux {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,combien fait-il dans {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,combien fait-il en {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,combien fait-il à {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,quelle est la température
+ovos-skill-weather.openvoiceos,current_temperature.intent,quelle est la température actuelle
+ovos-skill-weather.openvoiceos,current_temperature.intent,quelle est la température au {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,quelle est la température aux {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,quelle est la température dans {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,quelle est la température dehors
+ovos-skill-weather.openvoiceos,current_temperature.intent,quelle est la température en {location}
+ovos-skill-weather.openvoiceos,current_temperature.intent,quelle est la température à {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,donne-moi la météo
+ovos-skill-weather.openvoiceos,current_weather.intent,donne-moi la météo au {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,donne-moi la météo aux {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,donne-moi la météo dans {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,donne-moi la météo en {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,donne-moi la météo à {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,quel temps fait-il
+ovos-skill-weather.openvoiceos,current_weather.intent,quel temps fait-il au {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,quel temps fait-il aux {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,quel temps fait-il dans {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,quel temps fait-il en ce moment
+ovos-skill-weather.openvoiceos,current_weather.intent,quel temps fait-il en {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,quel temps fait-il à {location}
+ovos-skill-weather.openvoiceos,current_weather.intent,quelle est la météo actuelle
+ovos-skill-weather.openvoiceos,current_weather.intent,quelle est la météo en ce moment
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il après-demain
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il demain
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il demain au {location}
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il demain aux {location}
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il demain dans {location}
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il demain en {location}
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il demain à {location}
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il dimanche
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il jeudi
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il lundi
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il mardi
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il mercredi
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il samedi
+ovos-skill-weather.openvoiceos,daily_forecast.intent,quel temps fera-t-il vendredi
 ovos-skill-weather.openvoiceos,do-i-need-an-umbrella.intent,Ai-je besoin d'un imperméable demain
 ovos-skill-weather.openvoiceos,do-i-need-an-umbrella.intent,Ai-je besoin d'un parapluie demain
 ovos-skill-weather.openvoiceos,do-i-need-an-umbrella.intent,Ai-je besoin d'un parapluie pour mes déplacements
@@ -852,6 +1193,125 @@ ovos-skill-weather.openvoiceos,do-i-need-an-umbrella.intent,pleuvra-t-il aujourd
 ovos-skill-weather.openvoiceos,do-i-need-an-umbrella.intent,pleuvra-t-il demain
 ovos-skill-weather.openvoiceos,do-i-need-an-umbrella.intent,pleuvra-t-il pendant le week-end
 ovos-skill-weather.openvoiceos,do-i-need-an-umbrella.intent,sera-t-il un jour de pluie
+ovos-skill-weather.openvoiceos,high_temperature.intent,quel sera le maximum demain au {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quel sera le maximum demain aux {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quel sera le maximum demain dans {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quel sera le maximum demain en {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quel sera le maximum demain à {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quelle sera la température maximale
+ovos-skill-weather.openvoiceos,high_temperature.intent,quelle sera la température maximale au {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quelle sera la température maximale aux {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quelle sera la température maximale dans {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quelle sera la température maximale demain
+ovos-skill-weather.openvoiceos,high_temperature.intent,quelle sera la température maximale en {location}
+ovos-skill-weather.openvoiceos,high_temperature.intent,quelle sera la température maximale à {location}
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,donne-moi la météo heure par heure
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quel temps fera-t-il ce soir
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quel temps fera-t-il ce soir au {location}
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quel temps fera-t-il ce soir aux {location}
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quel temps fera-t-il ce soir dans {location}
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quel temps fera-t-il ce soir en {location}
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quel temps fera-t-il ce soir à {location}
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quel temps fera-t-il cet après-midi
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quel temps fera-t-il dans les prochaines heures
+ovos-skill-weather.openvoiceos,hourly_forecast.intent,quelle est la prévision heure par heure
+ovos-skill-weather.openvoiceos,hourly_temperature.intent,quelle température est prévue ce soir au {location}
+ovos-skill-weather.openvoiceos,hourly_temperature.intent,quelle température est prévue ce soir aux {location}
+ovos-skill-weather.openvoiceos,hourly_temperature.intent,quelle température est prévue ce soir dans {location}
+ovos-skill-weather.openvoiceos,hourly_temperature.intent,quelle température est prévue ce soir en {location}
+ovos-skill-weather.openvoiceos,hourly_temperature.intent,quelle température est prévue ce soir à {location}
+ovos-skill-weather.openvoiceos,hourly_temperature.intent,quelle température est prévue cet après-midi
+ovos-skill-weather.openvoiceos,hourly_temperature.intent,quelle température fera-t-il dans une heure
+ovos-skill-weather.openvoiceos,humidity.intent,l'air est-il humide
+ovos-skill-weather.openvoiceos,humidity.intent,quel est le taux d'humidité
+ovos-skill-weather.openvoiceos,humidity.intent,quelle est l'humidité
+ovos-skill-weather.openvoiceos,humidity.intent,y a-t-il beaucoup d'humidité au {location}
+ovos-skill-weather.openvoiceos,humidity.intent,y a-t-il beaucoup d'humidité aux {location}
+ovos-skill-weather.openvoiceos,humidity.intent,y a-t-il beaucoup d'humidité dans {location}
+ovos-skill-weather.openvoiceos,humidity.intent,y a-t-il beaucoup d'humidité en {location}
+ovos-skill-weather.openvoiceos,humidity.intent,y a-t-il beaucoup d'humidité à {location}
+ovos-skill-weather.openvoiceos,is_clear.intent,est-ce couvert au {location}
+ovos-skill-weather.openvoiceos,is_clear.intent,est-ce couvert aux {location}
+ovos-skill-weather.openvoiceos,is_clear.intent,est-ce couvert dans {location}
+ovos-skill-weather.openvoiceos,is_clear.intent,est-ce couvert en {location}
+ovos-skill-weather.openvoiceos,is_clear.intent,est-ce couvert à {location}
+ovos-skill-weather.openvoiceos,is_clear.intent,est-ce nuageux
+ovos-skill-weather.openvoiceos,is_clear.intent,est-ce que le ciel est dégagé
+ovos-skill-weather.openvoiceos,is_clear.intent,y a-t-il du soleil
+ovos-skill-weather.openvoiceos,is_fog.intent,est-ce brumeux
+ovos-skill-weather.openvoiceos,is_fog.intent,le brouillard est-il prévu au {location}
+ovos-skill-weather.openvoiceos,is_fog.intent,le brouillard est-il prévu aux {location}
+ovos-skill-weather.openvoiceos,is_fog.intent,le brouillard est-il prévu dans {location}
+ovos-skill-weather.openvoiceos,is_fog.intent,le brouillard est-il prévu en {location}
+ovos-skill-weather.openvoiceos,is_fog.intent,le brouillard est-il prévu à {location}
+ovos-skill-weather.openvoiceos,is_fog.intent,y a-t-il du brouillard
+ovos-skill-weather.openvoiceos,is_rain.intent,dois-je prendre un parapluie
+ovos-skill-weather.openvoiceos,is_rain.intent,est-ce qu'il pleut
+ovos-skill-weather.openvoiceos,is_rain.intent,va-t-il pleuvoir
+ovos-skill-weather.openvoiceos,is_rain.intent,y a-t-il de la pluie prévue au {location}
+ovos-skill-weather.openvoiceos,is_rain.intent,y a-t-il de la pluie prévue aux {location}
+ovos-skill-weather.openvoiceos,is_rain.intent,y a-t-il de la pluie prévue dans {location}
+ovos-skill-weather.openvoiceos,is_rain.intent,y a-t-il de la pluie prévue en {location}
+ovos-skill-weather.openvoiceos,is_rain.intent,y a-t-il de la pluie prévue à {location}
+ovos-skill-weather.openvoiceos,is_snow.intent,est-ce qu'il neige
+ovos-skill-weather.openvoiceos,is_snow.intent,va-t-il neiger
+ovos-skill-weather.openvoiceos,is_snow.intent,y a-t-il de la neige prévue au {location}
+ovos-skill-weather.openvoiceos,is_snow.intent,y a-t-il de la neige prévue aux {location}
+ovos-skill-weather.openvoiceos,is_snow.intent,y a-t-il de la neige prévue dans {location}
+ovos-skill-weather.openvoiceos,is_snow.intent,y a-t-il de la neige prévue en {location}
+ovos-skill-weather.openvoiceos,is_snow.intent,y a-t-il de la neige prévue à {location}
+ovos-skill-weather.openvoiceos,is_stormy.intent,un orage est-il prévu
+ovos-skill-weather.openvoiceos,is_stormy.intent,y a-t-il de l'orage
+ovos-skill-weather.openvoiceos,is_stormy.intent,y a-t-il des alertes météo au {location}
+ovos-skill-weather.openvoiceos,is_stormy.intent,y a-t-il des alertes météo aux {location}
+ovos-skill-weather.openvoiceos,is_stormy.intent,y a-t-il des alertes météo dans {location}
+ovos-skill-weather.openvoiceos,is_stormy.intent,y a-t-il des alertes météo en {location}
+ovos-skill-weather.openvoiceos,is_stormy.intent,y a-t-il des alertes météo à {location}
+ovos-skill-weather.openvoiceos,is_wind.intent,est-ce venteux au {location}
+ovos-skill-weather.openvoiceos,is_wind.intent,est-ce venteux aux {location}
+ovos-skill-weather.openvoiceos,is_wind.intent,est-ce venteux dans {location}
+ovos-skill-weather.openvoiceos,is_wind.intent,est-ce venteux en {location}
+ovos-skill-weather.openvoiceos,is_wind.intent,est-ce venteux à {location}
+ovos-skill-weather.openvoiceos,is_wind.intent,quel vent fait-il
+ovos-skill-weather.openvoiceos,is_wind.intent,y a-t-il du vent
+ovos-skill-weather.openvoiceos,low_temperature.intent,fera-t-il froid cette nuit
+ovos-skill-weather.openvoiceos,low_temperature.intent,quel sera le minimum au {location}
+ovos-skill-weather.openvoiceos,low_temperature.intent,quel sera le minimum aux {location}
+ovos-skill-weather.openvoiceos,low_temperature.intent,quel sera le minimum dans {location}
+ovos-skill-weather.openvoiceos,low_temperature.intent,quel sera le minimum en {location}
+ovos-skill-weather.openvoiceos,low_temperature.intent,quel sera le minimum à {location}
+ovos-skill-weather.openvoiceos,low_temperature.intent,quelle sera la température minimale
+ovos-skill-weather.openvoiceos,low_temperature.intent,quelle sera la température minimale demain
+ovos-skill-weather.openvoiceos,next_rain.intent,quand est la prochaine pluie au {location}
+ovos-skill-weather.openvoiceos,next_rain.intent,quand est la prochaine pluie aux {location}
+ovos-skill-weather.openvoiceos,next_rain.intent,quand est la prochaine pluie dans {location}
+ovos-skill-weather.openvoiceos,next_rain.intent,quand est la prochaine pluie en {location}
+ovos-skill-weather.openvoiceos,next_rain.intent,quand est la prochaine pluie à {location}
+ovos-skill-weather.openvoiceos,next_rain.intent,quand pleuvra-t-il
+ovos-skill-weather.openvoiceos,next_rain.intent,quand va-t-il pleuvoir à nouveau
+ovos-skill-weather.openvoiceos,next_rain.intent,à quelle heure commencera la pluie
+ovos-skill-weather.openvoiceos,sunrise.intent,quand le soleil se lève-t-il
+ovos-skill-weather.openvoiceos,sunrise.intent,quelle est l'heure du lever du soleil au {location}
+ovos-skill-weather.openvoiceos,sunrise.intent,quelle est l'heure du lever du soleil aux {location}
+ovos-skill-weather.openvoiceos,sunrise.intent,quelle est l'heure du lever du soleil dans {location}
+ovos-skill-weather.openvoiceos,sunrise.intent,quelle est l'heure du lever du soleil en {location}
+ovos-skill-weather.openvoiceos,sunrise.intent,quelle est l'heure du lever du soleil à {location}
+ovos-skill-weather.openvoiceos,sunrise.intent,à quelle heure est le lever du soleil
+ovos-skill-weather.openvoiceos,sunset.intent,quand le soleil se couche-t-il
+ovos-skill-weather.openvoiceos,sunset.intent,quelle est l'heure du coucher du soleil au {location}
+ovos-skill-weather.openvoiceos,sunset.intent,quelle est l'heure du coucher du soleil aux {location}
+ovos-skill-weather.openvoiceos,sunset.intent,quelle est l'heure du coucher du soleil dans {location}
+ovos-skill-weather.openvoiceos,sunset.intent,quelle est l'heure du coucher du soleil en {location}
+ovos-skill-weather.openvoiceos,sunset.intent,quelle est l'heure du coucher du soleil à {location}
+ovos-skill-weather.openvoiceos,sunset.intent,à quelle heure est le coucher du soleil
+ovos-skill-weather.openvoiceos,weekend_forecast.intent,est-ce qu'il va pleuvoir ce week-end
+ovos-skill-weather.openvoiceos,weekend_forecast.intent,quel temps fera-t-il ce week-end
+ovos-skill-weather.openvoiceos,weekend_forecast.intent,quel temps fera-t-il ce week-end au {location}
+ovos-skill-weather.openvoiceos,weekend_forecast.intent,quel temps fera-t-il ce week-end aux {location}
+ovos-skill-weather.openvoiceos,weekend_forecast.intent,quel temps fera-t-il ce week-end dans {location}
+ovos-skill-weather.openvoiceos,weekend_forecast.intent,quel temps fera-t-il ce week-end en {location}
+ovos-skill-weather.openvoiceos,weekend_forecast.intent,quel temps fera-t-il ce week-end à {location}
+ovos-skill-weather.openvoiceos,weekend_forecast.intent,quelle est la prévision pour ce week-end
 ovos-skill-wikipedia.openvoiceos,wiki.intent,cherche sur wiki au sujet de {query}
 ovos-skill-wikipedia.openvoiceos,wiki.intent,cherche sur wiki pour {query}
 ovos-skill-wikipedia.openvoiceos,wiki.intent,cherche sur wikipédia au sujet de {query}

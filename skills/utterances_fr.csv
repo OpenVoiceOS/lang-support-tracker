@@ -1,4 +1,14 @@
 domain,utterance
+ovos-skill-alerts.openvoiceos,Ai-je manqué quelque chose ?
+ovos-skill-alerts.openvoiceos,Annule tous les minuteurs.
+ovos-skill-alerts.openvoiceos,Annule tous les rappels.
+ovos-skill-alerts.openvoiceos,Annule toutes les alarmes.
+ovos-skill-alerts.openvoiceos,Lance un minuteur de 30 minutes pour le pain.
+ovos-skill-alerts.openvoiceos,Programme un événement de tennis vendredi à 14 heures pendant 2 heures.
+ovos-skill-alerts.openvoiceos,Qu'est-ce que j'ai manqué ?
+ovos-skill-alerts.openvoiceos,Quelle est ma prochaine alarme ?
+ovos-skill-alerts.openvoiceos,Quels sont mes rappels ?
+ovos-skill-alerts.openvoiceos,Rappelle-moi de sortir les poubelles tous les jeudis et dimanches à 19 heures.
 ovos-skill-date-time.openvoiceos,Combien de jours avant le 14 juillet
 ovos-skill-date-time.openvoiceos,Dis-moi le jour de la semaine
 ovos-skill-date-time.openvoiceos,Montre-moi l'heure
@@ -9,3 +19,26 @@ ovos-skill-date-time.openvoiceos,Quelle heure est-il?
 ovos-skill-hello-world.openvoiceos,Comment vas-tu
 ovos-skill-hello-world.openvoiceos,Hello world
 ovos-skill-hello-world.openvoiceos,Merci
+ovos-skill-naptime.openvoiceos,C'est l'heure de la sieste
+ovos-skill-naptime.openvoiceos,Réveille-toi
+ovos-skill-naptime.openvoiceos,Va te coucher
+ovos-skill-news.openvoiceos,Joue Euronews
+ovos-skill-news.openvoiceos,Joue les actualités
+ovos-skill-news.openvoiceos,Joue les actualités catalanes
+ovos-skill-news.openvoiceos,Joue les actualités de NPR
+ovos-skill-news.openvoiceos,Joue les actualités en espagnol
+ovos-skill-news.openvoiceos,Joue les actualités portugaises
+ovos-skill-personal.openvoiceos,Où es-tu né ?
+ovos-skill-personal.openvoiceos,Qu'est-ce que tu es ?
+ovos-skill-personal.openvoiceos,Quand as-tu été créé ?
+ovos-skill-personal.openvoiceos,Qui t'a créé ?
+ovos-skill-weather.openvoiceos,Quand va-t-il pleuvoir ?
+ovos-skill-weather.openvoiceos,Quel temps fait-il en ce moment ?
+ovos-skill-weather.openvoiceos,Quel temps fait-il à Houston ?
+ovos-skill-weather.openvoiceos,Quel temps fera-t-il ce week-end ?
+ovos-skill-weather.openvoiceos,Quel temps fera-t-il demain ?
+ovos-skill-weather.openvoiceos,Quelle est l'humidité ?
+ovos-skill-weather.openvoiceos,Quelle sera la température maximale demain ?
+ovos-skill-weather.openvoiceos,Quelle température fait-il ?
+ovos-skill-weather.openvoiceos,Quelle température fera-t-il demain à Paris en celsius ?
+ovos-skill-weather.openvoiceos,Va-t-il neiger à Baltimore ?
