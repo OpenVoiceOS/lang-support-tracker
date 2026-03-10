@@ -53,4 +53,4 @@
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.0 | 10694 | 1962 | 10694 | 1962 | 0 | 0 |
 | OpenVoiceOS/ovos-skill-count | https://gitlocalize.com/repo/10231 | 0.0 | 801 | 52 | 801 | 52 | 0 | 0 |
 | OpenVoiceOS/ovos-solver-YesNo-plugin | https://gitlocalize.com/repo/9938 | 0.0 | 812 | 156 | 812 | 156 | 0 | 0 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84435 | 15866 | 84088 | 15792 | 347 | 74 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.0 | 84473 | 15867 | 84126 | 15793 | 347 | 74 |

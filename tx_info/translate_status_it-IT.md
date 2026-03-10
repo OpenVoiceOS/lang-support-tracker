@@ -39,7 +39,7 @@
 | OpenVoiceOS/ovos-ddg-solver-plugin | https://gitlocalize.com/repo/10578 | 0.24 | 1171 | 218 | 894 | 165 | 277 | 53 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 0.2 | 1009 | 190 | 803 | 149 | 206 | 41 |
 | OpenVoiceOS/ovos-common-query-pipeline-plugin | https://gitlocalize.com/repo/9893 | 0.18 | 363 | 73 | 297 | 59 | 66 | 14 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.14 | 84435 | 15866 | 72335 | 13752 | 12100 | 2114 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.14 | 84473 | 15867 | 72378 | 13754 | 12095 | 2113 |
 | OpenVoiceOS/ovos-skill-screenshots | https://gitlocalize.com/repo/9953 | 0.12 | 276 | 45 | 244 | 40 | 32 | 5 |
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 0.09 | 10065 | 1425 | 9198 | 1280 | 867 | 145 |
 | OpenVoiceOS/ovos-skill-dictation | https://gitlocalize.com/repo/9622 | 0.03 | 6022 | 867 | 5827 | 834 | 195 | 33 |

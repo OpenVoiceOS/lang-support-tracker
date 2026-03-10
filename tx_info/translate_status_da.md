@@ -38,7 +38,7 @@
 | OpenVoiceOS/skill-ovos-date-time | https://gitlocalize.com/repo/9614 | 1.0 | 10065 | 1425 | 0 | 0 | 10065 | 1425 |
 | OpenVoiceOS/skill-ovos-fallback-unknown | https://gitlocalize.com/repo/9612 | 1.0 | 829 | 175 | 0 | 0 | 829 | 175 |
 | OpenVoiceOS/skill-ovos-hello-world | https://gitlocalize.com/repo/9611 | 1.0 | 798 | 148 | 0 | 0 | 798 | 148 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 1.0 | 84435 | 15866 | 0 | 0 | 84435 | 15866 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 1.0 | 84473 | 15867 | 43 | 2 | 84430 | 15865 |
 | OpenVoiceOS/skill-ovos-ip | https://gitlocalize.com/repo/9609 | 1.0 | 1009 | 190 | 0 | 0 | 1009 | 190 |
 | OpenVoiceOS/skill-ovos-local-media | https://gitlocalize.com/repo/9656 | 1.0 | 1352 | 254 | 0 | 0 | 1352 | 254 |
 | OpenVoiceOS/skill-ovos-naptime | https://gitlocalize.com/repo/9608 | 1.0 | 950 | 159 | 0 | 0 | 950 | 159 |

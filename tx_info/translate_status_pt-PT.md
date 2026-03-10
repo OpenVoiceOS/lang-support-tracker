@@ -19,7 +19,7 @@
 | OpenVoiceOS/skill-ovos-news | https://gitlocalize.com/repo/9631 | 1.0 | 2350 | 298 | 0 | 0 | 2350 | 298 |
 | OpenVoiceOS/skill-ovos-volume | https://gitlocalize.com/repo/9605 | 1.0 | 1485 | 266 | 0 | 0 | 1485 | 266 |
 | OpenVoiceOS/ovos-ocp-pipeline-plugin | https://gitlocalize.com/repo/9892 | 0.99 | 2912 | 355 | 32 | 6 | 2880 | 349 |
-| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.99 | 84435 | 15866 | 542 | 107 | 83893 | 15759 |
+| OpenVoiceOS/skill-ovos-icanhazdadjokes | https://gitlocalize.com/repo/9610 | 0.99 | 84473 | 15867 | 585 | 109 | 83888 | 15758 |
 | OpenVoiceOS/ovos-skill-confucius-quotes | https://gitlocalize.com/repo/9701 | 0.98 | 10694 | 1962 | 236 | 23 | 10458 | 1939 |
 | OpenVoiceOS/ovos-skill-speedtest | https://gitlocalize.com/repo/9657 | 0.98 | 560 | 80 | 9 | 1 | 551 | 79 |
 | OpenVoiceOS/ovos-skill-color-picker | https://gitlocalize.com/repo/9954 | 0.96 | 643 | 107 | 23 | 5 | 620 | 102 |
