@@ -1,566 +1,672 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVOS Language Support</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600;650&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace'],
-                    },
-                    colors: {
-                        ov: {
-                            bg: '#0a0a0b',
-                            card: '#111113',
-                            border: '#27272a',
-                            text: '#fafafa',
-                            muted: '#a1a1aa',
-                            accent: '#22c55e',
-                            accent_dim: '#22c55e20',
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        * { box-sizing: border-box; }
-        
-        body {
-            background: #0a0a0b;
-            color: #fafafa;
-            font-family: 'Inter', system-ui, sans-serif;
-            -webkit-font-smoothing: antialiased;
-        }
-        
-        .card {
-            background: #111113;
-            border: 1px solid #27272a;
-            border-radius: 12px;
-        }
-        
-        .card:hover {
-            border-color: #3f3f46;
-        }
-        
-        .lang-btn {
-            transition: all 0.15s ease;
-        }
-        
-        .lang-btn:hover {
-            background: #27272a;
-        }
-        
-        .lang-btn.active {
-            background: #22c55e;
-            color: #0a0a0b;
-        }
-        
-        ::-webkit-scrollbar { width: 6px; height: 6px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 3px; }
-        ::-webkit-scrollbar-thumb:hover { background: #52525b; }
-        
-        .progress-track { background: #27272a; }
-        .progress-fill { background: #22c55e; }
-        
-        .modal {
-            display: none;
-            position: fixed;
-            inset: 0;
-            background: rgba(0,0,0,0.9);
-            z-index: 100;
-            align-items: center;
-            justify-content: center;
-            padding: 40px;
-        }
-        
-        .modal.active {
-            display: flex;
-        }
-        
-        .modal img {
-            max-width: 100%;
-            max-height: 90vh;
-            object-fit: contain;
-        }
-        
-        .modal-close {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 40px;
-            height: 40px;
-            background: #27272a;
-            border: none;
-            border-radius: 50%;
-            color: white;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-        }
-        
-        .modal-close:hover {
-            background: #3f3f46;
-        }
-        
-        a:hover .card-link { border-color: #22c55e; }
-    </style>
-</head>
-<body class="min-h-screen">
-    <!-- Top Bar -->
-    <header class="border-b border-[#27272a] bg-[#0a0a0b]/80 backdrop-blur-xl sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>OVOS Language Support</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600;650&display=swap" rel="stylesheet">
+      <script>
+         tailwind.config = {
+             theme: {
+                 extend: {
+                     fontFamily: {
+                         sans: ['Inter', 'system-ui', 'sans-serif'],
+                         mono: ['JetBrains Mono', 'monospace'],
+                     },
+                     colors: {
+                         ov: {
+                             bg: '#0a0a0b',
+                             card: '#111113',
+                             border: '#27272a',
+                             text: '#fafafa',
+                             muted: '#a1a1aa',
+                             accent: '#22c55e',
+                             accent_dim: '#22c55e20',
+                         }
+                     }
+                 }
+             }
+         }
+      </script>
+      <style>
+         * { box-sizing: border-box; }
+         body {
+         background: #0a0a0b;
+         color: #fafafa;
+         font-family: 'Inter', system-ui, sans-serif;
+         -webkit-font-smoothing: antialiased;
+         }
+         .card {
+         background: #111113;
+         border: 1px solid #27272a;
+         border-radius: 12px;
+         }
+         .card:hover {
+         border-color: #3f3f46;
+         }
+         .lang-btn {
+         transition: all 0.15s ease;
+         }
+         .lang-btn:hover {
+         background: #27272a;
+         }
+         .lang-btn.active {
+         background: #22c55e;
+         color: #0a0a0b;
+         }
+         ::-webkit-scrollbar { width: 6px; height: 6px; }
+         ::-webkit-scrollbar-track { background: transparent; }
+         ::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 3px; }
+         ::-webkit-scrollbar-thumb:hover { background: #52525b; }
+         .progress-track { background: #27272a; }
+         .progress-fill { background: #22c55e; }
+         .modal {
+         display: none;
+         position: fixed;
+         inset: 0;
+         background: rgba(0,0,0,0.9);
+         z-index: 100;
+         align-items: center;
+         justify-content: center;
+         padding: 40px;
+         }
+         .modal.active {
+         display: flex;
+         }
+         .modal img {
+         max-width: 100%;
+         max-height: 90vh;
+         object-fit: contain;
+         }
+         .modal-close {
+         position: absolute;
+         top: 20px;
+         right: 20px;
+         width: 40px;
+         height: 40px;
+         background: #27272a;
+         border: none;
+         border-radius: 50%;
+         color: white;
+         cursor: pointer;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 20px;
+         }
+         .modal-close:hover {
+         background: #3f3f46;
+         }
+         a:hover .card-link { border-color: #22c55e; }
+      </style>
+   </head>
+   <body class="min-h-screen">
+      <!-- Top Bar -->
+      <header class="border-b border-[#27272a] bg-[#0a0a0b]/80 backdrop-blur-xl sticky top-0 z-50">
+         <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
             <div class="flex items-center gap-3">
-                <div class="w-8 h-8 rounded-lg bg-[#22c55e] flex items-center justify-center">
-                    <svg class="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-                </div>
-                <span class="font-semibold text-lg tracking-tight">OVOS Language Support</span>
+               <div class="w-8 h-8 rounded-lg bg-[#22c55e] flex items-center justify-center">
+                  <svg class="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
+                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+               </div>
+               <span class="font-semibold text-lg tracking-tight">OVOS Language Support</span>
             </div>
             <nav class="flex items-center gap-6 text-sm text-[#a1a1aa]">
-                <a href="#translations" class="hover:text-white transition-colors">Translations</a>
-                <a href="#skills" class="hover:text-white transition-colors">Skills</a>
-                <a href="#benchmarks" class="hover:text-white transition-colors">Benchmarks</a>
-                <a href="#regional" class="hover:text-white transition-colors">Regional</a>
-                <a href="https://gitlocalize.com/users/OpenVoiceOS" target="_blank" class="hover:text-white transition-colors">Translate</a>
+               <a href="#translations" class="hover:text-white transition-colors">Translations</a>
+               <a href="#skills" class="hover:text-white transition-colors">Skills</a>
+               <a href="#benchmarks" class="hover:text-white transition-colors">Benchmarks</a>
+               <a href="#regional" class="hover:text-white transition-colors">Regional</a>
+               <a href="https://gitlocalize.com/users/OpenVoiceOS" target="_blank" class="hover:text-white transition-colors">Translate</a>
             </nav>
-        </div>
-    </header>
-
-    <main class="max-w-6xl mx-auto px-6 py-10">
-        <!-- Hero -->
-        <div class="mb-12">
+         </div>
+      </header>
+      <main class="max-w-6xl mx-auto px-6 py-10">
+         <!-- Hero -->
+         <div class="mb-12">
             <h1 class="text-4xl font-semibold tracking-tight mb-3">Translation & Skills Dashboard</h1>
             <p class="text-[#a1a1aa] text-lg max-w-2xl">Track localization progress across 11 languages. OVOS supports multilingual voice assistants — help us improve accuracy for your language.</p>
-        </div>
-
-        <!-- Stats Row -->
-        <div class="grid grid-cols-4 gap-4 mb-10">
+         </div>
+         <!-- Stats Row -->
+         <div class="grid grid-cols-4 gap-4 mb-10">
             <div class="card p-5">
-                <div class="text-3xl font-semibold mb-1">11</div>
-                <div class="text-sm text-[#a1a1aa]">Languages</div>
+               <div class="text-3xl font-semibold mb-1">11</div>
+               <div class="text-sm text-[#a1a1aa]">Languages</div>
             </div>
             <div class="card p-5">
-                <div class="text-3xl font-semibold mb-1">45</div>
-                <div class="text-sm text-[#a1a1aa]">Skills</div>
+               <div class="text-3xl font-semibold mb-1">45</div>
+               <div class="text-sm text-[#a1a1aa]">Skills</div>
             </div>
             <div class="card p-5">
-                <div class="text-3xl font-semibold mb-1">850+</div>
-                <div class="text-sm text-[#a1a1aa]">Intents</div>
+               <div class="text-3xl font-semibold mb-1">850+</div>
+               <div class="text-sm text-[#a1a1aa]">Intents</div>
             </div>
             <div class="card p-5">
-                <div class="text-3xl font-semibold mb-1">12K+</div>
-                <div class="text-sm text-[#a1a1aa]">Utterances</div>
+               <div class="text-3xl font-semibold mb-1">12K+</div>
+               <div class="text-sm text-[#a1a1aa]">Utterances</div>
             </div>
-        </div>
-
-        <!-- Translation Progress -->
-        <section id="translations" class="mb-10 scroll-mt-20">
+         </div>
+         <!-- Translation Progress -->
+         <section id="translations" class="mb-10 scroll-mt-20">
             <div class="flex items-center justify-between mb-5">
-                <h2 class="text-xl font-medium">Translation Progress</h2>
-                <span class="text-sm text-[#a1a1aa]">11 languages</span>
+               <h2 class="text-xl font-medium">Translation Progress</h2>
+               <span class="text-sm text-[#a1a1aa]">11 languages</span>
             </div>
             <div class="card overflow-hidden">
-                <table class="w-full">
-                    <thead>
-                        <tr class="border-b border-[#27272a]">
-                            <th class="text-left text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">Language</th>
-                            <th class="text-left text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">Progress</th>
-                            <th class="text-right text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">Coverage</th>
-                        </tr>
-                    </thead>
-                    <tbody id="translations-tbody">
-                        <!-- Populated by JS -->
-                    </tbody>
-                </table>
+               <table class="w-full">
+                  <thead>
+                     <tr class="border-b border-[#27272a]">
+                        <th class="text-left text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">Language</th>
+                        <th class="text-left text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">Progress</th>
+                        <th class="text-right text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">Coverage</th>
+                     </tr>
+                  </thead>
+                  <tbody id="translations-tbody">
+                     <!-- Populated by JS -->
+                  </tbody>
+               </table>
             </div>
-        </section>
-
-        <!-- Skills Explorer -->
-        <section id="skills" class="mb-10 scroll-mt-20">
+         </section>
+         <!-- Skills Explorer -->
+         <section id="skills" class="mb-10 scroll-mt-20">
             <div class="flex items-center justify-between mb-5">
-                <h2 class="text-xl font-medium">Skills & Intents</h2>
+               <h2 class="text-xl font-medium">Skills & Intents</h2>
             </div>
-            
             <!-- Language Tabs -->
             <div class="flex flex-wrap gap-1 mb-6 p-1 bg-[#111113] rounded-lg border border-[#27272a] w-fit">
-                <button class="lang-btn active px-4 py-2 rounded-md text-sm font-medium" data-lang="en">English</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="ca">Catalan</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="da">Danish</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="de">German</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="es">Spanish</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="eu">Basque</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="fr">French</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="gl">Galician</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="it">Italian</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="nl">Dutch</button>
-                <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="pt">Portuguese</button>
+               <button class="lang-btn active px-4 py-2 rounded-md text-sm font-medium" data-lang="en">English</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="ca">Catalan</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="da">Danish</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="de">German</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="es">Spanish</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="eu">Basque</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="fr">French</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="gl">Galician</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="it">Italian</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="nl">Dutch</button>
+               <button class="lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]" data-lang="pt">Portuguese</button>
             </div>
-
             <!-- Skills Stats -->
             <div class="grid grid-cols-3 gap-4 mb-6">
-                <div class="card p-4 flex items-center justify-between">
-                    <div>
-                        <div class="text-2xl font-semibold" id="skill-count">45</div>
-                        <div class="text-sm text-[#a1a1aa]">Skills</div>
-                    </div>
-                    <div class="w-10 h-10 rounded-lg bg-[#22c55e]/10 flex items-center justify-center">
-                        <svg class="w-5 h-5 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
-                    </div>
-                </div>
-                <div class="card p-4 flex items-center justify-between">
-                    <div>
-                        <div class="text-2xl font-semibold" id="intent-count">892</div>
-                        <div class="text-sm text-[#a1a1aa]">Intents</div>
-                    </div>
-                    <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center">
-                        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                    </div>
-                </div>
-                <div class="card p-4 flex items-center justify-between">
-                    <div>
-                        <div class="text-2xl font-semibold" id="utterance-count">13,325</div>
-                        <div class="text-sm text-[#a1a1aa]">Utterances</div>
-                    </div>
-                    <div class="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center">
-                        <svg class="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-                    </div>
-                </div>
+               <div class="card p-4 flex items-center justify-between">
+                  <div>
+                     <div class="text-2xl font-semibold" id="skill-count">45</div>
+                     <div class="text-sm text-[#a1a1aa]">Skills</div>
+                  </div>
+                  <div class="w-10 h-10 rounded-lg bg-[#22c55e]/10 flex items-center justify-center">
+                     <svg class="w-5 h-5 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                     </svg>
+                  </div>
+               </div>
+               <div class="card p-4 flex items-center justify-between">
+                  <div>
+                     <div class="text-2xl font-semibold" id="intent-count">892</div>
+                     <div class="text-sm text-[#a1a1aa]">Intents</div>
+                  </div>
+                  <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center">
+                     <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                     </svg>
+                  </div>
+               </div>
+               <div class="card p-4 flex items-center justify-between">
+                  <div>
+                     <div class="text-2xl font-semibold" id="utterance-count">13,325</div>
+                     <div class="text-sm text-[#a1a1aa]">Utterances</div>
+                  </div>
+                  <div class="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center">
+                     <svg class="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                     </svg>
+                  </div>
+               </div>
             </div>
-
             <!-- Skills List -->
             <div class="card p-5">
-                <h3 class="text-sm font-medium text-[#a1a1aa] mb-4">TOP SKILLS</h3>
-                <div class="space-y-3" id="skills-list">
-                    <!-- Populated by JS -->
-                </div>
+               <h3 class="text-sm font-medium text-[#a1a1aa] mb-4">TOP SKILLS</h3>
+               <div class="space-y-3" id="skills-list">
+                  <!-- Populated by JS -->
+               </div>
             </div>
-        </section>
-
-        <!-- Benchmarks -->
-        <section id="benchmarks" class="mb-10 scroll-mt-20">
+         </section>
+         <!-- Benchmarks -->
+         <section id="benchmarks" class="mb-10 scroll-mt-20">
             <div class="flex items-center justify-between mb-5">
-                <h2 class="text-xl font-medium">Benchmarks</h2>
+               <h2 class="text-xl font-medium">Benchmarks</h2>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <a href="https://meteocat.bench.tigregotico.pt" target="_blank" class="card-link card p-5 group cursor-pointer">
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="w-9 h-9 rounded-lg bg-amber-500/10 flex items-center justify-center">
-                            <svg class="w-4 h-4 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
-                        </div>
-                        <span class="font-medium">meteocat</span>
-                    </div>
-                    <p class="text-sm text-[#71717a]">Catalan weather benchmark</p>
-                </a>
-                <a href="https://gitlocalize-bench.tigregotico.pt/" target="_blank" class="card-link card p-5 group cursor-pointer">
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="w-9 h-9 rounded-lg bg-blue-500/10 flex items-center justify-center">
-                            <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
-                        </div>
-                        <span class="font-medium">gitlocalize-bench</span>
-                    </div>
-                    <p class="text-sm text-[#71717a]">Padatious intent evaluation</p>
-                </a>
-                <a href="https://stt-bench.tigregotico.pt" target="_blank" class="card-link card p-5 group cursor-pointer">
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="w-9 h-9 rounded-lg bg-rose-500/10 flex items-center justify-center">
-                            <svg class="w-4 h-4 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
-                        </div>
-                        <span class="font-medium">stt-bench</span>
-                    </div>
-                    <p class="text-sm text-[#71717a]">Speech-to-text evaluation</p>
-                </a>
-                <a href="https://tts-bench.tigregotico.pt" target="_blank" class="card-link card p-5 group cursor-pointer">
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="w-9 h-9 rounded-lg bg-emerald-500/10 flex items-center justify-center">
-                            <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-                        </div>
-                        <span class="font-medium">tts-bench</span>
-                    </div>
-                    <p class="text-sm text-[#71717a]">Text-to-speech evaluation</p>
-                </a>
+               <a href="https://meteocat.bench.tigregotico.pt" target="_blank" class="card-link card p-5 group cursor-pointer">
+                  <div class="flex items-center gap-3 mb-3">
+                     <div class="w-9 h-9 rounded-lg bg-amber-500/10 flex items-center justify-center">
+                        <svg class="w-4 h-4 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                        </svg>
+                     </div>
+                     <span class="font-medium">meteocat</span>
+                  </div>
+                  <p class="text-sm text-[#71717a]">Catalan weather benchmark</p>
+               </a>
+               <a href="https://gitlocalize-bench.tigregotico.pt/" target="_blank" class="card-link card p-5 group cursor-pointer">
+                  <div class="flex items-center gap-3 mb-3">
+                     <div class="w-9 h-9 rounded-lg bg-blue-500/10 flex items-center justify-center">
+                        <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                        </svg>
+                     </div>
+                     <span class="font-medium">gitlocalize-bench</span>
+                  </div>
+                  <p class="text-sm text-[#71717a]">Padatious intent evaluation</p>
+               </a>
+               <a href="https://stt-bench.tigregotico.pt" target="_blank" class="card-link card p-5 group cursor-pointer">
+                  <div class="flex items-center gap-3 mb-3">
+                     <div class="w-9 h-9 rounded-lg bg-rose-500/10 flex items-center justify-center">
+                        <svg class="w-4 h-4 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
+                        </svg>
+                     </div>
+                     <span class="font-medium">stt-bench</span>
+                  </div>
+                  <p class="text-sm text-[#71717a]">Speech-to-text evaluation</p>
+               </a>
+               <a href="https://tts-bench.tigregotico.pt" target="_blank" class="card-link card p-5 group cursor-pointer">
+                  <div class="flex items-center gap-3 mb-3">
+                     <div class="w-9 h-9 rounded-lg bg-emerald-500/10 flex items-center justify-center">
+                        <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
+                        </svg>
+                     </div>
+                     <span class="font-medium">tts-bench</span>
+                  </div>
+                  <p class="text-sm text-[#71717a]">Text-to-speech evaluation</p>
+               </a>
             </div>
-        </section>
-
-        <!-- JSON Data Exports -->
-        <section class="mb-10">
+         </section>
+         <!-- JSON Data Exports -->
+         <section class="mb-10">
             <div class="flex items-center justify-between mb-5">
-                <h2 class="text-xl font-medium">JSON Data Exports</h2>
+               <h2 class="text-xl font-medium">JSON Data Exports</h2>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-                <a href="tx_info/ca-ES.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">ca-ES.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/da-DK.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">da-DK.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/de-DE.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">de-DE.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/es-ES.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">es-ES.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/eu.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">eu.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/fr-FR.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">fr-FR.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/gl-ES.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">gl-ES.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/it-IT.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">it-IT.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/nl-NL.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">nl-NL.json</span>
-                    </div>
-                </a>
-                <a href="tx_info/pt-PT.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                        <span class="text-sm font-medium">pt-PT.json</span>
-                    </div>
-                </a>
+               <a href="tx_info/ca-ES.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">ca-ES.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/da-DK.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">da-DK.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/de-DE.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">de-DE.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/es-ES.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">es-ES.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/eu.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">eu.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/fr-FR.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">fr-FR.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/gl-ES.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">gl-ES.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/it-IT.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">it-IT.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/nl-NL.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">nl-NL.json</span>
+                  </div>
+               </a>
+               <a href="tx_info/pt-PT.json" download class="card p-4 hover:border-[#22c55e] transition-colors">
+                  <div class="flex items-center gap-2">
+                     <svg class="w-4 h-4 text-[#22c55e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                     </svg>
+                     <span class="text-sm font-medium">pt-PT.json</span>
+                  </div>
+               </a>
             </div>
-        </section>
-
-        <!-- Regional Maps -->
-        <section id="regional" class="mb-10 scroll-mt-20">
+         </section>
+         <!-- Regional Maps -->
+         <section id="regional" class="mb-10 scroll-mt-20">
             <div class="flex items-center justify-between mb-5">
-                <h2 class="text-xl font-medium">Regional Settings</h2>
-                <span class="text-sm text-[#a1a1aa]">Click to enlarge</span>
+               <h2 class="text-xl font-medium">Regional Settings</h2>
+               <span class="text-sm text-[#a1a1aa]">Click to enlarge</span>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
-                <div class="card overflow-hidden cursor-pointer" onclick="openModal('img_1.png')">
-                    <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
-                        <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        Date Format
-                    </div>
-                    <img src="img_1.png" alt="Date format" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
-                </div>
-                <div class="card overflow-hidden cursor-pointer" onclick="openModal('img.png')">
-                    <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
-                        <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
-                        System Units
-                    </div>
-                    <img src="img.png" alt="System units" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
-                </div>
-                <div class="card overflow-hidden cursor-pointer" onclick="openModal('img_3.png')">
-                    <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
-                        <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
-                        Temperature
-                    </div>
-                    <img src="img_3.png" alt="Temperature" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
-                </div>
-                <div class="card overflow-hidden cursor-pointer" onclick="openModal('img_2.png')">
-                    <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
-                        <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                        Clock Format
-                    </div>
-                    <img src="img_2.png" alt="Clock format" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
-                </div>
-                <div class="card overflow-hidden cursor-pointer" onclick="openModal('img_4.png')">
-                    <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
-                        <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"/></svg>
-                        Numbering
-                    </div>
-                    <img src="img_4.png" alt="Numbering" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
-                </div>
+               <div class="card overflow-hidden cursor-pointer" onclick="openModal('img_1.png')">
+                  <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
+                     <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                     </svg>
+                     Date Format
+                  </div>
+                  <img src="img_1.png" alt="Date format" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
+               </div>
+               <div class="card overflow-hidden cursor-pointer" onclick="openModal('img.png')">
+                  <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
+                     <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+                     </svg>
+                     System Units
+                  </div>
+                  <img src="img.png" alt="System units" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
+               </div>
+               <div class="card overflow-hidden cursor-pointer" onclick="openModal('img_3.png')">
+                  <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
+                     <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                     </svg>
+                     Temperature
+                  </div>
+                  <img src="img_3.png" alt="Temperature" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
+               </div>
+               <div class="card overflow-hidden cursor-pointer" onclick="openModal('img_2.png')">
+                  <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
+                     <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                     </svg>
+                     Clock Format
+                  </div>
+                  <img src="img_2.png" alt="Clock format" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
+               </div>
+               <div class="card overflow-hidden cursor-pointer" onclick="openModal('img_4.png')">
+                  <div class="px-4 py-3 border-b border-[#27272a] flex items-center gap-2 text-sm">
+                     <svg class="w-4 h-4 text-[#a1a1aa]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"/>
+                     </svg>
+                     Numbering
+                  </div>
+                  <img src="img_4.png" alt="Numbering" class="w-full h-28 object-cover hover:opacity-80 transition-opacity">
+               </div>
             </div>
-        </section>
-
-        <!-- Contribute CTA -->
-        <section class="card p-8">
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
-                <div>
-                    <h3 class="text-lg font-medium mb-2">Help Improve Language Support</h3>
-                    <p class="text-[#a1a1aa] max-w-xl">Enable open data collection in your OVOS instance to contribute real-world intent data. This helps identify translation issues and improves accuracy.</p>
-                </div>
-                <div class="flex flex-col sm:flex-row gap-3">
-                    <a href="https://opendata.tigregotico.pt/" target="_blank" class="px-5 py-2.5 bg-[#22c55e] text-black font-medium rounded-lg text-center hover:bg-[#16a34a] transition-colors">
-                        View Dashboard
-                    </a>
-                    <div class="px-5 py-2.5 border border-[#27272a] rounded-lg">
-                        <code class="text-xs font-mono text-[#a1a1aa]">mycroft.conf</code>
-                    </div>
-                </div>
+         </section>
+         <!-- Contribute CTA -->
+         <section class="card p-8">
+            <div class="flex flex-col gap-6">
+               <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                  <div>
+                     <h3 class="text-lg font-medium mb-2">Help Improve Language Support</h3>
+                     <p class="text-[#a1a1aa] max-w-xl">Enable open data collection in your OVOS instance to contribute real-world intent data. This helps identify translation issues and improves accuracy.</p>
+                  </div>
+                  <a href="https://opendata.tigregotico.pt/" target="_blank" class="px-5 py-2.5 bg-[#22c55e] text-black font-medium rounded-lg text-center hover:bg-[#16a34a] transition-colors whitespace-nowrap">
+                  View Dashboard
+                  </a>
+               </div>
+               <div>
+                  <p class="text-sm text-[#a1a1aa] mb-3">Add this to your <code class="text-sm font-mono text-[#22c55e]">mycroft.conf</code>:</p>
+                  <div class="relative bg-[#0a0a0b] rounded-lg border border-[#27272a] p-4 font-mono text-sm">
+                     <pre class="text-[#a1a1aa]"><code>{
+  "open_data": {
+    "intent_urls": [
+      "https://metrics.tigregotico.pt/intents"
+    ]
+  }
+}</code></pre>
+                     <button onclick="copyConfig()" class="absolute top-3 right-3 px-3 py-1.5 bg-[#22c55e] text-black text-xs font-medium rounded hover:bg-[#16a34a] transition-colors">
+                     Copy
+                     </button>
+                  </div>
+               </div>
             </div>
-        </section>
-    </main>
-
-    <!-- Image Modal -->
-    <div class="modal" id="image-modal" onclick="closeModal()">
-        <button class="modal-close" onclick="closeModal()">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
-        </button>
-        <img id="modal-img" src="" alt="Full size">
-    </div>
-
-    <!-- Footer -->
-    <footer class="border-t border-[#27272a] mt-16">
-        <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+         </section>
+      </main>
+      <!-- Image Modal -->
+      <div class="modal" id="image-modal" onclick="closeModal()">
+         <button class="modal-close" onclick="closeModal()">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+         </button>
+         <img id="modal-img" src="" alt="Full size">
+      </div>
+      <!-- Footer -->
+      <footer class="border-t border-[#27272a] mt-16">
+         <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div class="flex items-center gap-2 text-sm text-[#71717a]">
-                <span>OVOS Language Support</span>
-                <span class="text-[#3f3f46]">•</span>
-                <a href="https://gitlocalize.com/users/OpenVoiceOS" class="hover:text-white transition-colors">GitLocalize</a>
+               <span>OVOS Language Support</span>
+               <span class="text-[#3f3f46]">•</span>
+               <a href="https://gitlocalize.com/users/OpenVoiceOS" class="hover:text-white transition-colors">GitLocalize</a>
             </div>
             <div class="text-sm text-[#52525b]">
-                Data updated daily
+               Data updated daily
             </div>
-        </div>
-    </footer>
-
-    <script>
-        const translations = [
-            { code: 'da', name: 'Danish', flag: '🇩🇰', progress: 100, value: '1.00' },
-            { code: 'ca', name: 'Catalan', flag: '🇪🇸', progress: 97, value: '0.97' },
-            { code: 'de-DE', name: 'German', flag: '🇩🇪', progress: 97, value: '0.97' },
-            { code: 'es-ES', name: 'Spanish', flag: '🇪🇸', progress: 97, value: '0.97' },
-            { code: 'gl', name: 'Galician', flag: '🇪🇸', progress: 86, value: '0.86' },
-            { code: 'pt-PT', name: 'Portuguese (PT)', flag: '🇵🇹', progress: 66, value: '0.66' },
-            { code: 'pt-BR', name: 'Portuguese (BR)', flag: '🇧🇷', progress: 57, value: '0.57' },
-            { code: 'fr-FR', name: 'French', flag: '🇫🇷', progress: 52, value: '0.52' },
-            { code: 'it-IT', name: 'Italian', flag: '🇮🇹', progress: 50, value: '0.50' },
-            { code: 'nl-NL', name: 'Dutch', flag: '🇳🇱', progress: 41, value: '0.41' },
-            { code: 'eu', name: 'Basque', flag: '🇪🇸', progress: 39, value: '0.39' },
-        ];
-
-        const skillsData = {
-            en: { skills: 45, intents: 892, utterances: 13325 },
-            ca: { skills: 45, intents: 845, utterances: 11523 },
-            da: { skills: 40, intents: 687, utterances: 8754 },
-            de: { skills: 45, intents: 845, utterances: 11876 },
-            es: { skills: 45, intents: 859, utterances: 12345 },
-            eu: { skills: 35, intents: 512, utterances: 6234 },
-            fr: { skills: 44, intents: 798, utterances: 10234 },
-            gl: { skills: 38, intents: 634, utterances: 8234 },
-            it: { skills: 44, intents: 812, utterances: 10876 },
-            nl: { skills: 42, intents: 723, utterances: 9456 },
-            pt: { skills: 45, intents: 867, utterances: 12456 }
-        };
-
-        const skillDescriptions = {
-            'alerts': { desc: 'Alarms, timers, reminders, events', examples: ['"Cancel all alarms"', '"Set alarm for 8 AM"', '"What are my reminders?"'] },
-            'weather': { desc: 'Weather queries and forecasts', examples: ['"What\'s the weather?"', '"Is it going to rain?"', '"Temperature outside"'] },
-            'date-time': { desc: 'Date and time queries', examples: ['"What time is it?"', '"What day is today?"', '"When is Easter?"'] },
-            'wikipedia': { desc: 'Wikipedia knowledge queries', examples: ['"Tell me about..."', '"Who is...?"', '"What is...?"'] },
-            'news': { desc: 'News fetching and playback', examples: ['"What\'s the news?"', '"Tell me the latest news"', '"Sports news"'] },
-            'volume': { desc: 'Volume control', examples: ['"Turn up the volume"', '"Mute"', '"Set volume to 50%"'] },
-            'personal': { desc: 'Personal information management', examples: ['"What\'s my name?"', '"Call me..."', '"My address is..."'] },
-            'naptime': { desc: 'Device sleep and nap mode', examples: ['"Take a nap"', '"Go to sleep"', '"Wake me up in 30 minutes"'] },
-        };
-
-        function openModal(src) {
-            document.getElementById('modal-img').src = src;
-            document.getElementById('image-modal').classList.add('active');
-        }
-
-        function closeModal() {
-            document.getElementById('image-modal').classList.remove('active');
-        }
-
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeModal();
-        });
-
-        function renderTranslations() {
-            const tbody = document.getElementById('translations-tbody');
-            tbody.innerHTML = translations.map(t => `
-                <tr class="border-b border-[#27272a] last:border-0 hover:bg-white/[0.02]">
-                    <td class="px-5 py-4">
-                        <div class="flex items-center gap-3">
-                            <span class="text-lg">${t.flag}</span>
-                            <span class="font-medium">${t.name}</span>
-                        </div>
-                    </td>
-                    <td class="px-5 py-4">
-                        <div class="flex items-center gap-3">
-                            <div class="w-32 h-1.5 rounded-full progress-track overflow-hidden">
-                                <div class="h-full rounded-full progress-fill" style="width: ${t.progress}%"></div>
-                            </div>
-                            <span class="text-sm text-[#a1a1aa]">${t.progress}%</span>
-                        </div>
-                    </td>
-                    <td class="px-5 py-4 text-right">
-                        <code class="text-sm font-mono text-[#71717a]">${t.value}</code>
-                    </td>
-                </tr>
-            `).join('');
-        }
-
-        function updateSkillsDisplay(lang) {
-            const data = skillsData[lang];
-            document.getElementById('skill-count').textContent = data.skills;
-            document.getElementById('intent-count').textContent = data.intents;
-            document.getElementById('utterance-count').textContent = data.utterances.toLocaleString();
-            
-            const skillsList = document.getElementById('skills-list');
-            const skills = Object.entries(skillDescriptions);
-            
-            skillsList.innerHTML = skills.slice(0, 8).map(([key, value]) => `
-                <div class="flex items-start justify-between py-3 border-b border-[#27272a] last:border-0">
-                    <div>
-                        <div class="font-medium mb-1">ovos-skill-${key}</div>
-                        <div class="text-sm text-[#71717a]">${value.desc}</div>
-                    </div>
-                    <div class="flex flex-wrap gap-1.5 justify-end max-w-[50%]">
-                        ${value.examples.map(ex => `
-                            <span class="px-2 py-1 bg-[#27272a] rounded text-xs text-[#a1a1aa]">${ex}</span>
-                        `).join('')}
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.lang-btn').forEach(b => {
-                    b.className = 'lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]';
-                });
-                btn.className = 'lang-btn active px-4 py-2 rounded-md text-sm font-medium';
-                updateSkillsDisplay(btn.dataset.lang);
-            });
-        });
-
-        renderTranslations();
-        updateSkillsDisplay('en');
-    </script>
-</body>
+         </div>
+      </footer>
+      <script>
+         const translations = [
+             { code: 'da', name: 'Danish', flag: '🇩🇰', progress: 100, value: '1.00' },
+             { code: 'ca', name: 'Catalan', flag: '🇪🇸', progress: 97, value: '0.97' },
+             { code: 'de-DE', name: 'German', flag: '🇩🇪', progress: 97, value: '0.97' },
+             { code: 'es-ES', name: 'Spanish', flag: '🇪🇸', progress: 97, value: '0.97' },
+             { code: 'gl', name: 'Galician', flag: '🇪🇸', progress: 86, value: '0.86' },
+             { code: 'pt-PT', name: 'Portuguese (PT)', flag: '🇵🇹', progress: 66, value: '0.66' },
+             { code: 'pt-BR', name: 'Portuguese (BR)', flag: '🇧🇷', progress: 57, value: '0.57' },
+             { code: 'fr-FR', name: 'French', flag: '🇫🇷', progress: 52, value: '0.52' },
+             { code: 'it-IT', name: 'Italian', flag: '🇮🇹', progress: 50, value: '0.50' },
+             { code: 'nl-NL', name: 'Dutch', flag: '🇳🇱', progress: 41, value: '0.41' },
+             { code: 'eu', name: 'Basque', flag: '🇪🇸', progress: 39, value: '0.39' },
+         ];
+         
+         const skillsData = {
+             en: { skills: 45, intents: 892, utterances: 13325 },
+             ca: { skills: 45, intents: 845, utterances: 11523 },
+             da: { skills: 40, intents: 687, utterances: 8754 },
+             de: { skills: 45, intents: 845, utterances: 11876 },
+             es: { skills: 45, intents: 859, utterances: 12345 },
+             eu: { skills: 35, intents: 512, utterances: 6234 },
+             fr: { skills: 44, intents: 798, utterances: 10234 },
+             gl: { skills: 38, intents: 634, utterances: 8234 },
+             it: { skills: 44, intents: 812, utterances: 10876 },
+             nl: { skills: 42, intents: 723, utterances: 9456 },
+             pt: { skills: 45, intents: 867, utterances: 12456 }
+         };
+         
+         const skillDescriptions = {
+             'alerts': { desc: 'Alarms, timers, reminders, events', domain: 'ovos-skill-alerts.openvoiceos' },
+             'weather': { desc: 'Weather queries and forecasts', domain: 'ovos-skill-weather.openvoiceos' },
+             'date-time': { desc: 'Date and time queries', domain: 'ovos-skill-date-time.openvoiceos' },
+             'wikipedia': { desc: 'Wikipedia knowledge queries', domain: 'ovos-skill-wikipedia.openvoiceos' },
+             'news': { desc: 'News fetching and playback', domain: 'ovos-skill-news.openvoiceos' },
+             'volume': { desc: 'Volume control', domain: 'ovos-skill-volume-control.openvoiceos' },
+             'personal': { desc: 'Personal information management', domain: 'ovos-skill-personal.openvoiceos' },
+             'naptime': { desc: 'Device sleep and nap mode', domain: 'ovos-skill-naptime.openvoiceos' },
+         };
+         
+         // Store utterances for each language
+         let utterancesByLanguage = {};
+         
+         function openModal(src) {
+             document.getElementById('modal-img').src = src;
+             document.getElementById('image-modal').classList.add('active');
+         }
+         
+         function closeModal() {
+             document.getElementById('image-modal').classList.remove('active');
+         }
+         
+         document.addEventListener('keydown', (e) => {
+             if (e.key === 'Escape') closeModal();
+         });
+         
+         function renderTranslations() {
+             const tbody = document.getElementById('translations-tbody');
+             tbody.innerHTML = translations.map(t => `
+                 <tr class="border-b border-[#27272a] last:border-0 hover:bg-white/[0.02]">
+                     <td class="px-5 py-4">
+                         <div class="flex items-center gap-3">
+                             <span class="text-lg">${t.flag}</span>
+                             <span class="font-medium">${t.name}</span>
+                         </div>
+                     </td>
+                     <td class="px-5 py-4">
+                         <div class="flex items-center gap-3">
+                             <div class="w-32 h-1.5 rounded-full progress-track overflow-hidden">
+                                 <div class="h-full rounded-full progress-fill" style="width: ${t.progress}%"></div>
+                             </div>
+                             <span class="text-sm text-[#a1a1aa]">${t.progress}%</span>
+                         </div>
+                     </td>
+                     <td class="px-5 py-4 text-right">
+                         <code class="text-sm font-mono text-[#71717a]">${t.value}</code>
+                     </td>
+                 </tr>
+             `).join('');
+         }
+         
+         function updateSkillsDisplay(lang) {
+             const data = skillsData[lang];
+             document.getElementById('skill-count').textContent = data.skills;
+             document.getElementById('intent-count').textContent = data.intents;
+             document.getElementById('utterance-count').textContent = data.utterances.toLocaleString();
+             
+             const skillsList = document.getElementById('skills-list');
+             const skills = Object.entries(skillDescriptions);
+             
+             skillsList.innerHTML = skills.slice(0, 8).map(([key, value]) => {
+                 // Get examples from loaded utterances for this language/domain
+                 let examples = [];
+                 if (utterancesByLanguage[lang] && utterancesByLanguage[lang][value.domain]) {
+                     examples = utterancesByLanguage[lang][value.domain].slice(0, 3);
+                 }
+                 
+                 return `
+                     <div class="flex items-start justify-between py-3 border-b border-[#27272a] last:border-0">
+                         <div>
+                             <div class="font-medium mb-1">ovos-skill-${key}</div>
+                             <div class="text-sm text-[#71717a]">${value.desc}</div>
+                         </div>
+                         <div class="flex flex-wrap gap-1.5 justify-end max-w-[50%]">
+                             ${examples.map(ex => `
+                                 <span class="px-2 py-1 bg-[#27272a] rounded text-xs text-[#a1a1aa]">"${ex}"</span>
+                             `).join('')}
+                         </div>
+                     </div>
+                 `;
+             }).join('');
+         }
+         
+         // Set up language button listeners
+         document.querySelectorAll('.lang-btn').forEach(btn => {
+             btn.addEventListener('click', () => {
+                 document.querySelectorAll('.lang-btn').forEach(b => {
+                     b.className = 'lang-btn px-4 py-2 rounded-md text-sm font-medium text-[#a1a1aa]';
+                 });
+                 btn.className = 'lang-btn active px-4 py-2 rounded-md text-sm font-medium';
+                 updateSkillsDisplay(btn.dataset.lang);
+             });
+         });
+         
+         // Load utterances from CSV files
+         async function loadUtterances() {
+             const languages = ['en', 'ca', 'da', 'de', 'es', 'eu', 'fr', 'gl', 'it', 'nl', 'pt'];
+             
+             for (const lang of languages) {
+                 try {
+                     const response = await fetch(`skills/utterances_${lang}.csv`);
+                     const text = await response.text();
+                     const lines = text.trim().split('\n');
+                     
+                     utterancesByLanguage[lang] = {};
+                     
+                     for (let i = 1; i < lines.length; i++) {
+                         const line = lines[i];
+                         if (!line) continue;
+                         
+                         // Parse CSV: domain is before first comma, utterance is the rest
+                         const firstCommaIdx = line.indexOf(',');
+                         if (firstCommaIdx === -1) continue;
+                         
+                         const domain = line.substring(0, firstCommaIdx).trim();
+                         const utterance = line.substring(firstCommaIdx + 1).trim()
+                             .replace(/^"/, '').replace(/"$/, ''); // Remove surrounding quotes if present
+                         
+                         if (domain && utterance) {
+                             if (!utterancesByLanguage[lang][domain]) {
+                                 utterancesByLanguage[lang][domain] = [];
+                             }
+                             utterancesByLanguage[lang][domain].push(utterance);
+                         }
+                     }
+                 } catch (error) {
+                     console.log(`Could not load utterances for ${lang}:`, error);
+                 }
+             }
+             
+             // After loading, update the initial display
+             updateSkillsDisplay('en');
+         }
+         
+         function copyConfig() {
+             const config = `{
+         "open_data": {
+         "intent_urls": [
+         "https://metrics.tigregotico.pt/intents"
+         ]
+         }
+         }`;
+             navigator.clipboard.writeText(config).then(() => {
+                 const btn = event.target;
+                 const originalText = btn.textContent;
+                 btn.textContent = 'Copied!';
+                 btn.style.background = '#16a34a';
+                 setTimeout(() => {
+                     btn.textContent = originalText;
+                     btn.style.background = '';
+                 }, 2000);
+             }).catch(err => {
+                 console.error('Failed to copy:', err);
+             });
+         }
+         
+         renderTranslations();
+         loadUtterances();
+      </script>
+   </body>
 </html>
