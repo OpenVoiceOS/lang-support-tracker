@@ -604,13 +604,14 @@
                  const dialogTotal = skill.totals.dialog || 0;
                  const vocTotal = (skill.totals.voc || 0) + (skill.totals.entity || 0);
 
-                 // Skill is fully usable if each file type has at least 1 translation
-                 // (intent, dialog, vocab all have at least some coverage)
-                 if (intentTotal > 0 && intentCov > 0 &&
-                     dialogTotal > 0 && dialogCov > 0 &&
-                     vocTotal > 0 && vocCov > 0) {
-                     count++;
-                 }
+                 // Skill is fully usable if every file type it has is at least partially translated
+                 // (only check types that exist in the skill)
+                 const usable =
+                     (intentTotal === 0 || intentCov > 0) &&
+                     (dialogTotal === 0 || dialogCov > 0) &&
+                     (vocTotal === 0 || vocCov > 0) &&
+                     (intentTotal + dialogTotal + vocTotal > 0);
+                 if (usable) count++;
              });
              return count;
          }
