@@ -87,8 +87,14 @@ def _pct_matrix(
     if not rows:
         return np.array([]).reshape(0, len(lang_order)), []
 
-    # Sort by total coverage descending
-    order = sorted(range(len(rows)), key=lambda i: sum(rows[i]), reverse=True)
+    # Sort by variance descending (most interesting gaps first), then by mean asc
+    order = sorted(
+        range(len(rows)),
+        key=lambda i: (
+            -float(np.std(rows[i])),  # high variance first
+            float(np.mean(rows[i])),  # then by mean coverage asc
+        ),
+    )
     rows = [rows[i] for i in order[:top_n]]
     labels = [labels[i] for i in order[:top_n]]
 
@@ -102,7 +108,11 @@ def _heatmap(
     title: str,
     output_path: Path,
 ) -> None:
-    """Render and save a coverage heatmap.
+    """Render and save a readable coverage heatmap.
+
+    Uses a 4-tier categorical color scheme so the eye can quickly distinguish
+    missing (0%), partial (<50%), good (50–99%), and full (100%) coverage.
+    Cell annotations show the exact % value in every cell.
 
     Args:
         matrix: 2D float array of percentages (0-100).
@@ -116,38 +126,72 @@ def _heatmap(
         return
 
     n_rows, n_cols = matrix.shape
-    fig_height = max(4, n_rows * 0.25 + 2)
-    fig, ax = plt.subplots(figsize=(max(8, n_cols * 1.2), fig_height))
+
+    # Tier colours: 0% = dark slate, <50% = muted red, <100% = amber, 100% = green
+    TIER_NONE = "#1c1c1f"
+    TIER_LOW = "#7f1d1d"
+    TIER_MED = "#78350f"
+    TIER_HIGH = "#14532d"
+    TIER_FULL = "#15803d"
+
+    def cell_color(v: float) -> str:
+        if v == 0:
+            return TIER_NONE
+        if v < 50:
+            return TIER_LOW
+        if v < 100:
+            return TIER_MED
+        return TIER_FULL
+
+    cell_height = 0.42
+    cell_width = 1.1
+    fig_height = max(5, n_rows * cell_height + 2.5)
+    fig_width = max(7, n_cols * cell_width + 2.5)
+
+    fig, ax = plt.subplots(figsize=(fig_width, fig_height))
     fig.patch.set_facecolor(DARK_BG)
-    ax.set_facecolor(CARD_BG)
+    ax.set_facecolor(DARK_BG)
 
-    # Color: 0=dark red, 50=amber, 100=green
-    cmap = matplotlib.colors.LinearSegmentedColormap.from_list(
-        "ov_cov", ["#7f1d1d", "#92400e", "#365314", ACCENT]
-    )
-    im = ax.imshow(matrix, aspect="auto", cmap=cmap, vmin=0, vmax=100)
+    for r in range(n_rows):
+        for c in range(n_cols):
+            val = matrix[r, c]
+            color = cell_color(val)
+            rect = plt.Rectangle(  # type: ignore[attr-defined]
+                (c - 0.5, r - 0.5), 1, 1,
+                facecolor=color, edgecolor="#27272a", linewidth=0.4,
+            )
+            ax.add_patch(rect)
+            # Text: white for dark cells, dark for bright cells
+            txt_color = "#fafafa" if val < 100 else "#0a0a0b"
+            label = "—" if val == 0 else f"{val:.0f}%"
+            ax.text(c, r, label, ha="center", va="center",
+                    fontsize=7.5, color=txt_color, fontweight="medium")
 
+    ax.set_xlim(-0.5, n_cols - 0.5)
+    ax.set_ylim(n_rows - 0.5, -0.5)  # flip: first skill at top
     ax.set_xticks(range(n_cols))
-    ax.set_xticklabels(col_labels, fontsize=9)
+    ax.set_xticklabels(col_labels, fontsize=9, color=TEXT_COLOR)
     ax.set_yticks(range(n_rows))
-    ax.set_yticklabels(row_labels, fontsize=7)
+    ax.set_yticklabels(row_labels, fontsize=8, color=MUTED)
     ax.xaxis.tick_top()
+    ax.tick_params(length=0)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
 
-    # Annotate cells with % if matrix is not too large
-    if n_rows * n_cols <= 300:
-        for r in range(n_rows):
-            for c in range(n_cols):
-                val = matrix[r, c]
-                color = "white" if val < 70 else "#0a0a0b"
-                ax.text(c, r, f"{val:.0f}", ha="center", va="center",
-                        fontsize=6, color=color)
+    # Legend
+    legend_items = [
+        mpatches.Patch(facecolor=TIER_FULL, edgecolor=BORDER, label="100%"),
+        mpatches.Patch(facecolor=TIER_MED, edgecolor=BORDER, label="50–99%"),
+        mpatches.Patch(facecolor=TIER_LOW, edgecolor=BORDER, label="1–49%"),
+        mpatches.Patch(facecolor=TIER_NONE, edgecolor="#3f3f46", label="0%"),
+    ]
+    ax.legend(handles=legend_items, loc="lower right",
+              facecolor=CARD_BG, edgecolor=BORDER, labelcolor=TEXT_COLOR,
+              fontsize=8, framealpha=0.9,
+              bbox_to_anchor=(1.0, -0.04 - 0.8 / fig_height))
 
-    cbar = fig.colorbar(im, ax=ax, shrink=0.6, pad=0.02)
-    cbar.ax.yaxis.set_tick_params(color=MUTED)
-    cbar.set_label("Coverage %", color=MUTED)
-
-    ax.set_title(title, color=TEXT_COLOR, fontsize=11, pad=14)
-    plt.tight_layout()
+    ax.set_title(title, color=TEXT_COLOR, fontsize=11, pad=14, loc="left")
+    plt.tight_layout(pad=1.0)
     plt.savefig(output_path, dpi=FIG_DPI, bbox_inches="tight",
                 facecolor=DARK_BG)
     plt.close(fig)
@@ -331,6 +375,120 @@ def plot_intent_vs_dialog_gap(skills_data: dict, lang_order: list[str], plots_di
     print("  Saved intent_vs_dialog_gap.png")
 
 
+def plot_skills_per_language(skills_data: dict, summary: dict, lang_order: list[str], plots_dir: Path) -> None:
+    """Per-language skill coverage breakdown: stacked bar showing full/partial/missing skills.
+
+    Each bar shows how many skills have full intent coverage, partial intent,
+    or no intent at all — giving a clear picture of skill completeness per language.
+
+    Args:
+        skills_data: Per-skill coverage dict.
+        summary: Summary section from coverage_data.json.
+        lang_order: Language codes to plot.
+        plots_dir: Output directory for plots.
+    """
+    langs = [l for l in lang_order if l != "en"]
+
+    full_intent = []
+    partial_intent = []
+    no_intent = []
+    full_dialog = []
+    partial_dialog = []
+    no_dialog = []
+
+    total_skills_with_intents = sum(
+        1 for s in skills_data.values() if s["totals"].get("intent", 0) > 0
+    )
+    total_skills_with_dialogs = sum(
+        1 for s in skills_data.values() if s["totals"].get("dialog", 0) > 0
+    )
+
+    for lang in langs:
+        fi = pa = no = fd = pd_= nd = 0
+        for skill in skills_data.values():
+            t_i = skill["totals"].get("intent", 0)
+            t_d = skill["totals"].get("dialog", 0)
+            c_i = skill["languages"].get(lang, {}).get("intent", 0)
+            c_d = skill["languages"].get(lang, {}).get("dialog", 0)
+            if t_i > 0:
+                if c_i == t_i:
+                    fi += 1
+                elif c_i > 0:
+                    pa += 1
+                else:
+                    no += 1
+            if t_d > 0:
+                if c_d == t_d:
+                    fd += 1
+                elif c_d > 0:
+                    pd_ += 1
+                else:
+                    nd += 1
+        full_intent.append(fi)
+        partial_intent.append(pa)
+        no_intent.append(no)
+        full_dialog.append(fd)
+        partial_dialog.append(pd_)
+        no_dialog.append(nd)
+
+    # Sort langs by full_intent descending
+    order = sorted(range(len(langs)), key=lambda i: full_intent[i] + partial_intent[i], reverse=True)
+    langs = [langs[i] for i in order]
+    full_intent = [full_intent[i] for i in order]
+    partial_intent = [partial_intent[i] for i in order]
+    no_intent = [no_intent[i] for i in order]
+    full_dialog = [full_dialog[i] for i in order]
+    partial_dialog = [partial_dialog[i] for i in order]
+    no_dialog = [no_dialog[i] for i in order]
+
+    x = np.arange(len(langs))
+    width = 0.35
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, max(4, len(langs) * 0.4 + 2)))
+    fig.patch.set_facecolor(DARK_BG)
+    for ax in (ax1, ax2):
+        ax.set_facecolor(CARD_BG)
+
+    # Intent panel
+    b1 = ax1.bar(x, full_intent, width, label="Full coverage", color="#15803d", alpha=0.92)
+    b2 = ax1.bar(x, partial_intent, width, bottom=full_intent,
+                 label="Partial coverage", color="#78350f", alpha=0.92)
+    b3 = ax1.bar(x, no_intent, width,
+                 bottom=[f + p for f, p in zip(full_intent, partial_intent)],
+                 label="No coverage", color="#1c1c1f", alpha=0.92)
+    ax1.axhline(total_skills_with_intents, color=BORDER, linestyle="--", linewidth=0.8)
+    ax1.text(len(langs) - 0.5, total_skills_with_intents + 0.3, f"total={total_skills_with_intents}",
+             color=MUTED, fontsize=7.5)
+    ax1.set_xticks(x)
+    ax1.set_xticklabels(langs, fontsize=9, color=TEXT_COLOR)
+    ax1.set_ylabel("Skills", color=MUTED)
+    ax1.set_title("Intent Coverage per Language", color=TEXT_COLOR, fontsize=10, pad=8)
+    ax1.legend(facecolor=CARD_BG, edgecolor=BORDER, labelcolor=TEXT_COLOR, fontsize=8)
+
+    # Dialog panel
+    ax2.bar(x, full_dialog, width, label="Full coverage", color="#15803d", alpha=0.92)
+    ax2.bar(x, partial_dialog, width, bottom=full_dialog,
+            label="Partial coverage", color="#78350f", alpha=0.92)
+    ax2.bar(x, no_dialog, width,
+            bottom=[f + p for f, p in zip(full_dialog, partial_dialog)],
+            label="No coverage", color="#1c1c1f", alpha=0.92)
+    ax2.axhline(total_skills_with_dialogs, color=BORDER, linestyle="--", linewidth=0.8)
+    ax2.text(len(langs) - 0.5, total_skills_with_dialogs + 0.3, f"total={total_skills_with_dialogs}",
+             color=MUTED, fontsize=7.5)
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(langs, fontsize=9, color=TEXT_COLOR)
+    ax2.set_ylabel("Skills", color=MUTED)
+    ax2.set_title("Dialog Coverage per Language", color=TEXT_COLOR, fontsize=10, pad=8)
+    ax2.legend(facecolor=CARD_BG, edgecolor=BORDER, labelcolor=TEXT_COLOR, fontsize=8)
+
+    fig.suptitle("Skill Count by Coverage Status", color=TEXT_COLOR, fontsize=12, y=1.01)
+    plt.tight_layout()
+    plt.savefig(plots_dir / "skills_per_language.png", dpi=FIG_DPI, bbox_inches="tight",
+                facecolor=DARK_BG)
+    plt.close(fig)
+    print("  Saved skills_per_language.png")
+
+
 def generate_plots(output_dir: Path | None = None) -> None:
     """Read coverage_data.json and generate all 5 plots.
 
@@ -364,6 +522,7 @@ def generate_plots(output_dir: Path | None = None) -> None:
     plot_coverage_by_language(summary, lang_order, plots_dir)
     plot_combined_heatmap(skills_data, lang_order, plots_dir)
     plot_intent_vs_dialog_gap(skills_data, lang_order, plots_dir)
+    plot_skills_per_language(skills_data, summary, lang_order, plots_dir)
     print(f"All plots saved to {plots_dir}/")
 
 
