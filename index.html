@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>OVOS Language Support</title>
+      <title>OpenVoiceOS Language Support Tracker</title>
       <script src="https://cdn.tailwindcss.com"></script>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -277,6 +277,8 @@
                <button class="plot-tab-btn px-3 py-1.5 rounded-md text-xs font-medium text-[#a1a1aa]" data-plot="combined_heatmap">Combined</button>
                <button class="plot-tab-btn px-3 py-1.5 rounded-md text-xs font-medium text-[#a1a1aa]" data-plot="intent_vs_dialog_gap">Gap Analysis</button>
                <button class="plot-tab-btn px-3 py-1.5 rounded-md text-xs font-medium text-[#a1a1aa]" data-plot="skills_per_language">Skills by Lang</button>
+               <button class="plot-tab-btn px-3 py-1.5 rounded-md text-xs font-medium text-[#a1a1aa]" data-plot="intents_by_language">Intents by Lang</button>
+               <button class="plot-tab-btn px-3 py-1.5 rounded-md text-xs font-medium text-[#a1a1aa]" data-plot="dialogs_by_language">Dialogs by Lang</button>
             </div>
             <div class="card p-4">
                <img id="coverage-plot-img" src="skills/plots/coverage_by_language.png" alt="Coverage plot" class="w-full rounded" onerror="this.parentElement.innerHTML='<p class=\'text-[#52525b] text-sm p-4\'>Plots not yet generated. Run <code>python skills/generate_plots.py</code> first.</p>'">

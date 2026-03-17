@@ -489,6 +489,113 @@ def plot_skills_per_language(skills_data: dict, summary: dict, lang_order: list[
     print("  Saved skills_per_language.png")
 
 
+def _file_count_by_lang(
+    skills_data: dict,
+    summary: dict,
+    filetype: str,
+    lang_order: list[str],
+    plots_dir: Path,
+    output_name: str,
+    title: str,
+) -> None:
+    """Horizontal bar chart: covered vs missing file count per language for one filetype.
+
+    Shows the absolute count of covered files (green) stacked with remaining
+    uncovered files (dark), sorted by covered count descending. A vertical
+    line marks the English total.
+
+    Args:
+        skills_data: Per-skill coverage dict.
+        summary: Summary section from coverage_data.json.
+        filetype: "intent" or "dialog" or "voc".
+        lang_order: Language codes to include.
+        plots_dir: Output directory.
+        output_name: PNG filename (without extension).
+        title: Plot title.
+    """
+    langs = [l for l in lang_order if l != "en"]
+    lang_summary = summary["languages"]
+    total = lang_summary.get("en", {}).get(f"{filetype}_total", 0) or \
+            lang_summary.get("en", {}).get(f"{filetype}_covered", 0)
+
+    covered_counts = []
+    for lang in langs:
+        s = lang_summary.get(lang, {})
+        covered_counts.append(s.get(f"{filetype}_covered", 0))
+
+    # Sort by covered descending
+    order = sorted(range(len(langs)), key=lambda i: covered_counts[i], reverse=True)
+    langs = [langs[i] for i in order]
+    covered_counts = [covered_counts[i] for i in order]
+    missing_counts = [max(0, total - c) for c in covered_counts]
+
+    y = np.arange(len(langs))
+    fig, ax = plt.subplots(figsize=(10, max(4, len(langs) * 0.45 + 1.8)))
+    fig.patch.set_facecolor(DARK_BG)
+    ax.set_facecolor(CARD_BG)
+
+    ax.barh(y, covered_counts, color="#15803d", alpha=0.92, label="Covered")
+    ax.barh(y, missing_counts, left=covered_counts, color="#1c1c1f", alpha=0.92, label="Missing")
+
+    # English total reference line
+    ax.axvline(total, color="#52525b", linewidth=1.0, linestyle="--")
+    ax.text(total + total * 0.005, len(langs) - 0.6,
+            f"en total: {total}", color=MUTED, fontsize=7.5)
+
+    # Annotate each bar with covered count + pct
+    for i, (cov, mis) in enumerate(zip(covered_counts, missing_counts)):
+        pct = cov / total * 100 if total > 0 else 0
+        label = f"{cov}  ({pct:.0f}%)"
+        ax.text(cov + total * 0.005, i, label,
+                va="center", fontsize=7.5, color=TEXT_COLOR)
+
+    ax.set_yticks(y)
+    ax.set_yticklabels(langs, fontsize=10, color=TEXT_COLOR)
+    ax.set_xlabel(f"Number of {filetype} files", color=MUTED)
+    ax.set_xlim(0, total * 1.15)
+    ax.legend(facecolor=CARD_BG, edgecolor=BORDER, labelcolor=TEXT_COLOR, fontsize=8,
+              loc="lower right")
+    ax.set_title(title, color=TEXT_COLOR, fontsize=11, pad=10, loc="left")
+    for spine in ax.spines.values():
+        spine.set_color(BORDER)
+
+    plt.tight_layout()
+    plt.savefig(plots_dir / f"{output_name}.png", dpi=FIG_DPI, bbox_inches="tight",
+                facecolor=DARK_BG)
+    plt.close(fig)
+    print(f"  Saved {output_name}.png")
+
+
+def plot_intents_by_language(summary: dict, lang_order: list[str], skills_data: dict, plots_dir: Path) -> None:
+    """Covered intent file count per language.
+
+    Args:
+        summary: Summary section from coverage_data.json.
+        lang_order: Language codes to include.
+        skills_data: Per-skill coverage dict (unused, kept for API consistency).
+        plots_dir: Output directory.
+    """
+    _file_count_by_lang(
+        skills_data, summary, "intent", lang_order, plots_dir,
+        "intents_by_language", "Intent Files Covered per Language",
+    )
+
+
+def plot_dialogs_by_language(summary: dict, lang_order: list[str], skills_data: dict, plots_dir: Path) -> None:
+    """Covered dialog file count per language.
+
+    Args:
+        summary: Summary section from coverage_data.json.
+        lang_order: Language codes to include.
+        skills_data: Per-skill coverage dict (unused, kept for API consistency).
+        plots_dir: Output directory.
+    """
+    _file_count_by_lang(
+        skills_data, summary, "dialog", lang_order, plots_dir,
+        "dialogs_by_language", "Dialog Files Covered per Language",
+    )
+
+
 def generate_plots(output_dir: Path | None = None) -> None:
     """Read coverage_data.json and generate all 5 plots.
 
@@ -523,6 +630,8 @@ def generate_plots(output_dir: Path | None = None) -> None:
     plot_combined_heatmap(skills_data, lang_order, plots_dir)
     plot_intent_vs_dialog_gap(skills_data, lang_order, plots_dir)
     plot_skills_per_language(skills_data, summary, lang_order, plots_dir)
+    plot_intents_by_language(summary, lang_order, skills_data, plots_dir)
+    plot_dialogs_by_language(summary, lang_order, skills_data, plots_dir)
     print(f"All plots saved to {plots_dir}/")
 
 
