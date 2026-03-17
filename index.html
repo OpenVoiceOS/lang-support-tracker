@@ -161,11 +161,12 @@
                   <thead>
                      <tr class="border-b border-[#27272a]">
                         <th class="text-left text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">Language</th>
-                        <th class="text-left text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">GitLocalize %</th>
+                        <th class="text-center text-xs font-medium text-[#71717a] uppercase tracking-wider px-3 py-3">Fully Usable Skills</th>
+                        <th class="text-center text-xs font-medium text-[#71717a] uppercase tracking-wider px-3 py-3 bg-[#22c55e]/5">Combined</th>
                         <th class="text-center text-xs font-medium text-[#71717a] uppercase tracking-wider px-3 py-3">Intents</th>
                         <th class="text-center text-xs font-medium text-[#71717a] uppercase tracking-wider px-3 py-3">Dialogs</th>
                         <th class="text-center text-xs font-medium text-[#71717a] uppercase tracking-wider px-3 py-3">Vocab</th>
-                        <th class="text-right text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3">Combined</th>
+                        <th class="text-right text-xs font-medium text-[#71717a] uppercase tracking-wider px-5 py-3 text-[#52525b]">GitLocalize</th>
                      </tr>
                   </thead>
                   <tbody id="translations-tbody">
@@ -591,6 +592,29 @@
              return `<span class="text-xs font-mono font-medium" style="color:${color}">${pct.toFixed(1)}%</span>`;
          }
 
+         function countFullyUsableSkills(lang) {
+             if (!coverageData || !coverageData.skills) return 0;
+             let count = 0;
+             Object.values(coverageData.skills).forEach(skill => {
+                 const langCov = skill.languages[lang] || {};
+                 const intentCov = langCov.intent || 0;
+                 const dialogCov = langCov.dialog || 0;
+                 const vocCov = (langCov.voc || 0) + (langCov.entity || 0);
+                 const intentTotal = skill.totals.intent || 0;
+                 const dialogTotal = skill.totals.dialog || 0;
+                 const vocTotal = (skill.totals.voc || 0) + (skill.totals.entity || 0);
+
+                 // Skill is fully usable if each file type has at least 1 translation
+                 // (intent, dialog, vocab all have at least some coverage)
+                 if (intentTotal > 0 && intentCov > 0 &&
+                     dialogTotal > 0 && dialogCov > 0 &&
+                     vocTotal > 0 && vocCov > 0) {
+                     count++;
+                 }
+             });
+             return count;
+         }
+
          function renderTranslations() {
              const tbody = document.getElementById('translations-tbody');
              const summary = coverageData ? coverageData.summary.languages : {};
@@ -605,6 +629,8 @@
              tbody.innerHTML = translations.map(t => {
                  const covKey = langKeyMap[t.code] || t.code.split('-')[0].toLowerCase();
                  const cov = summary[covKey] || {};
+                 const fullyUsable = countFullyUsableSkills(covKey);
+                 const totalSkills = coverageData ? coverageData.summary.total_skills : 45;
                  return `
                  <tr class="border-b border-[#27272a] last:border-0 hover:bg-white/[0.02]">
                      <td class="px-5 py-4">
@@ -613,18 +639,21 @@
                              <span class="font-medium">${t.name}</span>
                          </div>
                      </td>
-                     <td class="px-5 py-4">
-                         <div class="flex items-center gap-3">
-                             <div class="w-28 h-1.5 rounded-full progress-track overflow-hidden">
-                                 <div class="h-full rounded-full progress-fill" style="width: ${t.progress}%"></div>
-                             </div>
-                             <span class="text-sm text-[#a1a1aa]">${t.progress}%</span>
-                         </div>
+                     <td class="px-3 py-4 text-center">
+                         <span class="text-sm font-medium">${fullyUsable}/${totalSkills}</span>
                      </td>
+                     <td class="px-3 py-4 text-center bg-[#22c55e]/5 font-medium">${coverageBadge(cov.combined_pct)}</td>
                      <td class="px-3 py-4 text-center">${coverageBadge(cov.intent_pct)}</td>
                      <td class="px-3 py-4 text-center">${coverageBadge(cov.dialog_pct)}</td>
                      <td class="px-3 py-4 text-center">${coverageBadge(cov.voc_pct)}</td>
-                     <td class="px-5 py-4 text-right">${coverageBadge(cov.combined_pct)}</td>
+                     <td class="px-5 py-4 text-right text-[#52525b]">
+                         <div class="flex items-center gap-2 justify-end">
+                             <div class="w-20 h-1.5 rounded-full progress-track overflow-hidden">
+                                 <div class="h-full rounded-full progress-fill" style="width: ${t.progress}%"></div>
+                             </div>
+                             <span class="text-xs text-[#52525b]">${t.progress}%</span>
+                         </div>
+                     </td>
                  </tr>
              `}).join('');
          }
