@@ -768,12 +768,14 @@ ovos-skill-ddg.openvoiceos,search_duck.intent,que dit duck duck à propos de {qu
 ovos-skill-ddg.openvoiceos,search_duck.intent,que dit duck à propos de {query}
 ovos-skill-ddg.openvoiceos,thesis.intent,c'est quoi sujet de thèse
 ovos-skill-ddg.openvoiceos,who.intent,qui est {query}
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,comment as-tu été
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,comment s'est passée ta journée
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,comment vas-tu
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,comment ça a été
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,comment ça s'est passé aujourd'hui
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,comment ça va
+ovos-skill-hello-world.openvoiceos,Greetings.intent,bonjour le monde
+ovos-skill-hello-world.openvoiceos,Greetings.intent,bonsoir le monde
+ovos-skill-hello-world.openvoiceos,Greetings.intent,coucou le monde
+ovos-skill-hello-world.openvoiceos,Greetings.intent,salut le monde
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,"bonjour le monde, comment vas-tu"
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,"bonjour le monde, comment ça va"
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,"hello world, comment vas-tu"
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,"hello world, comment ça va"
 ovos-skill-icanhazdadjokes.openvoiceos,joke.intent,connais-tu des blagues
 ovos-skill-icanhazdadjokes.openvoiceos,joke.intent,dit une blague
 ovos-skill-icanhazdadjokes.openvoiceos,joke.intent,fais moi rire
@@ -1384,3 +1386,18 @@ ovos-skill-wordnet.openvoiceos,search_wordnet.intent,chercher mot net pour {quer
 ovos-skill-wordnet.openvoiceos,search_wordnet.intent,chercher wordnet pour {query}
 ovos-skill-wordnet.openvoiceos,search_wordnet.intent,demandez à wordnet de {query}
 ovos-skill-wordnet.openvoiceos,search_wordnet.intent,posez un mot net sur {query}
+skill-ovos-randomness.openvoiceos,flip-a-coin.intent,fais pile ou face
+skill-ovos-randomness.openvoiceos,flip-a-coin.intent,lance une pièce
+skill-ovos-randomness.openvoiceos,flip-a-coin.intent,pile ou face
+skill-ovos-randomness.openvoiceos,flip-a-coin.intent,tire à pile ou face
+skill-ovos-randomness.openvoiceos,fortune-teller.intent,dis-moi la bonne aventure
+skill-ovos-randomness.openvoiceos,fortune-teller.intent,dis-moi ma bonne aventure
+skill-ovos-randomness.openvoiceos,fortune-teller.intent,raconte-moi la bonne aventure
+skill-ovos-randomness.openvoiceos,make-a-choice.intent,aide-moi à choisir
+skill-ovos-randomness.openvoiceos,make-a-choice.intent,aide-moi à décider
+skill-ovos-randomness.openvoiceos,pick-a-number.intent,choisis un nombre entre {lower} et {upper}
+skill-ovos-randomness.openvoiceos,pick-a-number.intent,prends un nombre entre {lower} et {upper}
+skill-ovos-randomness.openvoiceos,roll-multiple-dice.intent,lance {number} dés
+skill-ovos-randomness.openvoiceos,roll-multiple-dice.intent,lance {number} dés à {faces} faces
+skill-ovos-randomness.openvoiceos,roll-single-die.intent,lance un dé
+skill-ovos-randomness.openvoiceos,roll-single-die.intent,lance un dé à {faces} faces

@@ -16,9 +16,9 @@ ovos-skill-date-time.openvoiceos,Quel jour est la Toussaint 2025 ?
 ovos-skill-date-time.openvoiceos,Quelle est la date ?
 ovos-skill-date-time.openvoiceos,Quelle heure est-il à Paris ?
 ovos-skill-date-time.openvoiceos,Quelle heure est-il?
-ovos-skill-hello-world.openvoiceos,Comment vas-tu
-ovos-skill-hello-world.openvoiceos,Hello world
-ovos-skill-hello-world.openvoiceos,Merci
+ovos-skill-hello-world.openvoiceos,Bonjour le monde
+ovos-skill-hello-world.openvoiceos,"Bonjour le monde, comment vas-tu ?"
+ovos-skill-hello-world.openvoiceos,Merci bonjour le monde
 ovos-skill-naptime.openvoiceos,C'est l'heure de la sieste
 ovos-skill-naptime.openvoiceos,Réveille-toi
 ovos-skill-naptime.openvoiceos,Va te coucher

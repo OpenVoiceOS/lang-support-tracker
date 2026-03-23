@@ -32885,18 +32885,17 @@ ovos-skill-hello-world.openvoiceos,Greetings.intent,bon dia
 ovos-skill-hello-world.openvoiceos,Greetings.intent,bona nit
 ovos-skill-hello-world.openvoiceos,Greetings.intent,bona tarda
 ovos-skill-hello-world.openvoiceos,Greetings.intent,bones
-ovos-skill-hello-world.openvoiceos,Greetings.intent,com està anant?
 ovos-skill-hello-world.openvoiceos,Greetings.intent,com va
 ovos-skill-hello-world.openvoiceos,Greetings.intent,ei
 ovos-skill-hello-world.openvoiceos,Greetings.intent,"ei, què tal"
-ovos-skill-hello-world.openvoiceos,Greetings.intent,encantada de veure't
 ovos-skill-hello-world.openvoiceos,Greetings.intent,encantat de veure't
+ovos-skill-hello-world.openvoiceos,Greetings.intent,ep
 ovos-skill-hello-world.openvoiceos,Greetings.intent,fa temps que no ens veiem
+ovos-skill-hello-world.openvoiceos,Greetings.intent,feia temps que no ens veiem
 ovos-skill-hello-world.openvoiceos,Greetings.intent,hola
 ovos-skill-hello-world.openvoiceos,Greetings.intent,hola de nou
 ovos-skill-hello-world.openvoiceos,Greetings.intent,"hola, bon dia"
-ovos-skill-hello-world.openvoiceos,Greetings.intent,quant de temps sense veure'ns
-ovos-skill-hello-world.openvoiceos,Greetings.intent,quant de temps sense veure't
+ovos-skill-hello-world.openvoiceos,Greetings.intent,m'alegro de veure't
 ovos-skill-hello-world.openvoiceos,Greetings.intent,què hi ha
 ovos-skill-hello-world.openvoiceos,Greetings.intent,què tal
 ovos-skill-hello-world.openvoiceos,Greetings.intent,se't saluda
@@ -32904,8 +32903,10 @@ ovos-skill-hello-world.openvoiceos,HowAreYou.intent,Com anem
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,Com estàs
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,Com va
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,Com va tot
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,com estàs
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,com ha anat
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,com ha provat el dia
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,com ho portes
 ovos-skill-icanhazdadjokes.openvoiceos,joke.intent,conta algun acudit
 ovos-skill-icanhazdadjokes.openvoiceos,joke.intent,conta alguna broma
 ovos-skill-icanhazdadjokes.openvoiceos,joke.intent,conta un acudit

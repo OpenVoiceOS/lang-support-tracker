@@ -36,12 +36,12 @@ Obtenez l'heure, la date et le jour de la semaine
 
 ### ovos-skill-hello-world.openvoiceos
 
-Compétence d'introduction pour que les auteurs de compétences puissent voir comment une compétence OVOS est assemblée
+Exemple d'introduction qui montre comment une skill OVOS est construite.
 
 **Usage examples:**
-- Comment vas-tu
-- Hello world
-- Merci
+- Bonjour le monde
+- Bonjour le monde, comment vas-tu ?
+- Merci bonjour le monde
 
 -------
 

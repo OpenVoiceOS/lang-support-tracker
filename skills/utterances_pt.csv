@@ -13,6 +13,9 @@ ovos-skill-date-time.openvoiceos,Que horas são em Paris?
 ovos-skill-date-time.openvoiceos,Que horas são?
 ovos-skill-dictation.openvoiceos,começar o ditado
 ovos-skill-dictation.openvoiceos,fim do ditado
+ovos-skill-hello-world.openvoiceos,Como vai você?
+ovos-skill-hello-world.openvoiceos,Obrigado
+ovos-skill-hello-world.openvoiceos,Olá mundo
 ovos-skill-icanhazdadjokes.openvoiceos,Conhece alguma piada de Chuck Norris?
 ovos-skill-icanhazdadjokes.openvoiceos,Conhece alguma piada?
 ovos-skill-icanhazdadjokes.openvoiceos,Conte-me uma piada sobre dentistas.

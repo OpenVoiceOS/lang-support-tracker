@@ -49,6 +49,18 @@ transcreve continuamente a fala do usuário para um arquivo de texto enquanto es
 -------
 
 
+### ovos-skill-hello-world.openvoiceos
+
+Skill introdutória para que os autores de skills possam ver como uma skill do OVOS é elaborada
+
+**Usage examples:**
+- Como vai você?
+- Obrigado
+- Olá mundo
+
+-------
+
+
 ### ovos-skill-icanhazdadjokes.openvoiceos
 
 Ilumine o seu dia com humor de pai. O riso não é garantido, mas é provável que revire os olhos.

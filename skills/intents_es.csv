@@ -1794,28 +1794,30 @@ ovos-skill-dictation.openvoiceos,stop_dictation.intent,termina la captura de tex
 ovos-skill-dictation.openvoiceos,stop_dictation.intent,termina la transcripción
 ovos-skill-dictation.openvoiceos,stop_dictation.intent,terminar dictado
 ovos-skill-dictation.openvoiceos,stop_dictation.intent,terminar la captura de texto
-ovos-skill-hello-world.openvoiceos,Greetings.intent,Hola de nuevo
+ovos-skill-hello-world.openvoiceos,Greetings.intent,ahoy
+ovos-skill-hello-world.openvoiceos,Greetings.intent,buen día
 ovos-skill-hello-world.openvoiceos,Greetings.intent,buenas noches
 ovos-skill-hello-world.openvoiceos,Greetings.intent,buenas tardes
 ovos-skill-hello-world.openvoiceos,Greetings.intent,buenos días
 ovos-skill-hello-world.openvoiceos,Greetings.intent,cuánto tiempo
-ovos-skill-hello-world.openvoiceos,Greetings.intent,cuánto tiempo sin vernos
-ovos-skill-hello-world.openvoiceos,Greetings.intent,cuánto tiempo sin verte
 ovos-skill-hello-world.openvoiceos,Greetings.intent,cómo estás
 ovos-skill-hello-world.openvoiceos,Greetings.intent,cómo va
-ovos-skill-hello-world.openvoiceos,Greetings.intent,encantada de verte
 ovos-skill-hello-world.openvoiceos,Greetings.intent,encantado de verte
 ovos-skill-hello-world.openvoiceos,Greetings.intent,ey
+ovos-skill-hello-world.openvoiceos,Greetings.intent,hey
 ovos-skill-hello-world.openvoiceos,Greetings.intent,hola
 ovos-skill-hello-world.openvoiceos,Greetings.intent,hola de nuevo
+ovos-skill-hello-world.openvoiceos,Greetings.intent,me alegra verte
+ovos-skill-hello-world.openvoiceos,Greetings.intent,mucho tiempo sin verte
 ovos-skill-hello-world.openvoiceos,Greetings.intent,qué hay?
+ovos-skill-hello-world.openvoiceos,Greetings.intent,qué onda?
 ovos-skill-hello-world.openvoiceos,Greetings.intent,qué tal
 ovos-skill-hello-world.openvoiceos,Greetings.intent,saludos
-ovos-skill-hello-world.openvoiceos,Greetings.intent,¿cómo va?
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,Cómo estas
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,Qué tal
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,cómo estas
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,cómo ha ido el día
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,cómo te ha ido
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,cómo va
+ovos-skill-hello-world.openvoiceos,HowAreYou.intent,qué tal
 ovos-skill-iss-location.openvoiceos,when_iss.intent,Cuándo estará la EEI por encima de nosotros
 ovos-skill-iss-location.openvoiceos,when_iss.intent,Cuándo estará la EEI por encima mío
 ovos-skill-iss-location.openvoiceos,when_iss.intent,Cuándo estará la EEI por encima nuestro

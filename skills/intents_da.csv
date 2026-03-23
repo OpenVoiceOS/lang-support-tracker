@@ -2152,9 +2152,25 @@ ovos-skill-dictation.openvoiceos,stop_dictation.intent,stop med at fange tekst
 ovos-skill-dictation.openvoiceos,stop_dictation.intent,stop med at tage noter
 ovos-skill-dictation.openvoiceos,stop_dictation.intent,stop transskription
 ovos-skill-dictation.openvoiceos,stop_dictation.intent,stoppe med at tage noter
+ovos-skill-hello-world.openvoiceos,Greetings.intent,dejligt at se dig
+ovos-skill-hello-world.openvoiceos,Greetings.intent,g'dag
+ovos-skill-hello-world.openvoiceos,Greetings.intent,god aften
+ovos-skill-hello-world.openvoiceos,Greetings.intent,god eftermiddag
+ovos-skill-hello-world.openvoiceos,Greetings.intent,godmorgen
+ovos-skill-hello-world.openvoiceos,Greetings.intent,halløj der
+ovos-skill-hello-world.openvoiceos,Greetings.intent,hej
+ovos-skill-hello-world.openvoiceos,Greetings.intent,hej der
+ovos-skill-hello-world.openvoiceos,Greetings.intent,hej igen
+ovos-skill-hello-world.openvoiceos,Greetings.intent,hey
+ovos-skill-hello-world.openvoiceos,Greetings.intent,hilsener
+ovos-skill-hello-world.openvoiceos,Greetings.intent,howdy
+ovos-skill-hello-world.openvoiceos,Greetings.intent,hvad sker der
+ovos-skill-hello-world.openvoiceos,Greetings.intent,længe siden
+ovos-skill-hello-world.openvoiceos,Greetings.intent,ohoj
+ovos-skill-hello-world.openvoiceos,Greetings.intent,sup
+ovos-skill-hello-world.openvoiceos,Greetings.intent,yo
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,hvordan er din dag gået
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,hvordan går det med dig
-ovos-skill-hello-world.openvoiceos,HowAreYou.intent,hvordan har din dag været
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,hvordan har du det har det
 ovos-skill-hello-world.openvoiceos,HowAreYou.intent,hvordan har du haft det
 ovos-skill-icanhazdadjokes.openvoiceos,joke.intent,fortæl mig en vittighed
