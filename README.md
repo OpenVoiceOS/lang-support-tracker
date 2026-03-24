@@ -1,5 +1,9 @@
 # OVOS Language Support Tracker
 
+> **WARNING**: This repo has been replaced by [ovos-localize](https://github.com/OpenVoiceOS/lang-support-tracker)
+
+--------
+
 **Your help with translations is invaluable!**
 
 > You can find us on [Gitlocalize](https://gitlocalize.com/users/OpenVoiceOS), a text and video translation tutorial is available at [https://www.openvoiceos.org/translation](https://www.openvoiceos.org/translation)
