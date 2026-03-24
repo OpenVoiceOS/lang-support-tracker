@@ -1,6 +1,6 @@
 # OVOS Language Support Tracker
 
-> **WARNING**: This repo has been replaced by [ovos-localize](https://github.com/OpenVoiceOS/lang-support-tracker)
+> **WARNING**: This repo has been replaced by [ovos-localize](https://github.com/OpenVoiceOS/ovos-localize)
 
 --------
 
