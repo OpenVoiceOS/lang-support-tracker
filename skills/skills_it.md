@@ -30,16 +30,6 @@ La competenza Fine di avvio fornisce notifiche quando OpenVoiceOS è completamen
 -------
 
 
-### ovos-skill-color-picker.krisgesling
-
-No description available
-
-**Usage examples:**
-- Mostra il colore verde
-
--------
-
-
 ### ovos-skill-date-time.openvoiceos
 
 Chiedi l'ora, la data, il giorno della settimana

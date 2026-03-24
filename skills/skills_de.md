@@ -68,16 +68,6 @@ No description available
 -------
 
 
-### ovos-skill-color-picker.krisgesling
-
-No description available
-
-**Usage examples:**
-- zeig mir die Farbe Grün
-
--------
-
-
 ### ovos-skill-confucius-quotes.openvoiceos
 
 Zitate von Konfuzius

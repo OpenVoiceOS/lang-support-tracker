@@ -18,6 +18,53 @@ Gérez vos alarmes, minuteurs, rappels, événements et listes de tâches, avec 
 -------
 
 
+### ovos-skill-audio-recording.openvoiceos
+
+No description available
+
+**Usage examples:**
+- Commence l'enregistrement
+- Crée un enregistrement nommé {name}
+- Démarre un enregistrement appelé {name}
+- Démarre un nouvel enregistrement audio nommé {name}
+- Enregistre maintenant
+
+-------
+
+
+### ovos-skill-boot-finished.openvoiceos
+
+Vous avertit quand OpenVoiceOS a complètement démarré et que les services principaux sont prêts.
+
+**Usage examples:**
+- Active les notifications de démarrage.
+- Désactive les notifications de démarrage.
+- Est-ce que le système est prêt ?
+
+-------
+
+
+### ovos-skill-cmd.forslund
+
+No description available
+
+**Usage examples:**
+- exécute le script ___
+- lance la commande ___
+
+-------
+
+
+### ovos-skill-color-picker.krisgesling
+
+No description available
+
+**Usage examples:**
+- montre-moi la couleur verte
+
+-------
+
+
 ### ovos-skill-date-time.openvoiceos
 
 Obtenez l'heure, la date et le jour de la semaine
@@ -82,6 +129,16 @@ Découvrez l'histoire et la personnalité de l'assistant. Demandez quand il est 
 - Qu'est-ce que tu es ?
 - Quand as-tu été créé ?
 - Qui t'a créé ?
+
+-------
+
+
+### ovos-skill-speedtest.openvoiceos
+
+Lance un test de bande passante Internet avec speedtest.net.
+
+**Usage examples:**
+- Lance un test de débit
 
 -------
 

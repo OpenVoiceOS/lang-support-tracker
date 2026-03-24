@@ -67,16 +67,6 @@ No description available
 -------
 
 
-### ovos-skill-color-picker.krisgesling
-
-No description available
-
-**Usage examples:**
-- mostra'm el color verd
-
--------
-
-
 ### ovos-skill-confucius-quotes.openvoiceos
 
 Cites de Confuci

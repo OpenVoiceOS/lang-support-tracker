@@ -9,6 +9,17 @@ ovos-skill-alerts.openvoiceos,Qu'est-ce que j'ai manqué ?
 ovos-skill-alerts.openvoiceos,Quelle est ma prochaine alarme ?
 ovos-skill-alerts.openvoiceos,Quels sont mes rappels ?
 ovos-skill-alerts.openvoiceos,Rappelle-moi de sortir les poubelles tous les jeudis et dimanches à 19 heures.
+ovos-skill-audio-recording.openvoiceos,Commence l'enregistrement
+ovos-skill-audio-recording.openvoiceos,Crée un enregistrement nommé {name}
+ovos-skill-audio-recording.openvoiceos,Démarre un enregistrement appelé {name}
+ovos-skill-audio-recording.openvoiceos,Démarre un nouvel enregistrement audio nommé {name}
+ovos-skill-audio-recording.openvoiceos,Enregistre maintenant
+ovos-skill-boot-finished.openvoiceos,Active les notifications de démarrage.
+ovos-skill-boot-finished.openvoiceos,Désactive les notifications de démarrage.
+ovos-skill-boot-finished.openvoiceos,Est-ce que le système est prêt ?
+ovos-skill-cmd.forslund,exécute le script ___
+ovos-skill-cmd.forslund,lance la commande ___
+ovos-skill-color-picker.krisgesling,montre-moi la couleur verte
 ovos-skill-date-time.openvoiceos,Combien de jours avant le 14 juillet
 ovos-skill-date-time.openvoiceos,Dis-moi le jour de la semaine
 ovos-skill-date-time.openvoiceos,Montre-moi l'heure
@@ -32,6 +43,7 @@ ovos-skill-personal.openvoiceos,Où es-tu né ?
 ovos-skill-personal.openvoiceos,Qu'est-ce que tu es ?
 ovos-skill-personal.openvoiceos,Quand as-tu été créé ?
 ovos-skill-personal.openvoiceos,Qui t'a créé ?
+ovos-skill-speedtest.openvoiceos,Lance un test de débit
 ovos-skill-weather.openvoiceos,Quand va-t-il pleuvoir ?
 ovos-skill-weather.openvoiceos,Quel temps fait-il en ce moment ?
 ovos-skill-weather.openvoiceos,Quel temps fait-il à Houston ?

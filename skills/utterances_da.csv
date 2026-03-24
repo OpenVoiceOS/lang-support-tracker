@@ -1,14 +1,4 @@
 domain,utterance
-ovos-skill-alerts.openvoiceos,Annuller alle alarmer.
-ovos-skill-alerts.openvoiceos,Annuller alle påmindelser.
-ovos-skill-alerts.openvoiceos,Annuller alle timere.
-ovos-skill-alerts.openvoiceos,Gik jeg glip af noget?
-ovos-skill-alerts.openvoiceos,Hvad er mine påmindelser?
-ovos-skill-alerts.openvoiceos,Hvad gik jeg glip af?
-ovos-skill-alerts.openvoiceos,Hvornår er min næste alarm?
-ovos-skill-alerts.openvoiceos,Indstil en alarm til kl. 8 om lørdagen.
-ovos-skill-alerts.openvoiceos,Indstil en alarm til kl. 8.
-ovos-skill-alerts.openvoiceos,Indstil en daglig alarm til kl.
 ovos-skill-application-launcher.openvoiceos,Luk ____
 ovos-skill-application-launcher.openvoiceos,Start ____
 ovos-skill-application-launcher.openvoiceos,Åben ____
@@ -20,20 +10,10 @@ ovos-skill-audio-recording.openvoiceos,start en optagelse kaldet {name}
 ovos-skill-boot-finished.openvoiceos,Aktiver klarmeddelelser.
 ovos-skill-boot-finished.openvoiceos,Deaktiver klarmeddelelser.
 ovos-skill-boot-finished.openvoiceos,Er systemet klar?
-ovos-skill-cmd.forslund,køre script ___
-ovos-skill-cmd.forslund,start kommando ___
-ovos-skill-color-picker.krisgesling,vis mig farven grøn
 ovos-skill-confucius-quotes.openvoiceos,Citat fra Confucius
 ovos-skill-confucius-quotes.openvoiceos,Hvem er Confucius
 ovos-skill-confucius-quotes.openvoiceos,Hvornår blev Confucius født
 ovos-skill-confucius-quotes.openvoiceos,Hvornår døde Confucius
-ovos-skill-date-time.openvoiceos,Fortæl mig ugedagen
-ovos-skill-date-time.openvoiceos,Hvad er datoen?
-ovos-skill-date-time.openvoiceos,Hvad er klokken i Paris?
-ovos-skill-date-time.openvoiceos,Hvad er klokken?
-ovos-skill-date-time.openvoiceos,Hvilken dag er Memorial Day 2020?
-ovos-skill-date-time.openvoiceos,Hvor mange dage indtil 4. juli
-ovos-skill-date-time.openvoiceos,Vis mig tiden
 ovos-skill-days-in-history.openvoiceos,Fortæl mig om begivenheder i historien den 12. december
 ovos-skill-days-in-history.openvoiceos,Hvad skete der i dag i historien?
 ovos-skill-days-in-history.openvoiceos,Hvilke historiske begivenheder skete den 16. juni?

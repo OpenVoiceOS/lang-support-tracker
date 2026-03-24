@@ -1,23 +1,4 @@
 
-### ovos-skill-alerts.openvoiceos
-
-En færdighed til at administrere alarmer, timere, påmindelser, begivenheder og gøremål og eventuelt synkronisere dem med en CalDAV-tjeneste. 
-
-**Usage examples:**
-- Annuller alle alarmer.
-- Annuller alle påmindelser.
-- Annuller alle timere.
-- Gik jeg glip af noget?
-- Hvad er mine påmindelser?
-- Hvad gik jeg glip af?
-- Hvornår er min næste alarm?
-- Indstil en alarm til kl. 8 om lørdagen.
-- Indstil en alarm til kl. 8.
-- Indstil en daglig alarm til kl.
-
--------
-
-
 ### ovos-skill-application-launcher.openvoiceos
 
 No description available
@@ -56,27 +37,6 @@ Færdigheden til færdig opstart giver besked, når OpenVoiceOS er fuldt startet
 -------
 
 
-### ovos-skill-cmd.forslund
-
-No description available
-
-**Usage examples:**
-- køre script ___
-- start kommando ___
-
--------
-
-
-### ovos-skill-color-picker.krisgesling
-
-No description available
-
-**Usage examples:**
-- vis mig farven grøn
-
--------
-
-
 ### ovos-skill-confucius-quotes.openvoiceos
 
 Citater fra Confucius
@@ -86,22 +46,6 @@ Citater fra Confucius
 - Hvem er Confucius
 - Hvornår blev Confucius født
 - Hvornår døde Confucius
-
--------
-
-
-### ovos-skill-date-time.openvoiceos
-
-Få tid, dato, ugedag
-
-**Usage examples:**
-- Fortæl mig ugedagen
-- Hvad er datoen?
-- Hvad er klokken i Paris?
-- Hvad er klokken?
-- Hvilken dag er Memorial Day 2020?
-- Hvor mange dage indtil 4. juli
-- Vis mig tiden
 
 -------
 
