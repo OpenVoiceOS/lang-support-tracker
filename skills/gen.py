@@ -46,6 +46,7 @@ def generate_skill_data(languages: list = None, output_dir: str = None) -> None:
 
         # Use lists to accumulate data so we can sort them easily later
         intents_data = []
+        dialogs_data = []
         utterances_data = []
 
         with open(md_path, "w", encoding="utf-8") as md_file:
@@ -82,7 +83,20 @@ def generate_skill_data(languages: list = None, output_dir: str = None) -> None:
                                 if expanded_line:
                                     intents_data.append((skill_id, intent_filename, expanded_line))
 
-                    # 2. Process skill.json for Markdown and Examples CSV
+                    # 2. Process Dialog Files (first valid line per file = the combo)
+                    dialog_files = [f for f in files if f.endswith(".dialog")]
+                    for dialog_filename in dialog_files:
+                        dialog_path = os.path.join(root, dialog_filename)
+                        with open(dialog_path, "r", encoding="utf-8") as dfile:
+                            lines = dfile.read().splitlines()
+                        first_line = next(
+                            (l.strip() for l in lines if l.strip() and not l.strip().startswith("#")),
+                            None,
+                        )
+                        if first_line:
+                            dialogs_data.append((skill_id, dialog_filename, first_line))
+
+                    # 3. Process skill.json for Markdown and Examples CSV
                     if "skill.json" in files:
                         skill_json_path = os.path.join(root, "skill.json")
                         with open(skill_json_path, "r", encoding="utf-8") as fi:
@@ -110,6 +124,7 @@ def generate_skill_data(languages: list = None, output_dir: str = None) -> None:
 
         # Sort the accumulated data to ensure clean git diffs
         intents_data.sort()
+        dialogs_data.sort()
         utterances_data.sort()
 
         # Write Intents CSV
@@ -118,6 +133,13 @@ def generate_skill_data(languages: list = None, output_dir: str = None) -> None:
             writer = csv.writer(f)
             writer.writerow(["domain", "intent", "utterance"])
             writer.writerows(intents_data)
+
+        # Write Dialogs CSV (one row per dialog file, first valid line only)
+        dialogs_csv_path = os.path.join(output_dir, f"dialogs_{lang}.csv")
+        with open(dialogs_csv_path, "w", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["domain", "dialog", "line"])
+            writer.writerows(dialogs_data)
 
         # Write Utterances CSV
         utterances_csv_path = os.path.join(output_dir, f"utterances_{lang}.csv")

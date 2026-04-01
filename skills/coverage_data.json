@@ -1,0 +1,3362 @@
+{
+  "generated": "2026-03-17T16:34:25.584715+00:00",
+  "source_lang": "en",
+  "file_types": [
+    "intent",
+    "dialog",
+    "voc",
+    "entity"
+  ],
+  "tracked_languages": [
+    "ca",
+    "da",
+    "de",
+    "es",
+    "eu",
+    "fr",
+    "gl",
+    "it",
+    "nl",
+    "pt"
+  ],
+  "summary": {
+    "total_skills": 40,
+    "total_intent_files": 105,
+    "total_dialog_files": 1391,
+    "total_voc_files": 143,
+    "total_entity_files": 3,
+    "languages": {
+      "en": {
+        "skills_any_coverage": 40,
+        "skills_full_intent": 31,
+        "intent_covered": 105,
+        "intent_total": 105,
+        "intent_pct": 100.0,
+        "dialog_covered": 1391,
+        "dialog_total": 1391,
+        "dialog_pct": 100.0,
+        "voc_covered": 143,
+        "voc_total": 143,
+        "voc_pct": 100.0,
+        "entity_covered": 3,
+        "entity_total": 3,
+        "entity_pct": 100.0,
+        "combined_covered": 1639,
+        "combined_total": 1639,
+        "combined_pct": 100.0
+      },
+      "ca": {
+        "skills_any_coverage": 36,
+        "skills_full_intent": 28,
+        "intent_covered": 85,
+        "intent_total": 105,
+        "intent_pct": 81.0,
+        "dialog_covered": 522,
+        "dialog_total": 1391,
+        "dialog_pct": 37.5,
+        "voc_covered": 131,
+        "voc_total": 143,
+        "voc_pct": 91.6,
+        "entity_covered": 2,
+        "entity_total": 3,
+        "entity_pct": 66.7,
+        "combined_covered": 738,
+        "combined_total": 1639,
+        "combined_pct": 45.0
+      },
+      "da": {
+        "skills_any_coverage": 35,
+        "skills_full_intent": 27,
+        "intent_covered": 96,
+        "intent_total": 105,
+        "intent_pct": 91.4,
+        "dialog_covered": 1366,
+        "dialog_total": 1391,
+        "dialog_pct": 98.2,
+        "voc_covered": 118,
+        "voc_total": 143,
+        "voc_pct": 82.5,
+        "entity_covered": 0,
+        "entity_total": 3,
+        "entity_pct": 0.0,
+        "combined_covered": 1580,
+        "combined_total": 1639,
+        "combined_pct": 96.4
+      },
+      "de": {
+        "skills_any_coverage": 36,
+        "skills_full_intent": 28,
+        "intent_covered": 97,
+        "intent_total": 105,
+        "intent_pct": 92.4,
+        "dialog_covered": 270,
+        "dialog_total": 1391,
+        "dialog_pct": 19.4,
+        "voc_covered": 122,
+        "voc_total": 143,
+        "voc_pct": 85.3,
+        "entity_covered": 2,
+        "entity_total": 3,
+        "entity_pct": 66.7,
+        "combined_covered": 489,
+        "combined_total": 1639,
+        "combined_pct": 29.8
+      },
+      "es": {
+        "skills_any_coverage": 31,
+        "skills_full_intent": 22,
+        "intent_covered": 87,
+        "intent_total": 105,
+        "intent_pct": 82.9,
+        "dialog_covered": 260,
+        "dialog_total": 1391,
+        "dialog_pct": 18.7,
+        "voc_covered": 108,
+        "voc_total": 143,
+        "voc_pct": 75.5,
+        "entity_covered": 2,
+        "entity_total": 3,
+        "entity_pct": 66.7,
+        "combined_covered": 455,
+        "combined_total": 1639,
+        "combined_pct": 27.8
+      },
+      "eu": {
+        "skills_any_coverage": 36,
+        "skills_full_intent": 26,
+        "intent_covered": 97,
+        "intent_total": 105,
+        "intent_pct": 92.4,
+        "dialog_covered": 266,
+        "dialog_total": 1391,
+        "dialog_pct": 19.1,
+        "voc_covered": 116,
+        "voc_total": 143,
+        "voc_pct": 81.1,
+        "entity_covered": 0,
+        "entity_total": 3,
+        "entity_pct": 0.0,
+        "combined_covered": 479,
+        "combined_total": 1639,
+        "combined_pct": 29.2
+      },
+      "fr": {
+        "skills_any_coverage": 21,
+        "skills_full_intent": 13,
+        "intent_covered": 56,
+        "intent_total": 105,
+        "intent_pct": 53.3,
+        "dialog_covered": 199,
+        "dialog_total": 1391,
+        "dialog_pct": 14.3,
+        "voc_covered": 85,
+        "voc_total": 143,
+        "voc_pct": 59.4,
+        "entity_covered": 2,
+        "entity_total": 3,
+        "entity_pct": 66.7,
+        "combined_covered": 340,
+        "combined_total": 1639,
+        "combined_pct": 20.7
+      },
+      "gl": {
+        "skills_any_coverage": 37,
+        "skills_full_intent": 28,
+        "intent_covered": 101,
+        "intent_total": 105,
+        "intent_pct": 96.2,
+        "dialog_covered": 278,
+        "dialog_total": 1391,
+        "dialog_pct": 20.0,
+        "voc_covered": 120,
+        "voc_total": 143,
+        "voc_pct": 83.9,
+        "entity_covered": 2,
+        "entity_total": 3,
+        "entity_pct": 66.7,
+        "combined_covered": 499,
+        "combined_total": 1639,
+        "combined_pct": 30.4
+      },
+      "it": {
+        "skills_any_coverage": 30,
+        "skills_full_intent": 15,
+        "intent_covered": 68,
+        "intent_total": 105,
+        "intent_pct": 64.8,
+        "dialog_covered": 233,
+        "dialog_total": 1391,
+        "dialog_pct": 16.8,
+        "voc_covered": 95,
+        "voc_total": 143,
+        "voc_pct": 66.4,
+        "entity_covered": 0,
+        "entity_total": 3,
+        "entity_pct": 0.0,
+        "combined_covered": 396,
+        "combined_total": 1639,
+        "combined_pct": 24.2
+      },
+      "nl": {
+        "skills_any_coverage": 15,
+        "skills_full_intent": 7,
+        "intent_covered": 28,
+        "intent_total": 105,
+        "intent_pct": 26.7,
+        "dialog_covered": 165,
+        "dialog_total": 1391,
+        "dialog_pct": 11.9,
+        "voc_covered": 61,
+        "voc_total": 143,
+        "voc_pct": 42.7,
+        "entity_covered": 0,
+        "entity_total": 3,
+        "entity_pct": 0.0,
+        "combined_covered": 254,
+        "combined_total": 1639,
+        "combined_pct": 15.5
+      },
+      "pt": {
+        "skills_any_coverage": 34,
+        "skills_full_intent": 23,
+        "intent_covered": 89,
+        "intent_total": 105,
+        "intent_pct": 84.8,
+        "dialog_covered": 1349,
+        "dialog_total": 1391,
+        "dialog_pct": 97.0,
+        "voc_covered": 121,
+        "voc_total": 143,
+        "voc_pct": 84.6,
+        "entity_covered": 2,
+        "entity_total": 3,
+        "entity_pct": 66.7,
+        "combined_covered": 1559,
+        "combined_total": 1639,
+        "combined_pct": 95.1
+      }
+    }
+  },
+  "skills": {
+    "ovos-skill-alerts.openvoiceos": {
+      "display_name": "ovos-skill-alerts",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 117,
+        "voc": 43,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 117,
+          "voc": 43,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 1,
+          "dialog": 117,
+          "voc": 43,
+          "entity": 0
+        },
+        "da": {
+          "intent": 1,
+          "dialog": 116,
+          "voc": 43,
+          "entity": 0
+        },
+        "de": {
+          "intent": 1,
+          "dialog": 117,
+          "voc": 43,
+          "entity": 0
+        },
+        "es": {
+          "intent": 1,
+          "dialog": 117,
+          "voc": 43,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 1,
+          "dialog": 116,
+          "voc": 43,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 1,
+          "dialog": 117,
+          "voc": 43,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 1,
+          "dialog": 116,
+          "voc": 43,
+          "entity": 0
+        },
+        "it": {
+          "intent": 1,
+          "dialog": 116,
+          "voc": 43,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 1,
+          "dialog": 116,
+          "voc": 43,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 116,
+          "voc": 43,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-application-launcher.openvoiceos": {
+      "display_name": "ovos-skill-application-launcher",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 3,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-audio-recording.openvoiceos": {
+      "display_name": "ovos-skill-audio-recording",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 0,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-boot-finished.openvoiceos": {
+      "display_name": "ovos-skill-boot-finished",
+      "source_lang": "en",
+      "totals": {
+        "intent": 3,
+        "dialog": 5,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 3,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 3,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 3,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 3,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 3,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 3,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 3,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 3,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-camera.openvoiceos": {
+      "display_name": "ovos-skill-camera",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 4,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-cmd.forslund": {
+      "display_name": "ovos-skill-cmd",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 1,
+        "voc": 1,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-color-picker.krisgesling": {
+      "display_name": "ovos-skill-color-picker",
+      "source_lang": "en",
+      "totals": {
+        "intent": 4,
+        "dialog": 6,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 4,
+          "dialog": 6,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-confucius-quotes.openvoiceos": {
+      "display_name": "ovos-skill-confucius-quotes",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 5,
+        "voc": 6,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 5,
+          "voc": 6,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 6,
+          "entity": 0
+        },
+        "da": {
+          "intent": 1,
+          "dialog": 5,
+          "voc": 6,
+          "entity": 0
+        },
+        "de": {
+          "intent": 1,
+          "dialog": 5,
+          "voc": 6,
+          "entity": 0
+        },
+        "es": {
+          "intent": 1,
+          "dialog": 5,
+          "voc": 6,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 1,
+          "dialog": 5,
+          "voc": 6,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 1,
+          "dialog": 5,
+          "voc": 6,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 5,
+          "voc": 6,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-count.openvoiceos": {
+      "display_name": "ovos-skill-count",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 2,
+        "voc": 5,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 2,
+          "voc": 5,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 5,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-date-time.openvoiceos": {
+      "display_name": "ovos-skill-date-time",
+      "source_lang": "en",
+      "totals": {
+        "intent": 12,
+        "dialog": 18,
+        "voc": 0,
+        "entity": 3
+      },
+      "languages": {
+        "en": {
+          "intent": 12,
+          "dialog": 18,
+          "voc": 0,
+          "entity": 3
+        },
+        "ca": {
+          "intent": 12,
+          "dialog": 18,
+          "voc": 0,
+          "entity": 2
+        },
+        "da": {
+          "intent": 12,
+          "dialog": 18,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 12,
+          "dialog": 18,
+          "voc": 0,
+          "entity": 2
+        },
+        "es": {
+          "intent": 12,
+          "dialog": 18,
+          "voc": 0,
+          "entity": 2
+        },
+        "eu": {
+          "intent": 8,
+          "dialog": 15,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 12,
+          "dialog": 18,
+          "voc": 0,
+          "entity": 2
+        },
+        "gl": {
+          "intent": 12,
+          "dialog": 18,
+          "voc": 0,
+          "entity": 2
+        },
+        "it": {
+          "intent": 4,
+          "dialog": 11,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 4,
+          "dialog": 11,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 12,
+          "dialog": 18,
+          "voc": 0,
+          "entity": 2
+        }
+      }
+    },
+    "ovos-skill-days-in-history.openvoiceos": {
+      "display_name": "ovos-skill-days-in-history",
+      "source_lang": "en",
+      "totals": {
+        "intent": 3,
+        "dialog": 1102,
+        "voc": 1,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 3,
+          "dialog": 1102,
+          "voc": 1,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 3,
+          "dialog": 255,
+          "voc": 1,
+          "entity": 0
+        },
+        "da": {
+          "intent": 3,
+          "dialog": 1102,
+          "voc": 1,
+          "entity": 0
+        },
+        "de": {
+          "intent": 3,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 3,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 3,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 3,
+          "dialog": 1102,
+          "voc": 1,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-diagnostics.openvoiceos": {
+      "display_name": "ovos-skill-diagnostics",
+      "source_lang": "en",
+      "totals": {
+        "intent": 10,
+        "dialog": 12,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 10,
+          "dialog": 12,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-dictation.openvoiceos": {
+      "display_name": "ovos-skill-dictation",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 5,
+        "voc": 1,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 1,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-fallback-unknown.openvoiceos": {
+      "display_name": "ovos-skill-fallback-unknown",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 4,
+        "voc": 3,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-fuster-quotes.openvoiceos": {
+      "display_name": "ovos-skill-fuster-quotes",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 4,
+        "voc": 6,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 4,
+          "voc": 6,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 1,
+          "dialog": 4,
+          "voc": 6,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-hello-world.openvoiceos": {
+      "display_name": "ovos-skill-hello-world",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 4,
+        "voc": 2,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "da": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "es": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "it": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-icanhazdadjokes.openvoiceos": {
+      "display_name": "ovos-skill-icanhazdadjokes",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 5,
+        "voc": 4,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 4,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 1,
+          "voc": 4,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 1,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 4,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 2,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 1,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 4,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-ip.openvoiceos": {
+      "display_name": "ovos-skill-ip",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 7,
+        "voc": 4,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 7,
+          "voc": 4,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 1,
+          "dialog": 7,
+          "voc": 4,
+          "entity": 0
+        },
+        "da": {
+          "intent": 1,
+          "dialog": 7,
+          "voc": 4,
+          "entity": 0
+        },
+        "de": {
+          "intent": 1,
+          "dialog": 7,
+          "voc": 4,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 1,
+          "dialog": 7,
+          "voc": 4,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 1,
+          "dialog": 7,
+          "voc": 4,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 7,
+          "voc": 4,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-iss-location.openvoiceos": {
+      "display_name": "ovos-skill-iss-location",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 6,
+        "voc": 4,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 6,
+          "voc": 4,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 6,
+          "voc": 4,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 6,
+          "voc": 4,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 6,
+          "voc": 4,
+          "entity": 0
+        },
+        "es": {
+          "intent": 2,
+          "dialog": 6,
+          "voc": 4,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 6,
+          "voc": 4,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 6,
+          "voc": 4,
+          "entity": 0
+        },
+        "it": {
+          "intent": 2,
+          "dialog": 6,
+          "voc": 4,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 5,
+          "voc": 4,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-laugh.openvoiceos": {
+      "display_name": "ovos-skill-laugh",
+      "source_lang": "en",
+      "totals": {
+        "intent": 3,
+        "dialog": 4,
+        "voc": 1,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "da": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "de": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "it": {
+          "intent": 3,
+          "dialog": 4,
+          "voc": 1,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 1,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 1,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-local-media.openvoiceos": {
+      "display_name": "ovos-skill-local-media",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 0,
+        "voc": 1,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-moviemaster.openvoiceos": {
+      "display_name": "ovos-skill-moviemaster",
+      "source_lang": "en",
+      "totals": {
+        "intent": 13,
+        "dialog": 23,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 13,
+          "dialog": 23,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 23,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 13,
+          "dialog": 23,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 13,
+          "dialog": 23,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 12,
+          "dialog": 21,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 13,
+          "dialog": 23,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 12,
+          "dialog": 21,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 13,
+          "dialog": 23,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 12,
+          "dialog": 21,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 12,
+          "dialog": 21,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-naptime.openvoiceos": {
+      "display_name": "ovos-skill-naptime",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 3,
+        "voc": 1,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 1,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 1,
+          "entity": 0
+        },
+        "da": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 1,
+          "entity": 0
+        },
+        "de": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 1,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 1,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 1,
+          "entity": 0
+        },
+        "it": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 3,
+          "voc": 1,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-news.openvoiceos": {
+      "display_name": "ovos-skill-news",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 0,
+        "voc": 22,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        },
+        "es": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 21,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 0,
+          "voc": 22,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-number-facts.openvoiceos": {
+      "display_name": "ovos-skill-number-facts",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 0,
+        "voc": 7,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 7,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 7,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 7,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 7,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 7,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 7,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 7,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-parrot.openvoiceos": {
+      "display_name": "ovos-skill-parrot",
+      "source_lang": "en",
+      "totals": {
+        "intent": 6,
+        "dialog": 10,
+        "voc": 2,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 6,
+          "dialog": 10,
+          "voc": 2,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 6,
+          "dialog": 10,
+          "voc": 2,
+          "entity": 0
+        },
+        "da": {
+          "intent": 6,
+          "dialog": 10,
+          "voc": 2,
+          "entity": 0
+        },
+        "de": {
+          "intent": 6,
+          "dialog": 10,
+          "voc": 2,
+          "entity": 0
+        },
+        "es": {
+          "intent": 6,
+          "dialog": 10,
+          "voc": 2,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 6,
+          "dialog": 10,
+          "voc": 2,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 6,
+          "dialog": 10,
+          "voc": 2,
+          "entity": 0
+        },
+        "it": {
+          "intent": 6,
+          "dialog": 10,
+          "voc": 2,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 6,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-personal.openvoiceos": {
+      "display_name": "ovos-skill-personal",
+      "source_lang": "en",
+      "totals": {
+        "intent": 5,
+        "dialog": 5,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 5,
+          "dialog": 5,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-pyradios.openvoiceos": {
+      "display_name": "ovos-skill-pyradios",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 0,
+        "voc": 2,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-screenshot.openvoiceos": {
+      "display_name": "ovos-skill-screenshot",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 2,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 1,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 1,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 1,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 1,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 1,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-speedtest.openvoiceos": {
+      "display_name": "ovos-skill-speedtest",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 3,
+        "voc": 2,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 3,
+          "voc": 2,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-volume.openvoiceos": {
+      "display_name": "ovos-skill-volume",
+      "source_lang": "en",
+      "totals": {
+        "intent": 7,
+        "dialog": 6,
+        "voc": 5,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "da": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "de": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "es": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "it": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 7,
+          "dialog": 6,
+          "voc": 5,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-wikihow.openvoiceos": {
+      "display_name": "ovos-skill-wikihow",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 2,
+        "voc": 2,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 2,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 2,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-wikipedia.openvoiceos": {
+      "display_name": "ovos-skill-wikipedia",
+      "source_lang": "en",
+      "totals": {
+        "intent": 2,
+        "dialog": 4,
+        "voc": 3,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "da": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "de": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "es": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        },
+        "it": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 2,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 2,
+          "dialog": 4,
+          "voc": 3,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-wolfie.openvoiceos": {
+      "display_name": "ovos-skill-wolfie",
+      "source_lang": "en",
+      "totals": {
+        "intent": 1,
+        "dialog": 1,
+        "voc": 3,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 3,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 2,
+          "entity": 0
+        },
+        "da": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "de": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 2,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 2,
+          "entity": 0
+        },
+        "it": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 1,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 1,
+          "dialog": 1,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-word-of-the-day.openvoiceos": {
+      "display_name": "ovos-skill-word-of-the-day",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 2,
+        "voc": 1,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 2,
+          "voc": 1,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 2,
+          "voc": 1,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 2,
+          "voc": 1,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 2,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 2,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 2,
+          "voc": 1,
+          "entity": 0
+        }
+      }
+    },
+    "ovos-skill-youtube-music.openvoiceos": {
+      "display_name": "ovos-skill-youtube-music",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 0,
+        "voc": 2,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "skill-ovos-randomness.openvoiceos": {
+      "display_name": "skill-ovos-randomness",
+      "source_lang": "en",
+      "totals": {
+        "intent": 6,
+        "dialog": 11,
+        "voc": 0,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 6,
+          "dialog": 11,
+          "voc": 0,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 6,
+          "dialog": 11,
+          "voc": 0,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 6,
+          "dialog": 11,
+          "voc": 0,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "skill-ovos-somafm.openvoiceos": {
+      "display_name": "skill-ovos-somafm",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 0,
+        "voc": 3,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 3,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 2,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    },
+    "skill-ovos-spelling.openvoiceos": {
+      "display_name": "skill-ovos-spelling",
+      "source_lang": "en",
+      "totals": {
+        "intent": 0,
+        "dialog": 0,
+        "voc": 1,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "da": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "de": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "es": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 1,
+          "entity": 0
+        }
+      }
+    },
+    "skill-ovos-wallpapers.openvoiceos": {
+      "display_name": "skill-ovos-wallpapers",
+      "source_lang": "en",
+      "totals": {
+        "intent": 4,
+        "dialog": 5,
+        "voc": 5,
+        "entity": 0
+      },
+      "languages": {
+        "en": {
+          "intent": 4,
+          "dialog": 5,
+          "voc": 5,
+          "entity": 0
+        },
+        "ca": {
+          "intent": 4,
+          "dialog": 5,
+          "voc": 5,
+          "entity": 0
+        },
+        "da": {
+          "intent": 4,
+          "dialog": 5,
+          "voc": 5,
+          "entity": 0
+        },
+        "de": {
+          "intent": 4,
+          "dialog": 5,
+          "voc": 5,
+          "entity": 0
+        },
+        "es": {
+          "intent": 4,
+          "dialog": 5,
+          "voc": 5,
+          "entity": 0
+        },
+        "eu": {
+          "intent": 4,
+          "dialog": 4,
+          "voc": 5,
+          "entity": 0
+        },
+        "fr": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "gl": {
+          "intent": 4,
+          "dialog": 5,
+          "voc": 5,
+          "entity": 0
+        },
+        "it": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "nl": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        },
+        "pt": {
+          "intent": 0,
+          "dialog": 0,
+          "voc": 0,
+          "entity": 0
+        }
+      }
+    }
+  }
+}

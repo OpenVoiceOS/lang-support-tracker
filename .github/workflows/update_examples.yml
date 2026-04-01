@@ -35,6 +35,15 @@ jobs:
         run: |
           python skills/create_intent_dataset.py
 
+      - name: Compute skill/intent/dialog coverage
+        run: |
+          python skills/compute_coverage.py
+
+      - name: Generate coverage plots
+        run: |
+          pip install matplotlib seaborn --quiet
+          python skills/generate_plots.py
+
       - name: Commit to dev
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
